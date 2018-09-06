@@ -54,12 +54,12 @@ done
 [ ${test_exp:="0"} -eq 1 ] && experiments=('simple-ibgp-test')
 
 commands_template="
-add-batfish-option haltonconverterror\n
-add-batfish-option haltonparseerror\n
-add-batfish-option loglevel fatal\n
-add-batfish-option initinfo false\n
-set-loglevel info\n
-init-testrig <EXPERIMENT> smt-test\n
+add-batfish-option haltonconverterror
+add-batfish-option haltonparseerror
+add-batfish-option loglevel fatal
+add-batfish-option initinfo false
+set-loglevel info
+init-testrig <EXPERIMENT> smt-test
 get smt-reachability ingressNodeRegex=\"R<IN>\", finalNodeRegex=\"R<FIN>\", dstIps=[\"8.0.0.1\"]"
 
 ## Run the experiments
@@ -68,10 +68,15 @@ for e in ${experiments[@]}; do
 	interval=$(($nodes / ($source_nodes + 1)))
 	for i in $(seq 1 $source_nodes); do
 		source_node=$(($interval * $i))
-		echo -e "$commands_template" | sed -e "s/<EXPERIMENT>/$e/" -e "s/<IN>/$source_node/" -e "s/<FIN>/0/" > commands
+		echo "$commands_template" | sed -e "s/<EXPERIMENT>/$e/" -e "s/<IN>/$source_node/" -e "s/<FIN>/0/" > commands
 		echo -n "[+] Verifying $e... "
 		allinone -cmdfile commands >$e/verify.log 2>&1
-		echo 'Done'
+		exit_code=$?
+		if [ $exit_code -eq 0 ]; then
+			echo 'Done'
+		else
+			echo "Faied (exit code: $exit_code)"
+		fi
 		rm -f commands
 	done
 done
