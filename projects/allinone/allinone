@@ -9,7 +9,7 @@ if batfish_cygwin; then
    stty -icanon min 1 -echo
    CPSEP=";"
 fi
-/usr/bin/time timeout --foreground --preserve-status --kill-after=3m 4h java $ALLINONE_JAVA_ARGS -XX:MaxPermSize=2048m -cp "${ALLINONE_JAR}${CPSEP}${ALLINONE_CLASSPATH}" org.batfish.allinone.Main "$@"
+/usr/bin/time timeout --foreground --preserve-status --kill-after=3m 4h java $ALLINONE_JAVA_ARGS -XX:MaxPermSize=2048m -Xmx150g -cp "${ALLINONE_JAR}${CPSEP}${ALLINONE_CLASSPATH}" org.batfish.allinone.Main "$@"
 EXIT_CODE=$?
 if batfish_cygwin; then
    stty icanon echo
