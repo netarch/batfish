@@ -68,7 +68,7 @@ for e in ${experiments[@]}; do
 		source_node=$(($interval * $i))
 		echo "$commands_template" | sed -e "s/<EXPERIMENT>/$e/" -e "s/<IN>/$source_node/" -e "s/<FIN>/0/" > commands
 		echo -n "[+] Verifying $e... "
-		allinone -cmdfile commands >$e/verify.log 2>&1
+		allinone -cmdfile commands >$e/verify-${source_nodes}-sources.log 2>&1
 		exit_code=$?
 		if [ $exit_code -eq 0 ]; then
 			echo 'Done'
