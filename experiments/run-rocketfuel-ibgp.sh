@@ -8,14 +8,14 @@ usage() {
 	echo "[!] Usage: $0 [OPTION]..." >&2
 	echo "    Options:" >&2
 	echo "        -h         display this message and exit" >&2
-	echo "        -f N       maximum number of failures (default: 1)" >&2
+	echo "        -f N       maximum number of failures (default: 0)" >&2
 	echo "        -o <1|2>   the number of iBGP origins (default: 1)" >&2
 	echo "        -s <1-20>  the number of source nodes (default: 1)" >&2
 }
 
 ASes=(1221 1239 1755 3257 3967 6461)
 
-max_fail=1
+max_fail=0
 origins=1
 source_nodes=1
 while getopts hf:o:s: op; do
