@@ -8,19 +8,20 @@ usage() {
 	echo "[!] Usage: $0 [OPTION]..." >&2
 	echo "    Options:" >&2
 	echo "        -h         display this message and exit" >&2
-	echo "        -a         run all experiments (ignore option '-o')" >&2
+	echo "        -f N       maximum number of failures (default: 1)" >&2
 	echo "        -o <1|2>   the number of iBGP origins (default: 1)" >&2
 	echo "        -s <1-20>  the number of source nodes (default: 1)" >&2
 }
 
 ASes=(1221 1239 1755 3257 3967 6461)
 
+max_fail=1
 origins=1
 source_nodes=1
-while getopts hao:s:t op; do
+while getopts hf:o:s: op; do
 	case $op in
-		a)
-			all=1
+		f)
+			max_fail=$OPTARG
 			;;
 		o)
 			origins=$OPTARG
@@ -29,9 +30,6 @@ while getopts hao:s:t op; do
 		s)
 			source_nodes=$OPTARG
 			[ $source_nodes -lt 1 -o $source_nodes -gt 20 ] && (usage; exit 1)
-			;;
-		t)
-			test_exp=1
 			;;
 		h)
 			usage
@@ -43,13 +41,9 @@ while getopts hao:s:t op; do
 			;;
 	esac
 done
-[ ${all:="0"} -eq 1 ] && origins=(1 2)
 experiments=()
-for o in ${origins[@]}; do
-	[ $o -eq 1 ] && for AS in ${ASes[@]}; do experiments+=("rocketfuel-ibgp.AS-${AS}.single-origin"); done
-	[ $o -eq 2 ] && for AS in ${ASes[@]}; do experiments+=("rocketfuel-ibgp.AS-${AS}.double-origin"); done
-done
-[ ${test_exp:="0"} -eq 1 ] && experiments=('simple-ibgp-test')
+[ $origins -eq 1 ] && for AS in ${ASes[@]}; do experiments+=("rocketfuel-ibgp.AS-${AS}.single-origin"); done
+[ $origins -eq 2 ] && for AS in ${ASes[@]}; do experiments+=("rocketfuel-ibgp.AS-${AS}.double-origin"); done
 
 commands_template="
 add-batfish-option haltonconverterror
@@ -58,7 +52,7 @@ add-batfish-option loglevel fatal
 add-batfish-option initinfo false
 set-loglevel info
 init-testrig <EXPERIMENT> smt-test
-get smt-reachability ingressNodeRegex=\"R<IN>\", finalNodeRegex=\"R<FIN>\", dstIps=[\"8.0.0.1\"]"
+get smt-reachability failures=<FAIL>, ingressNodeRegex=\"R<IN>\", finalNodeRegex=\"R<FIN>\", dstIps=[\"<DEST_IP>\"]"
 
 ## Run the experiments
 for e in ${experiments[@]}; do
@@ -66,9 +60,14 @@ for e in ${experiments[@]}; do
 	interval=$(($nodes / ($source_nodes + 1)))
 	for i in $(seq 1 $source_nodes); do
 		source_node=$(($interval * $i))
-		echo "$commands_template" | sed -e "s/<EXPERIMENT>/$e/" -e "s/<IN>/$source_node/" -e "s/<FIN>/0/" > commands
+		echo "$commands_template" | sed \
+			-e "s/<EXPERIMENT>/$e/" \
+			-e "s/<FAIL>/$max_fail/" \
+			-e "s/<IN>/$source_node/" \
+			-e "s/<FIN>/0/" \
+			-e "s/<DEST_IP>/8.0.0.1/" > commands
 		echo -n "[+] Verifying $e... "
-		allinone -cmdfile commands >$e/verify-${source_nodes}-sources.log 2>&1
+		allinone -cmdfile commands >$e/verify-${source_nodes}-sources.${max_fail}-failures.log 2>&1
 		exit_code=$?
 		if [ $exit_code -eq 0 ]; then
 			echo 'Done'
