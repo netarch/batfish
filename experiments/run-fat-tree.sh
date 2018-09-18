@@ -8,17 +8,12 @@ usage() {
 	echo "[!] Usage: $0 [OPTION]..." >&2
 	echo "    Options:" >&2
 	echo "        -h         display this message and exit" >&2
-	echo "        -f N       maximum number of failures (default: 1)" >&2
 }
 
 Ks=(4 6 8 10 12 14)
 
-max_fail=1
-while getopts hf: op; do
+while getopts h op; do
 	case $op in
-		f)
-			max_fail=$OPTARG
-			;;
 		h)
 			usage
 			exit 0
