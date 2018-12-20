@@ -47,8 +47,10 @@ public class NetworkSlice {
           () ->
               AbstractionBuilder.createGraph(
                   dcs, network, devices, headerspace, prefixes, fails, isDefaultCase);
+      System.out.println("AbstractionBuilder::createGraph result: " + sup.get()._abstraction);
       classes.add(sup);
     }
+    System.exit(0);
     return classes;
   }
 
