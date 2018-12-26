@@ -295,6 +295,7 @@ public class PropertyChecker {
     Set<String> abstractNodes = new HashSet<>();
     for (String c : concreteNodes) {
       Set<String> abs = slice.getAbstraction().getAbstractionMap().getAbstractRepresentatives(c);
+      System.out.println("=====[DEBUG]===== abstract representatives of " + c + ": " + abs);
       abstractNodes.addAll(abs);
     }
     return abstractNodes;
@@ -371,6 +372,8 @@ public class PropertyChecker {
     }
     if (sourceRouters.isEmpty()) {
       throw new BatfishException("Set of valid ingress nodes is empty");
+    } else {
+      System.out.println("=====[DEBUG]===== sourceRouters: " + sourceRouters);
     }
 
     // copy before updating header space, so these changes don't get propagated to the answer
@@ -404,6 +407,29 @@ public class PropertyChecker {
                 // Get the EC graph and mapping
                 Graph g = slice.getGraph();
                 Set<String> srcRouters = mapConcreteToAbstract(slice, sourceRouters);
+		System.out.println("=====[DEBUG]===== mapped srcRouters: " + srcRouters);
+
+//      File file = new File("srcRouters");
+//      try {
+//        file.createNewFile();
+//      } catch (IOException e) {
+//        e.printStackTrace();
+//      }
+//      try {
+//        PrintWriter writer = new PrintWriter(file);
+//        Map<String, List<GraphEdge>> em = g.getEdgeMap();
+//        em.forEach(
+//            (router, graphEdges) -> {
+//              graphEdges.forEach(
+//                  edge -> {
+//                    writer.println(router + " " + edge.getPeer());
+//                  });
+//            });
+//        writer.close();
+//      } catch (IOException e) {
+//        e.printStackTrace();
+//      }
+
 
                 long timeEncoding = System.currentTimeMillis();
                 Encoder enc = new Encoder(_settings, g, question);

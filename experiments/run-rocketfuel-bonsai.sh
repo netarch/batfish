@@ -93,7 +93,7 @@ for e in ${experiments[@]}; do
 	if [ $exit_code -eq 0 ]; then
 		echo 'Done'
 	else
-		echo "Faied (exit code: $exit_code)"
+		echo "Failed (exit code: $exit_code)"
 	fi
 	rm -f commands
 done
