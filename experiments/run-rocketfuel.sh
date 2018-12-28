@@ -58,7 +58,9 @@ for e in ${experiments[@]}; do
 	D=0
 	while [ 1 ]; do
 		DEST_IP="10.$A.$B.$C"
-		NODE=$(basename "$(grep -rE "\<$DEST_IP\>" $e | awk -F ':' '{print $1}')" | sed -e 's/\.cfg//' -e 's/R//')
+		NODE=$(basename "$(grep -rE "ip\s+address\s+\<$DEST_IP\>" \
+			$e/configs | awk -F ':' '{print $1}')" \
+			| sed -e 's/\.cfg//' -e 's/R//')
 		[ -z "$NODE" ] && break
 
 		[ $D -ne 0 ] && DEST_IPS="$DEST_IPS, "
@@ -93,7 +95,7 @@ for e in ${experiments[@]}; do
 	if [ $exit_code -eq 0 ]; then
 		echo 'Done'
 	else
-		echo "Faied (exit code: $exit_code)"
+		echo "Failed (exit code: $exit_code)"
 	fi
 	rm -f commands
 done

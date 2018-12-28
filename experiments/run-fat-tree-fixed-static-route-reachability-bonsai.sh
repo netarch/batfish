@@ -9,21 +9,15 @@ usage() {
 	echo "    Options:" >&2
 	echo "        -h         display this message and exit" >&2
 	echo "        -f N       maximum number of failures (default: 1)" >&2
-	echo "        -s <1-20>  the number of source nodes (default: 1)" >&2
 }
 
-ASes=(1221 1239 1755 3257 3967 6461)
+Ks=(4 6 8 10 12 14)
 
 max_fail=1
-source_nodes=1
-while getopts hf:s: op; do
+while getopts hf: op; do
 	case $op in
 		f)
 			max_fail=$OPTARG
-			;;
-		s)
-			source_nodes=$OPTARG
-			[ $source_nodes -lt 1 -o $source_nodes -gt 20 ] && (usage; exit 1)
 			;;
 		h)
 			usage
@@ -35,8 +29,6 @@ while getopts hf:s: op; do
 			;;
 	esac
 done
-experiments=()
-for AS in ${ASes[@]}; do experiments+=("rocketfuel.AS-${AS}"); done
 
 commands_header_template="
 add-batfish-option haltonconverterror
@@ -48,8 +40,14 @@ init-testrig <EXPERIMENT> smt-test"
 commands_template="get smt-reachability failures=<FAIL>, useAbstraction=True, ingressNodeRegex=\"R<IN>\", finalNodeRegex=\"R<FIN>\", dstIps=[<DEST_IP>]"
 
 ## Run the experiments
-for e in ${experiments[@]}; do
-	## Get the list of destination IPs
+## check reachability from the first edge node to all other edge nodes
+for k in ${Ks[@]}; do
+	e="fat-tree.fixed-static-route.${k}-ary"
+	first_edge_node=$((3 * $k ** 2 / 4))
+	second_edge_node=$(($first_edge_node + 1))
+	last_edge_node=$((5 * $k ** 2 / 4 - 1))
+
+	## Build the list of destination IPs
 	DEST_IPS=""
 	# 10.A.B.C
 	A=0
@@ -63,8 +61,10 @@ for e in ${experiments[@]}; do
 			| sed -e 's/\.cfg//' -e 's/R//')
 		[ -z "$NODE" ] && break
 
-		[ $D -ne 0 ] && DEST_IPS="$DEST_IPS, "
-		DEST_IPS="$DEST_IPS\"$DEST_IP\""
+		[ $NODE -ge $second_edge_node -a $NODE -le $last_edge_node ] && {
+			[ -n "$DEST_IPS" ] && DEST_IPS="$DEST_IPS, "
+			DEST_IPS="$DEST_IPS\"$DEST_IP\""
+		}
 
 		D=$(($D + 1))
 		[ $(($D % 2)) -eq 0 ] && C=$(($C + 2))
@@ -74,23 +74,24 @@ for e in ${experiments[@]}; do
 		[ $A -ge 256 ] && (echo 'error: IP out of range' >&2; exit 1)
 	done
 
+	## Build the regex for egress nodes (all other edge nodes)
+	dest_nodes="($second_edge_node"
+	for i in $(seq $(($second_edge_node + 1)) $last_edge_node); do
+		dest_nodes="$dest_nodes|$i"
+	done
+	dest_nodes="$dest_nodes)"
+
 	## Build commands
-	nodes=$(ls $e/configs/ | wc -l)
-	interval=$(($nodes / ($source_nodes + 1)))
 	echo "$commands_header_template" | sed \
 		-e "s/<EXPERIMENT>/$e/" > commands
-
-	for i in $(seq 1 $source_nodes); do
-		source_node=$(($interval * $i))
-		echo "$commands_template" | sed \
-			-e "s/<FAIL>/$max_fail/" \
-			-e "s/<IN>/$source_node/" \
-			-e "s/<FIN>/.*/" \
-			-e "s/<DEST_IP>/$DEST_IPS/" >> commands
-	done
+	echo "$commands_template" | sed \
+		-e "s/<FAIL>/$max_fail/" \
+		-e "s/<IN>/$first_edge_node/" \
+		-e "s/<FIN>/$dest_nodes/" \
+		-e "s/<DEST_IP>/$DEST_IPS/" >> commands
 
 	echo -n "[+] Verifying $e... "
-	allinone -cmdfile commands >$e/verify.bonsai.${max_fail}-failures.log 2>&1
+	allinone -cmdfile commands >$e/verify.reachability.bonsai.${max_fail}-failures.log 2>&1
 	exit_code=$?
 	if [ $exit_code -eq 0 ]; then
 		echo 'Done'

@@ -1,0 +1,959 @@
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=2048m; support was removed in 8.0
+Changed client loglevel to info
+WMS:initContainer cp
+Initialized container:cp_2b643c47-01ca-47be-9098-9a6a22279d41 using api-key:00000000000000000000000000000000
+Init'ed and set active container to cp_2b643c47-01ca-47be-9098-9a6a22279d41
+
+WMS:uploadTestrig 00000000000000000000000000000000 cp_2b643c47-01ca-47be-9098-9a6a22279d41 smt-test
+Environment data for testrig:smt-test; bgpTables:false, routingTables:false
+Uploaded testrig:smt-test for container:cp_2b643c47-01ca-47be-9098-9a6a22279d41 using api-key:00000000000000000000000000000000
+Uploaded testrig.
+Parsing now.
+work-id is 0e71d5c9-6352-4849-9800-592339d1c0d9
+WMS:queueWork 00000000000000000000000000000000 {
+  "containerName" : "cp_2b643c47-01ca-47be-9098-9a6a22279d41",
+  "id" : "0e71d5c9-6352-4849-9800-592339d1c0d9",
+  "requestParams" : {
+    "sv" : "",
+    "haltonparseerror" : "",
+    "si" : "",
+    "initinfo" : "false",
+    "loglevel" : "fatal",
+    "unimplementedsuppress" : "",
+    "haltonconverterror" : ""
+  },
+  "testrigName" : "smt-test"
+}
+WM:AssignWork: Trying to assign [0e71d5c9-6352-4849-9800-592339d1c0d9 cp_2b643c47-01ca-47be-9098-9a6a22279d41 smt-test {sv=, haltonparseerror=, si=, initinfo=false, loglevel=fatal, unimplementedsuppress=, haltonconverterror=}] [TRYINGTOASSIGN] [Thu Dec 27 16:16:02 CST 2018 null null] [null] [null, null] to localhost:9999
+Queuing result: true
+WMS:getWorkStatus 0e71d5c9-6352-4849-9800-592339d1c0d9
+status: TRYINGTOASSIGN
+.... no task information
+BFS:runTask(0e71d5c9-6352-4849-9800-592339d1c0d9,{"sv":"","haltonparseerror":"","si":"","initinfo":"false","loglevel":"fatal","unimplementedsuppress":"","haltonconverterror":"","containerdir":"\/home\/plankton\/batfish\/experiments\/containers\/cp_2b643c47-01ca-47be-9098-9a6a22279d41","testrig":"smt-test","logfile":"\/home\/plankton\/batfish\/experiments\/containers\/cp_2b643c47-01ca-47be-9098-9a6a22279d41\/testrigs\/smt-test\/0e71d5c9-6352-4849-9800-592339d1c0d9.log","answerjsonpath":"\/home\/plankton\/batfish\/experiments\/containers\/cp_2b643c47-01ca-47be-9098-9a6a22279d41\/testrigs\/smt-test\/0e71d5c9-6352-4849-9800-592339d1c0d9.json"})
+Will run with args: [-sv, -haltonparseerror, -si, -initinfo, false, -loglevel, fatal, -unimplementedsuppress, -haltonconverterror, -containerdir, /home/plankton/batfish/experiments/containers/cp_2b643c47-01ca-47be-9098-9a6a22279d41, -testrig, smt-test, -logfile, /home/plankton/batfish/experiments/containers/cp_2b643c47-01ca-47be-9098-9a6a22279d41/testrigs/smt-test/0e71d5c9-6352-4849-9800-592339d1c0d9.log, -answerjsonpath, /home/plankton/batfish/experiments/containers/cp_2b643c47-01ca-47be-9098-9a6a22279d41/testrigs/smt-test/0e71d5c9-6352-4849-9800-592339d1c0d9.json]
+WMS:getWorkStatus 0e71d5c9-6352-4849-9800-592339d1c0d9
+status: TRYINGTOASSIGN
+.... no task information
+WMS:getWorkStatus 0e71d5c9-6352-4849-9800-592339d1c0d9
+status: TRYINGTOASSIGN
+WM:AssignWork: response: ["success","running now"] [success] [running now]
+.... no task information
+WMS:getWorkStatus 0e71d5c9-6352-4849-9800-592339d1c0d9
+status: ASSIGNED
+.... no task information
+WMS:getWorkStatus 0e71d5c9-6352-4849-9800-592339d1c0d9
+status: ASSIGNED
+.... no task information
+WMS:getWorkStatus 0e71d5c9-6352-4849-9800-592339d1c0d9
+status: ASSIGNED
+.... no task information
+WMS:getWorkStatus 0e71d5c9-6352-4849-9800-592339d1c0d9
+status: ASSIGNED
+.... no task information
+WMS:getWorkStatus 0e71d5c9-6352-4849-9800-592339d1c0d9
+status: ASSIGNED
+.... no task information
+WMS:getWorkStatus 0e71d5c9-6352-4849-9800-592339d1c0d9
+status: ASSIGNED
+.... no task information
+WMS:getWorkStatus 0e71d5c9-6352-4849-9800-592339d1c0d9
+status: ASSIGNED
+.... no task information
+WMS:getWorkStatus 0e71d5c9-6352-4849-9800-592339d1c0d9
+status: ASSIGNED
+.... no task information
+WMS:getWorkStatus 0e71d5c9-6352-4849-9800-592339d1c0d9
+status: ASSIGNED
+.... no task information
+WMS:getWorkStatus 0e71d5c9-6352-4849-9800-592339d1c0d9
+status: ASSIGNED
+.... no task information
+WM:CheckWork: Trying to check [0e71d5c9-6352-4849-9800-592339d1c0d9 cp_2b643c47-01ca-47be-9098-9a6a22279d41 smt-test {sv=, haltonparseerror=, si=, initinfo=false, loglevel=fatal, unimplementedsuppress=, haltonconverterror=}] [CHECKINGSTATUS] [Thu Dec 27 16:16:02 CST 2018 Thu Dec 27 16:16:02 CST 2018 null] [localhost:9999] [null, null] on localhost:9999
+BFS:getTaskStatus 0e71d5c9-6352-4849-9800-592339d1c0d9
+response: ["success","{\n  \"args\" : [\n    \"-sv\",\n    \"-haltonparseerror\",\n    \"-si\",\n    \"-initinfo\",\n    \"false\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-unimplementedsuppress\",\n    \"-haltonconverterror\",\n    \"-containerdir\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\/cp_2b643c47-01ca-47be-9098-9a6a22279d41\",\n    \"-testrig\",\n    \"smt-test\",\n    \"-logfile\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\/cp_2b643c47-01ca-47be-9098-9a6a22279d41\/testrigs\/smt-test\/0e71d5c9-6352-4849-9800-592339d1c0d9.log\",\n    \"-answerjsonpath\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\/cp_2b643c47-01ca-47be-9098-9a6a22279d41\/testrigs\/smt-test\/0e71d5c9-6352-4849-9800-592339d1c0d9.json\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2018-12-27T22:16:02.657+0000\"\n    },\n    {\n      \"completed\" : 80,\n      \"description\" : \"Reading network configuration files\",\n      \"size\" : 80,\n      \"startDate\" : \"2018-12-27T22:16:02.702+0000\"\n    },\n    {\n      \"completed\" : 0,\n      \"description\" : \"Parse configurations\",\n      \"size\" : 80,\n      \"startDate\" : \"2018-12-27T22:16:02.810+0000\"\n    }\n  ],\n  \"obtained\" : \"2018-12-27T22:16:02.649+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-sv",
+    "-haltonparseerror",
+    "-si",
+    "-initinfo",
+    "false",
+    "-loglevel",
+    "fatal",
+    "-unimplementedsuppress",
+    "-haltonconverterror",
+    "-containerdir",
+    "/home/plankton/batfish/experiments/containers/cp_2b643c47-01ca-47be-9098-9a6a22279d41",
+    "-testrig",
+    "smt-test",
+    "-logfile",
+    "/home/plankton/batfish/experiments/containers/cp_2b643c47-01ca-47be-9098-9a6a22279d41/testrigs/smt-test/0e71d5c9-6352-4849-9800-592339d1c0d9.log",
+    "-answerjsonpath",
+    "/home/plankton/batfish/experiments/containers/cp_2b643c47-01ca-47be-9098-9a6a22279d41/testrigs/smt-test/0e71d5c9-6352-4849-9800-592339d1c0d9.json"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2018-12-27T22:16:02.657+0000"
+    },
+    {
+      "completed" : 80,
+      "description" : "Reading network configuration files",
+      "size" : 80,
+      "startDate" : "2018-12-27T22:16:02.702+0000"
+    },
+    {
+      "completed" : 0,
+      "description" : "Parse configurations",
+      "size" : 80,
+      "startDate" : "2018-12-27T22:16:02.810+0000"
+    }
+  ],
+  "obtained" : "2018-12-27T22:16:02.649+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus 0e71d5c9-6352-4849-9800-592339d1c0d9
+status: ASSIGNED
+.... Thu Dec 27 16:16:02 CST 2018: Parse configurations: 0/80
+WMS:getWorkStatus 0e71d5c9-6352-4849-9800-592339d1c0d9
+status: ASSIGNED
+.... Thu Dec 27 16:16:02 CST 2018: Parse configurations: 0/80
+WM:CheckWork: Trying to check [0e71d5c9-6352-4849-9800-592339d1c0d9 cp_2b643c47-01ca-47be-9098-9a6a22279d41 smt-test {sv=, haltonparseerror=, si=, initinfo=false, loglevel=fatal, unimplementedsuppress=, haltonconverterror=}] [CHECKINGSTATUS] [Thu Dec 27 16:16:02 CST 2018 Thu Dec 27 16:16:02 CST 2018 null] [localhost:9999] [InProgress, Thu Dec 27 16:16:03 CST 2018] on localhost:9999
+BFS:getTaskStatus 0e71d5c9-6352-4849-9800-592339d1c0d9
+WMS:getWorkStatus 0e71d5c9-6352-4849-9800-592339d1c0d9
+response: ["success","{\n  \"args\" : [\n    \"-sv\",\n    \"-haltonparseerror\",\n    \"-si\",\n    \"-initinfo\",\n    \"false\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-unimplementedsuppress\",\n    \"-haltonconverterror\",\n    \"-containerdir\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\/cp_2b643c47-01ca-47be-9098-9a6a22279d41\",\n    \"-testrig\",\n    \"smt-test\",\n    \"-logfile\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\/cp_2b643c47-01ca-47be-9098-9a6a22279d41\/testrigs\/smt-test\/0e71d5c9-6352-4849-9800-592339d1c0d9.log\",\n    \"-answerjsonpath\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\/cp_2b643c47-01ca-47be-9098-9a6a22279d41\/testrigs\/smt-test\/0e71d5c9-6352-4849-9800-592339d1c0d9.json\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2018-12-27T22:16:02.657+0000\"\n    },\n    {\n      \"completed\" : 80,\n      \"description\" : \"Reading network configuration files\",\n      \"size\" : 80,\n      \"startDate\" : \"2018-12-27T22:16:02.702+0000\"\n    },\n    {\n      \"completed\" : 0,\n      \"description\" : \"Parse configurations\",\n      \"size\" : 80,\n      \"startDate\" : \"2018-12-27T22:16:02.810+0000\"\n    }\n  ],\n  \"obtained\" : \"2018-12-27T22:16:02.649+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-sv",
+    "-haltonparseerror",
+    "-si",
+    "-initinfo",
+    "false",
+    "-loglevel",
+    "fatal",
+    "-unimplementedsuppress",
+    "-haltonconverterror",
+    "-containerdir",
+    "/home/plankton/batfish/experiments/containers/cp_2b643c47-01ca-47be-9098-9a6a22279d41",
+    "-testrig",
+    "smt-test",
+    "-logfile",
+    "/home/plankton/batfish/experiments/containers/cp_2b643c47-01ca-47be-9098-9a6a22279d41/testrigs/smt-test/0e71d5c9-6352-4849-9800-592339d1c0d9.log",
+    "-answerjsonpath",
+    "/home/plankton/batfish/experiments/containers/cp_2b643c47-01ca-47be-9098-9a6a22279d41/testrigs/smt-test/0e71d5c9-6352-4849-9800-592339d1c0d9.json"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2018-12-27T22:16:02.657+0000"
+    },
+    {
+      "completed" : 80,
+      "description" : "Reading network configuration files",
+      "size" : 80,
+      "startDate" : "2018-12-27T22:16:02.702+0000"
+    },
+    {
+      "completed" : 0,
+      "description" : "Parse configurations",
+      "size" : 80,
+      "startDate" : "2018-12-27T22:16:02.810+0000"
+    }
+  ],
+  "obtained" : "2018-12-27T22:16:02.649+0000",
+  "status" : "InProgress"
+}]
+status: CHECKINGSTATUS
+.... Thu Dec 27 16:16:02 CST 2018: Parse configurations: 0/80
+WMS:getWorkStatus 0e71d5c9-6352-4849-9800-592339d1c0d9
+status: ASSIGNED
+.... Thu Dec 27 16:16:02 CST 2018: Parse configurations: 0/80
+WM:CheckWork: Trying to check [0e71d5c9-6352-4849-9800-592339d1c0d9 cp_2b643c47-01ca-47be-9098-9a6a22279d41 smt-test {sv=, haltonparseerror=, si=, initinfo=false, loglevel=fatal, unimplementedsuppress=, haltonconverterror=}] [CHECKINGSTATUS] [Thu Dec 27 16:16:02 CST 2018 Thu Dec 27 16:16:02 CST 2018 null] [localhost:9999] [InProgress, Thu Dec 27 16:16:04 CST 2018] on localhost:9999
+BFS:getTaskStatus 0e71d5c9-6352-4849-9800-592339d1c0d9
+response: ["success","{\n  \"args\" : [\n    \"-sv\",\n    \"-haltonparseerror\",\n    \"-si\",\n    \"-initinfo\",\n    \"false\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-unimplementedsuppress\",\n    \"-haltonconverterror\",\n    \"-containerdir\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\/cp_2b643c47-01ca-47be-9098-9a6a22279d41\",\n    \"-testrig\",\n    \"smt-test\",\n    \"-logfile\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\/cp_2b643c47-01ca-47be-9098-9a6a22279d41\/testrigs\/smt-test\/0e71d5c9-6352-4849-9800-592339d1c0d9.log\",\n    \"-answerjsonpath\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\/cp_2b643c47-01ca-47be-9098-9a6a22279d41\/testrigs\/smt-test\/0e71d5c9-6352-4849-9800-592339d1c0d9.json\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2018-12-27T22:16:02.657+0000\"\n    },\n    {\n      \"completed\" : 80,\n      \"description\" : \"Reading network configuration files\",\n      \"size\" : 80,\n      \"startDate\" : \"2018-12-27T22:16:02.702+0000\"\n    },\n    {\n      \"completed\" : 0,\n      \"description\" : \"Parse configurations\",\n      \"size\" : 80,\n      \"startDate\" : \"2018-12-27T22:16:02.810+0000\"\n    }\n  ],\n  \"obtained\" : \"2018-12-27T22:16:02.649+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-sv",
+    "-haltonparseerror",
+    "-si",
+    "-initinfo",
+    "false",
+    "-loglevel",
+    "fatal",
+    "-unimplementedsuppress",
+    "-haltonconverterror",
+    "-containerdir",
+    "/home/plankton/batfish/experiments/containers/cp_2b643c47-01ca-47be-9098-9a6a22279d41",
+    "-testrig",
+    "smt-test",
+    "-logfile",
+    "/home/plankton/batfish/experiments/containers/cp_2b643c47-01ca-47be-9098-9a6a22279d41/testrigs/smt-test/0e71d5c9-6352-4849-9800-592339d1c0d9.log",
+    "-answerjsonpath",
+    "/home/plankton/batfish/experiments/containers/cp_2b643c47-01ca-47be-9098-9a6a22279d41/testrigs/smt-test/0e71d5c9-6352-4849-9800-592339d1c0d9.json"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2018-12-27T22:16:02.657+0000"
+    },
+    {
+      "completed" : 80,
+      "description" : "Reading network configuration files",
+      "size" : 80,
+      "startDate" : "2018-12-27T22:16:02.702+0000"
+    },
+    {
+      "completed" : 0,
+      "description" : "Parse configurations",
+      "size" : 80,
+      "startDate" : "2018-12-27T22:16:02.810+0000"
+    }
+  ],
+  "obtained" : "2018-12-27T22:16:02.649+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus 0e71d5c9-6352-4849-9800-592339d1c0d9
+status: ASSIGNED
+.... Thu Dec 27 16:16:02 CST 2018: Parse configurations: 0/80
+WM:CheckWork: Trying to check [0e71d5c9-6352-4849-9800-592339d1c0d9 cp_2b643c47-01ca-47be-9098-9a6a22279d41 smt-test {sv=, haltonparseerror=, si=, initinfo=false, loglevel=fatal, unimplementedsuppress=, haltonconverterror=}] [CHECKINGSTATUS] [Thu Dec 27 16:16:02 CST 2018 Thu Dec 27 16:16:02 CST 2018 null] [localhost:9999] [InProgress, Thu Dec 27 16:16:05 CST 2018] on localhost:9999
+BFS:getTaskStatus 0e71d5c9-6352-4849-9800-592339d1c0d9
+response: ["success","{\n  \"args\" : [\n    \"-sv\",\n    \"-haltonparseerror\",\n    \"-si\",\n    \"-initinfo\",\n    \"false\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-unimplementedsuppress\",\n    \"-haltonconverterror\",\n    \"-containerdir\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\/cp_2b643c47-01ca-47be-9098-9a6a22279d41\",\n    \"-testrig\",\n    \"smt-test\",\n    \"-logfile\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\/cp_2b643c47-01ca-47be-9098-9a6a22279d41\/testrigs\/smt-test\/0e71d5c9-6352-4849-9800-592339d1c0d9.log\",\n    \"-answerjsonpath\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\/cp_2b643c47-01ca-47be-9098-9a6a22279d41\/testrigs\/smt-test\/0e71d5c9-6352-4849-9800-592339d1c0d9.json\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2018-12-27T22:16:02.657+0000\"\n    },\n    {\n      \"completed\" : 80,\n      \"description\" : \"Reading network configuration files\",\n      \"size\" : 80,\n      \"startDate\" : \"2018-12-27T22:16:02.702+0000\"\n    },\n    {\n      \"completed\" : 0,\n      \"description\" : \"Parse configurations\",\n      \"size\" : 80,\n      \"startDate\" : \"2018-12-27T22:16:02.810+0000\"\n    }\n  ],\n  \"obtained\" : \"2018-12-27T22:16:02.649+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-sv",
+    "-haltonparseerror",
+    "-si",
+    "-initinfo",
+    "false",
+    "-loglevel",
+    "fatal",
+    "-unimplementedsuppress",
+    "-haltonconverterror",
+    "-containerdir",
+    "/home/plankton/batfish/experiments/containers/cp_2b643c47-01ca-47be-9098-9a6a22279d41",
+    "-testrig",
+    "smt-test",
+    "-logfile",
+    "/home/plankton/batfish/experiments/containers/cp_2b643c47-01ca-47be-9098-9a6a22279d41/testrigs/smt-test/0e71d5c9-6352-4849-9800-592339d1c0d9.log",
+    "-answerjsonpath",
+    "/home/plankton/batfish/experiments/containers/cp_2b643c47-01ca-47be-9098-9a6a22279d41/testrigs/smt-test/0e71d5c9-6352-4849-9800-592339d1c0d9.json"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2018-12-27T22:16:02.657+0000"
+    },
+    {
+      "completed" : 80,
+      "description" : "Reading network configuration files",
+      "size" : 80,
+      "startDate" : "2018-12-27T22:16:02.702+0000"
+    },
+    {
+      "completed" : 0,
+      "description" : "Parse configurations",
+      "size" : 80,
+      "startDate" : "2018-12-27T22:16:02.810+0000"
+    }
+  ],
+  "obtained" : "2018-12-27T22:16:02.649+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus 0e71d5c9-6352-4849-9800-592339d1c0d9
+status: ASSIGNED
+.... Thu Dec 27 16:16:02 CST 2018: Parse configurations: 0/80
+WM:CheckWork: Trying to check [0e71d5c9-6352-4849-9800-592339d1c0d9 cp_2b643c47-01ca-47be-9098-9a6a22279d41 smt-test {sv=, haltonparseerror=, si=, initinfo=false, loglevel=fatal, unimplementedsuppress=, haltonconverterror=}] [CHECKINGSTATUS] [Thu Dec 27 16:16:02 CST 2018 Thu Dec 27 16:16:02 CST 2018 null] [localhost:9999] [InProgress, Thu Dec 27 16:16:06 CST 2018] on localhost:9999
+BFS:getTaskStatus 0e71d5c9-6352-4849-9800-592339d1c0d9
+response: ["success","{\n  \"args\" : [\n    \"-sv\",\n    \"-haltonparseerror\",\n    \"-si\",\n    \"-initinfo\",\n    \"false\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-unimplementedsuppress\",\n    \"-haltonconverterror\",\n    \"-containerdir\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\/cp_2b643c47-01ca-47be-9098-9a6a22279d41\",\n    \"-testrig\",\n    \"smt-test\",\n    \"-logfile\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\/cp_2b643c47-01ca-47be-9098-9a6a22279d41\/testrigs\/smt-test\/0e71d5c9-6352-4849-9800-592339d1c0d9.log\",\n    \"-answerjsonpath\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\/cp_2b643c47-01ca-47be-9098-9a6a22279d41\/testrigs\/smt-test\/0e71d5c9-6352-4849-9800-592339d1c0d9.json\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2018-12-27T22:16:02.657+0000\"\n    },\n    {\n      \"completed\" : 80,\n      \"description\" : \"Reading network configuration files\",\n      \"size\" : 80,\n      \"startDate\" : \"2018-12-27T22:16:02.702+0000\"\n    },\n    {\n      \"completed\" : 61,\n      \"description\" : \"Parse configurations\",\n      \"size\" : 80,\n      \"startDate\" : \"2018-12-27T22:16:02.810+0000\"\n    }\n  ],\n  \"obtained\" : \"2018-12-27T22:16:02.649+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-sv",
+    "-haltonparseerror",
+    "-si",
+    "-initinfo",
+    "false",
+    "-loglevel",
+    "fatal",
+    "-unimplementedsuppress",
+    "-haltonconverterror",
+    "-containerdir",
+    "/home/plankton/batfish/experiments/containers/cp_2b643c47-01ca-47be-9098-9a6a22279d41",
+    "-testrig",
+    "smt-test",
+    "-logfile",
+    "/home/plankton/batfish/experiments/containers/cp_2b643c47-01ca-47be-9098-9a6a22279d41/testrigs/smt-test/0e71d5c9-6352-4849-9800-592339d1c0d9.log",
+    "-answerjsonpath",
+    "/home/plankton/batfish/experiments/containers/cp_2b643c47-01ca-47be-9098-9a6a22279d41/testrigs/smt-test/0e71d5c9-6352-4849-9800-592339d1c0d9.json"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2018-12-27T22:16:02.657+0000"
+    },
+    {
+      "completed" : 80,
+      "description" : "Reading network configuration files",
+      "size" : 80,
+      "startDate" : "2018-12-27T22:16:02.702+0000"
+    },
+    {
+      "completed" : 61,
+      "description" : "Parse configurations",
+      "size" : 80,
+      "startDate" : "2018-12-27T22:16:02.810+0000"
+    }
+  ],
+  "obtained" : "2018-12-27T22:16:02.649+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus 0e71d5c9-6352-4849-9800-592339d1c0d9
+status: ASSIGNED
+.... Thu Dec 27 16:16:02 CST 2018: Parse configurations: 61/80
+WM:CheckWork: Trying to check [0e71d5c9-6352-4849-9800-592339d1c0d9 cp_2b643c47-01ca-47be-9098-9a6a22279d41 smt-test {sv=, haltonparseerror=, si=, initinfo=false, loglevel=fatal, unimplementedsuppress=, haltonconverterror=}] [CHECKINGSTATUS] [Thu Dec 27 16:16:02 CST 2018 Thu Dec 27 16:16:02 CST 2018 null] [localhost:9999] [InProgress, Thu Dec 27 16:16:07 CST 2018] on localhost:9999
+BFS:getTaskStatus 0e71d5c9-6352-4849-9800-592339d1c0d9
+response: ["success","{\n  \"args\" : [\n    \"-sv\",\n    \"-haltonparseerror\",\n    \"-si\",\n    \"-initinfo\",\n    \"false\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-unimplementedsuppress\",\n    \"-haltonconverterror\",\n    \"-containerdir\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\/cp_2b643c47-01ca-47be-9098-9a6a22279d41\",\n    \"-testrig\",\n    \"smt-test\",\n    \"-logfile\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\/cp_2b643c47-01ca-47be-9098-9a6a22279d41\/testrigs\/smt-test\/0e71d5c9-6352-4849-9800-592339d1c0d9.log\",\n    \"-answerjsonpath\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\/cp_2b643c47-01ca-47be-9098-9a6a22279d41\/testrigs\/smt-test\/0e71d5c9-6352-4849-9800-592339d1c0d9.json\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2018-12-27T22:16:02.657+0000\"\n    },\n    {\n      \"completed\" : 80,\n      \"description\" : \"Reading network configuration files\",\n      \"size\" : 80,\n      \"startDate\" : \"2018-12-27T22:16:02.702+0000\"\n    },\n    {\n      \"completed\" : 80,\n      \"description\" : \"Parse configurations\",\n      \"size\" : 80,\n      \"startDate\" : \"2018-12-27T22:16:02.810+0000\"\n    },\n    {\n      \"completed\" : 80,\n      \"description\" : \"Serializing 'org.batfish.representation.cisco.CiscoConfiguration' instances to disk\",\n      \"size\" : 80,\n      \"startDate\" : \"2018-12-27T22:16:07.533+0000\"\n    },\n    {\n      \"completed\" : 80,\n      \"description\" : \"Reading and unpacking files containing 'org.batfish.datamodel.GenericConfigObject' instances\",\n      \"size\" : 80,\n      \"startDate\" : \"2018-12-27T22:16:07.650+0000\"\n    },\n    {\n      \"completed\" : 80,\n      \"description\" : \"Deserializing 'org.batfish.datamodel.GenericConfigObject' instances\",\n      \"size\" : 80,\n      \"startDate\" : \"2018-12-27T22:16:07.662+0000\"\n    },\n    {\n      \"completed\" : 80,\n      \"description\" : \"Convert configurations to vendor-independent format\",\n      \"size\" : 80,\n      \"startDate\" : \"2018-12-27T22:16:07.723+0000\"\n    },\n    {\n      \"completed\" : 80,\n      \"description\" : \"Serializing 80 vendor-independent configuration structures for testrig smt-test\",\n      \"size\" : 80,\n      \"startDate\" : \"2018-12-27T22:16:07.810+0000\"\n    }\n  ],\n  \"obtained\" : \"2018-12-27T22:16:02.649+0000\",\n  \"status\" : \"TerminatedNormally\",\n  \"terminated\" : \"2018-12-27T22:16:07.979+0000\"\n}"] [success] [{
+  "args" : [
+    "-sv",
+    "-haltonparseerror",
+    "-si",
+    "-initinfo",
+    "false",
+    "-loglevel",
+    "fatal",
+    "-unimplementedsuppress",
+    "-haltonconverterror",
+    "-containerdir",
+    "/home/plankton/batfish/experiments/containers/cp_2b643c47-01ca-47be-9098-9a6a22279d41",
+    "-testrig",
+    "smt-test",
+    "-logfile",
+    "/home/plankton/batfish/experiments/containers/cp_2b643c47-01ca-47be-9098-9a6a22279d41/testrigs/smt-test/0e71d5c9-6352-4849-9800-592339d1c0d9.log",
+    "-answerjsonpath",
+    "/home/plankton/batfish/experiments/containers/cp_2b643c47-01ca-47be-9098-9a6a22279d41/testrigs/smt-test/0e71d5c9-6352-4849-9800-592339d1c0d9.json"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2018-12-27T22:16:02.657+0000"
+    },
+    {
+      "completed" : 80,
+      "description" : "Reading network configuration files",
+      "size" : 80,
+      "startDate" : "2018-12-27T22:16:02.702+0000"
+    },
+    {
+      "completed" : 80,
+      "description" : "Parse configurations",
+      "size" : 80,
+      "startDate" : "2018-12-27T22:16:02.810+0000"
+    },
+    {
+      "completed" : 80,
+      "description" : "Serializing 'org.batfish.representation.cisco.CiscoConfiguration' instances to disk",
+      "size" : 80,
+      "startDate" : "2018-12-27T22:16:07.533+0000"
+    },
+    {
+      "completed" : 80,
+      "description" : "Reading and unpacking files containing 'org.batfish.datamodel.GenericConfigObject' instances",
+      "size" : 80,
+      "startDate" : "2018-12-27T22:16:07.650+0000"
+    },
+    {
+      "completed" : 80,
+      "description" : "Deserializing 'org.batfish.datamodel.GenericConfigObject' instances",
+      "size" : 80,
+      "startDate" : "2018-12-27T22:16:07.662+0000"
+    },
+    {
+      "completed" : 80,
+      "description" : "Convert configurations to vendor-independent format",
+      "size" : 80,
+      "startDate" : "2018-12-27T22:16:07.723+0000"
+    },
+    {
+      "completed" : 80,
+      "description" : "Serializing 80 vendor-independent configuration structures for testrig smt-test",
+      "size" : 80,
+      "startDate" : "2018-12-27T22:16:07.810+0000"
+    }
+  ],
+  "obtained" : "2018-12-27T22:16:02.649+0000",
+  "status" : "TerminatedNormally",
+  "terminated" : "2018-12-27T22:16:07.979+0000"
+}]
+WMS:getWorkStatus 0e71d5c9-6352-4849-9800-592339d1c0d9
+status: TERMINATEDNORMALLY
+.... Thu Dec 27 16:16:02 CST 2018: Begin job
+.... Thu Dec 27 16:16:02 CST 2018: Reading network configuration files: 80/80
+.... Thu Dec 27 16:16:02 CST 2018: Parse configurations: 80/80
+.... Thu Dec 27 16:16:07 CST 2018: Serializing 'org.batfish.representation.cisco.CiscoConfiguration' instances to disk: 80/80
+.... Thu Dec 27 16:16:07 CST 2018: Reading and unpacking files containing 'org.batfish.datamodel.GenericConfigObject' instances: 80/80
+.... Thu Dec 27 16:16:07 CST 2018: Deserializing 'org.batfish.datamodel.GenericConfigObject' instances: 80/80
+.... Thu Dec 27 16:16:07 CST 2018: Convert configurations to vendor-independent format: 80/80
+.... Thu Dec 27 16:16:07 CST 2018: Serializing 80 vendor-independent configuration structures for testrig smt-test: 80/80
+.... Thu Dec 27 16:16:07 CST 2018: TERMINATEDNORMALLY
+WMS:getObject smt-test --> 0e71d5c9-6352-4849-9800-592339d1c0d9.json
+Status: SUCCESS
+Summary: 0 (non-assertion) results; 
+Base testrig is now smt-test
+WMS:uploadQuestion 00000000000000000000000000000000 cp_2b643c47-01ca-47be-9098-9a6a22279d41 smt-test/q_1b643cec-b0ae-4841-bef7-2083528c7793
+work-id is 7803b0fe-8d31-48e6-acc2-ffd37b7d443a
+WMS:queueWork 00000000000000000000000000000000 {
+  "containerName" : "cp_2b643c47-01ca-47be-9098-9a6a22279d41",
+  "id" : "7803b0fe-8d31-48e6-acc2-ffd37b7d443a",
+  "requestParams" : {
+    "answer" : "",
+    "haltonparseerror" : "",
+    "loglevel" : "fatal",
+    "initinfo" : "false",
+    "questionname" : "q_1b643cec-b0ae-4841-bef7-2083528c7793",
+    "env" : "env_default",
+    "haltonconverterror" : ""
+  },
+  "testrigName" : "smt-test"
+}
+WM:AssignWork: Trying to assign [7803b0fe-8d31-48e6-acc2-ffd37b7d443a cp_2b643c47-01ca-47be-9098-9a6a22279d41 smt-test {answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=q_1b643cec-b0ae-4841-bef7-2083528c7793, env=env_default, haltonconverterror=}] [TRYINGTOASSIGN] [Thu Dec 27 16:16:09 CST 2018 null null] [null] [null, null] to localhost:9999
+Queuing result: true
+WMS:getWorkStatus 7803b0fe-8d31-48e6-acc2-ffd37b7d443a
+status: TRYINGTOASSIGN
+.... no task information
+WMS:getWorkStatus 7803b0fe-8d31-48e6-acc2-ffd37b7d443a
+status: TRYINGTOASSIGN
+.... no task information
+WMS:getWorkStatus 7803b0fe-8d31-48e6-acc2-ffd37b7d443a
+status: TRYINGTOASSIGN
+.... no task information
+BFS:runTask(7803b0fe-8d31-48e6-acc2-ffd37b7d443a,{"answer":"","haltonparseerror":"","loglevel":"fatal","initinfo":"false","questionname":"q_1b643cec-b0ae-4841-bef7-2083528c7793","env":"env_default","haltonconverterror":"","containerdir":"\/home\/plankton\/batfish\/experiments\/containers\/cp_2b643c47-01ca-47be-9098-9a6a22279d41","testrig":"smt-test","logfile":"\/home\/plankton\/batfish\/experiments\/containers\/cp_2b643c47-01ca-47be-9098-9a6a22279d41\/testrigs\/smt-test\/7803b0fe-8d31-48e6-acc2-ffd37b7d443a.log","answerjsonpath":"\/home\/plankton\/batfish\/experiments\/containers\/cp_2b643c47-01ca-47be-9098-9a6a22279d41\/testrigs\/smt-test\/7803b0fe-8d31-48e6-acc2-ffd37b7d443a.json"})
+Will run with args: [-answer, -haltonparseerror, -loglevel, fatal, -initinfo, false, -questionname, q_1b643cec-b0ae-4841-bef7-2083528c7793, -env, env_default, -haltonconverterror, -containerdir, /home/plankton/batfish/experiments/containers/cp_2b643c47-01ca-47be-9098-9a6a22279d41, -testrig, smt-test, -logfile, /home/plankton/batfish/experiments/containers/cp_2b643c47-01ca-47be-9098-9a6a22279d41/testrigs/smt-test/7803b0fe-8d31-48e6-acc2-ffd37b7d443a.log, -answerjsonpath, /home/plankton/batfish/experiments/containers/cp_2b643c47-01ca-47be-9098-9a6a22279d41/testrigs/smt-test/7803b0fe-8d31-48e6-acc2-ffd37b7d443a.json]
+WMS:getWorkStatus 7803b0fe-8d31-48e6-acc2-ffd37b7d443a
+WM:AssignWork: response: ["success","running now"] [success] [running now]
+status: ASSIGNED
+.... no task information
+WMS:getWorkStatus 7803b0fe-8d31-48e6-acc2-ffd37b7d443a
+status: ASSIGNED
+.... no task information
+WMS:getWorkStatus 7803b0fe-8d31-48e6-acc2-ffd37b7d443a
+status: ASSIGNED
+.... no task information
+WMS:getWorkStatus 7803b0fe-8d31-48e6-acc2-ffd37b7d443a
+status: ASSIGNED
+.... no task information
+WMS:getWorkStatus 7803b0fe-8d31-48e6-acc2-ffd37b7d443a
+status: ASSIGNED
+.... no task information
+WMS:getWorkStatus 7803b0fe-8d31-48e6-acc2-ffd37b7d443a
+status: ASSIGNED
+.... no task information
+WMS:getWorkStatus 7803b0fe-8d31-48e6-acc2-ffd37b7d443a
+status: ASSIGNED
+.... no task information
+=====[DEBUG]===== sourceRouters: [R48]
+Start verification
+Using headerspace: [10.0.0.6, 10.0.0.10, 10.0.0.17, 10.0.0.30, 10.0.0.37, 10.0.0.45, 10.0.0.62, 10.0.0.65, 10.0.0.74, 10.0.0.77, 10.0.0.85, 10.0.0.90, 10.0.0.94, 10.0.0.125, 10.0.0.141, 10.0.0.145, 10.0.0.154, 10.0.0.161, 10.0.0.166, 10.0.0.170, 10.0.0.174, 10.0.0.185, 10.0.0.198, 10.0.0.206, 10.0.0.210, 10.0.0.222, 10.0.0.226, 10.0.0.230, 10.0.0.233, 10.0.0.238, 10.0.0.245, 10.0.0.249, 10.0.1.5, 10.0.1.10, 10.0.1.14, 10.0.1.18, 10.0.1.22, 10.0.1.30, 10.0.1.33, 10.0.1.45, 10.0.1.73, 10.0.1.85, 10.0.1.89, 10.0.1.110, 10.0.1.113, 10.0.1.121, 10.0.1.129, 10.0.1.145, 10.0.1.150, 10.0.1.153, 10.0.1.157, 10.0.1.162, 10.0.1.169, 10.0.1.181, 10.0.1.190, 10.0.1.194, 10.0.1.198, 10.0.1.202, 10.0.1.206, 10.0.1.221, 10.0.1.229, 10.0.1.237, 10.0.1.242, 10.0.1.246, 10.0.2.6, 10.0.2.9, 10.0.2.14, 10.0.2.21, 10.0.2.25, 10.0.2.46, 10.0.2.54, 10.0.2.58, 10.0.2.61, 10.0.2.73, 10.0.2.77, 10.0.2.85, 10.0.2.94, 10.0.2.102, 10.0.2.109, 10.0.2.114, 10.0.2.122, 10.0.2.137, 10.0.2.145, 10.0.2.149, 10.0.2.165, 10.0.2.197, 10.0.2.217, 10.0.2.221, 10.0.2.229, 10.0.2.238, 10.0.2.246, 10.0.2.249, 10.0.2.254, 10.0.3.2, 10.0.3.14, 10.0.3.26, 10.0.3.38, 10.0.3.42, 10.0.3.53, 10.0.3.61, 10.0.3.66, 10.0.3.69, 10.0.3.73, 10.0.3.81, 10.0.3.86, 10.0.3.94, 10.0.3.105, 10.0.3.109, 10.0.3.150, 10.0.3.154, 10.0.3.157, 10.0.3.181, 10.0.3.185, 10.0.3.201, 10.0.3.205, 10.0.3.213, 10.0.3.230, 10.0.3.245, 10.0.4.2, 10.0.4.14, 10.0.4.17, 10.0.4.22, 10.0.4.26, 10.0.4.30, 10.0.4.34, 10.0.4.38, 10.0.4.46, 10.0.4.62, 10.0.4.70, 10.0.4.74, 10.0.4.82, 10.0.4.86, 10.0.4.89, 10.0.4.93, 10.0.4.97, 10.0.4.110, 10.0.4.113, 10.0.4.118, 10.0.4.122, 10.0.4.126, 10.0.4.150, 10.0.4.169, 10.0.4.185, 10.0.4.201, 10.0.4.205, 10.0.4.213, 10.0.4.233, 10.0.4.241, 10.0.4.246, 10.0.4.249, 10.0.4.254, 10.0.5.13, 10.0.5.18, 10.0.5.22, 10.0.5.49, 10.0.5.58, 10.0.5.61, 10.0.5.65, 10.0.5.70, 10.0.5.73, 10.0.5.77, 10.0.5.89, 10.0.5.94, 10.0.5.97, 10.0.5.102, 10.0.5.109, 10.0.5.125, 10.0.5.130, 10.0.5.137, 10.0.5.142, 10.0.5.149, 10.0.5.154, 10.0.5.162, 10.0.5.170, 10.0.5.174, 10.0.5.177, 10.0.5.182, 10.0.5.186, 10.0.5.206, 10.0.5.213, 10.0.5.217, 10.0.5.222, 10.0.5.229, 10.0.5.237, 10.0.5.241, 10.0.5.249, 10.0.6.22, 10.0.6.33, 10.0.6.53, 10.0.6.66, 10.0.6.69, 10.0.6.74, 10.0.6.82, 10.0.6.86, 10.0.6.105, 10.0.6.109, 10.0.6.118, 10.0.6.125, 10.0.6.129, 10.0.6.133, 10.0.6.137, 10.0.6.142, 10.0.6.145, 10.0.6.150, 10.0.6.153, 10.0.6.157, 10.0.6.162, 10.0.6.166, 10.0.6.178, 10.0.6.185, 10.0.6.189, 10.0.6.205, 10.0.6.214, 10.0.6.218, 10.0.6.226, 10.0.6.237, 10.0.6.241, 10.0.6.253, 10.0.7.5, 10.0.7.13, 10.0.7.17, 10.0.7.22, 10.0.7.25, 10.0.7.49, 10.0.7.66, 10.0.7.77, 10.0.7.90, 10.0.7.94, 10.0.7.98, 10.0.7.102, 10.0.7.110, 10.0.7.118, 10.0.7.134, 10.0.7.138, 10.0.7.142, 10.0.7.149, 10.0.7.161, 10.0.7.170, 10.0.7.173, 10.0.7.178, 10.0.7.182, 10.0.7.185, 10.0.7.190, 10.0.7.202, 10.0.7.206, 10.0.7.217, 10.0.7.230, 10.0.7.245]
+WMS:getWorkStatus 7803b0fe-8d31-48e6-acc2-ffd37b7d443a
+status: ASSIGNED
+.... no task information
+Number of edges: 1024
+Created destination classes
+Num Classes: 124
+WMS:getWorkStatus 7803b0fe-8d31-48e6-acc2-ffd37b7d443a
+status: ASSIGNED
+.... no task information
+WMS:getWorkStatus 7803b0fe-8d31-48e6-acc2-ffd37b7d443a
+status: ASSIGNED
+.... no task information
+WMS:getWorkStatus 7803b0fe-8d31-48e6-acc2-ffd37b7d443a
+status: ASSIGNED
+.... no task information
+WM:CheckWork: Trying to check [7803b0fe-8d31-48e6-acc2-ffd37b7d443a cp_2b643c47-01ca-47be-9098-9a6a22279d41 smt-test {answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=q_1b643cec-b0ae-4841-bef7-2083528c7793, env=env_default, haltonconverterror=}] [CHECKINGSTATUS] [Thu Dec 27 16:16:09 CST 2018 Thu Dec 27 16:16:09 CST 2018 null] [localhost:9999] [null, null] on localhost:9999
+BFS:getTaskStatus 7803b0fe-8d31-48e6-acc2-ffd37b7d443a
+response: ["success","{\n  \"args\" : [\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"q_1b643cec-b0ae-4841-bef7-2083528c7793\",\n    \"-env\",\n    \"env_default\",\n    \"-haltonconverterror\",\n    \"-containerdir\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\/cp_2b643c47-01ca-47be-9098-9a6a22279d41\",\n    \"-testrig\",\n    \"smt-test\",\n    \"-logfile\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\/cp_2b643c47-01ca-47be-9098-9a6a22279d41\/testrigs\/smt-test\/7803b0fe-8d31-48e6-acc2-ffd37b7d443a.log\",\n    \"-answerjsonpath\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\/cp_2b643c47-01ca-47be-9098-9a6a22279d41\/testrigs\/smt-test\/7803b0fe-8d31-48e6-acc2-ffd37b7d443a.json\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2018-12-27T22:16:09.331+0000\"\n    },\n    {\n      \"completed\" : 80,\n      \"description\" : \"Deserializing objects of type 'org.batfish.datamodel.Configuration' from files\",\n      \"size\" : 80,\n      \"startDate\" : \"2018-12-27T22:16:09.378+0000\"\n    }\n  ],\n  \"obtained\" : \"2018-12-27T22:16:09.331+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "q_1b643cec-b0ae-4841-bef7-2083528c7793",
+    "-env",
+    "env_default",
+    "-haltonconverterror",
+    "-containerdir",
+    "/home/plankton/batfish/experiments/containers/cp_2b643c47-01ca-47be-9098-9a6a22279d41",
+    "-testrig",
+    "smt-test",
+    "-logfile",
+    "/home/plankton/batfish/experiments/containers/cp_2b643c47-01ca-47be-9098-9a6a22279d41/testrigs/smt-test/7803b0fe-8d31-48e6-acc2-ffd37b7d443a.log",
+    "-answerjsonpath",
+    "/home/plankton/batfish/experiments/containers/cp_2b643c47-01ca-47be-9098-9a6a22279d41/testrigs/smt-test/7803b0fe-8d31-48e6-acc2-ffd37b7d443a.json"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2018-12-27T22:16:09.331+0000"
+    },
+    {
+      "completed" : 80,
+      "description" : "Deserializing objects of type 'org.batfish.datamodel.Configuration' from files",
+      "size" : 80,
+      "startDate" : "2018-12-27T22:16:09.378+0000"
+    }
+  ],
+  "obtained" : "2018-12-27T22:16:09.331+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus 7803b0fe-8d31-48e6-acc2-ffd37b7d443a
+status: ASSIGNED
+.... Thu Dec 27 16:16:09 CST 2018: Deserializing objects of type 'org.batfish.datamodel.Configuration' from files: 80/80
+WMS:getWorkStatus 7803b0fe-8d31-48e6-acc2-ffd37b7d443a
+status: ASSIGNED
+.... Thu Dec 27 16:16:09 CST 2018: Deserializing objects of type 'org.batfish.datamodel.Configuration' from files: 80/80
+WM:CheckWork: Trying to check [7803b0fe-8d31-48e6-acc2-ffd37b7d443a cp_2b643c47-01ca-47be-9098-9a6a22279d41 smt-test {answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=q_1b643cec-b0ae-4841-bef7-2083528c7793, env=env_default, haltonconverterror=}] [CHECKINGSTATUS] [Thu Dec 27 16:16:09 CST 2018 Thu Dec 27 16:16:09 CST 2018 null] [localhost:9999] [InProgress, Thu Dec 27 16:16:10 CST 2018] on localhost:9999
+BFS:getTaskStatus 7803b0fe-8d31-48e6-acc2-ffd37b7d443a
+response: ["success","{\n  \"args\" : [\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"q_1b643cec-b0ae-4841-bef7-2083528c7793\",\n    \"-env\",\n    \"env_default\",\n    \"-haltonconverterror\",\n    \"-containerdir\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\/cp_2b643c47-01ca-47be-9098-9a6a22279d41\",\n    \"-testrig\",\n    \"smt-test\",\n    \"-logfile\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\/cp_2b643c47-01ca-47be-9098-9a6a22279d41\/testrigs\/smt-test\/7803b0fe-8d31-48e6-acc2-ffd37b7d443a.log\",\n    \"-answerjsonpath\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\/cp_2b643c47-01ca-47be-9098-9a6a22279d41\/testrigs\/smt-test\/7803b0fe-8d31-48e6-acc2-ffd37b7d443a.json\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2018-12-27T22:16:09.331+0000\"\n    },\n    {\n      \"completed\" : 80,\n      \"description\" : \"Deserializing objects of type 'org.batfish.datamodel.Configuration' from files\",\n      \"size\" : 80,\n      \"startDate\" : \"2018-12-27T22:16:09.378+0000\"\n    }\n  ],\n  \"obtained\" : \"2018-12-27T22:16:09.331+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "q_1b643cec-b0ae-4841-bef7-2083528c7793",
+    "-env",
+    "env_default",
+    "-haltonconverterror",
+    "-containerdir",
+    "/home/plankton/batfish/experiments/containers/cp_2b643c47-01ca-47be-9098-9a6a22279d41",
+    "-testrig",
+    "smt-test",
+    "-logfile",
+    "/home/plankton/batfish/experiments/containers/cp_2b643c47-01ca-47be-9098-9a6a22279d41/testrigs/smt-test/7803b0fe-8d31-48e6-acc2-ffd37b7d443a.log",
+    "-answerjsonpath",
+    "/home/plankton/batfish/experiments/containers/cp_2b643c47-01ca-47be-9098-9a6a22279d41/testrigs/smt-test/7803b0fe-8d31-48e6-acc2-ffd37b7d443a.json"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2018-12-27T22:16:09.331+0000"
+    },
+    {
+      "completed" : 80,
+      "description" : "Deserializing objects of type 'org.batfish.datamodel.Configuration' from files",
+      "size" : 80,
+      "startDate" : "2018-12-27T22:16:09.378+0000"
+    }
+  ],
+  "obtained" : "2018-12-27T22:16:09.331+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus 7803b0fe-8d31-48e6-acc2-ffd37b7d443a
+status: ASSIGNED
+.... Thu Dec 27 16:16:09 CST 2018: Deserializing objects of type 'org.batfish.datamodel.Configuration' from files: 80/80
+WM:CheckWork: Trying to check [7803b0fe-8d31-48e6-acc2-ffd37b7d443a cp_2b643c47-01ca-47be-9098-9a6a22279d41 smt-test {answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=q_1b643cec-b0ae-4841-bef7-2083528c7793, env=env_default, haltonconverterror=}] [CHECKINGSTATUS] [Thu Dec 27 16:16:09 CST 2018 Thu Dec 27 16:16:09 CST 2018 null] [localhost:9999] [InProgress, Thu Dec 27 16:16:11 CST 2018] on localhost:9999
+BFS:getTaskStatus 7803b0fe-8d31-48e6-acc2-ffd37b7d443a
+response: ["success","{\n  \"args\" : [\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"q_1b643cec-b0ae-4841-bef7-2083528c7793\",\n    \"-env\",\n    \"env_default\",\n    \"-haltonconverterror\",\n    \"-containerdir\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\/cp_2b643c47-01ca-47be-9098-9a6a22279d41\",\n    \"-testrig\",\n    \"smt-test\",\n    \"-logfile\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\/cp_2b643c47-01ca-47be-9098-9a6a22279d41\/testrigs\/smt-test\/7803b0fe-8d31-48e6-acc2-ffd37b7d443a.log\",\n    \"-answerjsonpath\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\/cp_2b643c47-01ca-47be-9098-9a6a22279d41\/testrigs\/smt-test\/7803b0fe-8d31-48e6-acc2-ffd37b7d443a.json\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2018-12-27T22:16:09.331+0000\"\n    },\n    {\n      \"completed\" : 80,\n      \"description\" : \"Deserializing objects of type 'org.batfish.datamodel.Configuration' from files\",\n      \"size\" : 80,\n      \"startDate\" : \"2018-12-27T22:16:09.378+0000\"\n    }\n  ],\n  \"obtained\" : \"2018-12-27T22:16:09.331+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "q_1b643cec-b0ae-4841-bef7-2083528c7793",
+    "-env",
+    "env_default",
+    "-haltonconverterror",
+    "-containerdir",
+    "/home/plankton/batfish/experiments/containers/cp_2b643c47-01ca-47be-9098-9a6a22279d41",
+    "-testrig",
+    "smt-test",
+    "-logfile",
+    "/home/plankton/batfish/experiments/containers/cp_2b643c47-01ca-47be-9098-9a6a22279d41/testrigs/smt-test/7803b0fe-8d31-48e6-acc2-ffd37b7d443a.log",
+    "-answerjsonpath",
+    "/home/plankton/batfish/experiments/containers/cp_2b643c47-01ca-47be-9098-9a6a22279d41/testrigs/smt-test/7803b0fe-8d31-48e6-acc2-ffd37b7d443a.json"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2018-12-27T22:16:09.331+0000"
+    },
+    {
+      "completed" : 80,
+      "description" : "Deserializing objects of type 'org.batfish.datamodel.Configuration' from files",
+      "size" : 80,
+      "startDate" : "2018-12-27T22:16:09.378+0000"
+    }
+  ],
+  "obtained" : "2018-12-27T22:16:09.331+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus 7803b0fe-8d31-48e6-acc2-ffd37b7d443a
+status: ASSIGNED
+.... Thu Dec 27 16:16:09 CST 2018: Deserializing objects of type 'org.batfish.datamodel.Configuration' from files: 80/80
+Created BDDs
+=====[DEBUG]===== abstract representatives of R48: [R65, R54, R76, R64, R53, R75, R78, R72]
+=====[DEBUG]===== mapped srcRouters: [R65, R54, R76, R64, R53, R75, R78, R72]
+=====[DEBUG]===== abstract representatives of R48: [R76, R54, R75, R53, R78, R72]
+=====[DEBUG]===== mapped srcRouters: [R76, R54, R75, R53, R78, R72]
+=====[DEBUG]===== abstract representatives of R48: [R76, R54, R75, R53, R78, R72]
+=====[DEBUG]===== mapped srcRouters: [R76, R54, R75, R53, R78, R72]
+=====[DEBUG]===== abstract representatives of R48: [R76, R65, R54, R64, R53, R78, R61, R60]
+=====[DEBUG]===== mapped srcRouters: [R76, R65, R54, R64, R53, R78, R61, R60]
+=====[DEBUG]===== abstract representatives of R48: [R54, R65, R53, R75, R64, R72]
+=====[DEBUG]===== mapped srcRouters: [R54, R65, R53, R75, R64, R72]
+=====[DEBUG]===== abstract representatives of R48: [R54, R65, R53, R64, R61, R60]
+=====[DEBUG]===== mapped srcRouters: [R54, R65, R53, R64, R61, R60]
+=====[DEBUG]===== abstract representatives of R48: [R54, R65, R53, R75, R64, R72]
+=====[DEBUG]===== mapped srcRouters: [R54, R65, R53, R75, R64, R72]
+=====[DEBUG]===== abstract representatives of R48: [R65, R54, R76, R64, R53, R75, R78, R72]
+=====[DEBUG]===== mapped srcRouters: [R65, R54, R76, R64, R53, R75, R78, R72]
+=====[DEBUG]===== abstract representatives of R48: [R54, R65, R53, R64, R61, R60]
+=====[DEBUG]===== mapped srcRouters: [R54, R65, R53, R64, R61, R60]
+=====[DEBUG]===== abstract representatives of R48: [R76, R65, R54, R64, R53, R75, R78, R72]
+=====[DEBUG]===== mapped srcRouters: [R76, R65, R54, R64, R53, R75, R78, R72]
+=====[DEBUG]===== abstract representatives of R48: [R48, R50]
+=====[DEBUG]===== mapped srcRouters: [R48, R50]
+=====[DEBUG]===== abstract representatives of R48: [R76, R65, R75, R64, R78, R61, R72, R60]
+=====[DEBUG]===== mapped srcRouters: [R76, R65, R75, R64, R78, R61, R72, R60]
+=====[DEBUG]===== abstract representatives of R48: [R76, R54, R65, R75, R53, R64, R78, R72]
+=====[DEBUG]===== mapped srcRouters: [R76, R54, R65, R75, R53, R64, R78, R72]
+=====[DEBUG]===== abstract representatives of R48: [R76, R65, R54, R64, R53, R78, R61, R60]
+=====[DEBUG]===== mapped srcRouters: [R76, R65, R54, R64, R53, R78, R61, R60]
+=====[DEBUG]===== abstract representatives of R48: [R54, R65, R53, R75, R64, R72]
+=====[DEBUG]===== mapped srcRouters: [R54, R65, R53, R75, R64, R72]
+=====[DEBUG]===== abstract representatives of R48: [R76, R54, R75, R53, R78, R72]
+=====[DEBUG]===== mapped srcRouters: [R76, R54, R75, R53, R78, R72]
+=====[DEBUG]===== abstract representatives of R48: [R76, R54, R75, R53, R78, R72]
+=====[DEBUG]===== mapped srcRouters: [R76, R54, R75, R53, R78, R72]
+=====[DEBUG]===== abstract representatives of R48: [R54, R53, R75, R61, R72, R60]
+=====[DEBUG]===== mapped srcRouters: [R54, R53, R75, R61, R72, R60]
+=====[DEBUG]===== abstract representatives of R48: [R76, R54, R53, R78, R61, R60]
+=====[DEBUG]===== mapped srcRouters: [R76, R54, R53, R78, R61, R60]
+=====[DEBUG]===== abstract representatives of R48: [R76, R54, R53, R78]
+=====[DEBUG]===== mapped srcRouters: [R76, R54, R53, R78]
+=====[DEBUG]===== abstract representatives of R48: [R54, R53, R75, R61, R72, R60]
+=====[DEBUG]===== mapped srcRouters: [R54, R53, R75, R61, R72, R60]
+=====[DEBUG]===== abstract representatives of R48: [R54, R65, R53, R75, R64, R72]
+=====[DEBUG]===== mapped srcRouters: [R54, R65, R53, R75, R64, R72]
+=====[DEBUG]===== abstract representatives of R48: [R76, R65, R54, R64, R53, R78]
+=====[DEBUG]===== mapped srcRouters: [R76, R65, R54, R64, R53, R78]
+=====[DEBUG]===== abstract representatives of R48: [R54, R65, R53, R64, R61, R60]
+=====[DEBUG]===== mapped srcRouters: [R54, R65, R53, R64, R61, R60]
+=====[DEBUG]===== abstract representatives of R48: [R76, R65, R54, R75, R64, R53, R78, R72]
+=====[DEBUG]===== mapped srcRouters: [R76, R65, R54, R75, R64, R53, R78, R72]
+=====[DEBUG]===== abstract representatives of R48: [R76, R65, R75, R64, R78, R61, R72, R60]
+=====[DEBUG]===== mapped srcRouters: [R76, R65, R75, R64, R78, R61, R72, R60]
+=====[DEBUG]===== abstract representatives of R48: [R76, R54, R75, R53, R78, R72]
+=====[DEBUG]===== mapped srcRouters: [R76, R54, R75, R53, R78, R72]
+=====[DEBUG]===== abstract representatives of R48: [R76, R54, R75, R53, R78, R72]
+=====[DEBUG]===== mapped srcRouters: [R76, R54, R75, R53, R78, R72]
+=====[DEBUG]===== abstract representatives of R48: [R76, R54, R75, R53, R78, R72, R61, R60]
+=====[DEBUG]===== mapped srcRouters: [R76, R54, R75, R53, R78, R72, R61, R60]
+=====[DEBUG]===== abstract representatives of R48: [R76, R65, R64, R78]
+=====[DEBUG]===== mapped srcRouters: [R76, R65, R64, R78]
+=====[DEBUG]===== abstract representatives of R48: [R54, R65, R53, R75, R64, R72]
+=====[DEBUG]===== mapped srcRouters: [R54, R65, R53, R75, R64, R72]
+=====[DEBUG]===== abstract representatives of R48: [R54, R65, R53, R75, R64, R72]
+=====[DEBUG]===== mapped srcRouters: [R54, R65, R53, R75, R64, R72]
+=====[DEBUG]===== abstract representatives of R48: [R54, R53, R75, R61, R72, R60]
+=====[DEBUG]===== mapped srcRouters: [R54, R53, R75, R61, R72, R60]
+=====[DEBUG]===== abstract representatives of R48: [R65, R54, R76, R64, R53, R75, R78, R72]
+=====[DEBUG]===== mapped srcRouters: [R65, R54, R76, R64, R53, R75, R78, R72]
+=====[DEBUG]===== abstract representatives of R48: [R76, R65, R75, R64, R78, R72]
+=====[DEBUG]===== mapped srcRouters: [R76, R65, R75, R64, R78, R72]
+=====[DEBUG]===== abstract representatives of R48: [R54, R76, R65, R53, R64, R78, R61, R60]
+=====[DEBUG]===== mapped srcRouters: [R54, R76, R65, R53, R64, R78, R61, R60]
+=====[DEBUG]===== abstract representatives of R48: [R65, R64, R75, R61, R72, R60]
+=====[DEBUG]===== mapped srcRouters: [R65, R64, R75, R61, R72, R60]
+=====[DEBUG]===== abstract representatives of R48: [R76, R54, R65, R53, R64, R78, R61, R60]
+=====[DEBUG]===== mapped srcRouters: [R76, R54, R65, R53, R64, R78, R61, R60]
+=====[DEBUG]===== abstract representatives of R48: [R48, R50]
+=====[DEBUG]===== mapped srcRouters: [R48, R50]
+=====[DEBUG]===== abstract representatives of R48: [R76, R65, R64, R78]
+=====[DEBUG]===== mapped srcRouters: [R76, R65, R64, R78]
+=====[DEBUG]===== abstract representatives of R48: [R76, R65, R54, R64, R53, R75, R78, R72]
+=====[DEBUG]===== mapped srcRouters: [R76, R65, R54, R64, R53, R75, R78, R72]
+=====[DEBUG]===== abstract representatives of R48: [R76, R65, R54, R75, R64, R53, R78, R72, R61, R60]
+=====[DEBUG]===== mapped srcRouters: [R76, R65, R54, R75, R64, R53, R78, R72, R61, R60]
+WM:CheckWork: Trying to check [7803b0fe-8d31-48e6-acc2-ffd37b7d443a cp_2b643c47-01ca-47be-9098-9a6a22279d41 smt-test {answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=q_1b643cec-b0ae-4841-bef7-2083528c7793, env=env_default, haltonconverterror=}] [CHECKINGSTATUS] [Thu Dec 27 16:16:09 CST 2018 Thu Dec 27 16:16:09 CST 2018 null] [localhost:9999] [InProgress, Thu Dec 27 16:16:12 CST 2018] on localhost:9999
+=====[DEBUG]===== abstract representatives of R48: [R76, R65, R54, R64, R75, R53, R78, R72]
+=====[DEBUG]===== mapped srcRouters: [R76, R65, R54, R64, R75, R53, R78, R72]
+=====[DEBUG]===== abstract representatives of R48: [R54, R65, R53, R75, R64, R72]
+=====[DEBUG]===== mapped srcRouters: [R54, R65, R53, R75, R64, R72]
+BFS:getTaskStatus 7803b0fe-8d31-48e6-acc2-ffd37b7d443a
+=====[DEBUG]===== abstract representatives of R48: [R76, R65, R54, R64, R53, R78, R61, R60]
+=====[DEBUG]===== mapped srcRouters: [R76, R65, R54, R64, R53, R78, R61, R60]
+response: ["success","{\n  \"args\" : [\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"q_1b643cec-b0ae-4841-bef7-2083528c7793\",\n    \"-env\",\n    \"env_default\",\n    \"-haltonconverterror\",\n    \"-containerdir\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\/cp_2b643c47-01ca-47be-9098-9a6a22279d41\",\n    \"-testrig\",\n    \"smt-test\",\n    \"-logfile\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\/cp_2b643c47-01ca-47be-9098-9a6a22279d41\/testrigs\/smt-test\/7803b0fe-8d31-48e6-acc2-ffd37b7d443a.log\",\n    \"-answerjsonpath\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\/cp_2b643c47-01ca-47be-9098-9a6a22279d41\/testrigs\/smt-test\/7803b0fe-8d31-48e6-acc2-ffd37b7d443a.json\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2018-12-27T22:16:09.331+0000\"\n    },\n    {\n      \"completed\" : 80,\n      \"description\" : \"Deserializing objects of type 'org.batfish.datamodel.Configuration' from files\",\n      \"size\" : 80,\n      \"startDate\" : \"2018-12-27T22:16:09.378+0000\"\n    }\n  ],\n  \"errMessage\" : \"org.batfish.common.QuestionException: Exception answering question\",\n  \"obtained\" : \"2018-12-27T22:16:09.331+0000\",\n  \"status\" : \"TerminatedAbnormally\",\n  \"terminated\" : \"2018-12-27T22:16:13.167+0000\"\n}"] [success] [{
+  "args" : [
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "q_1b643cec-b0ae-4841-bef7-2083528c7793",
+    "-env",
+    "env_default",
+    "-haltonconverterror",
+    "-containerdir",
+    "/home/plankton/batfish/experiments/containers/cp_2b643c47-01ca-47be-9098-9a6a22279d41",
+    "-testrig",
+    "smt-test",
+    "-logfile",
+    "/home/plankton/batfish/experiments/containers/cp_2b643c47-01ca-47be-9098-9a6a22279d41/testrigs/smt-test/7803b0fe-8d31-48e6-acc2-ffd37b7d443a.log",
+    "-answerjsonpath",
+    "/home/plankton/batfish/experiments/containers/cp_2b643c47-01ca-47be-9098-9a6a22279d41/testrigs/smt-test/7803b0fe-8d31-48e6-acc2-ffd37b7d443a.json"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2018-12-27T22:16:09.331+0000"
+    },
+    {
+      "completed" : 80,
+      "description" : "Deserializing objects of type 'org.batfish.datamodel.Configuration' from files",
+      "size" : 80,
+      "startDate" : "2018-12-27T22:16:09.378+0000"
+    }
+  ],
+  "errMessage" : "org.batfish.common.QuestionException: Exception answering question",
+  "obtained" : "2018-12-27T22:16:09.331+0000",
+  "status" : "TerminatedAbnormally",
+  "terminated" : "2018-12-27T22:16:13.167+0000"
+}]
+=====[DEBUG]===== abstract representatives of R48: [R76, R65, R54, R64, R75, R53, R78, R72]
+=====[DEBUG]===== mapped srcRouters: [R76, R65, R54, R64, R75, R53, R78, R72]
+=====[DEBUG]===== abstract representatives of R48: [R54, R76, R65, R53, R64, R78, R61, R60]
+=====[DEBUG]===== mapped srcRouters: [R54, R76, R65, R53, R64, R78, R61, R60]
+=====[DEBUG]===== abstract representatives of R48: [R54, R65, R53, R75, R64, R72]
+=====[DEBUG]===== mapped srcRouters: [R54, R65, R53, R75, R64, R72]
+=====[DEBUG]===== abstract representatives of R48: [R76, R54, R75, R53, R78, R72]
+=====[DEBUG]===== mapped srcRouters: [R76, R54, R75, R53, R78, R72]
+=====[DEBUG]===== abstract representatives of R48: [R54, R76, R65, R53, R64, R78, R61, R60]
+=====[DEBUG]===== mapped srcRouters: [R54, R76, R65, R53, R64, R78, R61, R60]
+=====[DEBUG]===== abstract representatives of R48: [R76, R65, R54, R64, R75, R53, R78, R72]
+=====[DEBUG]===== mapped srcRouters: [R76, R65, R54, R64, R75, R53, R78, R72]
+=====[DEBUG]===== abstract representatives of R48: [R76, R54, R53, R78, R61, R60]
+=====[DEBUG]===== mapped srcRouters: [R76, R54, R53, R78, R61, R60]
+=====[DEBUG]===== abstract representatives of R48: [R76, R65, R54, R64, R53, R75, R78, R72]
+=====[DEBUG]===== mapped srcRouters: [R76, R65, R54, R64, R53, R75, R78, R72]
+=====[DEBUG]===== abstract representatives of R48: [R76, R65, R54, R75, R64, R53, R78, R72]
+=====[DEBUG]===== mapped srcRouters: [R76, R65, R54, R75, R64, R53, R78, R72]
+=====[DEBUG]===== abstract representatives of R48: [R65, R54, R76, R64, R53, R75, R78, R72]
+=====[DEBUG]===== mapped srcRouters: [R65, R54, R76, R64, R53, R75, R78, R72]
+=====[DEBUG]===== abstract representatives of R48: [R54, R65, R53, R75, R64, R72]
+=====[DEBUG]===== mapped srcRouters: [R54, R65, R53, R75, R64, R72]
+=====[DEBUG]===== abstract representatives of R48: [R48, R50]
+=====[DEBUG]===== mapped srcRouters: [R48, R50]
+=====[DEBUG]===== abstract representatives of R48: [R76, R65, R75, R64, R78, R61, R72, R60]
+=====[DEBUG]===== mapped srcRouters: [R76, R65, R75, R64, R78, R61, R72, R60]
+=====[DEBUG]===== abstract representatives of R48: [R65, R64, R75, R61, R72, R60]
+=====[DEBUG]===== mapped srcRouters: [R65, R64, R75, R61, R72, R60]
+=====[DEBUG]===== abstract representatives of R48: [R65, R64, R75, R61, R72, R60]
+=====[DEBUG]===== mapped srcRouters: [R65, R64, R75, R61, R72, R60]
+=====[DEBUG]===== abstract representatives of R48: [R76, R65, R54, R64, R75, R53, R78, R72]
+=====[DEBUG]===== mapped srcRouters: [R76, R65, R54, R64, R75, R53, R78, R72]
+=====[DEBUG]===== abstract representatives of R48: [R76, R65, R75, R64, R78, R61, R72, R60]
+=====[DEBUG]===== mapped srcRouters: [R76, R65, R75, R64, R78, R61, R72, R60]
+=====[DEBUG]===== abstract representatives of R48: [R76, R65, R54, R64, R75, R53, R78, R72]
+=====[DEBUG]===== mapped srcRouters: [R76, R65, R54, R64, R75, R53, R78, R72]
+=====[DEBUG]===== abstract representatives of R48: [R54, R76, R53, R75, R78, R72]
+=====[DEBUG]===== mapped srcRouters: [R54, R76, R53, R75, R78, R72]
+=====[DEBUG]===== abstract representatives of R48: [R65, R54, R64, R53, R75, R72]
+=====[DEBUG]===== mapped srcRouters: [R65, R54, R64, R53, R75, R72]
+=====[DEBUG]===== abstract representatives of R48: [R54, R65, R53, R75, R64, R72]
+=====[DEBUG]===== mapped srcRouters: [R54, R65, R53, R75, R64, R72]
+=====[DEBUG]===== abstract representatives of R48: [R76, R65, R64, R78]
+=====[DEBUG]===== mapped srcRouters: [R76, R65, R64, R78]
+=====[DEBUG]===== abstract representatives of R48: [R76, R54, R75, R53, R78, R72]
+=====[DEBUG]===== mapped srcRouters: [R76, R54, R75, R53, R78, R72]
+=====[DEBUG]===== abstract representatives of R48: [R54, R76, R65, R53, R64, R78]
+=====[DEBUG]===== mapped srcRouters: [R54, R76, R65, R53, R64, R78]
+=====[DEBUG]===== abstract representatives of R48: [R76, R54, R53, R78]
+=====[DEBUG]===== mapped srcRouters: [R76, R54, R53, R78]
+=====[DEBUG]===== abstract representatives of R48: [R65, R64, R75, R61, R72, R60]
+=====[DEBUG]===== mapped srcRouters: [R65, R64, R75, R61, R72, R60]
+=====[DEBUG]===== abstract representatives of R48: [R76, R65, R75, R64, R78, R61, R72, R60]
+=====[DEBUG]===== mapped srcRouters: [R76, R65, R75, R64, R78, R61, R72, R60]
+=====[DEBUG]===== abstract representatives of R48: [R65, R54, R64, R53, R75, R72]
+=====[DEBUG]===== mapped srcRouters: [R65, R54, R64, R53, R75, R72]
+=====[DEBUG]===== abstract representatives of R48: [R54, R65, R53, R64]
+=====[DEBUG]===== mapped srcRouters: [R54, R65, R53, R64]
+=====[DEBUG]===== abstract representatives of R48: [R54, R65, R53, R64]
+=====[DEBUG]===== mapped srcRouters: [R54, R65, R53, R64]
+=====[DEBUG]===== abstract representatives of R48: [R54, R76, R53, R75, R78, R72, R61, R60]
+=====[DEBUG]===== mapped srcRouters: [R54, R76, R53, R75, R78, R72, R61, R60]
+=====[DEBUG]===== abstract representatives of R48: [R76, R54, R65, R53, R64, R78, R61, R60]
+=====[DEBUG]===== mapped srcRouters: [R76, R54, R65, R53, R64, R78, R61, R60]
+=====[DEBUG]===== abstract representatives of R48: [R76, R65, R54, R64, R75, R53, R78, R72]
+=====[DEBUG]===== mapped srcRouters: [R76, R65, R54, R64, R75, R53, R78, R72]
+=====[DEBUG]===== abstract representatives of R48: [R54, R65, R53, R64]
+=====[DEBUG]===== mapped srcRouters: [R54, R65, R53, R64]
+=====[DEBUG]===== abstract representatives of R48: [R49, R48]
+=====[DEBUG]===== mapped srcRouters: [R49, R48]
+=====[DEBUG]===== abstract representatives of R48: [R65, R76, R64, R75, R78, R72, R61, R60]
+=====[DEBUG]===== mapped srcRouters: [R65, R76, R64, R75, R78, R72, R61, R60]
+=====[DEBUG]===== abstract representatives of R48: [R65, R64, R75, R61, R72, R60]
+=====[DEBUG]===== mapped srcRouters: [R65, R64, R75, R61, R72, R60]
+=====[DEBUG]===== abstract representatives of R48: [R48, R50]
+=====[DEBUG]===== mapped srcRouters: [R48, R50]
+=====[DEBUG]===== abstract representatives of R48: [R65, R54, R64, R53, R75, R72]
+=====[DEBUG]===== mapped srcRouters: [R65, R54, R64, R53, R75, R72]
+=====[DEBUG]===== abstract representatives of R48: [R76, R65, R75, R64, R78, R61, R72, R60]
+=====[DEBUG]===== mapped srcRouters: [R76, R65, R75, R64, R78, R61, R72, R60]
+=====[DEBUG]===== abstract representatives of R48: [R54, R76, R65, R53, R64, R75, R78, R72]
+=====[DEBUG]===== mapped srcRouters: [R54, R76, R65, R53, R64, R75, R78, R72]
+=====[DEBUG]===== abstract representatives of R48: [R54, R65, R53, R75, R64, R72]
+=====[DEBUG]===== mapped srcRouters: [R54, R65, R53, R75, R64, R72]
+=====[DEBUG]===== abstract representatives of R48: [R76, R54, R65, R53, R64, R78, R61, R60]
+=====[DEBUG]===== mapped srcRouters: [R76, R54, R65, R53, R64, R78, R61, R60]
+=====[DEBUG]===== abstract representatives of R48: [R76, R65, R75, R64, R78, R61, R72, R60]
+=====[DEBUG]===== mapped srcRouters: [R76, R65, R75, R64, R78, R61, R72, R60]
+=====[DEBUG]===== abstract representatives of R48: [R76, R65, R54, R64, R75, R53, R78, R72]
+=====[DEBUG]===== mapped srcRouters: [R76, R65, R54, R64, R75, R53, R78, R72]
+=====[DEBUG]===== abstract representatives of R48: [R54, R76, R65, R53, R64, R75, R78, R72]
+=====[DEBUG]===== mapped srcRouters: [R54, R76, R65, R53, R64, R75, R78, R72]
+=====[DEBUG]===== abstract representatives of R48: [R76, R65, R54, R64, R53, R78]
+=====[DEBUG]===== mapped srcRouters: [R76, R65, R54, R64, R53, R78]
+=====[DEBUG]===== abstract representatives of R48: [R76, R65, R54, R75, R64, R53, R78, R72, R61, R60]
+=====[DEBUG]===== mapped srcRouters: [R76, R65, R54, R75, R64, R53, R78, R72, R61, R60]
+=====[DEBUG]===== abstract representatives of R48: [R65, R76, R64, R75, R78, R72, R61, R60]
+=====[DEBUG]===== mapped srcRouters: [R65, R76, R64, R75, R78, R72, R61, R60]
+=====[DEBUG]===== abstract representatives of R48: [R54, R76, R65, R53, R64, R78]
+=====[DEBUG]===== mapped srcRouters: [R54, R76, R65, R53, R64, R78]
+=====[DEBUG]===== abstract representatives of R48: [R49, R48]
+=====[DEBUG]===== mapped srcRouters: [R49, R48]
+=====[DEBUG]===== abstract representatives of R48: [R65, R64, R75, R61, R72, R60]
+=====[DEBUG]===== mapped srcRouters: [R65, R64, R75, R61, R72, R60]
+=====[DEBUG]===== abstract representatives of R48: [R54, R65, R53, R75, R64, R72]
+=====[DEBUG]===== mapped srcRouters: [R54, R65, R53, R75, R64, R72]
+=====[DEBUG]===== abstract representatives of R48: [R49, R48]
+=====[DEBUG]===== mapped srcRouters: [R49, R48]
+=====[DEBUG]===== abstract representatives of R48: [R54, R76, R65, R53, R64, R75, R78, R72]
+=====[DEBUG]===== mapped srcRouters: [R54, R76, R65, R53, R64, R75, R78, R72]
+=====[DEBUG]===== abstract representatives of R48: [R54, R65, R53, R64]
+=====[DEBUG]===== mapped srcRouters: [R54, R65, R53, R64]
+=====[DEBUG]===== abstract representatives of R48: [R49, R48]
+=====[DEBUG]===== mapped srcRouters: [R49, R48]
+=====[DEBUG]===== abstract representatives of R48: [R65, R64, R75, R61, R72, R60]
+=====[DEBUG]===== mapped srcRouters: [R65, R64, R75, R61, R72, R60]
+=====[DEBUG]===== abstract representatives of R48: [R76, R54, R65, R53, R64, R78, R61, R60]
+=====[DEBUG]===== mapped srcRouters: [R76, R54, R65, R53, R64, R78, R61, R60]
+=====[DEBUG]===== abstract representatives of R48: [R65, R64, R75, R61, R72, R60]
+=====[DEBUG]===== mapped srcRouters: [R65, R64, R75, R61, R72, R60]
+=====[DEBUG]===== abstract representatives of R48: [R54, R65, R53, R64]
+=====[DEBUG]===== mapped srcRouters: [R54, R65, R53, R64]
+=====[DEBUG]===== abstract representatives of R48: [R76, R65, R54, R64, R53, R78, R61, R60]
+=====[DEBUG]===== mapped srcRouters: [R76, R65, R54, R64, R53, R78, R61, R60]
+=====[DEBUG]===== abstract representatives of R48: [R54, R65, R53, R75, R64, R72]
+=====[DEBUG]===== mapped srcRouters: [R54, R65, R53, R75, R64, R72]
+=====[DEBUG]===== abstract representatives of R48: [R65, R54, R64, R75, R53, R72, R61, R60]
+=====[DEBUG]===== mapped srcRouters: [R65, R54, R64, R75, R53, R72, R61, R60]
+=====[DEBUG]===== abstract representatives of R48: [R65, R64, R75, R61, R72, R60]
+=====[DEBUG]===== mapped srcRouters: [R65, R64, R75, R61, R72, R60]
+=====[DEBUG]===== abstract representatives of R48: [R54, R65, R53, R64]
+=====[DEBUG]===== mapped srcRouters: [R54, R65, R53, R64]
+=====[DEBUG]===== abstract representatives of R48: [R54, R65, R53, R75, R64, R72]
+=====[DEBUG]===== mapped srcRouters: [R54, R65, R53, R75, R64, R72]
+=====[DEBUG]===== abstract representatives of R48: [R65, R64, R75, R61, R72, R60]
+=====[DEBUG]===== mapped srcRouters: [R65, R64, R75, R61, R72, R60]
+=====[DEBUG]===== abstract representatives of R48: [R65, R54, R64, R75, R53, R72, R61, R60]
+=====[DEBUG]===== mapped srcRouters: [R65, R54, R64, R75, R53, R72, R61, R60]
+=====[DEBUG]===== abstract representatives of R48: [R76, R65, R64, R78]
+=====[DEBUG]===== mapped srcRouters: [R76, R65, R64, R78]
+=====[DEBUG]===== abstract representatives of R48: [R54, R65, R53, R75, R64, R72]
+=====[DEBUG]===== mapped srcRouters: [R54, R65, R53, R75, R64, R72]
+=====[DEBUG]===== abstract representatives of R48: [R54, R65, R53, R75, R64, R72]
+=====[DEBUG]===== mapped srcRouters: [R54, R65, R53, R75, R64, R72]
+=====[DEBUG]===== abstract representatives of R48: [R49, R48]
+=====[DEBUG]===== mapped srcRouters: [R49, R48]
+=====[DEBUG]===== abstract representatives of R48: [R49, R48]
+=====[DEBUG]===== mapped srcRouters: [R49, R48]
+=====[DEBUG]===== abstract representatives of R48: [R65, R64, R75, R61, R72, R60]
+=====[DEBUG]===== mapped srcRouters: [R65, R64, R75, R61, R72, R60]
+=====[DEBUG]===== abstract representatives of R48: [R54, R76, R65, R53, R64, R78]
+=====[DEBUG]===== mapped srcRouters: [R54, R76, R65, R53, R64, R78]
+=====[DEBUG]===== abstract representatives of R48: [R49, R48]
+=====[DEBUG]===== mapped srcRouters: [R49, R48]
+=====[DEBUG]===== abstract representatives of R48: [R49, R48]
+=====[DEBUG]===== mapped srcRouters: [R49, R48]
+=====[DEBUG]===== abstract representatives of R48: [R54, R76, R65, R53, R64, R78]
+=====[DEBUG]===== mapped srcRouters: [R54, R76, R65, R53, R64, R78]
+WMS:getWorkStatus 7803b0fe-8d31-48e6-acc2-ffd37b7d443a
+status: TERMINATEDABNORMALLY
+.... Thu Dec 27 16:16:09 CST 2018: Begin job
+.... Thu Dec 27 16:16:09 CST 2018: Deserializing objects of type 'org.batfish.datamodel.Configuration' from files: 80/80
+.... Thu Dec 27 16:16:13 CST 2018: TERMINATEDABNORMALLY
+WMS:getObject smt-test --> 7803b0fe-8d31-48e6-acc2-ffd37b7d443a.json
+Status: FAILURE
+Question: smt-reachability actions=[ACCEPT], dstIps=[10.0.0.6, 10.0.0.10, 10.0.0.17, 10.0.0.30, 10.0.0.37, 10.0.0.45, 10.0.0.62, 10.0.0.65, 10.0.0.74, 10.0.0.77, 10.0.0.85, 10.0.0.90, 10.0.0.94, 10.0.0.125, 10.0.0.141, 10.0.0.145, 10.0.0.154, 10.0.0.161, 10.0.0.166, 10.0.0.170, 10.0.0.174, 10.0.0.185, 10.0.0.198, 10.0.0.206, 10.0.0.210, 10.0.0.222, 10.0.0.226, 10.0.0.230, 10.0.0.233, 10.0.0.238, 10.0.0.245, 10.0.0.249, 10.0.1.5, 10.0.1.10, 10.0.1.14, 10.0.1.18, 10.0.1.22, 10.0.1.30, 10.0.1.33, 10.0.1.45, 10.0.1.73, 10.0.1.85, 10.0.1.89, 10.0.1.110, 10.0.1.113, 10.0.1.121, 10.0.1.129, 10.0.1.145, 10.0.1.150, 10.0.1.153, 10.0.1.157, 10.0.1.162, 10.0.1.169, 10.0.1.181, 10.0.1.190, 10.0.1.194, 10.0.1.198, 10.0.1.202, 10.0.1.206, 10.0.1.221, 10.0.1.229, 10.0.1.237, 10.0.1.242, 10.0.1.246, 10.0.2.6, 10.0.2.9, 10.0.2.14, 10.0.2.21, 10.0.2.25, 10.0.2.46, 10.0.2.54, 10.0.2.58, 10.0.2.61, 10.0.2.73, 10.0.2.77, 10.0.2.85, 10.0.2.94, 10.0.2.102, 10.0.2.109, 10.0.2.114, 10.0.2.122, 10.0.2.137, 10.0.2.145, 10.0.2.149, 10.0.2.165, 10.0.2.197, 10.0.2.217, 10.0.2.221, 10.0.2.229, 10.0.2.238, 10.0.2.246, 10.0.2.249, 10.0.2.254, 10.0.3.2, 10.0.3.14, 10.0.3.26, 10.0.3.38, 10.0.3.42, 10.0.3.53, 10.0.3.61, 10.0.3.66, 10.0.3.69, 10.0.3.73, 10.0.3.81, 10.0.3.86, 10.0.3.94, 10.0.3.105, 10.0.3.109, 10.0.3.150, 10.0.3.154, 10.0.3.157, 10.0.3.181, 10.0.3.185, 10.0.3.201, 10.0.3.205, 10.0.3.213, 10.0.3.230, 10.0.3.245, 10.0.4.2, 10.0.4.14, 10.0.4.17, 10.0.4.22, 10.0.4.26, 10.0.4.30, 10.0.4.34, 10.0.4.38, 10.0.4.46, 10.0.4.62, 10.0.4.70, 10.0.4.74, 10.0.4.82, 10.0.4.86, 10.0.4.89, 10.0.4.93, 10.0.4.97, 10.0.4.110, 10.0.4.113, 10.0.4.118, 10.0.4.122, 10.0.4.126, 10.0.4.150, 10.0.4.169, 10.0.4.185, 10.0.4.201, 10.0.4.205, 10.0.4.213, 10.0.4.233, 10.0.4.241, 10.0.4.246, 10.0.4.249, 10.0.4.254, 10.0.5.13, 10.0.5.18, 10.0.5.22, 10.0.5.49, 10.0.5.58, 10.0.5.61, 10.0.5.65, 10.0.5.70, 10.0.5.73, 10.0.5.77, 10.0.5.89, 10.0.5.94, 10.0.5.97, 10.0.5.102, 10.0.5.109, 10.0.5.125, 10.0.5.130, 10.0.5.137, 10.0.5.142, 10.0.5.149, 10.0.5.154, 10.0.5.162, 10.0.5.170, 10.0.5.174, 10.0.5.177, 10.0.5.182, 10.0.5.186, 10.0.5.206, 10.0.5.213, 10.0.5.217, 10.0.5.222, 10.0.5.229, 10.0.5.237, 10.0.5.241, 10.0.5.249, 10.0.6.22, 10.0.6.33, 10.0.6.53, 10.0.6.66, 10.0.6.69, 10.0.6.74, 10.0.6.82, 10.0.6.86, 10.0.6.105, 10.0.6.109, 10.0.6.118, 10.0.6.125, 10.0.6.129, 10.0.6.133, 10.0.6.137, 10.0.6.142, 10.0.6.145, 10.0.6.150, 10.0.6.153, 10.0.6.157, 10.0.6.162, 10.0.6.166, 10.0.6.178, 10.0.6.185, 10.0.6.189, 10.0.6.205, 10.0.6.214, 10.0.6.218, 10.0.6.226, 10.0.6.237, 10.0.6.241, 10.0.6.253, 10.0.7.5, 10.0.7.13, 10.0.7.17, 10.0.7.22, 10.0.7.25, 10.0.7.49, 10.0.7.66, 10.0.7.77, 10.0.7.90, 10.0.7.94, 10.0.7.98, 10.0.7.102, 10.0.7.110, 10.0.7.118, 10.0.7.134, 10.0.7.138, 10.0.7.142, 10.0.7.149, 10.0.7.161, 10.0.7.170, 10.0.7.173, 10.0.7.178, 10.0.7.182, 10.0.7.185, 10.0.7.190, 10.0.7.202, 10.0.7.206, 10.0.7.217, 10.0.7.230, 10.0.7.245], finalNodeRegex=R(49|50|51|52|53|54|55|56|57|58|59|60|61|62|63|64|65|66|67|68|69|70|71|72|73|74|75|76|77|78|79), ingressNodeRegex=R48
+org.batfish.common.BatfishException: Failed to answer question
+   at org.batfish.main.Batfish.answer(Batfish.java:619)
+   at org.batfish.main.Batfish.run(Batfish.java:3647)
+   at org.batfish.main.Driver$2.run(Driver.java:575)
+Caused by: java.lang.NullPointerException
+   at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+   at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+   at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+   at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+   at java.util.concurrent.ForkJoinTask.getThrowableException(ForkJoinTask.java:598)
+   at java.util.concurrent.ForkJoinTask.reportException(ForkJoinTask.java:677)
+   at java.util.concurrent.ForkJoinTask.invoke(ForkJoinTask.java:735)
+   at java.util.stream.MatchOps$MatchOp.evaluateParallel(MatchOps.java:242)
+   at java.util.stream.MatchOps$MatchOp.evaluateParallel(MatchOps.java:196)
+   at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:233)
+   at java.util.stream.ReferencePipeline.anyMatch(ReferencePipeline.java:449)
+   at org.batfish.symbolic.smt.PropertyChecker.checkProperty(PropertyChecker.java:374)
+   at org.batfish.symbolic.smt.PropertyChecker.checkReachability(PropertyChecker.java:560)
+   at org.batfish.main.Batfish.smtReachability(Batfish.java:4054)
+   at org.batfish.question.SmtReachabilityQuestionPlugin$ReachabilityAnswerer.answer(SmtReachabilityQuestionPlugin.java:33)
+   at org.batfish.main.Batfish.answer(Batfish.java:616)
+   ... 2 more
+Caused by: java.lang.NullPointerException
+   at org.batfish.symbolic.Graph.getOriginatedNetworks(Graph.java:283)
+   at org.batfish.symbolic.smt.EncoderSlice.initOriginatedPrefixes(EncoderSlice.java:785)
+   at org.batfish.symbolic.smt.EncoderSlice.<init>(EncoderSlice.java:132)
+   at org.batfish.symbolic.smt.Encoder.initSlices(Encoder.java:233)
+   at org.batfish.symbolic.smt.Encoder.<init>(Encoder.java:193)
+   at org.batfish.symbolic.smt.Encoder.<init>(Encoder.java:94)
+   at org.batfish.symbolic.smt.PropertyChecker.lambda$checkProperty$2(PropertyChecker.java:413)
+   at java.util.stream.MatchOps$1MatchSink.accept(MatchOps.java:90)
+   at java.util.ArrayList$ArrayListSpliterator.tryAdvance(ArrayList.java:1359)
+   at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+   at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+   at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+   at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+   at java.util.stream.MatchOps$MatchTask.doLeaf(MatchOps.java:306)
+   at java.util.stream.MatchOps$MatchTask.doLeaf(MatchOps.java:277)
+   at java.util.stream.AbstractShortCircuitTask.compute(AbstractShortCircuitTask.java:115)
+   at java.util.concurrent.CountedCompleter.exec(CountedCompleter.java:731)
+   at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+   at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+   at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+   at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+
+Summary: 0 (non-assertion) results; 
+99.12user 2.32system 0:13.83elapsed 733%CPU (0avgtext+0avgdata 2007360maxresident)k
+0inputs+182352outputs (0major+525362minor)pagefaults 0swaps
