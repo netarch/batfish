@@ -4,4 +4,4 @@
 cd "$(dirname ${BASH_SOURCE[0]})/.."
 . tools/batfish_functions.sh
 
-batfish_build_all
+batfish_rebuild_all

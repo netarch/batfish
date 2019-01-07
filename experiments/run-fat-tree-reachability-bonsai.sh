@@ -37,7 +37,7 @@ add-batfish-option loglevel fatal
 add-batfish-option initinfo false
 set-loglevel info
 init-testrig <EXPERIMENT> smt-test"
-commands_template="get smt-reachability failures=<FAIL>, useAbstraction=True, ingressNodeRegex=\"R<IN>\", finalNodeRegex=\"R<FIN>\", dstIps=[<DEST_IP>]"
+commands_template="get smt-reachability failures=<FAIL>, useAbstraction=True, ingressNodeRegex=\"r<IN>\", finalNodeRegex=\"r<FIN>\", dstIps=[<DEST_IP>]"
 
 ## Run the experiments
 ## check reachability from the first edge node to all other edge nodes
