@@ -61,7 +61,7 @@ public class NetworkSlice {
       Graph g = sup.get()._abstraction.getGraph();
       List<String> sorted_devices = new ArrayList<String>(devices);
       Collections.sort(sorted_devices);
-      File file = new File("bonsai-topo." + String.join(".", sorted_devices) + ".log");
+      File file = new File("bonsai/topo/" + String.join(".", sorted_devices) + ".log");
       try {
         file.createNewFile();
       } catch (IOException e) {
@@ -87,7 +87,7 @@ public class NetworkSlice {
       Map<String, Configuration> conf = g.getConfigurations();
       conf.forEach(
           (node, nodeconf) -> {
-                  File file2 = new File(node + ".json");
+                  File file2 = new File("bonsai/config/" + node + ".json");
                   try {
                     file.createNewFile();
                   } catch (IOException e) {

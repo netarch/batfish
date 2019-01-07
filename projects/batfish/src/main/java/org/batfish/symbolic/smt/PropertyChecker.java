@@ -295,7 +295,6 @@ public class PropertyChecker {
     Set<String> abstractNodes = new HashSet<>();
     for (String c : concreteNodes) {
       Set<String> abs = slice.getAbstraction().getAbstractionMap().getAbstractRepresentatives(c);
-      System.out.println("=====[DEBUG]===== abstract representatives of " + c + ": " + abs);
       abstractNodes.addAll(abs);
     }
     return abstractNodes;
