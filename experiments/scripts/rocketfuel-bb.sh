@@ -50,7 +50,7 @@ add-batfish-option loglevel fatal
 add-batfish-option initinfo false
 set-loglevel info
 init-testrig <EXPERIMENT> <EXPERIMENT>
-get smt-reachability failures=<FAIL>, ingressNodeRegex=\"r<IN>\", finalNodeRegex=\"r<FIN>\", dstIps=[<DEST_IP>]"
+get smt-reachability failures=<FAIL>, ingressNodeRegex=\"r<IN>\", finalNodeRegex=\"r<FIN>\", dstIps=[\"<DEST_IP>\"]"
 if $bonsai; then
 	commands_template+=", useAbstraction=True"
 fi
@@ -92,7 +92,7 @@ for e in ${experiments[@]}; do
 	done
 	ingress_regex+=")"
 	echo "$commands_template" | sed \
-		-e "s/<EXPERIMENT>/$e/g"
+		-e "s/<EXPERIMENT>/$e/g" \
 		-e "s/<FAIL>/$max_fail/" \
 		-e "s/<IN>/$ingress_regex/" \
 		-e "s/<FIN>/.*/" \
@@ -100,11 +100,9 @@ for e in ${experiments[@]}; do
 
 	## Run commands
 	echo -n "[+] Verifying $e... "
-	if $bonsai; then
-		log_file="$e/verify.bonsai.${source_nodes}-sources.${max_fail}-failures.log"
-	else
-		log_file="$e/verify.${source_nodes}-sources.${max_fail}-failures.log"
-	fi
+	log_file="$e/verify"
+	if $bonsai; then log_file+=".bonsai"; fi
+	log_file+=".${source_nodes}-sources.${max_fail}-failures.log"
 	allinone -cmdfile "$e/commands" >"$log_file" 2>&1
 	exit_code=$?
 	if [ $exit_code -eq 0 ]; then

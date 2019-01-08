@@ -10,13 +10,15 @@ usage() {
 	echo "        -h         display this message and exit" >&2
 	echo "        -f N       maximum number of failures (default: 0)" >&2
 	echo "        -s <1-20>  the number of source nodes (default: 1)" >&2
+	echo "        -b         enable bonsai (default: off)" >&2
 }
 
 ASes=(1221 1239 1755 3257 3967 6461)
 
 max_fail=0
 source_nodes=1
-while getopts hf:s: op; do
+bonsai=false
+while getopts hf:s:b op; do
 	case $op in
 		f)
 			max_fail=$OPTARG
@@ -24,6 +26,9 @@ while getopts hf:s: op; do
 		s)
 			source_nodes=$OPTARG
 			[ $source_nodes -lt 1 -o $source_nodes -gt 20 ] && (usage; exit 1)
+			;;
+		b)
+			bonsai=true
 			;;
 		h)
 			usage
@@ -37,7 +42,7 @@ while getopts hf:s: op; do
 done
 experiments=()
 for AS in ${ASes[@]}; do
-	experiments+=("rocketfuel-ibgp.AS-${AS}.single-origin");
+	experiments+=("rocketfuel-bb-ibgp.AS-${AS}.single-origin");
 done
 
 commands_template="
@@ -48,6 +53,9 @@ add-batfish-option initinfo false
 set-loglevel info
 init-testrig <EXPERIMENT> <EXPERIMENT>
 get smt-reachability failures=<FAIL>, ingressNodeRegex=\"r<IN>\", finalNodeRegex=\"r<FIN>\", dstIps=[\"<DEST_IP>\"]"
+if $bonsai; then
+	commands_template+=", useAbstraction=True"
+fi
 
 ## Run the experiments
 for e in ${experiments[@]}; do
@@ -69,7 +77,10 @@ for e in ${experiments[@]}; do
 
 	## Run commands
 	echo -n "[+] Verifying $e... "
-	allinone -cmdfile "$e/commands" >"$e/verify.${source_nodes}-sources.${max_fail}-failures.log" 2>&1
+	log_file="$e/verify"
+	if $bonsai; then log_file+=".bonsai"; fi
+	log_file+=".${source_nodes}-sources.${max_fail}-failures.log"
+	allinone -cmdfile "$e/commands" >"$log_file" 2>&1
 	exit_code=$?
 	if [ $exit_code -eq 0 ]; then
 		echo 'Done'
