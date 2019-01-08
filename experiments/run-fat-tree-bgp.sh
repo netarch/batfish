@@ -33,14 +33,14 @@ add-batfish-option haltonparseerror
 add-batfish-option loglevel fatal
 add-batfish-option initinfo false
 set-loglevel info
-init-testrig <EXPERIMENT> smt-test"
+init-testrig <EXPERIMENT> <EXPERIMENT>"
 #get smt-reachability failures=0, ingressNodeRegex=\"R<IN>\", finalNodeRegex=\"R<FIN>\", dstIps=[<DEST_IP>]"
 ## NOTE: NOT FINISHED YET, NO SUITABLE SMT TEST
 
 ## Run the experiments
 for e in ${experiments[@]}; do
 	echo "$commands_template" | sed \
-		-e "s/<EXPERIMENT>/$e/" > commands
+		-e "s/<EXPERIMENT>/$e/g" > commands
 
 	echo -n "[+] Verifying $e... "
 	allinone -cmdfile commands >$e/verify.log 2>&1

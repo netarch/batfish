@@ -43,7 +43,7 @@ public class NetworkSlice {
   }
 
   public static List<Supplier<NetworkSlice>> allSlices(
-      BDDPacket packet, DestinationClasses dcs, int fails) {
+      BDDPacket packet, DestinationClasses dcs, int fails, String testrigName) {
     BDDNetwork network = BDDNetwork.create(packet, dcs.getGraph());
     ArrayList<Supplier<NetworkSlice>> classes = new ArrayList<>();
     for (Entry<Set<String>, Tuple<HeaderSpace, Tuple<List<Prefix>, Boolean>>> entry :
@@ -61,8 +61,9 @@ public class NetworkSlice {
       Graph g = sup.get()._abstraction.getGraph();
       List<String> sorted_devices = new ArrayList<String>(devices);
       Collections.sort(sorted_devices);
-      File file = new File("bonsai/topo/" + String.join(".", sorted_devices) + ".log");
+      File file = new File(testrigName + "/bonsai/topo/" + String.join(".", sorted_devices) + ".log");
       try {
+        file.getParentFile().mkdirs();
         file.createNewFile();
       } catch (IOException e) {
         e.printStackTrace();
@@ -87,9 +88,10 @@ public class NetworkSlice {
       Map<String, Configuration> conf = g.getConfigurations();
       conf.forEach(
           (node, nodeconf) -> {
-                  File file2 = new File("bonsai/config/" + node + ".json");
+                  File file2 = new File(testrigName + "/bonsai/config/" + node + ".json");
                   try {
-                    file.createNewFile();
+                    file2.getParentFile().mkdirs();
+                    file2.createNewFile();
                   } catch (IOException e) {
                     e.printStackTrace();
                   }
@@ -101,7 +103,6 @@ public class NetworkSlice {
           });
       classes.add(sup);
     }
-    //System.exit(0);
     return classes;
   }
 

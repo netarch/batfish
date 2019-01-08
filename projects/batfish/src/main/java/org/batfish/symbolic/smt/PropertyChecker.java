@@ -259,7 +259,8 @@ public class PropertyChecker {
   }
 
   private Tuple<Stream<Supplier<NetworkSlice>>, Long> findAllNetworkSlices(
-      HeaderQuestion q, @Nullable Graph graph, boolean useDefaultCase) {
+      HeaderQuestion q, @Nullable Graph graph, boolean useDefaultCase,
+      String testrigName) {
     if (q.getUseAbstraction()) {
       HeaderSpace h = q.getHeaderSpace();
       int numFailures = q.getFailures();
@@ -270,7 +271,7 @@ public class PropertyChecker {
       System.out.println("Created destination classes");
       System.out.println("Num Classes: " + dcs.getHeaderspaceMap().size());
       long l = System.currentTimeMillis();
-      List<Supplier<NetworkSlice>> ecs = NetworkSlice.allSlices(_bddPacket, dcs, numFailures);
+      List<Supplier<NetworkSlice>> ecs = NetworkSlice.allSlices(_bddPacket, dcs, numFailures, testrigName);
       l = System.currentTimeMillis() - l;
       System.out.println("Created BDDs");
       return new Tuple<>(ecs.parallelStream(), l);
@@ -310,7 +311,8 @@ public class PropertyChecker {
     long totalTime = System.currentTimeMillis();
     HeaderQuestion q = new HeaderQuestion(question);
     q.setFailures(0);
-    Tuple<Stream<Supplier<NetworkSlice>>, Long> ecs = findAllNetworkSlices(q, null, true);
+    String testrigName = _batfish.getEnvironment().getTestrigName();
+    Tuple<Stream<Supplier<NetworkSlice>>, Long> ecs = findAllNetworkSlices(q, null, true, testrigName);
     Stream<Supplier<NetworkSlice>> stream = ecs.getFirst();
     Long timeAbstraction = ecs.getSecond();
     Optional<Supplier<NetworkSlice>> opt = stream.findFirst();
@@ -382,7 +384,8 @@ public class PropertyChecker {
 
     Set<GraphEdge> failOptions = failLinkSet(graph, q);
     Set<String> failNodeOptions = failNodeSet(graph, q);
-    Tuple<Stream<Supplier<NetworkSlice>>, Long> ecs = findAllNetworkSlices(q, graph, true);
+    String testrigName = _batfish.getEnvironment().getTestrigName();
+    Tuple<Stream<Supplier<NetworkSlice>>, Long> ecs = findAllNetworkSlices(q, graph, true, testrigName);
     Stream<Supplier<NetworkSlice>> stream = ecs.getFirst();
     Long timeAbstraction = ecs.getSecond();
 

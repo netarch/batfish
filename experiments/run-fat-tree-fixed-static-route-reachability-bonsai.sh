@@ -36,7 +36,7 @@ add-batfish-option haltonparseerror
 add-batfish-option loglevel fatal
 add-batfish-option initinfo false
 set-loglevel info
-init-testrig <EXPERIMENT> smt-test"
+init-testrig <EXPERIMENT> <EXPERIMENT>"
 commands_template="get smt-reachability failures=<FAIL>, useAbstraction=True, ingressNodeRegex=\"R<IN>\", finalNodeRegex=\"R<FIN>\", dstIps=[<DEST_IP>]"
 
 ## Run the experiments
@@ -83,7 +83,7 @@ for k in ${Ks[@]}; do
 
 	## Build commands
 	echo "$commands_header_template" | sed \
-		-e "s/<EXPERIMENT>/$e/" > commands
+		-e "s/<EXPERIMENT>/$e/g" > commands
 	echo "$commands_template" | sed \
 		-e "s/<FAIL>/$max_fail/" \
 		-e "s/<IN>/$first_edge_node/" \

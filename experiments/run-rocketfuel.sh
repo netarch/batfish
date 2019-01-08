@@ -44,7 +44,7 @@ add-batfish-option haltonparseerror
 add-batfish-option loglevel fatal
 add-batfish-option initinfo false
 set-loglevel info
-init-testrig <EXPERIMENT> smt-test"
+init-testrig <EXPERIMENT> <EXPERIMENT>"
 commands_template="get smt-reachability failures=<FAIL>, ingressNodeRegex=\"R<IN>\", finalNodeRegex=\"R<FIN>\", dstIps=[<DEST_IP>]"
 
 ## Run the experiments
@@ -78,7 +78,7 @@ for e in ${experiments[@]}; do
 	nodes=$(ls $e/configs/ | wc -l)
 	interval=$(($nodes / ($source_nodes + 1)))
 	echo "$commands_header_template" | sed \
-		-e "s/<EXPERIMENT>/$e/" > commands
+		-e "s/<EXPERIMENT>/$e/g" > commands
 
 	for i in $(seq 1 $source_nodes); do
 		source_node=$(($interval * $i))
