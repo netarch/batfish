@@ -1,0 +1,726 @@
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=2048m; support was removed in 8.0
+Changed client loglevel to info
+WARNING: Command init-testrig has been deprecated and may be removed. The term "testrig" has been replaced with "snapshot". Use init-snapshot instead.
+WMS:initNetwork np
+Initialized network:np_8ec99fb5-dce2-44df-96ff-40a0801ff909 using api-key:00000000000000000000000000000000
+Init'ed and set active network to np_8ec99fb5-dce2-44df-96ff-40a0801ff909
+
+WMS:uploadSnapshot 00000000000000000000000000000000 np_8ec99fb5-dce2-44df-96ff-40a0801ff909 fat-tree.10-ary
+Environment data for snapshot:fat-tree.10-ary; bgpTables:false, routingTables:false, nodeRoles:false referenceBooks:false
+Uploaded snapshot:fat-tree.10-ary for network:np_8ec99fb5-dce2-44df-96ff-40a0801ff909 using api-key:00000000000000000000000000000000
+Uploaded snapshot.
+Parsing now.
+work-id is 5ce90e26-d135-4f16-ac77-671468ffe3d2
+WMS:queueWork 00000000000000000000000000000000 {"containerName":"np_8ec99fb5-dce2-44df-96ff-40a0801ff909","id":"5ce90e26-d135-4f16-ac77-671468ffe3d2","requestParams":{"sv":"","haltonparseerror":"","si":"","initinfo":"false","ignoremanagementinterfaces":"","loglevel":"fatal","haltonconverterror":""},"testrigName":"fat-tree.10-ary"}
+WM:AssignWork: Trying to assign [5ce90e26-d135-4f16-ac77-671468ffe3d2 2122aca8-4461-4d5b-8b73-88b0d4e105b8 dc0607d8-511e-49fb-95ff-7eddf4969666 {container=2122aca8-4461-4d5b-8b73-88b0d4e105b8, sv=, haltonparseerror=, si=, initinfo=false, ignoremanagementinterfaces=, loglevel=fatal, testrig=dc0607d8-511e-49fb-95ff-7eddf4969666, snapshotname=fat-tree.10-ary, haltonconverterror=}] [TRYINGTOASSIGN] [Mon Jan 14 13:49:02 CST 2019 null null] [null] [null, null] to localhost:46125
+Queuing result: true
+WMS:getWorkStatus 5ce90e26-d135-4f16-ac77-671468ffe3d2
+status: TRYINGTOASSIGN
+.... no task information
+BFS:runTask(5ce90e26-d135-4f16-ac77-671468ffe3d2,{"container":"2122aca8-4461-4d5b-8b73-88b0d4e105b8","sv":"","haltonparseerror":"","si":"","initinfo":"false","ignoremanagementinterfaces":"","loglevel":"fatal","testrig":"dc0607d8-511e-49fb-95ff-7eddf4969666","snapshotname":"fat-tree.10-ary","haltonconverterror":"","storagebase":"\/home\/plankton\/batfish\/experiments\/containers"})
+Will run with args: [-container, 2122aca8-4461-4d5b-8b73-88b0d4e105b8, -sv, -haltonparseerror, -si, -initinfo, false, -ignoremanagementinterfaces, -loglevel, fatal, -testrig, dc0607d8-511e-49fb-95ff-7eddf4969666, -snapshotname, fat-tree.10-ary, -haltonconverterror, -storagebase, /home/plankton/batfish/experiments/containers]
+WMS:getWorkStatus 5ce90e26-d135-4f16-ac77-671468ffe3d2
+status: TRYINGTOASSIGN
+.... no task information
+WMS:getWorkStatus 5ce90e26-d135-4f16-ac77-671468ffe3d2
+status: TRYINGTOASSIGN
+.... no task information
+WM:AssignWork: response: ["success","running now"] [success] [running now]
+WMS:getWorkStatus 5ce90e26-d135-4f16-ac77-671468ffe3d2
+status: ASSIGNED
+.... no task information
+WMS:getWorkStatus 5ce90e26-d135-4f16-ac77-671468ffe3d2
+status: ASSIGNED
+.... no task information
+WMS:getWorkStatus 5ce90e26-d135-4f16-ac77-671468ffe3d2
+status: ASSIGNED
+.... no task information
+WMS:getWorkStatus 5ce90e26-d135-4f16-ac77-671468ffe3d2
+status: ASSIGNED
+.... no task information
+WMS:getWorkStatus 5ce90e26-d135-4f16-ac77-671468ffe3d2
+status: ASSIGNED
+.... no task information
+WM:CheckWork: Trying to check [5ce90e26-d135-4f16-ac77-671468ffe3d2 2122aca8-4461-4d5b-8b73-88b0d4e105b8 dc0607d8-511e-49fb-95ff-7eddf4969666 {container=2122aca8-4461-4d5b-8b73-88b0d4e105b8, sv=, haltonparseerror=, si=, initinfo=false, ignoremanagementinterfaces=, loglevel=fatal, testrig=dc0607d8-511e-49fb-95ff-7eddf4969666, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Mon Jan 14 13:49:02 CST 2019 Mon Jan 14 13:49:02 CST 2019 null] [localhost:46125] [null, null] on localhost:46125
+WMS:getWorkStatus 5ce90e26-d135-4f16-ac77-671468ffe3d2
+status: CHECKINGSTATUS
+.... no task information
+BFS:getTaskStatus 5ce90e26-d135-4f16-ac77-671468ffe3d2
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"2122aca8-4461-4d5b-8b73-88b0d4e105b8\",\n    \"-sv\",\n    \"-haltonparseerror\",\n    \"-si\",\n    \"-initinfo\",\n    \"false\",\n    \"-ignoremanagementinterfaces\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-testrig\",\n    \"dc0607d8-511e-49fb-95ff-7eddf4969666\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-14T19:49:02.116+0000\"\n    },\n    {\n      \"completed\" : 125,\n      \"description\" : \"Reading network configuration files\",\n      \"size\" : 125,\n      \"startDate\" : \"2019-01-14T19:49:02.156+0000\"\n    },\n    {\n      \"completed\" : 0,\n      \"description\" : \"Parse configurations\",\n      \"size\" : 125,\n      \"startDate\" : \"2019-01-14T19:49:02.280+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-14T19:49:02.113+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "2122aca8-4461-4d5b-8b73-88b0d4e105b8",
+    "-sv",
+    "-haltonparseerror",
+    "-si",
+    "-initinfo",
+    "false",
+    "-ignoremanagementinterfaces",
+    "-loglevel",
+    "fatal",
+    "-testrig",
+    "dc0607d8-511e-49fb-95ff-7eddf4969666",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-14T19:49:02.116+0000"
+    },
+    {
+      "completed" : 125,
+      "description" : "Reading network configuration files",
+      "size" : 125,
+      "startDate" : "2019-01-14T19:49:02.156+0000"
+    },
+    {
+      "completed" : 0,
+      "description" : "Parse configurations",
+      "size" : 125,
+      "startDate" : "2019-01-14T19:49:02.280+0000"
+    }
+  ],
+  "obtained" : "2019-01-14T19:49:02.113+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus 5ce90e26-d135-4f16-ac77-671468ffe3d2
+status: ASSIGNED
+.... Mon Jan 14 13:49:02 CST 2019: Parse configurations: 0/125
+WMS:getWorkStatus 5ce90e26-d135-4f16-ac77-671468ffe3d2
+status: ASSIGNED
+.... Mon Jan 14 13:49:02 CST 2019: Parse configurations: 0/125
+WMS:getWorkStatus 5ce90e26-d135-4f16-ac77-671468ffe3d2
+status: ASSIGNED
+.... Mon Jan 14 13:49:02 CST 2019: Parse configurations: 0/125
+WMS:getWorkStatus 5ce90e26-d135-4f16-ac77-671468ffe3d2
+status: ASSIGNED
+.... Mon Jan 14 13:49:02 CST 2019: Parse configurations: 0/125
+WMS:getWorkStatus 5ce90e26-d135-4f16-ac77-671468ffe3d2
+status: ASSIGNED
+.... Mon Jan 14 13:49:02 CST 2019: Parse configurations: 0/125
+WMS:getWorkStatus 5ce90e26-d135-4f16-ac77-671468ffe3d2
+status: ASSIGNED
+.... Mon Jan 14 13:49:02 CST 2019: Parse configurations: 0/125
+WM:CheckWork: Trying to check [5ce90e26-d135-4f16-ac77-671468ffe3d2 2122aca8-4461-4d5b-8b73-88b0d4e105b8 dc0607d8-511e-49fb-95ff-7eddf4969666 {container=2122aca8-4461-4d5b-8b73-88b0d4e105b8, sv=, haltonparseerror=, si=, initinfo=false, ignoremanagementinterfaces=, loglevel=fatal, testrig=dc0607d8-511e-49fb-95ff-7eddf4969666, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Mon Jan 14 13:49:02 CST 2019 Mon Jan 14 13:49:02 CST 2019 null] [localhost:46125] [InProgress, Mon Jan 14 13:49:02 CST 2019] on localhost:46125
+BFS:getTaskStatus 5ce90e26-d135-4f16-ac77-671468ffe3d2
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"2122aca8-4461-4d5b-8b73-88b0d4e105b8\",\n    \"-sv\",\n    \"-haltonparseerror\",\n    \"-si\",\n    \"-initinfo\",\n    \"false\",\n    \"-ignoremanagementinterfaces\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-testrig\",\n    \"dc0607d8-511e-49fb-95ff-7eddf4969666\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-14T19:49:02.116+0000\"\n    },\n    {\n      \"completed\" : 125,\n      \"description\" : \"Reading network configuration files\",\n      \"size\" : 125,\n      \"startDate\" : \"2019-01-14T19:49:02.156+0000\"\n    },\n    {\n      \"completed\" : 0,\n      \"description\" : \"Parse configurations\",\n      \"size\" : 125,\n      \"startDate\" : \"2019-01-14T19:49:02.280+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-14T19:49:02.113+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "2122aca8-4461-4d5b-8b73-88b0d4e105b8",
+    "-sv",
+    "-haltonparseerror",
+    "-si",
+    "-initinfo",
+    "false",
+    "-ignoremanagementinterfaces",
+    "-loglevel",
+    "fatal",
+    "-testrig",
+    "dc0607d8-511e-49fb-95ff-7eddf4969666",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-14T19:49:02.116+0000"
+    },
+    {
+      "completed" : 125,
+      "description" : "Reading network configuration files",
+      "size" : 125,
+      "startDate" : "2019-01-14T19:49:02.156+0000"
+    },
+    {
+      "completed" : 0,
+      "description" : "Parse configurations",
+      "size" : 125,
+      "startDate" : "2019-01-14T19:49:02.280+0000"
+    }
+  ],
+  "obtained" : "2019-01-14T19:49:02.113+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus 5ce90e26-d135-4f16-ac77-671468ffe3d2
+status: ASSIGNED
+.... Mon Jan 14 13:49:02 CST 2019: Parse configurations: 0/125
+WM:CheckWork: Trying to check [5ce90e26-d135-4f16-ac77-671468ffe3d2 2122aca8-4461-4d5b-8b73-88b0d4e105b8 dc0607d8-511e-49fb-95ff-7eddf4969666 {container=2122aca8-4461-4d5b-8b73-88b0d4e105b8, sv=, haltonparseerror=, si=, initinfo=false, ignoremanagementinterfaces=, loglevel=fatal, testrig=dc0607d8-511e-49fb-95ff-7eddf4969666, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Mon Jan 14 13:49:02 CST 2019 Mon Jan 14 13:49:02 CST 2019 null] [localhost:46125] [InProgress, Mon Jan 14 13:49:03 CST 2019] on localhost:46125
+BFS:getTaskStatus 5ce90e26-d135-4f16-ac77-671468ffe3d2
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"2122aca8-4461-4d5b-8b73-88b0d4e105b8\",\n    \"-sv\",\n    \"-haltonparseerror\",\n    \"-si\",\n    \"-initinfo\",\n    \"false\",\n    \"-ignoremanagementinterfaces\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-testrig\",\n    \"dc0607d8-511e-49fb-95ff-7eddf4969666\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-14T19:49:02.116+0000\"\n    },\n    {\n      \"completed\" : 125,\n      \"description\" : \"Reading network configuration files\",\n      \"size\" : 125,\n      \"startDate\" : \"2019-01-14T19:49:02.156+0000\"\n    },\n    {\n      \"completed\" : 0,\n      \"description\" : \"Parse configurations\",\n      \"size\" : 125,\n      \"startDate\" : \"2019-01-14T19:49:02.280+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-14T19:49:02.113+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "2122aca8-4461-4d5b-8b73-88b0d4e105b8",
+    "-sv",
+    "-haltonparseerror",
+    "-si",
+    "-initinfo",
+    "false",
+    "-ignoremanagementinterfaces",
+    "-loglevel",
+    "fatal",
+    "-testrig",
+    "dc0607d8-511e-49fb-95ff-7eddf4969666",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-14T19:49:02.116+0000"
+    },
+    {
+      "completed" : 125,
+      "description" : "Reading network configuration files",
+      "size" : 125,
+      "startDate" : "2019-01-14T19:49:02.156+0000"
+    },
+    {
+      "completed" : 0,
+      "description" : "Parse configurations",
+      "size" : 125,
+      "startDate" : "2019-01-14T19:49:02.280+0000"
+    }
+  ],
+  "obtained" : "2019-01-14T19:49:02.113+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus 5ce90e26-d135-4f16-ac77-671468ffe3d2
+status: ASSIGNED
+.... Mon Jan 14 13:49:02 CST 2019: Parse configurations: 0/125
+WM:CheckWork: Trying to check [5ce90e26-d135-4f16-ac77-671468ffe3d2 2122aca8-4461-4d5b-8b73-88b0d4e105b8 dc0607d8-511e-49fb-95ff-7eddf4969666 {container=2122aca8-4461-4d5b-8b73-88b0d4e105b8, sv=, haltonparseerror=, si=, initinfo=false, ignoremanagementinterfaces=, loglevel=fatal, testrig=dc0607d8-511e-49fb-95ff-7eddf4969666, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Mon Jan 14 13:49:02 CST 2019 Mon Jan 14 13:49:02 CST 2019 null] [localhost:46125] [InProgress, Mon Jan 14 13:49:04 CST 2019] on localhost:46125
+BFS:getTaskStatus 5ce90e26-d135-4f16-ac77-671468ffe3d2
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"2122aca8-4461-4d5b-8b73-88b0d4e105b8\",\n    \"-sv\",\n    \"-haltonparseerror\",\n    \"-si\",\n    \"-initinfo\",\n    \"false\",\n    \"-ignoremanagementinterfaces\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-testrig\",\n    \"dc0607d8-511e-49fb-95ff-7eddf4969666\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-14T19:49:02.116+0000\"\n    },\n    {\n      \"completed\" : 125,\n      \"description\" : \"Reading network configuration files\",\n      \"size\" : 125,\n      \"startDate\" : \"2019-01-14T19:49:02.156+0000\"\n    },\n    {\n      \"completed\" : 0,\n      \"description\" : \"Parse configurations\",\n      \"size\" : 125,\n      \"startDate\" : \"2019-01-14T19:49:02.280+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-14T19:49:02.113+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "2122aca8-4461-4d5b-8b73-88b0d4e105b8",
+    "-sv",
+    "-haltonparseerror",
+    "-si",
+    "-initinfo",
+    "false",
+    "-ignoremanagementinterfaces",
+    "-loglevel",
+    "fatal",
+    "-testrig",
+    "dc0607d8-511e-49fb-95ff-7eddf4969666",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-14T19:49:02.116+0000"
+    },
+    {
+      "completed" : 125,
+      "description" : "Reading network configuration files",
+      "size" : 125,
+      "startDate" : "2019-01-14T19:49:02.156+0000"
+    },
+    {
+      "completed" : 0,
+      "description" : "Parse configurations",
+      "size" : 125,
+      "startDate" : "2019-01-14T19:49:02.280+0000"
+    }
+  ],
+  "obtained" : "2019-01-14T19:49:02.113+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus 5ce90e26-d135-4f16-ac77-671468ffe3d2
+status: ASSIGNED
+.... Mon Jan 14 13:49:02 CST 2019: Parse configurations: 0/125
+WM:CheckWork: Trying to check [5ce90e26-d135-4f16-ac77-671468ffe3d2 2122aca8-4461-4d5b-8b73-88b0d4e105b8 dc0607d8-511e-49fb-95ff-7eddf4969666 {container=2122aca8-4461-4d5b-8b73-88b0d4e105b8, sv=, haltonparseerror=, si=, initinfo=false, ignoremanagementinterfaces=, loglevel=fatal, testrig=dc0607d8-511e-49fb-95ff-7eddf4969666, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Mon Jan 14 13:49:02 CST 2019 Mon Jan 14 13:49:02 CST 2019 null] [localhost:46125] [InProgress, Mon Jan 14 13:49:05 CST 2019] on localhost:46125
+BFS:getTaskStatus 5ce90e26-d135-4f16-ac77-671468ffe3d2
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"2122aca8-4461-4d5b-8b73-88b0d4e105b8\",\n    \"-sv\",\n    \"-haltonparseerror\",\n    \"-si\",\n    \"-initinfo\",\n    \"false\",\n    \"-ignoremanagementinterfaces\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-testrig\",\n    \"dc0607d8-511e-49fb-95ff-7eddf4969666\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-14T19:49:02.116+0000\"\n    },\n    {\n      \"completed\" : 125,\n      \"description\" : \"Reading network configuration files\",\n      \"size\" : 125,\n      \"startDate\" : \"2019-01-14T19:49:02.156+0000\"\n    },\n    {\n      \"completed\" : 36,\n      \"description\" : \"Parse configurations\",\n      \"size\" : 125,\n      \"startDate\" : \"2019-01-14T19:49:02.280+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-14T19:49:02.113+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "2122aca8-4461-4d5b-8b73-88b0d4e105b8",
+    "-sv",
+    "-haltonparseerror",
+    "-si",
+    "-initinfo",
+    "false",
+    "-ignoremanagementinterfaces",
+    "-loglevel",
+    "fatal",
+    "-testrig",
+    "dc0607d8-511e-49fb-95ff-7eddf4969666",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-14T19:49:02.116+0000"
+    },
+    {
+      "completed" : 125,
+      "description" : "Reading network configuration files",
+      "size" : 125,
+      "startDate" : "2019-01-14T19:49:02.156+0000"
+    },
+    {
+      "completed" : 36,
+      "description" : "Parse configurations",
+      "size" : 125,
+      "startDate" : "2019-01-14T19:49:02.280+0000"
+    }
+  ],
+  "obtained" : "2019-01-14T19:49:02.113+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus 5ce90e26-d135-4f16-ac77-671468ffe3d2
+status: ASSIGNED
+.... Mon Jan 14 13:49:02 CST 2019: Parse configurations: 36/125
+WM:CheckWork: Trying to check [5ce90e26-d135-4f16-ac77-671468ffe3d2 2122aca8-4461-4d5b-8b73-88b0d4e105b8 dc0607d8-511e-49fb-95ff-7eddf4969666 {container=2122aca8-4461-4d5b-8b73-88b0d4e105b8, sv=, haltonparseerror=, si=, initinfo=false, ignoremanagementinterfaces=, loglevel=fatal, testrig=dc0607d8-511e-49fb-95ff-7eddf4969666, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Mon Jan 14 13:49:02 CST 2019 Mon Jan 14 13:49:02 CST 2019 null] [localhost:46125] [InProgress, Mon Jan 14 13:49:06 CST 2019] on localhost:46125
+BFS:getTaskStatus 5ce90e26-d135-4f16-ac77-671468ffe3d2
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"2122aca8-4461-4d5b-8b73-88b0d4e105b8\",\n    \"-sv\",\n    \"-haltonparseerror\",\n    \"-si\",\n    \"-initinfo\",\n    \"false\",\n    \"-ignoremanagementinterfaces\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-testrig\",\n    \"dc0607d8-511e-49fb-95ff-7eddf4969666\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-14T19:49:02.116+0000\"\n    },\n    {\n      \"completed\" : 125,\n      \"description\" : \"Reading network configuration files\",\n      \"size\" : 125,\n      \"startDate\" : \"2019-01-14T19:49:02.156+0000\"\n    },\n    {\n      \"completed\" : 103,\n      \"description\" : \"Parse configurations\",\n      \"size\" : 125,\n      \"startDate\" : \"2019-01-14T19:49:02.280+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-14T19:49:02.113+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "2122aca8-4461-4d5b-8b73-88b0d4e105b8",
+    "-sv",
+    "-haltonparseerror",
+    "-si",
+    "-initinfo",
+    "false",
+    "-ignoremanagementinterfaces",
+    "-loglevel",
+    "fatal",
+    "-testrig",
+    "dc0607d8-511e-49fb-95ff-7eddf4969666",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-14T19:49:02.116+0000"
+    },
+    {
+      "completed" : 125,
+      "description" : "Reading network configuration files",
+      "size" : 125,
+      "startDate" : "2019-01-14T19:49:02.156+0000"
+    },
+    {
+      "completed" : 103,
+      "description" : "Parse configurations",
+      "size" : 125,
+      "startDate" : "2019-01-14T19:49:02.280+0000"
+    }
+  ],
+  "obtained" : "2019-01-14T19:49:02.113+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus 5ce90e26-d135-4f16-ac77-671468ffe3d2
+status: ASSIGNED
+.... Mon Jan 14 13:49:02 CST 2019: Parse configurations: 103/125
+WM:CheckWork: Trying to check [5ce90e26-d135-4f16-ac77-671468ffe3d2 2122aca8-4461-4d5b-8b73-88b0d4e105b8 dc0607d8-511e-49fb-95ff-7eddf4969666 {container=2122aca8-4461-4d5b-8b73-88b0d4e105b8, sv=, haltonparseerror=, si=, initinfo=false, ignoremanagementinterfaces=, loglevel=fatal, testrig=dc0607d8-511e-49fb-95ff-7eddf4969666, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Mon Jan 14 13:49:02 CST 2019 Mon Jan 14 13:49:02 CST 2019 null] [localhost:46125] [InProgress, Mon Jan 14 13:49:07 CST 2019] on localhost:46125
+BFS:getTaskStatus 5ce90e26-d135-4f16-ac77-671468ffe3d2
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"2122aca8-4461-4d5b-8b73-88b0d4e105b8\",\n    \"-sv\",\n    \"-haltonparseerror\",\n    \"-si\",\n    \"-initinfo\",\n    \"false\",\n    \"-ignoremanagementinterfaces\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-testrig\",\n    \"dc0607d8-511e-49fb-95ff-7eddf4969666\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-14T19:49:02.116+0000\"\n    },\n    {\n      \"completed\" : 125,\n      \"description\" : \"Reading network configuration files\",\n      \"size\" : 125,\n      \"startDate\" : \"2019-01-14T19:49:02.156+0000\"\n    },\n    {\n      \"completed\" : 125,\n      \"description\" : \"Parse configurations\",\n      \"size\" : 125,\n      \"startDate\" : \"2019-01-14T19:49:02.280+0000\"\n    },\n    {\n      \"completed\" : 125,\n      \"description\" : \"Serializing 'org.batfish.representation.cisco.CiscoConfiguration' instances to disk\",\n      \"size\" : 125,\n      \"startDate\" : \"2019-01-14T19:49:07.771+0000\"\n    },\n    {\n      \"completed\" : 125,\n      \"description\" : \"Reading, unpacking, and deserializing files containing 'org.batfish.datamodel.GenericConfigObject' instances\",\n      \"size\" : 125,\n      \"startDate\" : \"2019-01-14T19:49:08.103+0000\"\n    },\n    {\n      \"completed\" : 125,\n      \"description\" : \"Convert configurations to vendor-independent format\",\n      \"size\" : 125,\n      \"startDate\" : \"2019-01-14T19:49:08.227+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-14T19:49:02.113+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "2122aca8-4461-4d5b-8b73-88b0d4e105b8",
+    "-sv",
+    "-haltonparseerror",
+    "-si",
+    "-initinfo",
+    "false",
+    "-ignoremanagementinterfaces",
+    "-loglevel",
+    "fatal",
+    "-testrig",
+    "dc0607d8-511e-49fb-95ff-7eddf4969666",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-14T19:49:02.116+0000"
+    },
+    {
+      "completed" : 125,
+      "description" : "Reading network configuration files",
+      "size" : 125,
+      "startDate" : "2019-01-14T19:49:02.156+0000"
+    },
+    {
+      "completed" : 125,
+      "description" : "Parse configurations",
+      "size" : 125,
+      "startDate" : "2019-01-14T19:49:02.280+0000"
+    },
+    {
+      "completed" : 125,
+      "description" : "Serializing 'org.batfish.representation.cisco.CiscoConfiguration' instances to disk",
+      "size" : 125,
+      "startDate" : "2019-01-14T19:49:07.771+0000"
+    },
+    {
+      "completed" : 125,
+      "description" : "Reading, unpacking, and deserializing files containing 'org.batfish.datamodel.GenericConfigObject' instances",
+      "size" : 125,
+      "startDate" : "2019-01-14T19:49:08.103+0000"
+    },
+    {
+      "completed" : 125,
+      "description" : "Convert configurations to vendor-independent format",
+      "size" : 125,
+      "startDate" : "2019-01-14T19:49:08.227+0000"
+    }
+  ],
+  "obtained" : "2019-01-14T19:49:02.113+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus 5ce90e26-d135-4f16-ac77-671468ffe3d2
+status: ASSIGNED
+.... Mon Jan 14 13:49:08 CST 2019: Convert configurations to vendor-independent format: 125/125
+WM:CheckWork: Trying to check [5ce90e26-d135-4f16-ac77-671468ffe3d2 2122aca8-4461-4d5b-8b73-88b0d4e105b8 dc0607d8-511e-49fb-95ff-7eddf4969666 {container=2122aca8-4461-4d5b-8b73-88b0d4e105b8, sv=, haltonparseerror=, si=, initinfo=false, ignoremanagementinterfaces=, loglevel=fatal, testrig=dc0607d8-511e-49fb-95ff-7eddf4969666, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Mon Jan 14 13:49:02 CST 2019 Mon Jan 14 13:49:02 CST 2019 null] [localhost:46125] [InProgress, Mon Jan 14 13:49:08 CST 2019] on localhost:46125
+BFS:getTaskStatus 5ce90e26-d135-4f16-ac77-671468ffe3d2
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"2122aca8-4461-4d5b-8b73-88b0d4e105b8\",\n    \"-sv\",\n    \"-haltonparseerror\",\n    \"-si\",\n    \"-initinfo\",\n    \"false\",\n    \"-ignoremanagementinterfaces\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-testrig\",\n    \"dc0607d8-511e-49fb-95ff-7eddf4969666\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-14T19:49:02.116+0000\"\n    },\n    {\n      \"completed\" : 125,\n      \"description\" : \"Reading network configuration files\",\n      \"size\" : 125,\n      \"startDate\" : \"2019-01-14T19:49:02.156+0000\"\n    },\n    {\n      \"completed\" : 125,\n      \"description\" : \"Parse configurations\",\n      \"size\" : 125,\n      \"startDate\" : \"2019-01-14T19:49:02.280+0000\"\n    },\n    {\n      \"completed\" : 125,\n      \"description\" : \"Serializing 'org.batfish.representation.cisco.CiscoConfiguration' instances to disk\",\n      \"size\" : 125,\n      \"startDate\" : \"2019-01-14T19:49:07.771+0000\"\n    },\n    {\n      \"completed\" : 125,\n      \"description\" : \"Reading, unpacking, and deserializing files containing 'org.batfish.datamodel.GenericConfigObject' instances\",\n      \"size\" : 125,\n      \"startDate\" : \"2019-01-14T19:49:08.103+0000\"\n    },\n    {\n      \"completed\" : 125,\n      \"description\" : \"Convert configurations to vendor-independent format\",\n      \"size\" : 125,\n      \"startDate\" : \"2019-01-14T19:49:08.227+0000\"\n    },\n    {\n      \"completed\" : 125,\n      \"description\" : \"Serializing 125 vendor-independent configuration structures for snapshot dc0607d8-511e-49fb-95ff-7eddf4969666\",\n      \"size\" : 125,\n      \"startDate\" : \"2019-01-14T19:49:08.485+0000\"\n    },\n    {\n      \"completed\" : 125,\n      \"description\" : \"Deserializing objects of type 'org.batfish.datamodel.Configuration' from files\",\n      \"size\" : 125,\n      \"startDate\" : \"2019-01-14T19:49:08.788+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-14T19:49:02.113+0000\",\n  \"status\" : \"TerminatedNormally\",\n  \"terminated\" : \"2019-01-14T19:49:08.974+0000\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "2122aca8-4461-4d5b-8b73-88b0d4e105b8",
+    "-sv",
+    "-haltonparseerror",
+    "-si",
+    "-initinfo",
+    "false",
+    "-ignoremanagementinterfaces",
+    "-loglevel",
+    "fatal",
+    "-testrig",
+    "dc0607d8-511e-49fb-95ff-7eddf4969666",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-14T19:49:02.116+0000"
+    },
+    {
+      "completed" : 125,
+      "description" : "Reading network configuration files",
+      "size" : 125,
+      "startDate" : "2019-01-14T19:49:02.156+0000"
+    },
+    {
+      "completed" : 125,
+      "description" : "Parse configurations",
+      "size" : 125,
+      "startDate" : "2019-01-14T19:49:02.280+0000"
+    },
+    {
+      "completed" : 125,
+      "description" : "Serializing 'org.batfish.representation.cisco.CiscoConfiguration' instances to disk",
+      "size" : 125,
+      "startDate" : "2019-01-14T19:49:07.771+0000"
+    },
+    {
+      "completed" : 125,
+      "description" : "Reading, unpacking, and deserializing files containing 'org.batfish.datamodel.GenericConfigObject' instances",
+      "size" : 125,
+      "startDate" : "2019-01-14T19:49:08.103+0000"
+    },
+    {
+      "completed" : 125,
+      "description" : "Convert configurations to vendor-independent format",
+      "size" : 125,
+      "startDate" : "2019-01-14T19:49:08.227+0000"
+    },
+    {
+      "completed" : 125,
+      "description" : "Serializing 125 vendor-independent configuration structures for snapshot dc0607d8-511e-49fb-95ff-7eddf4969666",
+      "size" : 125,
+      "startDate" : "2019-01-14T19:49:08.485+0000"
+    },
+    {
+      "completed" : 125,
+      "description" : "Deserializing objects of type 'org.batfish.datamodel.Configuration' from files",
+      "size" : 125,
+      "startDate" : "2019-01-14T19:49:08.788+0000"
+    }
+  ],
+  "obtained" : "2019-01-14T19:49:02.113+0000",
+  "status" : "TerminatedNormally",
+  "terminated" : "2019-01-14T19:49:08.974+0000"
+}]
+WMS:getWorkStatus 5ce90e26-d135-4f16-ac77-671468ffe3d2
+status: TERMINATEDNORMALLY
+.... Mon Jan 14 13:49:02 CST 2019: Begin job
+.... Mon Jan 14 13:49:02 CST 2019: Reading network configuration files: 125/125
+.... Mon Jan 14 13:49:02 CST 2019: Parse configurations: 125/125
+.... Mon Jan 14 13:49:07 CST 2019: Serializing 'org.batfish.representation.cisco.CiscoConfiguration' instances to disk: 125/125
+.... Mon Jan 14 13:49:08 CST 2019: Reading, unpacking, and deserializing files containing 'org.batfish.datamodel.GenericConfigObject' instances: 125/125
+.... Mon Jan 14 13:49:08 CST 2019: Convert configurations to vendor-independent format: 125/125
+.... Mon Jan 14 13:49:08 CST 2019: Serializing 125 vendor-independent configuration structures for snapshot dc0607d8-511e-49fb-95ff-7eddf4969666: 125/125
+.... Mon Jan 14 13:49:08 CST 2019: Deserializing objects of type 'org.batfish.datamodel.Configuration' from files: 125/125
+.... Mon Jan 14 13:49:08 CST 2019: TERMINATEDNORMALLY
+WMS:getObject fat-tree.10-ary --> 5ce90e26-d135-4f16-ac77-671468ffe3d2.json
+Status: SUCCESS
+Summary: 0 (non-assertion) results; 
+Current snapshot is now fat-tree.10-ary
+WMS:uploadQuestion 00000000000000000000000000000000 np_8ec99fb5-dce2-44df-96ff-40a0801ff909/q_c79c2a34-9b7e-4a0b-9b12-63a40f7aaa7b
+work-id is d141af5e-68fa-4e9d-b842-1d7737af3a70
+WMS:queueWork 00000000000000000000000000000000 {"containerName":"np_8ec99fb5-dce2-44df-96ff-40a0801ff909","id":"d141af5e-68fa-4e9d-b842-1d7737af3a70","requestParams":{"answer":"","haltonparseerror":"","loglevel":"fatal","initinfo":"false","questionname":"q_c79c2a34-9b7e-4a0b-9b12-63a40f7aaa7b","haltonconverterror":""},"testrigName":"fat-tree.10-ary"}
+WM:AssignWork: Trying to assign [d141af5e-68fa-4e9d-b842-1d7737af3a70 2122aca8-4461-4d5b-8b73-88b0d4e105b8 dc0607d8-511e-49fb-95ff-7eddf4969666 {container=2122aca8-4461-4d5b-8b73-88b0d4e105b8, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=e934150d-f703-4539-a978-0ad1f9e2bba2, testrig=dc0607d8-511e-49fb-95ff-7eddf4969666, snapshotname=fat-tree.10-ary, haltonconverterror=}] [TRYINGTOASSIGN] [Mon Jan 14 13:49:09 CST 2019 null null] [null] [null, null] to localhost:46125
+Queuing result: true
+WMS:getWorkStatus d141af5e-68fa-4e9d-b842-1d7737af3a70
+status: TRYINGTOASSIGN
+.... no task information
+WMS:getWorkStatus d141af5e-68fa-4e9d-b842-1d7737af3a70
+status: TRYINGTOASSIGN
+.... no task information
+WMS:getWorkStatus d141af5e-68fa-4e9d-b842-1d7737af3a70
+BFS:runTask(d141af5e-68fa-4e9d-b842-1d7737af3a70,{"container":"2122aca8-4461-4d5b-8b73-88b0d4e105b8","answer":"","haltonparseerror":"","loglevel":"fatal","initinfo":"false","questionname":"e934150d-f703-4539-a978-0ad1f9e2bba2","testrig":"dc0607d8-511e-49fb-95ff-7eddf4969666","snapshotname":"fat-tree.10-ary","haltonconverterror":"","storagebase":"\/home\/plankton\/batfish\/experiments\/containers"})
+Will run with args: [-container, 2122aca8-4461-4d5b-8b73-88b0d4e105b8, -answer, -haltonparseerror, -loglevel, fatal, -initinfo, false, -questionname, e934150d-f703-4539-a978-0ad1f9e2bba2, -testrig, dc0607d8-511e-49fb-95ff-7eddf4969666, -snapshotname, fat-tree.10-ary, -haltonconverterror, -storagebase, /home/plankton/batfish/experiments/containers]
+WM:AssignWork: response: ["success","running now"] [success] [running now]
+status: TRYINGTOASSIGN
+.... no task information
+WMS:getWorkStatus d141af5e-68fa-4e9d-b842-1d7737af3a70
+status: ASSIGNED
+.... no task information
+WMS:getWorkStatus d141af5e-68fa-4e9d-b842-1d7737af3a70
+status: ASSIGNED
+.... no task information
+WMS:getWorkStatus d141af5e-68fa-4e9d-b842-1d7737af3a70
+status: ASSIGNED
+.... no task information
+WMS:getWorkStatus d141af5e-68fa-4e9d-b842-1d7737af3a70
+status: ASSIGNED
+.... no task information
+WMS:getWorkStatus d141af5e-68fa-4e9d-b842-1d7737af3a70
+status: ASSIGNED
+.... no task information
+WMS:getWorkStatus d141af5e-68fa-4e9d-b842-1d7737af3a70
+status: ASSIGNED
+.... no task information
+WMS:getWorkStatus d141af5e-68fa-4e9d-b842-1d7737af3a70
+status: ASSIGNED
+.... no task information
+=====[DEBUG]===== sourceRouters: [r75]
+Start verification
+Using headerspace: IpWildcardSetIpSpace{blacklist=[], whitelist=[10.0.2.149, 10.0.2.205, 10.0.7.117, 10.0.8.74, 10.0.8.114, 10.0.9.170, 10.0.9.189, 10.0.11.98, 10.0.12.46, 10.0.14.45]}
+WMS:getWorkStatus d141af5e-68fa-4e9d-b842-1d7737af3a70
+Number of edges: 2000
+Created destination classes
+Num Classes: 5
+status: ASSIGNED
+.... no task information
+WMS:getWorkStatus d141af5e-68fa-4e9d-b842-1d7737af3a70
+status: ASSIGNED
+.... no task information
+WMS:getWorkStatus d141af5e-68fa-4e9d-b842-1d7737af3a70
+status: ASSIGNED
+.... no task information
+WM:CheckWork: Trying to check [d141af5e-68fa-4e9d-b842-1d7737af3a70 2122aca8-4461-4d5b-8b73-88b0d4e105b8 dc0607d8-511e-49fb-95ff-7eddf4969666 {container=2122aca8-4461-4d5b-8b73-88b0d4e105b8, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=e934150d-f703-4539-a978-0ad1f9e2bba2, testrig=dc0607d8-511e-49fb-95ff-7eddf4969666, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Mon Jan 14 13:49:09 CST 2019 Mon Jan 14 13:49:09 CST 2019 null] [localhost:46125] [null, null] on localhost:46125
+BFS:getTaskStatus d141af5e-68fa-4e9d-b842-1d7737af3a70
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"2122aca8-4461-4d5b-8b73-88b0d4e105b8\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"e934150d-f703-4539-a978-0ad1f9e2bba2\",\n    \"-testrig\",\n    \"dc0607d8-511e-49fb-95ff-7eddf4969666\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-14T19:49:09.852+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-14T19:49:09.852+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "2122aca8-4461-4d5b-8b73-88b0d4e105b8",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "e934150d-f703-4539-a978-0ad1f9e2bba2",
+    "-testrig",
+    "dc0607d8-511e-49fb-95ff-7eddf4969666",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-14T19:49:09.852+0000"
+    }
+  ],
+  "obtained" : "2019-01-14T19:49:09.852+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus d141af5e-68fa-4e9d-b842-1d7737af3a70
+status: ASSIGNED
+.... Mon Jan 14 13:49:09 CST 2019: Begin job
+WMS:getWorkStatus d141af5e-68fa-4e9d-b842-1d7737af3a70
+status: ASSIGNED
+.... Mon Jan 14 13:49:09 CST 2019: Begin job
+WM:CheckWork: Trying to check [d141af5e-68fa-4e9d-b842-1d7737af3a70 2122aca8-4461-4d5b-8b73-88b0d4e105b8 dc0607d8-511e-49fb-95ff-7eddf4969666 {container=2122aca8-4461-4d5b-8b73-88b0d4e105b8, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=e934150d-f703-4539-a978-0ad1f9e2bba2, testrig=dc0607d8-511e-49fb-95ff-7eddf4969666, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Mon Jan 14 13:49:09 CST 2019 Mon Jan 14 13:49:09 CST 2019 null] [localhost:46125] [InProgress, Mon Jan 14 13:49:10 CST 2019] on localhost:46125
+WMS:getWorkStatus d141af5e-68fa-4e9d-b842-1d7737af3a70
+status: CHECKINGSTATUS
+.... Mon Jan 14 13:49:09 CST 2019: Begin job
+BFS:getTaskStatus d141af5e-68fa-4e9d-b842-1d7737af3a70
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"2122aca8-4461-4d5b-8b73-88b0d4e105b8\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"e934150d-f703-4539-a978-0ad1f9e2bba2\",\n    \"-testrig\",\n    \"dc0607d8-511e-49fb-95ff-7eddf4969666\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-14T19:49:09.852+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-14T19:49:09.852+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "2122aca8-4461-4d5b-8b73-88b0d4e105b8",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "e934150d-f703-4539-a978-0ad1f9e2bba2",
+    "-testrig",
+    "dc0607d8-511e-49fb-95ff-7eddf4969666",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-14T19:49:09.852+0000"
+    }
+  ],
+  "obtained" : "2019-01-14T19:49:09.852+0000",
+  "status" : "InProgress"
+}]
+Created BDDs
+WMS:getWorkStatus d141af5e-68fa-4e9d-b842-1d7737af3a70
+status: ASSIGNED
+.... Mon Jan 14 13:49:09 CST 2019: Begin job
+WM:CheckWork: Trying to check [d141af5e-68fa-4e9d-b842-1d7737af3a70 2122aca8-4461-4d5b-8b73-88b0d4e105b8 dc0607d8-511e-49fb-95ff-7eddf4969666 {container=2122aca8-4461-4d5b-8b73-88b0d4e105b8, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=e934150d-f703-4539-a978-0ad1f9e2bba2, testrig=dc0607d8-511e-49fb-95ff-7eddf4969666, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Mon Jan 14 13:49:09 CST 2019 Mon Jan 14 13:49:09 CST 2019 null] [localhost:46125] [InProgress, Mon Jan 14 13:49:11 CST 2019] on localhost:46125
+BFS:getTaskStatus d141af5e-68fa-4e9d-b842-1d7737af3a70
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"2122aca8-4461-4d5b-8b73-88b0d4e105b8\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"e934150d-f703-4539-a978-0ad1f9e2bba2\",\n    \"-testrig\",\n    \"dc0607d8-511e-49fb-95ff-7eddf4969666\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-14T19:49:09.852+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-14T19:49:09.852+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "2122aca8-4461-4d5b-8b73-88b0d4e105b8",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "e934150d-f703-4539-a978-0ad1f9e2bba2",
+    "-testrig",
+    "dc0607d8-511e-49fb-95ff-7eddf4969666",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-14T19:49:09.852+0000"
+    }
+  ],
+  "obtained" : "2019-01-14T19:49:09.852+0000",
+  "status" : "InProgress"
+}]
+=====[DEBUG]===== mapped srcRouters: [r116]
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r116]
+=====[DEBUG]===== mapped srcRouters: [r116]
+WMS:getWorkStatus d141af5e-68fa-4e9d-b842-1d7737af3a70
+status: ASSIGNED
+.... Mon Jan 14 13:49:09 CST 2019: Begin job
+=====[DEBUG]===== mapped srcRouters: [r81]
+WM:CheckWork: Trying to check [d141af5e-68fa-4e9d-b842-1d7737af3a70 2122aca8-4461-4d5b-8b73-88b0d4e105b8 dc0607d8-511e-49fb-95ff-7eddf4969666 {container=2122aca8-4461-4d5b-8b73-88b0d4e105b8, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=e934150d-f703-4539-a978-0ad1f9e2bba2, testrig=dc0607d8-511e-49fb-95ff-7eddf4969666, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Mon Jan 14 13:49:09 CST 2019 Mon Jan 14 13:49:09 CST 2019 null] [localhost:46125] [InProgress, Mon Jan 14 13:49:12 CST 2019] on localhost:46125
+BFS:getTaskStatus d141af5e-68fa-4e9d-b842-1d7737af3a70
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"2122aca8-4461-4d5b-8b73-88b0d4e105b8\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"e934150d-f703-4539-a978-0ad1f9e2bba2\",\n    \"-testrig\",\n    \"dc0607d8-511e-49fb-95ff-7eddf4969666\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-14T19:49:09.852+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-14T19:49:09.852+0000\",\n  \"status\" : \"TerminatedNormally\",\n  \"terminated\" : \"2019-01-14T19:49:13.297+0000\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "2122aca8-4461-4d5b-8b73-88b0d4e105b8",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "e934150d-f703-4539-a978-0ad1f9e2bba2",
+    "-testrig",
+    "dc0607d8-511e-49fb-95ff-7eddf4969666",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-14T19:49:09.852+0000"
+    }
+  ],
+  "obtained" : "2019-01-14T19:49:09.852+0000",
+  "status" : "TerminatedNormally",
+  "terminated" : "2019-01-14T19:49:13.297+0000"
+}]
+WMS:getWorkStatus d141af5e-68fa-4e9d-b842-1d7737af3a70
+status: TERMINATEDNORMALLY
+.... Mon Jan 14 13:49:09 CST 2019: Begin job
+.... Mon Jan 14 13:49:13 CST 2019: TERMINATEDNORMALLY
+WMS:getObject fat-tree.10-ary --> d141af5e-68fa-4e9d-b842-1d7737af3a70.json
+Status: SUCCESS
+Question: smt-reachability actions=[ACCEPTED], dstIps=[10.0.2.149, 10.0.2.205, 10.0.7.117, 10.0.8.74, 10.0.8.114, 10.0.9.170, 10.0.9.189, 10.0.11.98, 10.0.12.46, 10.0.14.45], finalNodeRegex=r124, ingressNodeRegex=r75
+
+Verified
+
+Summary: 0 (non-assertion) results; 
+102.89user 3.75system 0:15.81elapsed 674%CPU (0avgtext+0avgdata 3450068maxresident)k
+16inputs+251856outputs (0major+888106minor)pagefaults 0swaps
