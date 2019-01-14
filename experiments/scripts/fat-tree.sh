@@ -10,6 +10,7 @@ usage() {
 	echo "        -h         display this message and exit" >&2
 	echo "        -f N       maximum number of failures (default: 1)" >&2
 	echo "        -t         tested policy (\"loop\" or \"reachability\", default: \"loop\")" >&2
+	echo "        -s         single destination (only for \"reachability\" test, default: off)" >&2
 	echo "        -b         enable bonsai (default: off)" >&2
 }
 
@@ -17,8 +18,9 @@ Ks=(4 6 8 10 12 14)
 
 max_fail=1
 question="loop"
+single_dest=false
 bonsai=false
-while getopts hf:t:b op; do
+while getopts hf:t:sb op; do
 	case $op in
 		f)
 			max_fail=$OPTARG
@@ -30,6 +32,9 @@ while getopts hf:t:b op; do
 				usage
 				exit 1
 			}
+			;;
+		s)
+			single_dest=true
 			;;
 		b)
 			bonsai=true
@@ -67,17 +72,22 @@ for k in ${Ks[@]}; do
 	e="fat-tree.${k}-ary"
 
 	if [ "$question" = "reachability" ]; then
-		## check reachability from the first edge node to all other edge nodes
 		first_edge_node=$((3 * $k ** 2 / 4))
 		second_edge_node=$(($first_edge_node + 1))
 		last_edge_node=$((5 * $k ** 2 / 4 - 1))
 
-		## Build the regex for egress nodes (all other edge nodes)
-		dest_nodes="($second_edge_node"
-		for i in $(seq $(($second_edge_node + 1)) $last_edge_node); do
-			dest_nodes="$dest_nodes|$i"
-		done
-		dest_nodes="$dest_nodes)"
+		## Build the regex for egress nodes
+		if $single_dest; then
+			## the last edge node
+			dest_nodes="$last_edge_node"
+		else
+			## all other edge nodes
+			dest_nodes="($second_edge_node"
+			for i in $(seq $(($second_edge_node + 1)) $last_edge_node); do
+				dest_nodes="$dest_nodes|$i"
+			done
+			dest_nodes="$dest_nodes)"
+		fi
 
 		## Build the list of destination IPs
 		DEST_IPS=""
@@ -93,10 +103,19 @@ for k in ${Ks[@]}; do
 				| sed -e 's/\.cfg//' -e 's/R//')
 			[ -z "$NODE" ] && break
 
-			[ $NODE -ge $second_edge_node -a $NODE -le $last_edge_node ] && {
-				[ -n "$DEST_IPS" ] && DEST_IPS="$DEST_IPS, "
-				DEST_IPS="$DEST_IPS\"$DEST_IP\""
-			}
+			if $single_dest; then
+				## match the last edge node
+				[ $NODE -eq $last_edge_node ] && {
+					[ -n "$DEST_IPS" ] && DEST_IPS="$DEST_IPS, "
+					DEST_IPS="$DEST_IPS\"$DEST_IP\""
+				}
+			else
+				## match all the other edge nodes
+				[ $NODE -ge $second_edge_node -a $NODE -le $last_edge_node ] && {
+					[ -n "$DEST_IPS" ] && DEST_IPS="$DEST_IPS, "
+					DEST_IPS="$DEST_IPS\"$DEST_IP\""
+				}
+			fi
 
 			D=$(($D + 1))
 			[ $(($D % 2)) -eq 0 ] && C=$(($C + 2))
@@ -110,7 +129,7 @@ for k in ${Ks[@]}; do
 	## Build commands
 	echo "$commands_template" | sed \
 		-e "s/<EXPERIMENT>/$e/g" \
-		-e "s/<FAIL>/$max_fail" \
+		-e "s/<FAIL>/$max_fail/" \
 		-e "s/<IN>/$first_edge_node/" \
 		-e "s/<FIN>/$dest_nodes/" \
 		-e "s/<DEST_IP>/$DEST_IPS/" > "$e/commands"
@@ -121,6 +140,7 @@ for k in ${Ks[@]}; do
 		log_file="$e/verify.loop"
 	else
 		log_file="$e/verify.reachability"
+		if $single_dest; then log_file+=".single_destination"; fi
 	fi
 	if $bonsai; then log_file+=".bonsai"; fi
 	log_file+=".${max_fail}-failures.log"
