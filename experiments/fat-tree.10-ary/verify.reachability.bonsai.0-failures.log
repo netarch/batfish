@@ -1,0 +1,3022 @@
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=2048m; support was removed in 8.0
+Changed client loglevel to info
+WARNING: Command init-testrig has been deprecated and may be removed. The term "testrig" has been replaced with "snapshot". Use init-snapshot instead.
+WMS:initNetwork np
+Initialized network:np_f9d18096-2acf-4b77-b643-ae8460a1a149 using api-key:00000000000000000000000000000000
+Init'ed and set active network to np_f9d18096-2acf-4b77-b643-ae8460a1a149
+
+WMS:uploadSnapshot 00000000000000000000000000000000 np_f9d18096-2acf-4b77-b643-ae8460a1a149 fat-tree.10-ary
+Environment data for snapshot:fat-tree.10-ary; bgpTables:false, routingTables:false, nodeRoles:false referenceBooks:false
+Uploaded snapshot:fat-tree.10-ary for network:np_f9d18096-2acf-4b77-b643-ae8460a1a149 using api-key:00000000000000000000000000000000
+Uploaded snapshot.
+Parsing now.
+work-id is 2ef02e01-7ca4-4725-88c6-f6f48d12d81d
+WMS:queueWork 00000000000000000000000000000000 {"containerName":"np_f9d18096-2acf-4b77-b643-ae8460a1a149","id":"2ef02e01-7ca4-4725-88c6-f6f48d12d81d","requestParams":{"sv":"","haltonparseerror":"","si":"","initinfo":"false","ignoremanagementinterfaces":"","loglevel":"fatal","haltonconverterror":""},"testrigName":"fat-tree.10-ary"}
+WM:AssignWork: Trying to assign [2ef02e01-7ca4-4725-88c6-f6f48d12d81d 989f179b-fed3-48f8-912b-3c76bb7b253a 9de57c8e-d1d0-4788-af69-8e420a6d7713 {container=989f179b-fed3-48f8-912b-3c76bb7b253a, sv=, haltonparseerror=, si=, initinfo=false, ignoremanagementinterfaces=, loglevel=fatal, testrig=9de57c8e-d1d0-4788-af69-8e420a6d7713, snapshotname=fat-tree.10-ary, haltonconverterror=}] [TRYINGTOASSIGN] [Tue Jan 15 07:46:45 CST 2019 null null] [null] [null, null] to localhost:36405
+Queuing result: true
+WMS:getWorkStatus 2ef02e01-7ca4-4725-88c6-f6f48d12d81d
+status: TRYINGTOASSIGN
+.... no task information
+BFS:runTask(2ef02e01-7ca4-4725-88c6-f6f48d12d81d,{"container":"989f179b-fed3-48f8-912b-3c76bb7b253a","sv":"","haltonparseerror":"","si":"","initinfo":"false","ignoremanagementinterfaces":"","loglevel":"fatal","testrig":"9de57c8e-d1d0-4788-af69-8e420a6d7713","snapshotname":"fat-tree.10-ary","haltonconverterror":"","storagebase":"\/home\/plankton\/batfish\/experiments\/containers"})
+Will run with args: [-container, 989f179b-fed3-48f8-912b-3c76bb7b253a, -sv, -haltonparseerror, -si, -initinfo, false, -ignoremanagementinterfaces, -loglevel, fatal, -testrig, 9de57c8e-d1d0-4788-af69-8e420a6d7713, -snapshotname, fat-tree.10-ary, -haltonconverterror, -storagebase, /home/plankton/batfish/experiments/containers]
+WMS:getWorkStatus 2ef02e01-7ca4-4725-88c6-f6f48d12d81d
+status: TRYINGTOASSIGN
+.... no task information
+WMS:getWorkStatus 2ef02e01-7ca4-4725-88c6-f6f48d12d81d
+WM:AssignWork: response: ["success","running now"] [success] [running now]
+status: ASSIGNED
+.... no task information
+WMS:getWorkStatus 2ef02e01-7ca4-4725-88c6-f6f48d12d81d
+status: ASSIGNED
+.... no task information
+WMS:getWorkStatus 2ef02e01-7ca4-4725-88c6-f6f48d12d81d
+status: ASSIGNED
+.... no task information
+WMS:getWorkStatus 2ef02e01-7ca4-4725-88c6-f6f48d12d81d
+status: ASSIGNED
+.... no task information
+WMS:getWorkStatus 2ef02e01-7ca4-4725-88c6-f6f48d12d81d
+status: ASSIGNED
+.... no task information
+WMS:getWorkStatus 2ef02e01-7ca4-4725-88c6-f6f48d12d81d
+status: ASSIGNED
+.... no task information
+WMS:getWorkStatus 2ef02e01-7ca4-4725-88c6-f6f48d12d81d
+status: ASSIGNED
+.... no task information
+WMS:getWorkStatus 2ef02e01-7ca4-4725-88c6-f6f48d12d81d
+WMS:getWorkStatus 2ef02e01-7ca4-4725-88c6-f6f48d12d81d
+status: ASSIGNED
+.... no task information
+WMS:getWorkStatus 2ef02e01-7ca4-4725-88c6-f6f48d12d81d
+status: ASSIGNED
+.... no task information
+WMS:getWorkStatus 2ef02e01-7ca4-4725-88c6-f6f48d12d81d
+status: ASSIGNED
+.... no task information
+WMS:getWorkStatus 2ef02e01-7ca4-4725-88c6-f6f48d12d81d
+status: ASSIGNED
+.... no task information
+WM:CheckWork: Trying to check [2ef02e01-7ca4-4725-88c6-f6f48d12d81d 989f179b-fed3-48f8-912b-3c76bb7b253a 9de57c8e-d1d0-4788-af69-8e420a6d7713 {container=989f179b-fed3-48f8-912b-3c76bb7b253a, sv=, haltonparseerror=, si=, initinfo=false, ignoremanagementinterfaces=, loglevel=fatal, testrig=9de57c8e-d1d0-4788-af69-8e420a6d7713, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Tue Jan 15 07:46:45 CST 2019 Tue Jan 15 07:46:45 CST 2019 null] [localhost:36405] [null, null] on localhost:36405
+BFS:getTaskStatus 2ef02e01-7ca4-4725-88c6-f6f48d12d81d
+WMS:getWorkStatus 2ef02e01-7ca4-4725-88c6-f6f48d12d81d
+status: CHECKINGSTATUS
+.... no task information
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"989f179b-fed3-48f8-912b-3c76bb7b253a\",\n    \"-sv\",\n    \"-haltonparseerror\",\n    \"-si\",\n    \"-initinfo\",\n    \"false\",\n    \"-ignoremanagementinterfaces\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-testrig\",\n    \"9de57c8e-d1d0-4788-af69-8e420a6d7713\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-15T13:46:45.641+0000\"\n    },\n    {\n      \"completed\" : 125,\n      \"description\" : \"Reading network configuration files\",\n      \"size\" : 125,\n      \"startDate\" : \"2019-01-15T13:46:45.686+0000\"\n    },\n    {\n      \"completed\" : 0,\n      \"description\" : \"Parse configurations\",\n      \"size\" : 125,\n      \"startDate\" : \"2019-01-15T13:46:45.809+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-15T13:46:45.637+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "989f179b-fed3-48f8-912b-3c76bb7b253a",
+    "-sv",
+    "-haltonparseerror",
+    "-si",
+    "-initinfo",
+    "false",
+    "-ignoremanagementinterfaces",
+    "-loglevel",
+    "fatal",
+    "-testrig",
+    "9de57c8e-d1d0-4788-af69-8e420a6d7713",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-15T13:46:45.641+0000"
+    },
+    {
+      "completed" : 125,
+      "description" : "Reading network configuration files",
+      "size" : 125,
+      "startDate" : "2019-01-15T13:46:45.686+0000"
+    },
+    {
+      "completed" : 0,
+      "description" : "Parse configurations",
+      "size" : 125,
+      "startDate" : "2019-01-15T13:46:45.809+0000"
+    }
+  ],
+  "obtained" : "2019-01-15T13:46:45.637+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus 2ef02e01-7ca4-4725-88c6-f6f48d12d81d
+status: ASSIGNED
+.... Tue Jan 15 07:46:45 CST 2019: Parse configurations: 0/125
+WMS:getWorkStatus 2ef02e01-7ca4-4725-88c6-f6f48d12d81d
+status: ASSIGNED
+.... Tue Jan 15 07:46:45 CST 2019: Parse configurations: 0/125
+WM:CheckWork: Trying to check [2ef02e01-7ca4-4725-88c6-f6f48d12d81d 989f179b-fed3-48f8-912b-3c76bb7b253a 9de57c8e-d1d0-4788-af69-8e420a6d7713 {container=989f179b-fed3-48f8-912b-3c76bb7b253a, sv=, haltonparseerror=, si=, initinfo=false, ignoremanagementinterfaces=, loglevel=fatal, testrig=9de57c8e-d1d0-4788-af69-8e420a6d7713, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Tue Jan 15 07:46:45 CST 2019 Tue Jan 15 07:46:45 CST 2019 null] [localhost:36405] [InProgress, Tue Jan 15 07:46:46 CST 2019] on localhost:36405
+BFS:getTaskStatus 2ef02e01-7ca4-4725-88c6-f6f48d12d81d
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"989f179b-fed3-48f8-912b-3c76bb7b253a\",\n    \"-sv\",\n    \"-haltonparseerror\",\n    \"-si\",\n    \"-initinfo\",\n    \"false\",\n    \"-ignoremanagementinterfaces\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-testrig\",\n    \"9de57c8e-d1d0-4788-af69-8e420a6d7713\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-15T13:46:45.641+0000\"\n    },\n    {\n      \"completed\" : 125,\n      \"description\" : \"Reading network configuration files\",\n      \"size\" : 125,\n      \"startDate\" : \"2019-01-15T13:46:45.686+0000\"\n    },\n    {\n      \"completed\" : 0,\n      \"description\" : \"Parse configurations\",\n      \"size\" : 125,\n      \"startDate\" : \"2019-01-15T13:46:45.809+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-15T13:46:45.637+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "989f179b-fed3-48f8-912b-3c76bb7b253a",
+    "-sv",
+    "-haltonparseerror",
+    "-si",
+    "-initinfo",
+    "false",
+    "-ignoremanagementinterfaces",
+    "-loglevel",
+    "fatal",
+    "-testrig",
+    "9de57c8e-d1d0-4788-af69-8e420a6d7713",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-15T13:46:45.641+0000"
+    },
+    {
+      "completed" : 125,
+      "description" : "Reading network configuration files",
+      "size" : 125,
+      "startDate" : "2019-01-15T13:46:45.686+0000"
+    },
+    {
+      "completed" : 0,
+      "description" : "Parse configurations",
+      "size" : 125,
+      "startDate" : "2019-01-15T13:46:45.809+0000"
+    }
+  ],
+  "obtained" : "2019-01-15T13:46:45.637+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus 2ef02e01-7ca4-4725-88c6-f6f48d12d81d
+status: ASSIGNED
+.... Tue Jan 15 07:46:45 CST 2019: Parse configurations: 0/125
+WM:CheckWork: Trying to check [2ef02e01-7ca4-4725-88c6-f6f48d12d81d 989f179b-fed3-48f8-912b-3c76bb7b253a 9de57c8e-d1d0-4788-af69-8e420a6d7713 {container=989f179b-fed3-48f8-912b-3c76bb7b253a, sv=, haltonparseerror=, si=, initinfo=false, ignoremanagementinterfaces=, loglevel=fatal, testrig=9de57c8e-d1d0-4788-af69-8e420a6d7713, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Tue Jan 15 07:46:45 CST 2019 Tue Jan 15 07:46:45 CST 2019 null] [localhost:36405] [InProgress, Tue Jan 15 07:46:47 CST 2019] on localhost:36405
+BFS:getTaskStatus 2ef02e01-7ca4-4725-88c6-f6f48d12d81d
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"989f179b-fed3-48f8-912b-3c76bb7b253a\",\n    \"-sv\",\n    \"-haltonparseerror\",\n    \"-si\",\n    \"-initinfo\",\n    \"false\",\n    \"-ignoremanagementinterfaces\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-testrig\",\n    \"9de57c8e-d1d0-4788-af69-8e420a6d7713\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-15T13:46:45.641+0000\"\n    },\n    {\n      \"completed\" : 125,\n      \"description\" : \"Reading network configuration files\",\n      \"size\" : 125,\n      \"startDate\" : \"2019-01-15T13:46:45.686+0000\"\n    },\n    {\n      \"completed\" : 0,\n      \"description\" : \"Parse configurations\",\n      \"size\" : 125,\n      \"startDate\" : \"2019-01-15T13:46:45.809+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-15T13:46:45.637+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "989f179b-fed3-48f8-912b-3c76bb7b253a",
+    "-sv",
+    "-haltonparseerror",
+    "-si",
+    "-initinfo",
+    "false",
+    "-ignoremanagementinterfaces",
+    "-loglevel",
+    "fatal",
+    "-testrig",
+    "9de57c8e-d1d0-4788-af69-8e420a6d7713",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-15T13:46:45.641+0000"
+    },
+    {
+      "completed" : 125,
+      "description" : "Reading network configuration files",
+      "size" : 125,
+      "startDate" : "2019-01-15T13:46:45.686+0000"
+    },
+    {
+      "completed" : 0,
+      "description" : "Parse configurations",
+      "size" : 125,
+      "startDate" : "2019-01-15T13:46:45.809+0000"
+    }
+  ],
+  "obtained" : "2019-01-15T13:46:45.637+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus 2ef02e01-7ca4-4725-88c6-f6f48d12d81d
+status: ASSIGNED
+.... Tue Jan 15 07:46:45 CST 2019: Parse configurations: 0/125
+WM:CheckWork: Trying to check [2ef02e01-7ca4-4725-88c6-f6f48d12d81d 989f179b-fed3-48f8-912b-3c76bb7b253a 9de57c8e-d1d0-4788-af69-8e420a6d7713 {container=989f179b-fed3-48f8-912b-3c76bb7b253a, sv=, haltonparseerror=, si=, initinfo=false, ignoremanagementinterfaces=, loglevel=fatal, testrig=9de57c8e-d1d0-4788-af69-8e420a6d7713, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Tue Jan 15 07:46:45 CST 2019 Tue Jan 15 07:46:45 CST 2019 null] [localhost:36405] [InProgress, Tue Jan 15 07:46:48 CST 2019] on localhost:36405
+BFS:getTaskStatus 2ef02e01-7ca4-4725-88c6-f6f48d12d81d
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"989f179b-fed3-48f8-912b-3c76bb7b253a\",\n    \"-sv\",\n    \"-haltonparseerror\",\n    \"-si\",\n    \"-initinfo\",\n    \"false\",\n    \"-ignoremanagementinterfaces\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-testrig\",\n    \"9de57c8e-d1d0-4788-af69-8e420a6d7713\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-15T13:46:45.641+0000\"\n    },\n    {\n      \"completed\" : 125,\n      \"description\" : \"Reading network configuration files\",\n      \"size\" : 125,\n      \"startDate\" : \"2019-01-15T13:46:45.686+0000\"\n    },\n    {\n      \"completed\" : 0,\n      \"description\" : \"Parse configurations\",\n      \"size\" : 125,\n      \"startDate\" : \"2019-01-15T13:46:45.809+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-15T13:46:45.637+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "989f179b-fed3-48f8-912b-3c76bb7b253a",
+    "-sv",
+    "-haltonparseerror",
+    "-si",
+    "-initinfo",
+    "false",
+    "-ignoremanagementinterfaces",
+    "-loglevel",
+    "fatal",
+    "-testrig",
+    "9de57c8e-d1d0-4788-af69-8e420a6d7713",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-15T13:46:45.641+0000"
+    },
+    {
+      "completed" : 125,
+      "description" : "Reading network configuration files",
+      "size" : 125,
+      "startDate" : "2019-01-15T13:46:45.686+0000"
+    },
+    {
+      "completed" : 0,
+      "description" : "Parse configurations",
+      "size" : 125,
+      "startDate" : "2019-01-15T13:46:45.809+0000"
+    }
+  ],
+  "obtained" : "2019-01-15T13:46:45.637+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus 2ef02e01-7ca4-4725-88c6-f6f48d12d81d
+status: ASSIGNED
+.... Tue Jan 15 07:46:45 CST 2019: Parse configurations: 0/125
+WM:CheckWork: Trying to check [2ef02e01-7ca4-4725-88c6-f6f48d12d81d 989f179b-fed3-48f8-912b-3c76bb7b253a 9de57c8e-d1d0-4788-af69-8e420a6d7713 {container=989f179b-fed3-48f8-912b-3c76bb7b253a, sv=, haltonparseerror=, si=, initinfo=false, ignoremanagementinterfaces=, loglevel=fatal, testrig=9de57c8e-d1d0-4788-af69-8e420a6d7713, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Tue Jan 15 07:46:45 CST 2019 Tue Jan 15 07:46:45 CST 2019 null] [localhost:36405] [InProgress, Tue Jan 15 07:46:49 CST 2019] on localhost:36405
+BFS:getTaskStatus 2ef02e01-7ca4-4725-88c6-f6f48d12d81d
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"989f179b-fed3-48f8-912b-3c76bb7b253a\",\n    \"-sv\",\n    \"-haltonparseerror\",\n    \"-si\",\n    \"-initinfo\",\n    \"false\",\n    \"-ignoremanagementinterfaces\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-testrig\",\n    \"9de57c8e-d1d0-4788-af69-8e420a6d7713\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-15T13:46:45.641+0000\"\n    },\n    {\n      \"completed\" : 125,\n      \"description\" : \"Reading network configuration files\",\n      \"size\" : 125,\n      \"startDate\" : \"2019-01-15T13:46:45.686+0000\"\n    },\n    {\n      \"completed\" : 83,\n      \"description\" : \"Parse configurations\",\n      \"size\" : 125,\n      \"startDate\" : \"2019-01-15T13:46:45.809+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-15T13:46:45.637+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "989f179b-fed3-48f8-912b-3c76bb7b253a",
+    "-sv",
+    "-haltonparseerror",
+    "-si",
+    "-initinfo",
+    "false",
+    "-ignoremanagementinterfaces",
+    "-loglevel",
+    "fatal",
+    "-testrig",
+    "9de57c8e-d1d0-4788-af69-8e420a6d7713",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-15T13:46:45.641+0000"
+    },
+    {
+      "completed" : 125,
+      "description" : "Reading network configuration files",
+      "size" : 125,
+      "startDate" : "2019-01-15T13:46:45.686+0000"
+    },
+    {
+      "completed" : 83,
+      "description" : "Parse configurations",
+      "size" : 125,
+      "startDate" : "2019-01-15T13:46:45.809+0000"
+    }
+  ],
+  "obtained" : "2019-01-15T13:46:45.637+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus 2ef02e01-7ca4-4725-88c6-f6f48d12d81d
+status: ASSIGNED
+.... Tue Jan 15 07:46:45 CST 2019: Parse configurations: 83/125
+WM:CheckWork: Trying to check [2ef02e01-7ca4-4725-88c6-f6f48d12d81d 989f179b-fed3-48f8-912b-3c76bb7b253a 9de57c8e-d1d0-4788-af69-8e420a6d7713 {container=989f179b-fed3-48f8-912b-3c76bb7b253a, sv=, haltonparseerror=, si=, initinfo=false, ignoremanagementinterfaces=, loglevel=fatal, testrig=9de57c8e-d1d0-4788-af69-8e420a6d7713, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Tue Jan 15 07:46:45 CST 2019 Tue Jan 15 07:46:45 CST 2019 null] [localhost:36405] [InProgress, Tue Jan 15 07:46:50 CST 2019] on localhost:36405
+BFS:getTaskStatus 2ef02e01-7ca4-4725-88c6-f6f48d12d81d
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"989f179b-fed3-48f8-912b-3c76bb7b253a\",\n    \"-sv\",\n    \"-haltonparseerror\",\n    \"-si\",\n    \"-initinfo\",\n    \"false\",\n    \"-ignoremanagementinterfaces\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-testrig\",\n    \"9de57c8e-d1d0-4788-af69-8e420a6d7713\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-15T13:46:45.641+0000\"\n    },\n    {\n      \"completed\" : 125,\n      \"description\" : \"Reading network configuration files\",\n      \"size\" : 125,\n      \"startDate\" : \"2019-01-15T13:46:45.686+0000\"\n    },\n    {\n      \"completed\" : 125,\n      \"description\" : \"Parse configurations\",\n      \"size\" : 125,\n      \"startDate\" : \"2019-01-15T13:46:45.809+0000\"\n    },\n    {\n      \"completed\" : 124,\n      \"description\" : \"Serializing 'org.batfish.representation.cisco.CiscoConfiguration' instances to disk\",\n      \"size\" : 125,\n      \"startDate\" : \"2019-01-15T13:46:51.221+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-15T13:46:45.637+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "989f179b-fed3-48f8-912b-3c76bb7b253a",
+    "-sv",
+    "-haltonparseerror",
+    "-si",
+    "-initinfo",
+    "false",
+    "-ignoremanagementinterfaces",
+    "-loglevel",
+    "fatal",
+    "-testrig",
+    "9de57c8e-d1d0-4788-af69-8e420a6d7713",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-15T13:46:45.641+0000"
+    },
+    {
+      "completed" : 125,
+      "description" : "Reading network configuration files",
+      "size" : 125,
+      "startDate" : "2019-01-15T13:46:45.686+0000"
+    },
+    {
+      "completed" : 125,
+      "description" : "Parse configurations",
+      "size" : 125,
+      "startDate" : "2019-01-15T13:46:45.809+0000"
+    },
+    {
+      "completed" : 124,
+      "description" : "Serializing 'org.batfish.representation.cisco.CiscoConfiguration' instances to disk",
+      "size" : 125,
+      "startDate" : "2019-01-15T13:46:51.221+0000"
+    }
+  ],
+  "obtained" : "2019-01-15T13:46:45.637+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus 2ef02e01-7ca4-4725-88c6-f6f48d12d81d
+status: ASSIGNED
+.... Tue Jan 15 07:46:51 CST 2019: Serializing 'org.batfish.representation.cisco.CiscoConfiguration' instances to disk: 124/125
+WM:CheckWork: Trying to check [2ef02e01-7ca4-4725-88c6-f6f48d12d81d 989f179b-fed3-48f8-912b-3c76bb7b253a 9de57c8e-d1d0-4788-af69-8e420a6d7713 {container=989f179b-fed3-48f8-912b-3c76bb7b253a, sv=, haltonparseerror=, si=, initinfo=false, ignoremanagementinterfaces=, loglevel=fatal, testrig=9de57c8e-d1d0-4788-af69-8e420a6d7713, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Tue Jan 15 07:46:45 CST 2019 Tue Jan 15 07:46:45 CST 2019 null] [localhost:36405] [InProgress, Tue Jan 15 07:46:51 CST 2019] on localhost:36405
+BFS:getTaskStatus 2ef02e01-7ca4-4725-88c6-f6f48d12d81d
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"989f179b-fed3-48f8-912b-3c76bb7b253a\",\n    \"-sv\",\n    \"-haltonparseerror\",\n    \"-si\",\n    \"-initinfo\",\n    \"false\",\n    \"-ignoremanagementinterfaces\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-testrig\",\n    \"9de57c8e-d1d0-4788-af69-8e420a6d7713\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-15T13:46:45.641+0000\"\n    },\n    {\n      \"completed\" : 125,\n      \"description\" : \"Reading network configuration files\",\n      \"size\" : 125,\n      \"startDate\" : \"2019-01-15T13:46:45.686+0000\"\n    },\n    {\n      \"completed\" : 125,\n      \"description\" : \"Parse configurations\",\n      \"size\" : 125,\n      \"startDate\" : \"2019-01-15T13:46:45.809+0000\"\n    },\n    {\n      \"completed\" : 125,\n      \"description\" : \"Serializing 'org.batfish.representation.cisco.CiscoConfiguration' instances to disk\",\n      \"size\" : 125,\n      \"startDate\" : \"2019-01-15T13:46:51.221+0000\"\n    },\n    {\n      \"completed\" : 125,\n      \"description\" : \"Reading, unpacking, and deserializing files containing 'org.batfish.datamodel.GenericConfigObject' instances\",\n      \"size\" : 125,\n      \"startDate\" : \"2019-01-15T13:46:51.555+0000\"\n    },\n    {\n      \"completed\" : 125,\n      \"description\" : \"Convert configurations to vendor-independent format\",\n      \"size\" : 125,\n      \"startDate\" : \"2019-01-15T13:46:51.680+0000\"\n    },\n    {\n      \"completed\" : 125,\n      \"description\" : \"Serializing 125 vendor-independent configuration structures for snapshot 9de57c8e-d1d0-4788-af69-8e420a6d7713\",\n      \"size\" : 125,\n      \"startDate\" : \"2019-01-15T13:46:51.993+0000\"\n    },\n    {\n      \"completed\" : 125,\n      \"description\" : \"Deserializing objects of type 'org.batfish.datamodel.Configuration' from files\",\n      \"size\" : 125,\n      \"startDate\" : \"2019-01-15T13:46:52.303+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-15T13:46:45.637+0000\",\n  \"status\" : \"TerminatedNormally\",\n  \"terminated\" : \"2019-01-15T13:46:52.474+0000\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "989f179b-fed3-48f8-912b-3c76bb7b253a",
+    "-sv",
+    "-haltonparseerror",
+    "-si",
+    "-initinfo",
+    "false",
+    "-ignoremanagementinterfaces",
+    "-loglevel",
+    "fatal",
+    "-testrig",
+    "9de57c8e-d1d0-4788-af69-8e420a6d7713",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-15T13:46:45.641+0000"
+    },
+    {
+      "completed" : 125,
+      "description" : "Reading network configuration files",
+      "size" : 125,
+      "startDate" : "2019-01-15T13:46:45.686+0000"
+    },
+    {
+      "completed" : 125,
+      "description" : "Parse configurations",
+      "size" : 125,
+      "startDate" : "2019-01-15T13:46:45.809+0000"
+    },
+    {
+      "completed" : 125,
+      "description" : "Serializing 'org.batfish.representation.cisco.CiscoConfiguration' instances to disk",
+      "size" : 125,
+      "startDate" : "2019-01-15T13:46:51.221+0000"
+    },
+    {
+      "completed" : 125,
+      "description" : "Reading, unpacking, and deserializing files containing 'org.batfish.datamodel.GenericConfigObject' instances",
+      "size" : 125,
+      "startDate" : "2019-01-15T13:46:51.555+0000"
+    },
+    {
+      "completed" : 125,
+      "description" : "Convert configurations to vendor-independent format",
+      "size" : 125,
+      "startDate" : "2019-01-15T13:46:51.680+0000"
+    },
+    {
+      "completed" : 125,
+      "description" : "Serializing 125 vendor-independent configuration structures for snapshot 9de57c8e-d1d0-4788-af69-8e420a6d7713",
+      "size" : 125,
+      "startDate" : "2019-01-15T13:46:51.993+0000"
+    },
+    {
+      "completed" : 125,
+      "description" : "Deserializing objects of type 'org.batfish.datamodel.Configuration' from files",
+      "size" : 125,
+      "startDate" : "2019-01-15T13:46:52.303+0000"
+    }
+  ],
+  "obtained" : "2019-01-15T13:46:45.637+0000",
+  "status" : "TerminatedNormally",
+  "terminated" : "2019-01-15T13:46:52.474+0000"
+}]
+WMS:getWorkStatus 2ef02e01-7ca4-4725-88c6-f6f48d12d81d
+status: TERMINATEDNORMALLY
+.... Tue Jan 15 07:46:45 CST 2019: Begin job
+.... Tue Jan 15 07:46:45 CST 2019: Reading network configuration files: 125/125
+.... Tue Jan 15 07:46:45 CST 2019: Parse configurations: 125/125
+.... Tue Jan 15 07:46:51 CST 2019: Serializing 'org.batfish.representation.cisco.CiscoConfiguration' instances to disk: 125/125
+.... Tue Jan 15 07:46:51 CST 2019: Reading, unpacking, and deserializing files containing 'org.batfish.datamodel.GenericConfigObject' instances: 125/125
+.... Tue Jan 15 07:46:51 CST 2019: Convert configurations to vendor-independent format: 125/125
+.... Tue Jan 15 07:46:51 CST 2019: Serializing 125 vendor-independent configuration structures for snapshot 9de57c8e-d1d0-4788-af69-8e420a6d7713: 125/125
+.... Tue Jan 15 07:46:52 CST 2019: Deserializing objects of type 'org.batfish.datamodel.Configuration' from files: 125/125
+.... Tue Jan 15 07:46:52 CST 2019: TERMINATEDNORMALLY
+WMS:getObject fat-tree.10-ary --> 2ef02e01-7ca4-4725-88c6-f6f48d12d81d.json
+Status: SUCCESS
+Summary: 0 (non-assertion) results; 
+Current snapshot is now fat-tree.10-ary
+WMS:uploadQuestion 00000000000000000000000000000000 np_f9d18096-2acf-4b77-b643-ae8460a1a149/q_3b20162f-46e3-4885-a93d-0989d488304e
+work-id is f8486f9b-0cb1-49d3-8002-288a4d55467c
+WMS:queueWork 00000000000000000000000000000000 {"containerName":"np_f9d18096-2acf-4b77-b643-ae8460a1a149","id":"f8486f9b-0cb1-49d3-8002-288a4d55467c","requestParams":{"answer":"","haltonparseerror":"","loglevel":"fatal","initinfo":"false","questionname":"q_3b20162f-46e3-4885-a93d-0989d488304e","haltonconverterror":""},"testrigName":"fat-tree.10-ary"}
+WM:AssignWork: Trying to assign [f8486f9b-0cb1-49d3-8002-288a4d55467c 989f179b-fed3-48f8-912b-3c76bb7b253a 9de57c8e-d1d0-4788-af69-8e420a6d7713 {container=989f179b-fed3-48f8-912b-3c76bb7b253a, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=564bf389-cde1-49ea-bc29-cda55ba69f78, testrig=9de57c8e-d1d0-4788-af69-8e420a6d7713, snapshotname=fat-tree.10-ary, haltonconverterror=}] [TRYINGTOASSIGN] [Tue Jan 15 07:46:53 CST 2019 null null] [null] [null, null] to localhost:36405
+Queuing result: true
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+status: TRYINGTOASSIGN
+.... no task information
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+status: TRYINGTOASSIGN
+.... no task information
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+status: TRYINGTOASSIGN
+.... no task information
+BFS:runTask(f8486f9b-0cb1-49d3-8002-288a4d55467c,{"container":"989f179b-fed3-48f8-912b-3c76bb7b253a","answer":"","haltonparseerror":"","loglevel":"fatal","initinfo":"false","questionname":"564bf389-cde1-49ea-bc29-cda55ba69f78","testrig":"9de57c8e-d1d0-4788-af69-8e420a6d7713","snapshotname":"fat-tree.10-ary","haltonconverterror":"","storagebase":"\/home\/plankton\/batfish\/experiments\/containers"})
+Will run with args: [-container, 989f179b-fed3-48f8-912b-3c76bb7b253a, -answer, -haltonparseerror, -loglevel, fatal, -initinfo, false, -questionname, 564bf389-cde1-49ea-bc29-cda55ba69f78, -testrig, 9de57c8e-d1d0-4788-af69-8e420a6d7713, -snapshotname, fat-tree.10-ary, -haltonconverterror, -storagebase, /home/plankton/batfish/experiments/containers]
+WM:AssignWork: response: ["success","running now"] [success] [running now]
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+status: ASSIGNED
+.... no task information
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+status: ASSIGNED
+.... no task information
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+status: ASSIGNED
+.... no task information
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+status: ASSIGNED
+.... no task information
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+status: ASSIGNED
+.... no task information
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+status: ASSIGNED
+.... no task information
+WM:CheckWork: Trying to check [f8486f9b-0cb1-49d3-8002-288a4d55467c 989f179b-fed3-48f8-912b-3c76bb7b253a 9de57c8e-d1d0-4788-af69-8e420a6d7713 {container=989f179b-fed3-48f8-912b-3c76bb7b253a, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=564bf389-cde1-49ea-bc29-cda55ba69f78, testrig=9de57c8e-d1d0-4788-af69-8e420a6d7713, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Tue Jan 15 07:46:53 CST 2019 Tue Jan 15 07:46:53 CST 2019 null] [localhost:36405] [null, null] on localhost:36405
+BFS:getTaskStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"989f179b-fed3-48f8-912b-3c76bb7b253a\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"564bf389-cde1-49ea-bc29-cda55ba69f78\",\n    \"-testrig\",\n    \"9de57c8e-d1d0-4788-af69-8e420a6d7713\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-15T13:46:53.346+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-15T13:46:53.345+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "989f179b-fed3-48f8-912b-3c76bb7b253a",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "564bf389-cde1-49ea-bc29-cda55ba69f78",
+    "-testrig",
+    "9de57c8e-d1d0-4788-af69-8e420a6d7713",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-15T13:46:53.346+0000"
+    }
+  ],
+  "obtained" : "2019-01-15T13:46:53.345+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+status: ASSIGNED
+.... Tue Jan 15 07:46:53 CST 2019: Begin job
+=====[DEBUG]===== sourceRouters: [r75]
+Start verification
+Using headerspace: IpWildcardSetIpSpace{blacklist=[], whitelist=[10.0.0.2, 10.0.0.18, 10.0.0.25, 10.0.0.30, 10.0.0.33, 10.0.0.37, 10.0.0.41, 10.0.0.45, 10.0.0.57, 10.0.0.61, 10.0.0.66, 10.0.0.69, 10.0.0.77, 10.0.0.82, 10.0.0.89, 10.0.0.94, 10.0.0.97, 10.0.0.109, 10.0.0.113, 10.0.0.117, 10.0.0.125, 10.0.0.129, 10.0.0.138, 10.0.0.145, 10.0.0.154, 10.0.0.161, 10.0.0.178, 10.0.0.185, 10.0.0.193, 10.0.0.197, 10.0.0.202, 10.0.0.206, 10.0.0.209, 10.0.0.214, 10.0.0.217, 10.0.0.221, 10.0.0.230, 10.0.0.233, 10.0.0.242, 10.0.0.254, 10.0.1.5, 10.0.1.10, 10.0.1.18, 10.0.1.22, 10.0.1.30, 10.0.1.34, 10.0.1.49, 10.0.1.53, 10.0.1.65, 10.0.1.78, 10.0.1.86, 10.0.1.89, 10.0.1.94, 10.0.1.98, 10.0.1.102, 10.0.1.105, 10.0.1.109, 10.0.1.114, 10.0.1.118, 10.0.1.130, 10.0.1.157, 10.0.1.161, 10.0.1.174, 10.0.1.178, 10.0.1.181, 10.0.1.189, 10.0.1.194, 10.0.1.197, 10.0.1.202, 10.0.1.221, 10.0.1.245, 10.0.2.2, 10.0.2.14, 10.0.2.17, 10.0.2.25, 10.0.2.29, 10.0.2.58, 10.0.2.78, 10.0.2.81, 10.0.2.98, 10.0.2.101, 10.0.2.105, 10.0.2.109, 10.0.2.114, 10.0.2.125, 10.0.2.141, 10.0.2.149, 10.0.2.153, 10.0.2.158, 10.0.2.170, 10.0.2.173, 10.0.2.178, 10.0.2.182, 10.0.2.185, 10.0.2.190, 10.0.2.193, 10.0.2.205, 10.0.2.209, 10.0.2.230, 10.0.2.233, 10.0.2.245, 10.0.2.254, 10.0.3.6, 10.0.3.10, 10.0.3.14, 10.0.3.18, 10.0.3.38, 10.0.3.54, 10.0.3.57, 10.0.3.61, 10.0.3.66, 10.0.3.69, 10.0.3.74, 10.0.3.78, 10.0.3.86, 10.0.3.98, 10.0.3.101, 10.0.3.110, 10.0.3.114, 10.0.3.122, 10.0.3.154, 10.0.3.181, 10.0.3.205, 10.0.3.209, 10.0.3.222, 10.0.3.230, 10.0.3.233, 10.0.3.238, 10.0.3.242, 10.0.3.245, 10.0.4.1, 10.0.4.9, 10.0.4.21, 10.0.4.38, 10.0.4.41, 10.0.4.46, 10.0.4.50, 10.0.4.54, 10.0.4.70, 10.0.4.74, 10.0.4.77, 10.0.4.82, 10.0.4.94, 10.0.4.97, 10.0.4.101, 10.0.4.106, 10.0.4.113, 10.0.4.118, 10.0.4.122, 10.0.4.130, 10.0.4.134, 10.0.4.141, 10.0.4.146, 10.0.4.154, 10.0.4.158, 10.0.4.170, 10.0.4.194, 10.0.4.202, 10.0.4.206, 10.0.4.209, 10.0.4.214, 10.0.4.221, 10.0.4.233, 10.0.4.238, 10.0.4.241, 10.0.4.250, 10.0.4.253, 10.0.5.5, 10.0.5.10, 10.0.5.17, 10.0.5.26, 10.0.5.37, 10.0.5.41, 10.0.5.54, 10.0.5.74, 10.0.5.85, 10.0.5.90, 10.0.5.98, 10.0.5.110, 10.0.5.129, 10.0.5.134, 10.0.5.154, 10.0.5.162, 10.0.5.166, 10.0.5.169, 10.0.5.174, 10.0.5.178, 10.0.5.190, 10.0.5.210, 10.0.5.214, 10.0.5.221, 10.0.5.234, 10.0.5.249, 10.0.6.1, 10.0.6.25, 10.0.6.42, 10.0.6.49, 10.0.6.58, 10.0.6.65, 10.0.6.70, 10.0.6.74, 10.0.6.93, 10.0.6.97, 10.0.6.101, 10.0.6.106, 10.0.6.114, 10.0.6.117, 10.0.6.121, 10.0.6.130, 10.0.6.141, 10.0.6.158, 10.0.6.161, 10.0.6.165, 10.0.6.169, 10.0.6.173, 10.0.6.181, 10.0.6.197, 10.0.6.201, 10.0.6.205, 10.0.6.213, 10.0.6.218, 10.0.6.230, 10.0.6.234, 10.0.7.6, 10.0.7.17, 10.0.7.21, 10.0.7.26, 10.0.7.29, 10.0.7.42, 10.0.7.45, 10.0.7.50, 10.0.7.53, 10.0.7.57, 10.0.7.65, 10.0.7.70, 10.0.7.74, 10.0.7.81, 10.0.7.97, 10.0.7.110, 10.0.7.113, 10.0.7.117, 10.0.7.129, 10.0.7.134, 10.0.7.142, 10.0.7.145, 10.0.7.149, 10.0.7.154, 10.0.7.166, 10.0.7.190, 10.0.7.194, 10.0.7.206, 10.0.7.214, 10.0.7.221, 10.0.7.229, 10.0.7.249, 10.0.7.254, 10.0.8.13, 10.0.8.18, 10.0.8.22, 10.0.8.26, 10.0.8.30, 10.0.8.46, 10.0.8.49, 10.0.8.74, 10.0.8.78, 10.0.8.86, 10.0.8.90, 10.0.8.94, 10.0.8.105, 10.0.8.109, 10.0.8.114, 10.0.8.126, 10.0.8.141, 10.0.8.146, 10.0.8.149, 10.0.8.154, 10.0.8.158, 10.0.8.162, 10.0.8.166, 10.0.8.174, 10.0.8.178, 10.0.8.185, 10.0.8.198, 10.0.8.205, 10.0.8.229, 10.0.8.238, 10.0.8.253, 10.0.9.2, 10.0.9.6, 10.0.9.13, 10.0.9.18, 10.0.9.21, 10.0.9.33, 10.0.9.37, 10.0.9.53, 10.0.9.57, 10.0.9.61, 10.0.9.65, 10.0.9.69, 10.0.9.85, 10.0.9.109, 10.0.9.117, 10.0.9.122, 10.0.9.125, 10.0.9.134, 10.0.9.165, 10.0.9.170, 10.0.9.174, 10.0.9.178, 10.0.9.185, 10.0.9.189, 10.0.9.193, 10.0.9.202, 10.0.9.205, 10.0.9.210, 10.0.9.213, 10.0.9.218, 10.0.9.226, 10.0.9.234, 10.0.9.242, 10.0.9.246, 10.0.10.2, 10.0.10.9, 10.0.10.33, 10.0.10.49, 10.0.10.53, 10.0.10.65, 10.0.10.70, 10.0.10.82, 10.0.10.86, 10.0.10.98, 10.0.10.102, 10.0.10.109, 10.0.10.141, 10.0.10.153, 10.0.10.169, 10.0.10.178, 10.0.10.182, 10.0.10.186, 10.0.10.194, 10.0.10.201, 10.0.10.217, 10.0.10.225, 10.0.10.229, 10.0.10.242, 10.0.10.245, 10.0.10.253, 10.0.11.1, 10.0.11.10, 10.0.11.14, 10.0.11.17, 10.0.11.21, 10.0.11.26, 10.0.11.38, 10.0.11.42, 10.0.11.74, 10.0.11.78, 10.0.11.82, 10.0.11.86, 10.0.11.98, 10.0.11.106, 10.0.11.114, 10.0.11.117, 10.0.11.122, 10.0.11.125, 10.0.11.129, 10.0.11.133, 10.0.11.137, 10.0.11.141, 10.0.11.146, 10.0.11.157, 10.0.11.162, 10.0.11.165, 10.0.11.170, 10.0.11.173, 10.0.11.181, 10.0.11.202, 10.0.11.205, 10.0.11.213, 10.0.11.242, 10.0.12.2, 10.0.12.10, 10.0.12.46, 10.0.12.49, 10.0.12.53, 10.0.12.58, 10.0.12.61, 10.0.12.66, 10.0.12.70, 10.0.12.74, 10.0.12.82, 10.0.12.90, 10.0.12.94, 10.0.12.98, 10.0.12.101, 10.0.12.106, 10.0.12.110, 10.0.12.117, 10.0.12.121, 10.0.12.137, 10.0.12.146, 10.0.12.157, 10.0.12.174, 10.0.12.181, 10.0.12.189, 10.0.12.193, 10.0.12.197, 10.0.12.210, 10.0.12.230, 10.0.12.237, 10.0.12.241, 10.0.12.245, 10.0.13.2, 10.0.13.10, 10.0.13.29, 10.0.13.33, 10.0.13.41, 10.0.13.53, 10.0.13.70, 10.0.13.81, 10.0.13.85, 10.0.13.93, 10.0.13.101, 10.0.13.109, 10.0.13.117, 10.0.13.125, 10.0.13.129, 10.0.13.134, 10.0.13.138, 10.0.13.141, 10.0.13.149, 10.0.13.169, 10.0.13.174, 10.0.13.178, 10.0.13.181, 10.0.13.202, 10.0.13.210, 10.0.13.218, 10.0.13.229, 10.0.13.237, 10.0.13.241, 10.0.13.249, 10.0.13.253, 10.0.14.5, 10.0.14.18, 10.0.14.30, 10.0.14.37, 10.0.14.45, 10.0.14.53, 10.0.14.58, 10.0.14.61, 10.0.14.66, 10.0.14.82, 10.0.14.86, 10.0.14.89, 10.0.14.113, 10.0.14.118, 10.0.14.122, 10.0.14.126, 10.0.14.129, 10.0.14.134, 10.0.14.137, 10.0.14.145, 10.0.14.170, 10.0.14.173, 10.0.14.177, 10.0.14.185, 10.0.14.194, 10.0.14.202, 10.0.14.206, 10.0.14.234, 10.0.14.237, 10.0.14.242, 10.0.14.246, 10.0.15.1, 10.0.15.10, 10.0.15.17, 10.0.15.25, 10.0.15.29, 10.0.15.33, 10.0.15.41, 10.0.15.69, 10.0.15.86, 10.0.15.94, 10.0.15.98, 10.0.15.105, 10.0.15.113, 10.0.15.125, 10.0.15.138, 10.0.15.149]}
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+status: ASSIGNED
+.... Tue Jan 15 07:46:53 CST 2019: Begin job
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+status: ASSIGNED
+.... Tue Jan 15 07:46:53 CST 2019: Begin job
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+status: ASSIGNED
+.... Tue Jan 15 07:46:53 CST 2019: Begin job
+Number of edges: 2000
+Created destination classes
+Num Classes: 245
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+status: ASSIGNED
+.... Tue Jan 15 07:46:53 CST 2019: Begin job
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+status: ASSIGNED
+.... Tue Jan 15 07:46:53 CST 2019: Begin job
+WM:CheckWork: Trying to check [f8486f9b-0cb1-49d3-8002-288a4d55467c 989f179b-fed3-48f8-912b-3c76bb7b253a 9de57c8e-d1d0-4788-af69-8e420a6d7713 {container=989f179b-fed3-48f8-912b-3c76bb7b253a, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=564bf389-cde1-49ea-bc29-cda55ba69f78, testrig=9de57c8e-d1d0-4788-af69-8e420a6d7713, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Tue Jan 15 07:46:53 CST 2019 Tue Jan 15 07:46:53 CST 2019 null] [localhost:36405] [InProgress, Tue Jan 15 07:46:53 CST 2019] on localhost:36405
+BFS:getTaskStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"989f179b-fed3-48f8-912b-3c76bb7b253a\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"564bf389-cde1-49ea-bc29-cda55ba69f78\",\n    \"-testrig\",\n    \"9de57c8e-d1d0-4788-af69-8e420a6d7713\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-15T13:46:53.346+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-15T13:46:53.345+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "989f179b-fed3-48f8-912b-3c76bb7b253a",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "564bf389-cde1-49ea-bc29-cda55ba69f78",
+    "-testrig",
+    "9de57c8e-d1d0-4788-af69-8e420a6d7713",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-15T13:46:53.346+0000"
+    }
+  ],
+  "obtained" : "2019-01-15T13:46:53.345+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+status: ASSIGNED
+.... Tue Jan 15 07:46:53 CST 2019: Begin job
+WM:CheckWork: Trying to check [f8486f9b-0cb1-49d3-8002-288a4d55467c 989f179b-fed3-48f8-912b-3c76bb7b253a 9de57c8e-d1d0-4788-af69-8e420a6d7713 {container=989f179b-fed3-48f8-912b-3c76bb7b253a, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=564bf389-cde1-49ea-bc29-cda55ba69f78, testrig=9de57c8e-d1d0-4788-af69-8e420a6d7713, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Tue Jan 15 07:46:53 CST 2019 Tue Jan 15 07:46:53 CST 2019 null] [localhost:36405] [InProgress, Tue Jan 15 07:46:54 CST 2019] on localhost:36405
+BFS:getTaskStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"989f179b-fed3-48f8-912b-3c76bb7b253a\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"564bf389-cde1-49ea-bc29-cda55ba69f78\",\n    \"-testrig\",\n    \"9de57c8e-d1d0-4788-af69-8e420a6d7713\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-15T13:46:53.346+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-15T13:46:53.345+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "989f179b-fed3-48f8-912b-3c76bb7b253a",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "564bf389-cde1-49ea-bc29-cda55ba69f78",
+    "-testrig",
+    "9de57c8e-d1d0-4788-af69-8e420a6d7713",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-15T13:46:53.346+0000"
+    }
+  ],
+  "obtained" : "2019-01-15T13:46:53.345+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+status: ASSIGNED
+.... Tue Jan 15 07:46:53 CST 2019: Begin job
+WM:CheckWork: Trying to check [f8486f9b-0cb1-49d3-8002-288a4d55467c 989f179b-fed3-48f8-912b-3c76bb7b253a 9de57c8e-d1d0-4788-af69-8e420a6d7713 {container=989f179b-fed3-48f8-912b-3c76bb7b253a, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=564bf389-cde1-49ea-bc29-cda55ba69f78, testrig=9de57c8e-d1d0-4788-af69-8e420a6d7713, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Tue Jan 15 07:46:53 CST 2019 Tue Jan 15 07:46:53 CST 2019 null] [localhost:36405] [InProgress, Tue Jan 15 07:46:55 CST 2019] on localhost:36405
+BFS:getTaskStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"989f179b-fed3-48f8-912b-3c76bb7b253a\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"564bf389-cde1-49ea-bc29-cda55ba69f78\",\n    \"-testrig\",\n    \"9de57c8e-d1d0-4788-af69-8e420a6d7713\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-15T13:46:53.346+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-15T13:46:53.345+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "989f179b-fed3-48f8-912b-3c76bb7b253a",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "564bf389-cde1-49ea-bc29-cda55ba69f78",
+    "-testrig",
+    "9de57c8e-d1d0-4788-af69-8e420a6d7713",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-15T13:46:53.346+0000"
+    }
+  ],
+  "obtained" : "2019-01-15T13:46:53.345+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+status: ASSIGNED
+.... Tue Jan 15 07:46:53 CST 2019: Begin job
+WM:CheckWork: Trying to check [f8486f9b-0cb1-49d3-8002-288a4d55467c 989f179b-fed3-48f8-912b-3c76bb7b253a 9de57c8e-d1d0-4788-af69-8e420a6d7713 {container=989f179b-fed3-48f8-912b-3c76bb7b253a, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=564bf389-cde1-49ea-bc29-cda55ba69f78, testrig=9de57c8e-d1d0-4788-af69-8e420a6d7713, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Tue Jan 15 07:46:53 CST 2019 Tue Jan 15 07:46:53 CST 2019 null] [localhost:36405] [InProgress, Tue Jan 15 07:46:56 CST 2019] on localhost:36405
+BFS:getTaskStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"989f179b-fed3-48f8-912b-3c76bb7b253a\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"564bf389-cde1-49ea-bc29-cda55ba69f78\",\n    \"-testrig\",\n    \"9de57c8e-d1d0-4788-af69-8e420a6d7713\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-15T13:46:53.346+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-15T13:46:53.345+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "989f179b-fed3-48f8-912b-3c76bb7b253a",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "564bf389-cde1-49ea-bc29-cda55ba69f78",
+    "-testrig",
+    "9de57c8e-d1d0-4788-af69-8e420a6d7713",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-15T13:46:53.346+0000"
+    }
+  ],
+  "obtained" : "2019-01-15T13:46:53.345+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+status: ASSIGNED
+.... Tue Jan 15 07:46:53 CST 2019: Begin job
+WM:CheckWork: Trying to check [f8486f9b-0cb1-49d3-8002-288a4d55467c 989f179b-fed3-48f8-912b-3c76bb7b253a 9de57c8e-d1d0-4788-af69-8e420a6d7713 {container=989f179b-fed3-48f8-912b-3c76bb7b253a, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=564bf389-cde1-49ea-bc29-cda55ba69f78, testrig=9de57c8e-d1d0-4788-af69-8e420a6d7713, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Tue Jan 15 07:46:53 CST 2019 Tue Jan 15 07:46:53 CST 2019 null] [localhost:36405] [InProgress, Tue Jan 15 07:46:57 CST 2019] on localhost:36405
+BFS:getTaskStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"989f179b-fed3-48f8-912b-3c76bb7b253a\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"564bf389-cde1-49ea-bc29-cda55ba69f78\",\n    \"-testrig\",\n    \"9de57c8e-d1d0-4788-af69-8e420a6d7713\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-15T13:46:53.346+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-15T13:46:53.345+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "989f179b-fed3-48f8-912b-3c76bb7b253a",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "564bf389-cde1-49ea-bc29-cda55ba69f78",
+    "-testrig",
+    "9de57c8e-d1d0-4788-af69-8e420a6d7713",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-15T13:46:53.346+0000"
+    }
+  ],
+  "obtained" : "2019-01-15T13:46:53.345+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+status: ASSIGNED
+.... Tue Jan 15 07:46:53 CST 2019: Begin job
+WM:CheckWork: Trying to check [f8486f9b-0cb1-49d3-8002-288a4d55467c 989f179b-fed3-48f8-912b-3c76bb7b253a 9de57c8e-d1d0-4788-af69-8e420a6d7713 {container=989f179b-fed3-48f8-912b-3c76bb7b253a, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=564bf389-cde1-49ea-bc29-cda55ba69f78, testrig=9de57c8e-d1d0-4788-af69-8e420a6d7713, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Tue Jan 15 07:46:53 CST 2019 Tue Jan 15 07:46:53 CST 2019 null] [localhost:36405] [InProgress, Tue Jan 15 07:46:58 CST 2019] on localhost:36405
+BFS:getTaskStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"989f179b-fed3-48f8-912b-3c76bb7b253a\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"564bf389-cde1-49ea-bc29-cda55ba69f78\",\n    \"-testrig\",\n    \"9de57c8e-d1d0-4788-af69-8e420a6d7713\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-15T13:46:53.346+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-15T13:46:53.345+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "989f179b-fed3-48f8-912b-3c76bb7b253a",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "564bf389-cde1-49ea-bc29-cda55ba69f78",
+    "-testrig",
+    "9de57c8e-d1d0-4788-af69-8e420a6d7713",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-15T13:46:53.346+0000"
+    }
+  ],
+  "obtained" : "2019-01-15T13:46:53.345+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+status: ASSIGNED
+.... Tue Jan 15 07:46:53 CST 2019: Begin job
+WM:CheckWork: Trying to check [f8486f9b-0cb1-49d3-8002-288a4d55467c 989f179b-fed3-48f8-912b-3c76bb7b253a 9de57c8e-d1d0-4788-af69-8e420a6d7713 {container=989f179b-fed3-48f8-912b-3c76bb7b253a, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=564bf389-cde1-49ea-bc29-cda55ba69f78, testrig=9de57c8e-d1d0-4788-af69-8e420a6d7713, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Tue Jan 15 07:46:53 CST 2019 Tue Jan 15 07:46:53 CST 2019 null] [localhost:36405] [InProgress, Tue Jan 15 07:46:59 CST 2019] on localhost:36405
+BFS:getTaskStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"989f179b-fed3-48f8-912b-3c76bb7b253a\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"564bf389-cde1-49ea-bc29-cda55ba69f78\",\n    \"-testrig\",\n    \"9de57c8e-d1d0-4788-af69-8e420a6d7713\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-15T13:46:53.346+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-15T13:46:53.345+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "989f179b-fed3-48f8-912b-3c76bb7b253a",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "564bf389-cde1-49ea-bc29-cda55ba69f78",
+    "-testrig",
+    "9de57c8e-d1d0-4788-af69-8e420a6d7713",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-15T13:46:53.346+0000"
+    }
+  ],
+  "obtained" : "2019-01-15T13:46:53.345+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+status: ASSIGNED
+.... Tue Jan 15 07:46:53 CST 2019: Begin job
+WM:CheckWork: Trying to check [f8486f9b-0cb1-49d3-8002-288a4d55467c 989f179b-fed3-48f8-912b-3c76bb7b253a 9de57c8e-d1d0-4788-af69-8e420a6d7713 {container=989f179b-fed3-48f8-912b-3c76bb7b253a, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=564bf389-cde1-49ea-bc29-cda55ba69f78, testrig=9de57c8e-d1d0-4788-af69-8e420a6d7713, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Tue Jan 15 07:46:53 CST 2019 Tue Jan 15 07:46:53 CST 2019 null] [localhost:36405] [InProgress, Tue Jan 15 07:47:00 CST 2019] on localhost:36405
+BFS:getTaskStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"989f179b-fed3-48f8-912b-3c76bb7b253a\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"564bf389-cde1-49ea-bc29-cda55ba69f78\",\n    \"-testrig\",\n    \"9de57c8e-d1d0-4788-af69-8e420a6d7713\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-15T13:46:53.346+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-15T13:46:53.345+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "989f179b-fed3-48f8-912b-3c76bb7b253a",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "564bf389-cde1-49ea-bc29-cda55ba69f78",
+    "-testrig",
+    "9de57c8e-d1d0-4788-af69-8e420a6d7713",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-15T13:46:53.346+0000"
+    }
+  ],
+  "obtained" : "2019-01-15T13:46:53.345+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+status: ASSIGNED
+.... Tue Jan 15 07:46:53 CST 2019: Begin job
+WM:CheckWork: Trying to check [f8486f9b-0cb1-49d3-8002-288a4d55467c 989f179b-fed3-48f8-912b-3c76bb7b253a 9de57c8e-d1d0-4788-af69-8e420a6d7713 {container=989f179b-fed3-48f8-912b-3c76bb7b253a, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=564bf389-cde1-49ea-bc29-cda55ba69f78, testrig=9de57c8e-d1d0-4788-af69-8e420a6d7713, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Tue Jan 15 07:46:53 CST 2019 Tue Jan 15 07:46:53 CST 2019 null] [localhost:36405] [InProgress, Tue Jan 15 07:47:01 CST 2019] on localhost:36405
+BFS:getTaskStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"989f179b-fed3-48f8-912b-3c76bb7b253a\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"564bf389-cde1-49ea-bc29-cda55ba69f78\",\n    \"-testrig\",\n    \"9de57c8e-d1d0-4788-af69-8e420a6d7713\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-15T13:46:53.346+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-15T13:46:53.345+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "989f179b-fed3-48f8-912b-3c76bb7b253a",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "564bf389-cde1-49ea-bc29-cda55ba69f78",
+    "-testrig",
+    "9de57c8e-d1d0-4788-af69-8e420a6d7713",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-15T13:46:53.346+0000"
+    }
+  ],
+  "obtained" : "2019-01-15T13:46:53.345+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+status: ASSIGNED
+.... Tue Jan 15 07:46:53 CST 2019: Begin job
+WM:CheckWork: Trying to check [f8486f9b-0cb1-49d3-8002-288a4d55467c 989f179b-fed3-48f8-912b-3c76bb7b253a 9de57c8e-d1d0-4788-af69-8e420a6d7713 {container=989f179b-fed3-48f8-912b-3c76bb7b253a, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=564bf389-cde1-49ea-bc29-cda55ba69f78, testrig=9de57c8e-d1d0-4788-af69-8e420a6d7713, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Tue Jan 15 07:46:53 CST 2019 Tue Jan 15 07:46:53 CST 2019 null] [localhost:36405] [InProgress, Tue Jan 15 07:47:02 CST 2019] on localhost:36405
+BFS:getTaskStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"989f179b-fed3-48f8-912b-3c76bb7b253a\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"564bf389-cde1-49ea-bc29-cda55ba69f78\",\n    \"-testrig\",\n    \"9de57c8e-d1d0-4788-af69-8e420a6d7713\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-15T13:46:53.346+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-15T13:46:53.345+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "989f179b-fed3-48f8-912b-3c76bb7b253a",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "564bf389-cde1-49ea-bc29-cda55ba69f78",
+    "-testrig",
+    "9de57c8e-d1d0-4788-af69-8e420a6d7713",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-15T13:46:53.346+0000"
+    }
+  ],
+  "obtained" : "2019-01-15T13:46:53.345+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+status: ASSIGNED
+.... Tue Jan 15 07:46:53 CST 2019: Begin job
+WM:CheckWork: Trying to check [f8486f9b-0cb1-49d3-8002-288a4d55467c 989f179b-fed3-48f8-912b-3c76bb7b253a 9de57c8e-d1d0-4788-af69-8e420a6d7713 {container=989f179b-fed3-48f8-912b-3c76bb7b253a, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=564bf389-cde1-49ea-bc29-cda55ba69f78, testrig=9de57c8e-d1d0-4788-af69-8e420a6d7713, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Tue Jan 15 07:46:53 CST 2019 Tue Jan 15 07:46:53 CST 2019 null] [localhost:36405] [InProgress, Tue Jan 15 07:47:03 CST 2019] on localhost:36405
+BFS:getTaskStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"989f179b-fed3-48f8-912b-3c76bb7b253a\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"564bf389-cde1-49ea-bc29-cda55ba69f78\",\n    \"-testrig\",\n    \"9de57c8e-d1d0-4788-af69-8e420a6d7713\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-15T13:46:53.346+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-15T13:46:53.345+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "989f179b-fed3-48f8-912b-3c76bb7b253a",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "564bf389-cde1-49ea-bc29-cda55ba69f78",
+    "-testrig",
+    "9de57c8e-d1d0-4788-af69-8e420a6d7713",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-15T13:46:53.346+0000"
+    }
+  ],
+  "obtained" : "2019-01-15T13:46:53.345+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+status: ASSIGNED
+.... Tue Jan 15 07:46:53 CST 2019: Begin job
+WM:CheckWork: Trying to check [f8486f9b-0cb1-49d3-8002-288a4d55467c 989f179b-fed3-48f8-912b-3c76bb7b253a 9de57c8e-d1d0-4788-af69-8e420a6d7713 {container=989f179b-fed3-48f8-912b-3c76bb7b253a, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=564bf389-cde1-49ea-bc29-cda55ba69f78, testrig=9de57c8e-d1d0-4788-af69-8e420a6d7713, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Tue Jan 15 07:46:53 CST 2019 Tue Jan 15 07:46:53 CST 2019 null] [localhost:36405] [InProgress, Tue Jan 15 07:47:04 CST 2019] on localhost:36405
+BFS:getTaskStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"989f179b-fed3-48f8-912b-3c76bb7b253a\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"564bf389-cde1-49ea-bc29-cda55ba69f78\",\n    \"-testrig\",\n    \"9de57c8e-d1d0-4788-af69-8e420a6d7713\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-15T13:46:53.346+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-15T13:46:53.345+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "989f179b-fed3-48f8-912b-3c76bb7b253a",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "564bf389-cde1-49ea-bc29-cda55ba69f78",
+    "-testrig",
+    "9de57c8e-d1d0-4788-af69-8e420a6d7713",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-15T13:46:53.346+0000"
+    }
+  ],
+  "obtained" : "2019-01-15T13:46:53.345+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+status: ASSIGNED
+.... Tue Jan 15 07:46:53 CST 2019: Begin job
+WM:CheckWork: Trying to check [f8486f9b-0cb1-49d3-8002-288a4d55467c 989f179b-fed3-48f8-912b-3c76bb7b253a 9de57c8e-d1d0-4788-af69-8e420a6d7713 {container=989f179b-fed3-48f8-912b-3c76bb7b253a, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=564bf389-cde1-49ea-bc29-cda55ba69f78, testrig=9de57c8e-d1d0-4788-af69-8e420a6d7713, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Tue Jan 15 07:46:53 CST 2019 Tue Jan 15 07:46:53 CST 2019 null] [localhost:36405] [InProgress, Tue Jan 15 07:47:05 CST 2019] on localhost:36405
+BFS:getTaskStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"989f179b-fed3-48f8-912b-3c76bb7b253a\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"564bf389-cde1-49ea-bc29-cda55ba69f78\",\n    \"-testrig\",\n    \"9de57c8e-d1d0-4788-af69-8e420a6d7713\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-15T13:46:53.346+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-15T13:46:53.345+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "989f179b-fed3-48f8-912b-3c76bb7b253a",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "564bf389-cde1-49ea-bc29-cda55ba69f78",
+    "-testrig",
+    "9de57c8e-d1d0-4788-af69-8e420a6d7713",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-15T13:46:53.346+0000"
+    }
+  ],
+  "obtained" : "2019-01-15T13:46:53.345+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+status: ASSIGNED
+.... Tue Jan 15 07:46:53 CST 2019: Begin job
+WM:CheckWork: Trying to check [f8486f9b-0cb1-49d3-8002-288a4d55467c 989f179b-fed3-48f8-912b-3c76bb7b253a 9de57c8e-d1d0-4788-af69-8e420a6d7713 {container=989f179b-fed3-48f8-912b-3c76bb7b253a, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=564bf389-cde1-49ea-bc29-cda55ba69f78, testrig=9de57c8e-d1d0-4788-af69-8e420a6d7713, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Tue Jan 15 07:46:53 CST 2019 Tue Jan 15 07:46:53 CST 2019 null] [localhost:36405] [InProgress, Tue Jan 15 07:47:06 CST 2019] on localhost:36405
+BFS:getTaskStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"989f179b-fed3-48f8-912b-3c76bb7b253a\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"564bf389-cde1-49ea-bc29-cda55ba69f78\",\n    \"-testrig\",\n    \"9de57c8e-d1d0-4788-af69-8e420a6d7713\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-15T13:46:53.346+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-15T13:46:53.345+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "989f179b-fed3-48f8-912b-3c76bb7b253a",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "564bf389-cde1-49ea-bc29-cda55ba69f78",
+    "-testrig",
+    "9de57c8e-d1d0-4788-af69-8e420a6d7713",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-15T13:46:53.346+0000"
+    }
+  ],
+  "obtained" : "2019-01-15T13:46:53.345+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+status: ASSIGNED
+.... Tue Jan 15 07:46:53 CST 2019: Begin job
+WM:CheckWork: Trying to check [f8486f9b-0cb1-49d3-8002-288a4d55467c 989f179b-fed3-48f8-912b-3c76bb7b253a 9de57c8e-d1d0-4788-af69-8e420a6d7713 {container=989f179b-fed3-48f8-912b-3c76bb7b253a, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=564bf389-cde1-49ea-bc29-cda55ba69f78, testrig=9de57c8e-d1d0-4788-af69-8e420a6d7713, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Tue Jan 15 07:46:53 CST 2019 Tue Jan 15 07:46:53 CST 2019 null] [localhost:36405] [InProgress, Tue Jan 15 07:47:07 CST 2019] on localhost:36405
+BFS:getTaskStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"989f179b-fed3-48f8-912b-3c76bb7b253a\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"564bf389-cde1-49ea-bc29-cda55ba69f78\",\n    \"-testrig\",\n    \"9de57c8e-d1d0-4788-af69-8e420a6d7713\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-15T13:46:53.346+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-15T13:46:53.345+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "989f179b-fed3-48f8-912b-3c76bb7b253a",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "564bf389-cde1-49ea-bc29-cda55ba69f78",
+    "-testrig",
+    "9de57c8e-d1d0-4788-af69-8e420a6d7713",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-15T13:46:53.346+0000"
+    }
+  ],
+  "obtained" : "2019-01-15T13:46:53.345+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+status: ASSIGNED
+.... Tue Jan 15 07:46:53 CST 2019: Begin job
+WM:CheckWork: Trying to check [f8486f9b-0cb1-49d3-8002-288a4d55467c 989f179b-fed3-48f8-912b-3c76bb7b253a 9de57c8e-d1d0-4788-af69-8e420a6d7713 {container=989f179b-fed3-48f8-912b-3c76bb7b253a, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=564bf389-cde1-49ea-bc29-cda55ba69f78, testrig=9de57c8e-d1d0-4788-af69-8e420a6d7713, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Tue Jan 15 07:46:53 CST 2019 Tue Jan 15 07:46:53 CST 2019 null] [localhost:36405] [InProgress, Tue Jan 15 07:47:08 CST 2019] on localhost:36405
+BFS:getTaskStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"989f179b-fed3-48f8-912b-3c76bb7b253a\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"564bf389-cde1-49ea-bc29-cda55ba69f78\",\n    \"-testrig\",\n    \"9de57c8e-d1d0-4788-af69-8e420a6d7713\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-15T13:46:53.346+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-15T13:46:53.345+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "989f179b-fed3-48f8-912b-3c76bb7b253a",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "564bf389-cde1-49ea-bc29-cda55ba69f78",
+    "-testrig",
+    "9de57c8e-d1d0-4788-af69-8e420a6d7713",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-15T13:46:53.346+0000"
+    }
+  ],
+  "obtained" : "2019-01-15T13:46:53.345+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+status: ASSIGNED
+.... Tue Jan 15 07:46:53 CST 2019: Begin job
+WM:CheckWork: Trying to check [f8486f9b-0cb1-49d3-8002-288a4d55467c 989f179b-fed3-48f8-912b-3c76bb7b253a 9de57c8e-d1d0-4788-af69-8e420a6d7713 {container=989f179b-fed3-48f8-912b-3c76bb7b253a, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=564bf389-cde1-49ea-bc29-cda55ba69f78, testrig=9de57c8e-d1d0-4788-af69-8e420a6d7713, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Tue Jan 15 07:46:53 CST 2019 Tue Jan 15 07:46:53 CST 2019 null] [localhost:36405] [InProgress, Tue Jan 15 07:47:09 CST 2019] on localhost:36405
+BFS:getTaskStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"989f179b-fed3-48f8-912b-3c76bb7b253a\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"564bf389-cde1-49ea-bc29-cda55ba69f78\",\n    \"-testrig\",\n    \"9de57c8e-d1d0-4788-af69-8e420a6d7713\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-15T13:46:53.346+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-15T13:46:53.345+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "989f179b-fed3-48f8-912b-3c76bb7b253a",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "564bf389-cde1-49ea-bc29-cda55ba69f78",
+    "-testrig",
+    "9de57c8e-d1d0-4788-af69-8e420a6d7713",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-15T13:46:53.346+0000"
+    }
+  ],
+  "obtained" : "2019-01-15T13:46:53.345+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+status: ASSIGNED
+.... Tue Jan 15 07:46:53 CST 2019: Begin job
+WM:CheckWork: Trying to check [f8486f9b-0cb1-49d3-8002-288a4d55467c 989f179b-fed3-48f8-912b-3c76bb7b253a 9de57c8e-d1d0-4788-af69-8e420a6d7713 {container=989f179b-fed3-48f8-912b-3c76bb7b253a, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=564bf389-cde1-49ea-bc29-cda55ba69f78, testrig=9de57c8e-d1d0-4788-af69-8e420a6d7713, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Tue Jan 15 07:46:53 CST 2019 Tue Jan 15 07:46:53 CST 2019 null] [localhost:36405] [InProgress, Tue Jan 15 07:47:10 CST 2019] on localhost:36405
+BFS:getTaskStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"989f179b-fed3-48f8-912b-3c76bb7b253a\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"564bf389-cde1-49ea-bc29-cda55ba69f78\",\n    \"-testrig\",\n    \"9de57c8e-d1d0-4788-af69-8e420a6d7713\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-15T13:46:53.346+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-15T13:46:53.345+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "989f179b-fed3-48f8-912b-3c76bb7b253a",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "564bf389-cde1-49ea-bc29-cda55ba69f78",
+    "-testrig",
+    "9de57c8e-d1d0-4788-af69-8e420a6d7713",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-15T13:46:53.346+0000"
+    }
+  ],
+  "obtained" : "2019-01-15T13:46:53.345+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+status: ASSIGNED
+.... Tue Jan 15 07:46:53 CST 2019: Begin job
+WM:CheckWork: Trying to check [f8486f9b-0cb1-49d3-8002-288a4d55467c 989f179b-fed3-48f8-912b-3c76bb7b253a 9de57c8e-d1d0-4788-af69-8e420a6d7713 {container=989f179b-fed3-48f8-912b-3c76bb7b253a, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=564bf389-cde1-49ea-bc29-cda55ba69f78, testrig=9de57c8e-d1d0-4788-af69-8e420a6d7713, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Tue Jan 15 07:46:53 CST 2019 Tue Jan 15 07:46:53 CST 2019 null] [localhost:36405] [InProgress, Tue Jan 15 07:47:11 CST 2019] on localhost:36405
+BFS:getTaskStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"989f179b-fed3-48f8-912b-3c76bb7b253a\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"564bf389-cde1-49ea-bc29-cda55ba69f78\",\n    \"-testrig\",\n    \"9de57c8e-d1d0-4788-af69-8e420a6d7713\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-15T13:46:53.346+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-15T13:46:53.345+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "989f179b-fed3-48f8-912b-3c76bb7b253a",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "564bf389-cde1-49ea-bc29-cda55ba69f78",
+    "-testrig",
+    "9de57c8e-d1d0-4788-af69-8e420a6d7713",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-15T13:46:53.346+0000"
+    }
+  ],
+  "obtained" : "2019-01-15T13:46:53.345+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+status: ASSIGNED
+.... Tue Jan 15 07:46:53 CST 2019: Begin job
+WM:CheckWork: Trying to check [f8486f9b-0cb1-49d3-8002-288a4d55467c 989f179b-fed3-48f8-912b-3c76bb7b253a 9de57c8e-d1d0-4788-af69-8e420a6d7713 {container=989f179b-fed3-48f8-912b-3c76bb7b253a, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=564bf389-cde1-49ea-bc29-cda55ba69f78, testrig=9de57c8e-d1d0-4788-af69-8e420a6d7713, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Tue Jan 15 07:46:53 CST 2019 Tue Jan 15 07:46:53 CST 2019 null] [localhost:36405] [InProgress, Tue Jan 15 07:47:12 CST 2019] on localhost:36405
+BFS:getTaskStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"989f179b-fed3-48f8-912b-3c76bb7b253a\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"564bf389-cde1-49ea-bc29-cda55ba69f78\",\n    \"-testrig\",\n    \"9de57c8e-d1d0-4788-af69-8e420a6d7713\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-15T13:46:53.346+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-15T13:46:53.345+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "989f179b-fed3-48f8-912b-3c76bb7b253a",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "564bf389-cde1-49ea-bc29-cda55ba69f78",
+    "-testrig",
+    "9de57c8e-d1d0-4788-af69-8e420a6d7713",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-15T13:46:53.346+0000"
+    }
+  ],
+  "obtained" : "2019-01-15T13:46:53.345+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+status: ASSIGNED
+.... Tue Jan 15 07:46:53 CST 2019: Begin job
+WM:CheckWork: Trying to check [f8486f9b-0cb1-49d3-8002-288a4d55467c 989f179b-fed3-48f8-912b-3c76bb7b253a 9de57c8e-d1d0-4788-af69-8e420a6d7713 {container=989f179b-fed3-48f8-912b-3c76bb7b253a, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=564bf389-cde1-49ea-bc29-cda55ba69f78, testrig=9de57c8e-d1d0-4788-af69-8e420a6d7713, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Tue Jan 15 07:46:53 CST 2019 Tue Jan 15 07:46:53 CST 2019 null] [localhost:36405] [InProgress, Tue Jan 15 07:47:13 CST 2019] on localhost:36405
+BFS:getTaskStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"989f179b-fed3-48f8-912b-3c76bb7b253a\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"564bf389-cde1-49ea-bc29-cda55ba69f78\",\n    \"-testrig\",\n    \"9de57c8e-d1d0-4788-af69-8e420a6d7713\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-15T13:46:53.346+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-15T13:46:53.345+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "989f179b-fed3-48f8-912b-3c76bb7b253a",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "564bf389-cde1-49ea-bc29-cda55ba69f78",
+    "-testrig",
+    "9de57c8e-d1d0-4788-af69-8e420a6d7713",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-15T13:46:53.346+0000"
+    }
+  ],
+  "obtained" : "2019-01-15T13:46:53.345+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+status: ASSIGNED
+.... Tue Jan 15 07:46:53 CST 2019: Begin job
+WM:CheckWork: Trying to check [f8486f9b-0cb1-49d3-8002-288a4d55467c 989f179b-fed3-48f8-912b-3c76bb7b253a 9de57c8e-d1d0-4788-af69-8e420a6d7713 {container=989f179b-fed3-48f8-912b-3c76bb7b253a, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=564bf389-cde1-49ea-bc29-cda55ba69f78, testrig=9de57c8e-d1d0-4788-af69-8e420a6d7713, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Tue Jan 15 07:46:53 CST 2019 Tue Jan 15 07:46:53 CST 2019 null] [localhost:36405] [InProgress, Tue Jan 15 07:47:14 CST 2019] on localhost:36405
+BFS:getTaskStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"989f179b-fed3-48f8-912b-3c76bb7b253a\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"564bf389-cde1-49ea-bc29-cda55ba69f78\",\n    \"-testrig\",\n    \"9de57c8e-d1d0-4788-af69-8e420a6d7713\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-15T13:46:53.346+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-15T13:46:53.345+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "989f179b-fed3-48f8-912b-3c76bb7b253a",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "564bf389-cde1-49ea-bc29-cda55ba69f78",
+    "-testrig",
+    "9de57c8e-d1d0-4788-af69-8e420a6d7713",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-15T13:46:53.346+0000"
+    }
+  ],
+  "obtained" : "2019-01-15T13:46:53.345+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+status: ASSIGNED
+.... Tue Jan 15 07:46:53 CST 2019: Begin job
+WM:CheckWork: Trying to check [f8486f9b-0cb1-49d3-8002-288a4d55467c 989f179b-fed3-48f8-912b-3c76bb7b253a 9de57c8e-d1d0-4788-af69-8e420a6d7713 {container=989f179b-fed3-48f8-912b-3c76bb7b253a, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=564bf389-cde1-49ea-bc29-cda55ba69f78, testrig=9de57c8e-d1d0-4788-af69-8e420a6d7713, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Tue Jan 15 07:46:53 CST 2019 Tue Jan 15 07:46:53 CST 2019 null] [localhost:36405] [InProgress, Tue Jan 15 07:47:15 CST 2019] on localhost:36405
+BFS:getTaskStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"989f179b-fed3-48f8-912b-3c76bb7b253a\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"564bf389-cde1-49ea-bc29-cda55ba69f78\",\n    \"-testrig\",\n    \"9de57c8e-d1d0-4788-af69-8e420a6d7713\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-15T13:46:53.346+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-15T13:46:53.345+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "989f179b-fed3-48f8-912b-3c76bb7b253a",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "564bf389-cde1-49ea-bc29-cda55ba69f78",
+    "-testrig",
+    "9de57c8e-d1d0-4788-af69-8e420a6d7713",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-15T13:46:53.346+0000"
+    }
+  ],
+  "obtained" : "2019-01-15T13:46:53.345+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+status: ASSIGNED
+.... Tue Jan 15 07:46:53 CST 2019: Begin job
+WM:CheckWork: Trying to check [f8486f9b-0cb1-49d3-8002-288a4d55467c 989f179b-fed3-48f8-912b-3c76bb7b253a 9de57c8e-d1d0-4788-af69-8e420a6d7713 {container=989f179b-fed3-48f8-912b-3c76bb7b253a, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=564bf389-cde1-49ea-bc29-cda55ba69f78, testrig=9de57c8e-d1d0-4788-af69-8e420a6d7713, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Tue Jan 15 07:46:53 CST 2019 Tue Jan 15 07:46:53 CST 2019 null] [localhost:36405] [InProgress, Tue Jan 15 07:47:16 CST 2019] on localhost:36405
+BFS:getTaskStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"989f179b-fed3-48f8-912b-3c76bb7b253a\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"564bf389-cde1-49ea-bc29-cda55ba69f78\",\n    \"-testrig\",\n    \"9de57c8e-d1d0-4788-af69-8e420a6d7713\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-15T13:46:53.346+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-15T13:46:53.345+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "989f179b-fed3-48f8-912b-3c76bb7b253a",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "564bf389-cde1-49ea-bc29-cda55ba69f78",
+    "-testrig",
+    "9de57c8e-d1d0-4788-af69-8e420a6d7713",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-15T13:46:53.346+0000"
+    }
+  ],
+  "obtained" : "2019-01-15T13:46:53.345+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+status: ASSIGNED
+.... Tue Jan 15 07:46:53 CST 2019: Begin job
+WM:CheckWork: Trying to check [f8486f9b-0cb1-49d3-8002-288a4d55467c 989f179b-fed3-48f8-912b-3c76bb7b253a 9de57c8e-d1d0-4788-af69-8e420a6d7713 {container=989f179b-fed3-48f8-912b-3c76bb7b253a, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=564bf389-cde1-49ea-bc29-cda55ba69f78, testrig=9de57c8e-d1d0-4788-af69-8e420a6d7713, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Tue Jan 15 07:46:53 CST 2019 Tue Jan 15 07:46:53 CST 2019 null] [localhost:36405] [InProgress, Tue Jan 15 07:47:17 CST 2019] on localhost:36405
+BFS:getTaskStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"989f179b-fed3-48f8-912b-3c76bb7b253a\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"564bf389-cde1-49ea-bc29-cda55ba69f78\",\n    \"-testrig\",\n    \"9de57c8e-d1d0-4788-af69-8e420a6d7713\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-15T13:46:53.346+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-15T13:46:53.345+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "989f179b-fed3-48f8-912b-3c76bb7b253a",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "564bf389-cde1-49ea-bc29-cda55ba69f78",
+    "-testrig",
+    "9de57c8e-d1d0-4788-af69-8e420a6d7713",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-15T13:46:53.346+0000"
+    }
+  ],
+  "obtained" : "2019-01-15T13:46:53.345+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+status: ASSIGNED
+.... Tue Jan 15 07:46:53 CST 2019: Begin job
+WM:CheckWork: Trying to check [f8486f9b-0cb1-49d3-8002-288a4d55467c 989f179b-fed3-48f8-912b-3c76bb7b253a 9de57c8e-d1d0-4788-af69-8e420a6d7713 {container=989f179b-fed3-48f8-912b-3c76bb7b253a, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=564bf389-cde1-49ea-bc29-cda55ba69f78, testrig=9de57c8e-d1d0-4788-af69-8e420a6d7713, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Tue Jan 15 07:46:53 CST 2019 Tue Jan 15 07:46:53 CST 2019 null] [localhost:36405] [InProgress, Tue Jan 15 07:47:18 CST 2019] on localhost:36405
+BFS:getTaskStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"989f179b-fed3-48f8-912b-3c76bb7b253a\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"564bf389-cde1-49ea-bc29-cda55ba69f78\",\n    \"-testrig\",\n    \"9de57c8e-d1d0-4788-af69-8e420a6d7713\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-15T13:46:53.346+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-15T13:46:53.345+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "989f179b-fed3-48f8-912b-3c76bb7b253a",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "564bf389-cde1-49ea-bc29-cda55ba69f78",
+    "-testrig",
+    "9de57c8e-d1d0-4788-af69-8e420a6d7713",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-15T13:46:53.346+0000"
+    }
+  ],
+  "obtained" : "2019-01-15T13:46:53.345+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+status: ASSIGNED
+.... Tue Jan 15 07:46:53 CST 2019: Begin job
+WM:CheckWork: Trying to check [f8486f9b-0cb1-49d3-8002-288a4d55467c 989f179b-fed3-48f8-912b-3c76bb7b253a 9de57c8e-d1d0-4788-af69-8e420a6d7713 {container=989f179b-fed3-48f8-912b-3c76bb7b253a, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=564bf389-cde1-49ea-bc29-cda55ba69f78, testrig=9de57c8e-d1d0-4788-af69-8e420a6d7713, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Tue Jan 15 07:46:53 CST 2019 Tue Jan 15 07:46:53 CST 2019 null] [localhost:36405] [InProgress, Tue Jan 15 07:47:19 CST 2019] on localhost:36405
+BFS:getTaskStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"989f179b-fed3-48f8-912b-3c76bb7b253a\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"564bf389-cde1-49ea-bc29-cda55ba69f78\",\n    \"-testrig\",\n    \"9de57c8e-d1d0-4788-af69-8e420a6d7713\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-15T13:46:53.346+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-15T13:46:53.345+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "989f179b-fed3-48f8-912b-3c76bb7b253a",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "564bf389-cde1-49ea-bc29-cda55ba69f78",
+    "-testrig",
+    "9de57c8e-d1d0-4788-af69-8e420a6d7713",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-15T13:46:53.346+0000"
+    }
+  ],
+  "obtained" : "2019-01-15T13:46:53.345+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+status: ASSIGNED
+.... Tue Jan 15 07:46:53 CST 2019: Begin job
+WM:CheckWork: Trying to check [f8486f9b-0cb1-49d3-8002-288a4d55467c 989f179b-fed3-48f8-912b-3c76bb7b253a 9de57c8e-d1d0-4788-af69-8e420a6d7713 {container=989f179b-fed3-48f8-912b-3c76bb7b253a, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=564bf389-cde1-49ea-bc29-cda55ba69f78, testrig=9de57c8e-d1d0-4788-af69-8e420a6d7713, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Tue Jan 15 07:46:53 CST 2019 Tue Jan 15 07:46:53 CST 2019 null] [localhost:36405] [InProgress, Tue Jan 15 07:47:20 CST 2019] on localhost:36405
+Created BDDs
+BFS:getTaskStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"989f179b-fed3-48f8-912b-3c76bb7b253a\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"564bf389-cde1-49ea-bc29-cda55ba69f78\",\n    \"-testrig\",\n    \"9de57c8e-d1d0-4788-af69-8e420a6d7713\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-15T13:46:53.346+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-15T13:46:53.345+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "989f179b-fed3-48f8-912b-3c76bb7b253a",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "564bf389-cde1-49ea-bc29-cda55ba69f78",
+    "-testrig",
+    "9de57c8e-d1d0-4788-af69-8e420a6d7713",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-15T13:46:53.346+0000"
+    }
+  ],
+  "obtained" : "2019-01-15T13:46:53.345+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+status: ASSIGNED
+.... Tue Jan 15 07:46:53 CST 2019: Begin job
+WM:CheckWork: Trying to check [f8486f9b-0cb1-49d3-8002-288a4d55467c 989f179b-fed3-48f8-912b-3c76bb7b253a 9de57c8e-d1d0-4788-af69-8e420a6d7713 {container=989f179b-fed3-48f8-912b-3c76bb7b253a, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=564bf389-cde1-49ea-bc29-cda55ba69f78, testrig=9de57c8e-d1d0-4788-af69-8e420a6d7713, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Tue Jan 15 07:46:53 CST 2019 Tue Jan 15 07:46:53 CST 2019 null] [localhost:36405] [InProgress, Tue Jan 15 07:47:21 CST 2019] on localhost:36405
+BFS:getTaskStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"989f179b-fed3-48f8-912b-3c76bb7b253a\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"564bf389-cde1-49ea-bc29-cda55ba69f78\",\n    \"-testrig\",\n    \"9de57c8e-d1d0-4788-af69-8e420a6d7713\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-15T13:46:53.346+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-15T13:46:53.345+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "989f179b-fed3-48f8-912b-3c76bb7b253a",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "564bf389-cde1-49ea-bc29-cda55ba69f78",
+    "-testrig",
+    "9de57c8e-d1d0-4788-af69-8e420a6d7713",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-15T13:46:53.346+0000"
+    }
+  ],
+  "obtained" : "2019-01-15T13:46:53.345+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+status: ASSIGNED
+.... Tue Jan 15 07:46:53 CST 2019: Begin job
+WM:CheckWork: Trying to check [f8486f9b-0cb1-49d3-8002-288a4d55467c 989f179b-fed3-48f8-912b-3c76bb7b253a 9de57c8e-d1d0-4788-af69-8e420a6d7713 {container=989f179b-fed3-48f8-912b-3c76bb7b253a, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=564bf389-cde1-49ea-bc29-cda55ba69f78, testrig=9de57c8e-d1d0-4788-af69-8e420a6d7713, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Tue Jan 15 07:46:53 CST 2019 Tue Jan 15 07:46:53 CST 2019 null] [localhost:36405] [InProgress, Tue Jan 15 07:47:22 CST 2019] on localhost:36405
+BFS:getTaskStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"989f179b-fed3-48f8-912b-3c76bb7b253a\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"564bf389-cde1-49ea-bc29-cda55ba69f78\",\n    \"-testrig\",\n    \"9de57c8e-d1d0-4788-af69-8e420a6d7713\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-15T13:46:53.346+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-15T13:46:53.345+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "989f179b-fed3-48f8-912b-3c76bb7b253a",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "564bf389-cde1-49ea-bc29-cda55ba69f78",
+    "-testrig",
+    "9de57c8e-d1d0-4788-af69-8e420a6d7713",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-15T13:46:53.346+0000"
+    }
+  ],
+  "obtained" : "2019-01-15T13:46:53.345+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+status: ASSIGNED
+.... Tue Jan 15 07:46:53 CST 2019: Begin job
+=====[DEBUG]===== mapped srcRouters: [r101]
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r90]
+=====[DEBUG]===== mapped srcRouters: [r101]
+WM:CheckWork: Trying to check [f8486f9b-0cb1-49d3-8002-288a4d55467c 989f179b-fed3-48f8-912b-3c76bb7b253a 9de57c8e-d1d0-4788-af69-8e420a6d7713 {container=989f179b-fed3-48f8-912b-3c76bb7b253a, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=564bf389-cde1-49ea-bc29-cda55ba69f78, testrig=9de57c8e-d1d0-4788-af69-8e420a6d7713, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Tue Jan 15 07:46:53 CST 2019 Tue Jan 15 07:46:53 CST 2019 null] [localhost:36405] [InProgress, Tue Jan 15 07:47:23 CST 2019] on localhost:36405
+BFS:getTaskStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"989f179b-fed3-48f8-912b-3c76bb7b253a\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"564bf389-cde1-49ea-bc29-cda55ba69f78\",\n    \"-testrig\",\n    \"9de57c8e-d1d0-4788-af69-8e420a6d7713\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-15T13:46:53.346+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-15T13:46:53.345+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "989f179b-fed3-48f8-912b-3c76bb7b253a",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "564bf389-cde1-49ea-bc29-cda55ba69f78",
+    "-testrig",
+    "9de57c8e-d1d0-4788-af69-8e420a6d7713",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-15T13:46:53.346+0000"
+    }
+  ],
+  "obtained" : "2019-01-15T13:46:53.345+0000",
+  "status" : "InProgress"
+}]
+=====[DEBUG]===== mapped srcRouters: [r116]
+=====[DEBUG]===== mapped srcRouters: [r90]
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r81]
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+status: ASSIGNED
+.... Tue Jan 15 07:46:53 CST 2019: Begin job
+=====[DEBUG]===== mapped srcRouters: [r76]
+=====[DEBUG]===== mapped srcRouters: [r76]
+=====[DEBUG]===== mapped srcRouters: [r101]
+=====[DEBUG]===== mapped srcRouters: [r101]
+WM:CheckWork: Trying to check [f8486f9b-0cb1-49d3-8002-288a4d55467c 989f179b-fed3-48f8-912b-3c76bb7b253a 9de57c8e-d1d0-4788-af69-8e420a6d7713 {container=989f179b-fed3-48f8-912b-3c76bb7b253a, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=564bf389-cde1-49ea-bc29-cda55ba69f78, testrig=9de57c8e-d1d0-4788-af69-8e420a6d7713, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Tue Jan 15 07:46:53 CST 2019 Tue Jan 15 07:46:53 CST 2019 null] [localhost:36405] [InProgress, Tue Jan 15 07:47:24 CST 2019] on localhost:36405
+BFS:getTaskStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"989f179b-fed3-48f8-912b-3c76bb7b253a\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"564bf389-cde1-49ea-bc29-cda55ba69f78\",\n    \"-testrig\",\n    \"9de57c8e-d1d0-4788-af69-8e420a6d7713\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-15T13:46:53.346+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-15T13:46:53.345+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "989f179b-fed3-48f8-912b-3c76bb7b253a",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "564bf389-cde1-49ea-bc29-cda55ba69f78",
+    "-testrig",
+    "9de57c8e-d1d0-4788-af69-8e420a6d7713",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-15T13:46:53.346+0000"
+    }
+  ],
+  "obtained" : "2019-01-15T13:46:53.345+0000",
+  "status" : "InProgress"
+}]
+=====[DEBUG]===== mapped srcRouters: [r116]
+=====[DEBUG]===== mapped srcRouters: [r101]
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r98]
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+status: ASSIGNED
+.... Tue Jan 15 07:46:53 CST 2019: Begin job
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r116]
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r98]
+=====[DEBUG]===== mapped srcRouters: [r98]
+=====[DEBUG]===== mapped srcRouters: [r81]
+WM:CheckWork: Trying to check [f8486f9b-0cb1-49d3-8002-288a4d55467c 989f179b-fed3-48f8-912b-3c76bb7b253a 9de57c8e-d1d0-4788-af69-8e420a6d7713 {container=989f179b-fed3-48f8-912b-3c76bb7b253a, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=564bf389-cde1-49ea-bc29-cda55ba69f78, testrig=9de57c8e-d1d0-4788-af69-8e420a6d7713, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Tue Jan 15 07:46:53 CST 2019 Tue Jan 15 07:46:53 CST 2019 null] [localhost:36405] [InProgress, Tue Jan 15 07:47:25 CST 2019] on localhost:36405
+BFS:getTaskStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"989f179b-fed3-48f8-912b-3c76bb7b253a\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"564bf389-cde1-49ea-bc29-cda55ba69f78\",\n    \"-testrig\",\n    \"9de57c8e-d1d0-4788-af69-8e420a6d7713\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-15T13:46:53.346+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-15T13:46:53.345+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "989f179b-fed3-48f8-912b-3c76bb7b253a",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "564bf389-cde1-49ea-bc29-cda55ba69f78",
+    "-testrig",
+    "9de57c8e-d1d0-4788-af69-8e420a6d7713",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-15T13:46:53.346+0000"
+    }
+  ],
+  "obtained" : "2019-01-15T13:46:53.345+0000",
+  "status" : "InProgress"
+}]
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r76]
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r76]
+=====[DEBUG]===== mapped srcRouters: [r81]
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+=====[DEBUG]===== mapped srcRouters: [r81]
+status: ASSIGNED
+.... Tue Jan 15 07:46:53 CST 2019: Begin job
+=====[DEBUG]===== mapped srcRouters: [r101]
+=====[DEBUG]===== mapped srcRouters: [r90]
+=====[DEBUG]===== mapped srcRouters: [r101]
+=====[DEBUG]===== mapped srcRouters: [r112]
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r98]
+=====[DEBUG]===== mapped srcRouters: [r101]
+WM:CheckWork: Trying to check [f8486f9b-0cb1-49d3-8002-288a4d55467c 989f179b-fed3-48f8-912b-3c76bb7b253a 9de57c8e-d1d0-4788-af69-8e420a6d7713 {container=989f179b-fed3-48f8-912b-3c76bb7b253a, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=564bf389-cde1-49ea-bc29-cda55ba69f78, testrig=9de57c8e-d1d0-4788-af69-8e420a6d7713, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Tue Jan 15 07:46:53 CST 2019 Tue Jan 15 07:46:53 CST 2019 null] [localhost:36405] [InProgress, Tue Jan 15 07:47:26 CST 2019] on localhost:36405
+=====[DEBUG]===== mapped srcRouters: [r81]
+BFS:getTaskStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"989f179b-fed3-48f8-912b-3c76bb7b253a\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"564bf389-cde1-49ea-bc29-cda55ba69f78\",\n    \"-testrig\",\n    \"9de57c8e-d1d0-4788-af69-8e420a6d7713\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-15T13:46:53.346+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-15T13:46:53.345+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "989f179b-fed3-48f8-912b-3c76bb7b253a",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "564bf389-cde1-49ea-bc29-cda55ba69f78",
+    "-testrig",
+    "9de57c8e-d1d0-4788-af69-8e420a6d7713",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-15T13:46:53.346+0000"
+    }
+  ],
+  "obtained" : "2019-01-15T13:46:53.345+0000",
+  "status" : "InProgress"
+}]
+=====[DEBUG]===== mapped srcRouters: [r101]
+=====[DEBUG]===== mapped srcRouters: [r75]
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r81]
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+status: ASSIGNED
+.... Tue Jan 15 07:46:53 CST 2019: Begin job
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r101]
+WM:CheckWork: Trying to check [f8486f9b-0cb1-49d3-8002-288a4d55467c 989f179b-fed3-48f8-912b-3c76bb7b253a 9de57c8e-d1d0-4788-af69-8e420a6d7713 {container=989f179b-fed3-48f8-912b-3c76bb7b253a, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=564bf389-cde1-49ea-bc29-cda55ba69f78, testrig=9de57c8e-d1d0-4788-af69-8e420a6d7713, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Tue Jan 15 07:46:53 CST 2019 Tue Jan 15 07:46:53 CST 2019 null] [localhost:36405] [InProgress, Tue Jan 15 07:47:27 CST 2019] on localhost:36405
+BFS:getTaskStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"989f179b-fed3-48f8-912b-3c76bb7b253a\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"564bf389-cde1-49ea-bc29-cda55ba69f78\",\n    \"-testrig\",\n    \"9de57c8e-d1d0-4788-af69-8e420a6d7713\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-15T13:46:53.346+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-15T13:46:53.345+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "989f179b-fed3-48f8-912b-3c76bb7b253a",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "564bf389-cde1-49ea-bc29-cda55ba69f78",
+    "-testrig",
+    "9de57c8e-d1d0-4788-af69-8e420a6d7713",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-15T13:46:53.346+0000"
+    }
+  ],
+  "obtained" : "2019-01-15T13:46:53.345+0000",
+  "status" : "InProgress"
+}]
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r98]
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+status: ASSIGNED
+.... Tue Jan 15 07:46:53 CST 2019: Begin job
+=====[DEBUG]===== mapped srcRouters: [r81]
+WM:CheckWork: Trying to check [f8486f9b-0cb1-49d3-8002-288a4d55467c 989f179b-fed3-48f8-912b-3c76bb7b253a 9de57c8e-d1d0-4788-af69-8e420a6d7713 {container=989f179b-fed3-48f8-912b-3c76bb7b253a, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=564bf389-cde1-49ea-bc29-cda55ba69f78, testrig=9de57c8e-d1d0-4788-af69-8e420a6d7713, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Tue Jan 15 07:46:53 CST 2019 Tue Jan 15 07:46:53 CST 2019 null] [localhost:36405] [InProgress, Tue Jan 15 07:47:28 CST 2019] on localhost:36405
+BFS:getTaskStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"989f179b-fed3-48f8-912b-3c76bb7b253a\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"564bf389-cde1-49ea-bc29-cda55ba69f78\",\n    \"-testrig\",\n    \"9de57c8e-d1d0-4788-af69-8e420a6d7713\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-15T13:46:53.346+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-15T13:46:53.345+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "989f179b-fed3-48f8-912b-3c76bb7b253a",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "564bf389-cde1-49ea-bc29-cda55ba69f78",
+    "-testrig",
+    "9de57c8e-d1d0-4788-af69-8e420a6d7713",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-15T13:46:53.346+0000"
+    }
+  ],
+  "obtained" : "2019-01-15T13:46:53.345+0000",
+  "status" : "InProgress"
+}]
+=====[DEBUG]===== mapped srcRouters: [r75]
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r101]
+=====[DEBUG]===== mapped srcRouters: [r101]
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r76]
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+status: ASSIGNED
+.... Tue Jan 15 07:46:53 CST 2019: Begin job
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r90]
+=====[DEBUG]===== mapped srcRouters: [r90]
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r81]
+WM:CheckWork: Trying to check [f8486f9b-0cb1-49d3-8002-288a4d55467c 989f179b-fed3-48f8-912b-3c76bb7b253a 9de57c8e-d1d0-4788-af69-8e420a6d7713 {container=989f179b-fed3-48f8-912b-3c76bb7b253a, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=564bf389-cde1-49ea-bc29-cda55ba69f78, testrig=9de57c8e-d1d0-4788-af69-8e420a6d7713, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Tue Jan 15 07:46:53 CST 2019 Tue Jan 15 07:46:53 CST 2019 null] [localhost:36405] [InProgress, Tue Jan 15 07:47:29 CST 2019] on localhost:36405
+=====[DEBUG]===== mapped srcRouters: [r81]
+BFS:getTaskStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"989f179b-fed3-48f8-912b-3c76bb7b253a\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"564bf389-cde1-49ea-bc29-cda55ba69f78\",\n    \"-testrig\",\n    \"9de57c8e-d1d0-4788-af69-8e420a6d7713\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-15T13:46:53.346+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-15T13:46:53.345+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "989f179b-fed3-48f8-912b-3c76bb7b253a",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "564bf389-cde1-49ea-bc29-cda55ba69f78",
+    "-testrig",
+    "9de57c8e-d1d0-4788-af69-8e420a6d7713",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-15T13:46:53.346+0000"
+    }
+  ],
+  "obtained" : "2019-01-15T13:46:53.345+0000",
+  "status" : "InProgress"
+}]
+=====[DEBUG]===== mapped srcRouters: [r101]
+=====[DEBUG]===== mapped srcRouters: [r101]
+=====[DEBUG]===== mapped srcRouters: [r101]
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r98]
+=====[DEBUG]===== mapped srcRouters: [r81]
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+status: ASSIGNED
+.... Tue Jan 15 07:46:53 CST 2019: Begin job
+=====[DEBUG]===== mapped srcRouters: [r116]
+=====[DEBUG]===== mapped srcRouters: [r116]
+=====[DEBUG]===== mapped srcRouters: [r90]
+=====[DEBUG]===== mapped srcRouters: [r81]
+WM:CheckWork: Trying to check [f8486f9b-0cb1-49d3-8002-288a4d55467c 989f179b-fed3-48f8-912b-3c76bb7b253a 9de57c8e-d1d0-4788-af69-8e420a6d7713 {container=989f179b-fed3-48f8-912b-3c76bb7b253a, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=564bf389-cde1-49ea-bc29-cda55ba69f78, testrig=9de57c8e-d1d0-4788-af69-8e420a6d7713, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Tue Jan 15 07:46:53 CST 2019 Tue Jan 15 07:46:53 CST 2019 null] [localhost:36405] [InProgress, Tue Jan 15 07:47:30 CST 2019] on localhost:36405
+BFS:getTaskStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"989f179b-fed3-48f8-912b-3c76bb7b253a\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"564bf389-cde1-49ea-bc29-cda55ba69f78\",\n    \"-testrig\",\n    \"9de57c8e-d1d0-4788-af69-8e420a6d7713\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-15T13:46:53.346+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-15T13:46:53.345+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "989f179b-fed3-48f8-912b-3c76bb7b253a",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "564bf389-cde1-49ea-bc29-cda55ba69f78",
+    "-testrig",
+    "9de57c8e-d1d0-4788-af69-8e420a6d7713",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-15T13:46:53.346+0000"
+    }
+  ],
+  "obtained" : "2019-01-15T13:46:53.345+0000",
+  "status" : "InProgress"
+}]
+=====[DEBUG]===== mapped srcRouters: [r98]
+=====[DEBUG]===== mapped srcRouters: [r98]
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+status: ASSIGNED
+.... Tue Jan 15 07:46:53 CST 2019: Begin job
+=====[DEBUG]===== mapped srcRouters: [r76]
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r101]
+=====[DEBUG]===== mapped srcRouters: [r116]
+=====[DEBUG]===== mapped srcRouters: [r98]
+=====[DEBUG]===== mapped srcRouters: [r81]
+WM:CheckWork: Trying to check [f8486f9b-0cb1-49d3-8002-288a4d55467c 989f179b-fed3-48f8-912b-3c76bb7b253a 9de57c8e-d1d0-4788-af69-8e420a6d7713 {container=989f179b-fed3-48f8-912b-3c76bb7b253a, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=564bf389-cde1-49ea-bc29-cda55ba69f78, testrig=9de57c8e-d1d0-4788-af69-8e420a6d7713, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Tue Jan 15 07:46:53 CST 2019 Tue Jan 15 07:46:53 CST 2019 null] [localhost:36405] [InProgress, Tue Jan 15 07:47:31 CST 2019] on localhost:36405
+BFS:getTaskStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"989f179b-fed3-48f8-912b-3c76bb7b253a\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"564bf389-cde1-49ea-bc29-cda55ba69f78\",\n    \"-testrig\",\n    \"9de57c8e-d1d0-4788-af69-8e420a6d7713\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-15T13:46:53.346+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-15T13:46:53.345+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "989f179b-fed3-48f8-912b-3c76bb7b253a",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "564bf389-cde1-49ea-bc29-cda55ba69f78",
+    "-testrig",
+    "9de57c8e-d1d0-4788-af69-8e420a6d7713",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-15T13:46:53.346+0000"
+    }
+  ],
+  "obtained" : "2019-01-15T13:46:53.345+0000",
+  "status" : "InProgress"
+}]
+=====[DEBUG]===== mapped srcRouters: [r112]
+=====[DEBUG]===== mapped srcRouters: [r76]
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r90]
+=====[DEBUG]===== mapped srcRouters: [r81]
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+=====[DEBUG]===== mapped srcRouters: [r101]
+status: ASSIGNED
+.... Tue Jan 15 07:46:53 CST 2019: Begin job
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r101]
+=====[DEBUG]===== mapped srcRouters: [r81]
+WM:CheckWork: Trying to check [f8486f9b-0cb1-49d3-8002-288a4d55467c 989f179b-fed3-48f8-912b-3c76bb7b253a 9de57c8e-d1d0-4788-af69-8e420a6d7713 {container=989f179b-fed3-48f8-912b-3c76bb7b253a, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=564bf389-cde1-49ea-bc29-cda55ba69f78, testrig=9de57c8e-d1d0-4788-af69-8e420a6d7713, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Tue Jan 15 07:46:53 CST 2019 Tue Jan 15 07:46:53 CST 2019 null] [localhost:36405] [InProgress, Tue Jan 15 07:47:32 CST 2019] on localhost:36405
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+status: CHECKINGSTATUS
+.... Tue Jan 15 07:46:53 CST 2019: Begin job
+BFS:getTaskStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"989f179b-fed3-48f8-912b-3c76bb7b253a\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"564bf389-cde1-49ea-bc29-cda55ba69f78\",\n    \"-testrig\",\n    \"9de57c8e-d1d0-4788-af69-8e420a6d7713\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-15T13:46:53.346+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-15T13:46:53.345+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "989f179b-fed3-48f8-912b-3c76bb7b253a",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "564bf389-cde1-49ea-bc29-cda55ba69f78",
+    "-testrig",
+    "9de57c8e-d1d0-4788-af69-8e420a6d7713",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-15T13:46:53.346+0000"
+    }
+  ],
+  "obtained" : "2019-01-15T13:46:53.345+0000",
+  "status" : "InProgress"
+}]
+=====[DEBUG]===== mapped srcRouters: [r90]
+=====[DEBUG]===== mapped srcRouters: [r116]
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r90]
+WM:CheckWork: Trying to check [f8486f9b-0cb1-49d3-8002-288a4d55467c 989f179b-fed3-48f8-912b-3c76bb7b253a 9de57c8e-d1d0-4788-af69-8e420a6d7713 {container=989f179b-fed3-48f8-912b-3c76bb7b253a, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=564bf389-cde1-49ea-bc29-cda55ba69f78, testrig=9de57c8e-d1d0-4788-af69-8e420a6d7713, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Tue Jan 15 07:46:53 CST 2019 Tue Jan 15 07:46:53 CST 2019 null] [localhost:36405] [InProgress, Tue Jan 15 07:47:34 CST 2019] on localhost:36405
+BFS:getTaskStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"989f179b-fed3-48f8-912b-3c76bb7b253a\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"564bf389-cde1-49ea-bc29-cda55ba69f78\",\n    \"-testrig\",\n    \"9de57c8e-d1d0-4788-af69-8e420a6d7713\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-15T13:46:53.346+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-15T13:46:53.345+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "989f179b-fed3-48f8-912b-3c76bb7b253a",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "564bf389-cde1-49ea-bc29-cda55ba69f78",
+    "-testrig",
+    "9de57c8e-d1d0-4788-af69-8e420a6d7713",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-15T13:46:53.346+0000"
+    }
+  ],
+  "obtained" : "2019-01-15T13:46:53.345+0000",
+  "status" : "InProgress"
+}]
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r90]
+=====[DEBUG]===== mapped srcRouters: [r116]
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+status: ASSIGNED
+.... Tue Jan 15 07:46:53 CST 2019: Begin job
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r76]
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r98]
+WM:CheckWork: Trying to check [f8486f9b-0cb1-49d3-8002-288a4d55467c 989f179b-fed3-48f8-912b-3c76bb7b253a 9de57c8e-d1d0-4788-af69-8e420a6d7713 {container=989f179b-fed3-48f8-912b-3c76bb7b253a, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=564bf389-cde1-49ea-bc29-cda55ba69f78, testrig=9de57c8e-d1d0-4788-af69-8e420a6d7713, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Tue Jan 15 07:46:53 CST 2019 Tue Jan 15 07:46:53 CST 2019 null] [localhost:36405] [InProgress, Tue Jan 15 07:47:34 CST 2019] on localhost:36405
+BFS:getTaskStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"989f179b-fed3-48f8-912b-3c76bb7b253a\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"564bf389-cde1-49ea-bc29-cda55ba69f78\",\n    \"-testrig\",\n    \"9de57c8e-d1d0-4788-af69-8e420a6d7713\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-15T13:46:53.346+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-15T13:46:53.345+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "989f179b-fed3-48f8-912b-3c76bb7b253a",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "564bf389-cde1-49ea-bc29-cda55ba69f78",
+    "-testrig",
+    "9de57c8e-d1d0-4788-af69-8e420a6d7713",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-15T13:46:53.346+0000"
+    }
+  ],
+  "obtained" : "2019-01-15T13:46:53.345+0000",
+  "status" : "InProgress"
+}]
+=====[DEBUG]===== mapped srcRouters: [r101]
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r76]
+=====[DEBUG]===== mapped srcRouters: [r90]
+=====[DEBUG]===== mapped srcRouters: [r105]
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+status: ASSIGNED
+.... Tue Jan 15 07:46:53 CST 2019: Begin job
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r81]
+WM:CheckWork: Trying to check [f8486f9b-0cb1-49d3-8002-288a4d55467c 989f179b-fed3-48f8-912b-3c76bb7b253a 9de57c8e-d1d0-4788-af69-8e420a6d7713 {container=989f179b-fed3-48f8-912b-3c76bb7b253a, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=564bf389-cde1-49ea-bc29-cda55ba69f78, testrig=9de57c8e-d1d0-4788-af69-8e420a6d7713, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Tue Jan 15 07:46:53 CST 2019 Tue Jan 15 07:46:53 CST 2019 null] [localhost:36405] [InProgress, Tue Jan 15 07:47:35 CST 2019] on localhost:36405
+BFS:getTaskStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"989f179b-fed3-48f8-912b-3c76bb7b253a\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"564bf389-cde1-49ea-bc29-cda55ba69f78\",\n    \"-testrig\",\n    \"9de57c8e-d1d0-4788-af69-8e420a6d7713\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-15T13:46:53.346+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-15T13:46:53.345+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "989f179b-fed3-48f8-912b-3c76bb7b253a",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "564bf389-cde1-49ea-bc29-cda55ba69f78",
+    "-testrig",
+    "9de57c8e-d1d0-4788-af69-8e420a6d7713",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-15T13:46:53.346+0000"
+    }
+  ],
+  "obtained" : "2019-01-15T13:46:53.345+0000",
+  "status" : "InProgress"
+}]
+=====[DEBUG]===== mapped srcRouters: [r116]
+=====[DEBUG]===== mapped srcRouters: [r105]
+=====[DEBUG]===== mapped srcRouters: [r116]
+=====[DEBUG]===== mapped srcRouters: [r90]
+=====[DEBUG]===== mapped srcRouters: [r116]
+=====[DEBUG]===== mapped srcRouters: [r81]
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+status: ASSIGNED
+.... Tue Jan 15 07:46:53 CST 2019: Begin job
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r81]
+WM:CheckWork: Trying to check [f8486f9b-0cb1-49d3-8002-288a4d55467c 989f179b-fed3-48f8-912b-3c76bb7b253a 9de57c8e-d1d0-4788-af69-8e420a6d7713 {container=989f179b-fed3-48f8-912b-3c76bb7b253a, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=564bf389-cde1-49ea-bc29-cda55ba69f78, testrig=9de57c8e-d1d0-4788-af69-8e420a6d7713, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Tue Jan 15 07:46:53 CST 2019 Tue Jan 15 07:46:53 CST 2019 null] [localhost:36405] [InProgress, Tue Jan 15 07:47:36 CST 2019] on localhost:36405
+BFS:getTaskStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"989f179b-fed3-48f8-912b-3c76bb7b253a\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"564bf389-cde1-49ea-bc29-cda55ba69f78\",\n    \"-testrig\",\n    \"9de57c8e-d1d0-4788-af69-8e420a6d7713\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-15T13:46:53.346+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-15T13:46:53.345+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "989f179b-fed3-48f8-912b-3c76bb7b253a",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "564bf389-cde1-49ea-bc29-cda55ba69f78",
+    "-testrig",
+    "9de57c8e-d1d0-4788-af69-8e420a6d7713",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-15T13:46:53.346+0000"
+    }
+  ],
+  "obtained" : "2019-01-15T13:46:53.345+0000",
+  "status" : "InProgress"
+}]
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r90]
+=====[DEBUG]===== mapped srcRouters: [r90]
+=====[DEBUG]===== mapped srcRouters: [r90]
+=====[DEBUG]===== mapped srcRouters: [r101]
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+status: ASSIGNED
+.... Tue Jan 15 07:46:53 CST 2019: Begin job
+=====[DEBUG]===== mapped srcRouters: [r112]
+=====[DEBUG]===== mapped srcRouters: [r90]
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r81]
+WM:CheckWork: Trying to check [f8486f9b-0cb1-49d3-8002-288a4d55467c 989f179b-fed3-48f8-912b-3c76bb7b253a 9de57c8e-d1d0-4788-af69-8e420a6d7713 {container=989f179b-fed3-48f8-912b-3c76bb7b253a, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=564bf389-cde1-49ea-bc29-cda55ba69f78, testrig=9de57c8e-d1d0-4788-af69-8e420a6d7713, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Tue Jan 15 07:46:53 CST 2019 Tue Jan 15 07:46:53 CST 2019 null] [localhost:36405] [InProgress, Tue Jan 15 07:47:37 CST 2019] on localhost:36405
+=====[DEBUG]===== mapped srcRouters: [r90]
+BFS:getTaskStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"989f179b-fed3-48f8-912b-3c76bb7b253a\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"564bf389-cde1-49ea-bc29-cda55ba69f78\",\n    \"-testrig\",\n    \"9de57c8e-d1d0-4788-af69-8e420a6d7713\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-15T13:46:53.346+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-15T13:46:53.345+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "989f179b-fed3-48f8-912b-3c76bb7b253a",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "564bf389-cde1-49ea-bc29-cda55ba69f78",
+    "-testrig",
+    "9de57c8e-d1d0-4788-af69-8e420a6d7713",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-15T13:46:53.346+0000"
+    }
+  ],
+  "obtained" : "2019-01-15T13:46:53.345+0000",
+  "status" : "InProgress"
+}]
+WM:CheckWork: Trying to check [f8486f9b-0cb1-49d3-8002-288a4d55467c 989f179b-fed3-48f8-912b-3c76bb7b253a 9de57c8e-d1d0-4788-af69-8e420a6d7713 {container=989f179b-fed3-48f8-912b-3c76bb7b253a, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=564bf389-cde1-49ea-bc29-cda55ba69f78, testrig=9de57c8e-d1d0-4788-af69-8e420a6d7713, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Tue Jan 15 07:46:53 CST 2019 Tue Jan 15 07:46:53 CST 2019 null] [localhost:36405] [InProgress, Tue Jan 15 07:47:38 CST 2019] on localhost:36405
+=====[DEBUG]===== mapped srcRouters: [r105]
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+status: CHECKINGSTATUS
+.... Tue Jan 15 07:46:53 CST 2019: Begin job
+BFS:getTaskStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"989f179b-fed3-48f8-912b-3c76bb7b253a\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"564bf389-cde1-49ea-bc29-cda55ba69f78\",\n    \"-testrig\",\n    \"9de57c8e-d1d0-4788-af69-8e420a6d7713\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-15T13:46:53.346+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-15T13:46:53.345+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "989f179b-fed3-48f8-912b-3c76bb7b253a",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "564bf389-cde1-49ea-bc29-cda55ba69f78",
+    "-testrig",
+    "9de57c8e-d1d0-4788-af69-8e420a6d7713",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-15T13:46:53.346+0000"
+    }
+  ],
+  "obtained" : "2019-01-15T13:46:53.345+0000",
+  "status" : "InProgress"
+}]
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r112]
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r90]
+=====[DEBUG]===== mapped srcRouters: [r101]
+=====[DEBUG]===== mapped srcRouters: [r105]
+WM:CheckWork: Trying to check [f8486f9b-0cb1-49d3-8002-288a4d55467c 989f179b-fed3-48f8-912b-3c76bb7b253a 9de57c8e-d1d0-4788-af69-8e420a6d7713 {container=989f179b-fed3-48f8-912b-3c76bb7b253a, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=564bf389-cde1-49ea-bc29-cda55ba69f78, testrig=9de57c8e-d1d0-4788-af69-8e420a6d7713, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Tue Jan 15 07:46:53 CST 2019 Tue Jan 15 07:46:53 CST 2019 null] [localhost:36405] [InProgress, Tue Jan 15 07:47:39 CST 2019] on localhost:36405
+BFS:getTaskStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"989f179b-fed3-48f8-912b-3c76bb7b253a\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"564bf389-cde1-49ea-bc29-cda55ba69f78\",\n    \"-testrig\",\n    \"9de57c8e-d1d0-4788-af69-8e420a6d7713\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-15T13:46:53.346+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-15T13:46:53.345+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "989f179b-fed3-48f8-912b-3c76bb7b253a",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "564bf389-cde1-49ea-bc29-cda55ba69f78",
+    "-testrig",
+    "9de57c8e-d1d0-4788-af69-8e420a6d7713",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-15T13:46:53.346+0000"
+    }
+  ],
+  "obtained" : "2019-01-15T13:46:53.345+0000",
+  "status" : "InProgress"
+}]
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r101]
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+status: ASSIGNED
+.... Tue Jan 15 07:46:53 CST 2019: Begin job
+=====[DEBUG]===== mapped srcRouters: [r116]
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r112]
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r90]
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r105]
+WM:CheckWork: Trying to check [f8486f9b-0cb1-49d3-8002-288a4d55467c 989f179b-fed3-48f8-912b-3c76bb7b253a 9de57c8e-d1d0-4788-af69-8e420a6d7713 {container=989f179b-fed3-48f8-912b-3c76bb7b253a, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=564bf389-cde1-49ea-bc29-cda55ba69f78, testrig=9de57c8e-d1d0-4788-af69-8e420a6d7713, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Tue Jan 15 07:46:53 CST 2019 Tue Jan 15 07:46:53 CST 2019 null] [localhost:36405] [InProgress, Tue Jan 15 07:47:40 CST 2019] on localhost:36405
+BFS:getTaskStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"989f179b-fed3-48f8-912b-3c76bb7b253a\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"564bf389-cde1-49ea-bc29-cda55ba69f78\",\n    \"-testrig\",\n    \"9de57c8e-d1d0-4788-af69-8e420a6d7713\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-15T13:46:53.346+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-15T13:46:53.345+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "989f179b-fed3-48f8-912b-3c76bb7b253a",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "564bf389-cde1-49ea-bc29-cda55ba69f78",
+    "-testrig",
+    "9de57c8e-d1d0-4788-af69-8e420a6d7713",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-15T13:46:53.346+0000"
+    }
+  ],
+  "obtained" : "2019-01-15T13:46:53.345+0000",
+  "status" : "InProgress"
+}]
+=====[DEBUG]===== mapped srcRouters: [r81]
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+status: ASSIGNED
+.... Tue Jan 15 07:46:53 CST 2019: Begin job
+=====[DEBUG]===== mapped srcRouters: [r112]
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r81]
+WM:CheckWork: Trying to check [f8486f9b-0cb1-49d3-8002-288a4d55467c 989f179b-fed3-48f8-912b-3c76bb7b253a 9de57c8e-d1d0-4788-af69-8e420a6d7713 {container=989f179b-fed3-48f8-912b-3c76bb7b253a, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=564bf389-cde1-49ea-bc29-cda55ba69f78, testrig=9de57c8e-d1d0-4788-af69-8e420a6d7713, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Tue Jan 15 07:46:53 CST 2019 Tue Jan 15 07:46:53 CST 2019 null] [localhost:36405] [InProgress, Tue Jan 15 07:47:41 CST 2019] on localhost:36405
+BFS:getTaskStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"989f179b-fed3-48f8-912b-3c76bb7b253a\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"564bf389-cde1-49ea-bc29-cda55ba69f78\",\n    \"-testrig\",\n    \"9de57c8e-d1d0-4788-af69-8e420a6d7713\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-15T13:46:53.346+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-15T13:46:53.345+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "989f179b-fed3-48f8-912b-3c76bb7b253a",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "564bf389-cde1-49ea-bc29-cda55ba69f78",
+    "-testrig",
+    "9de57c8e-d1d0-4788-af69-8e420a6d7713",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-15T13:46:53.346+0000"
+    }
+  ],
+  "obtained" : "2019-01-15T13:46:53.345+0000",
+  "status" : "InProgress"
+}]
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r90]
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+status: ASSIGNED
+.... Tue Jan 15 07:46:53 CST 2019: Begin job
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r112]
+=====[DEBUG]===== mapped srcRouters: [r76]
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r116]
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r116]
+WM:CheckWork: Trying to check [f8486f9b-0cb1-49d3-8002-288a4d55467c 989f179b-fed3-48f8-912b-3c76bb7b253a 9de57c8e-d1d0-4788-af69-8e420a6d7713 {container=989f179b-fed3-48f8-912b-3c76bb7b253a, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=564bf389-cde1-49ea-bc29-cda55ba69f78, testrig=9de57c8e-d1d0-4788-af69-8e420a6d7713, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Tue Jan 15 07:46:53 CST 2019 Tue Jan 15 07:46:53 CST 2019 null] [localhost:36405] [InProgress, Tue Jan 15 07:47:42 CST 2019] on localhost:36405
+BFS:getTaskStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"989f179b-fed3-48f8-912b-3c76bb7b253a\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"564bf389-cde1-49ea-bc29-cda55ba69f78\",\n    \"-testrig\",\n    \"9de57c8e-d1d0-4788-af69-8e420a6d7713\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-15T13:46:53.346+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-15T13:46:53.345+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "989f179b-fed3-48f8-912b-3c76bb7b253a",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "564bf389-cde1-49ea-bc29-cda55ba69f78",
+    "-testrig",
+    "9de57c8e-d1d0-4788-af69-8e420a6d7713",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-15T13:46:53.346+0000"
+    }
+  ],
+  "obtained" : "2019-01-15T13:46:53.345+0000",
+  "status" : "InProgress"
+}]
+=====[DEBUG]===== mapped srcRouters: [r116]
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+status: ASSIGNED
+.... Tue Jan 15 07:46:53 CST 2019: Begin job
+=====[DEBUG]===== mapped srcRouters: [r116]
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r90]
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r76]
+WM:CheckWork: Trying to check [f8486f9b-0cb1-49d3-8002-288a4d55467c 989f179b-fed3-48f8-912b-3c76bb7b253a 9de57c8e-d1d0-4788-af69-8e420a6d7713 {container=989f179b-fed3-48f8-912b-3c76bb7b253a, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=564bf389-cde1-49ea-bc29-cda55ba69f78, testrig=9de57c8e-d1d0-4788-af69-8e420a6d7713, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Tue Jan 15 07:46:53 CST 2019 Tue Jan 15 07:46:53 CST 2019 null] [localhost:36405] [InProgress, Tue Jan 15 07:47:43 CST 2019] on localhost:36405
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+status: CHECKINGSTATUS
+.... Tue Jan 15 07:46:53 CST 2019: Begin job
+BFS:getTaskStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"989f179b-fed3-48f8-912b-3c76bb7b253a\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"564bf389-cde1-49ea-bc29-cda55ba69f78\",\n    \"-testrig\",\n    \"9de57c8e-d1d0-4788-af69-8e420a6d7713\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-15T13:46:53.346+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-15T13:46:53.345+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "989f179b-fed3-48f8-912b-3c76bb7b253a",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "564bf389-cde1-49ea-bc29-cda55ba69f78",
+    "-testrig",
+    "9de57c8e-d1d0-4788-af69-8e420a6d7713",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-15T13:46:53.346+0000"
+    }
+  ],
+  "obtained" : "2019-01-15T13:46:53.345+0000",
+  "status" : "InProgress"
+}]
+WM:CheckWork: Trying to check [f8486f9b-0cb1-49d3-8002-288a4d55467c 989f179b-fed3-48f8-912b-3c76bb7b253a 9de57c8e-d1d0-4788-af69-8e420a6d7713 {container=989f179b-fed3-48f8-912b-3c76bb7b253a, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=564bf389-cde1-49ea-bc29-cda55ba69f78, testrig=9de57c8e-d1d0-4788-af69-8e420a6d7713, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Tue Jan 15 07:46:53 CST 2019 Tue Jan 15 07:46:53 CST 2019 null] [localhost:36405] [InProgress, Tue Jan 15 07:47:45 CST 2019] on localhost:36405
+BFS:getTaskStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"989f179b-fed3-48f8-912b-3c76bb7b253a\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"564bf389-cde1-49ea-bc29-cda55ba69f78\",\n    \"-testrig\",\n    \"9de57c8e-d1d0-4788-af69-8e420a6d7713\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-15T13:46:53.346+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-15T13:46:53.345+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "989f179b-fed3-48f8-912b-3c76bb7b253a",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "564bf389-cde1-49ea-bc29-cda55ba69f78",
+    "-testrig",
+    "9de57c8e-d1d0-4788-af69-8e420a6d7713",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-15T13:46:53.346+0000"
+    }
+  ],
+  "obtained" : "2019-01-15T13:46:53.345+0000",
+  "status" : "InProgress"
+}]
+=====[DEBUG]===== mapped srcRouters: [r101]
+=====[DEBUG]===== mapped srcRouters: [r116]
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r81]
+WM:CheckWork: Trying to check [f8486f9b-0cb1-49d3-8002-288a4d55467c 989f179b-fed3-48f8-912b-3c76bb7b253a 9de57c8e-d1d0-4788-af69-8e420a6d7713 {container=989f179b-fed3-48f8-912b-3c76bb7b253a, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=564bf389-cde1-49ea-bc29-cda55ba69f78, testrig=9de57c8e-d1d0-4788-af69-8e420a6d7713, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Tue Jan 15 07:46:53 CST 2019 Tue Jan 15 07:46:53 CST 2019 null] [localhost:36405] [InProgress, Tue Jan 15 07:47:45 CST 2019] on localhost:36405
+BFS:getTaskStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"989f179b-fed3-48f8-912b-3c76bb7b253a\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"564bf389-cde1-49ea-bc29-cda55ba69f78\",\n    \"-testrig\",\n    \"9de57c8e-d1d0-4788-af69-8e420a6d7713\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-15T13:46:53.346+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-15T13:46:53.345+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "989f179b-fed3-48f8-912b-3c76bb7b253a",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "564bf389-cde1-49ea-bc29-cda55ba69f78",
+    "-testrig",
+    "9de57c8e-d1d0-4788-af69-8e420a6d7713",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-15T13:46:53.346+0000"
+    }
+  ],
+  "obtained" : "2019-01-15T13:46:53.345+0000",
+  "status" : "InProgress"
+}]
+=====[DEBUG]===== mapped srcRouters: [r101]
+=====[DEBUG]===== mapped srcRouters: [r90]
+=====[DEBUG]===== mapped srcRouters: [r116]
+=====[DEBUG]===== mapped srcRouters: [r116]
+=====[DEBUG]===== mapped srcRouters: [r112]
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+status: ASSIGNED
+.... Tue Jan 15 07:46:53 CST 2019: Begin job
+=====[DEBUG]===== mapped srcRouters: [r75]
+=====[DEBUG]===== mapped srcRouters: [r101]
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r112]
+=====[DEBUG]===== mapped srcRouters: [r116]
+=====[DEBUG]===== mapped srcRouters: [r116]
+WM:CheckWork: Trying to check [f8486f9b-0cb1-49d3-8002-288a4d55467c 989f179b-fed3-48f8-912b-3c76bb7b253a 9de57c8e-d1d0-4788-af69-8e420a6d7713 {container=989f179b-fed3-48f8-912b-3c76bb7b253a, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=564bf389-cde1-49ea-bc29-cda55ba69f78, testrig=9de57c8e-d1d0-4788-af69-8e420a6d7713, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Tue Jan 15 07:46:53 CST 2019 Tue Jan 15 07:46:53 CST 2019 null] [localhost:36405] [InProgress, Tue Jan 15 07:47:46 CST 2019] on localhost:36405
+BFS:getTaskStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"989f179b-fed3-48f8-912b-3c76bb7b253a\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"564bf389-cde1-49ea-bc29-cda55ba69f78\",\n    \"-testrig\",\n    \"9de57c8e-d1d0-4788-af69-8e420a6d7713\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-15T13:46:53.346+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-15T13:46:53.345+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "989f179b-fed3-48f8-912b-3c76bb7b253a",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "564bf389-cde1-49ea-bc29-cda55ba69f78",
+    "-testrig",
+    "9de57c8e-d1d0-4788-af69-8e420a6d7713",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-15T13:46:53.346+0000"
+    }
+  ],
+  "obtained" : "2019-01-15T13:46:53.345+0000",
+  "status" : "InProgress"
+}]
+=====[DEBUG]===== mapped srcRouters: [r116]
+=====[DEBUG]===== mapped srcRouters: [r76]
+=====[DEBUG]===== mapped srcRouters: [r81]
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+status: ASSIGNED
+.... Tue Jan 15 07:46:53 CST 2019: Begin job
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r116]
+=====[DEBUG]===== mapped srcRouters: [r75]
+WM:CheckWork: Trying to check [f8486f9b-0cb1-49d3-8002-288a4d55467c 989f179b-fed3-48f8-912b-3c76bb7b253a 9de57c8e-d1d0-4788-af69-8e420a6d7713 {container=989f179b-fed3-48f8-912b-3c76bb7b253a, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=564bf389-cde1-49ea-bc29-cda55ba69f78, testrig=9de57c8e-d1d0-4788-af69-8e420a6d7713, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Tue Jan 15 07:46:53 CST 2019 Tue Jan 15 07:46:53 CST 2019 null] [localhost:36405] [InProgress, Tue Jan 15 07:47:47 CST 2019] on localhost:36405
+BFS:getTaskStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"989f179b-fed3-48f8-912b-3c76bb7b253a\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"564bf389-cde1-49ea-bc29-cda55ba69f78\",\n    \"-testrig\",\n    \"9de57c8e-d1d0-4788-af69-8e420a6d7713\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-15T13:46:53.346+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-15T13:46:53.345+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "989f179b-fed3-48f8-912b-3c76bb7b253a",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "564bf389-cde1-49ea-bc29-cda55ba69f78",
+    "-testrig",
+    "9de57c8e-d1d0-4788-af69-8e420a6d7713",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-15T13:46:53.346+0000"
+    }
+  ],
+  "obtained" : "2019-01-15T13:46:53.345+0000",
+  "status" : "InProgress"
+}]
+=====[DEBUG]===== mapped srcRouters: [r116]
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r81]
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+status: ASSIGNED
+.... Tue Jan 15 07:46:53 CST 2019: Begin job
+=====[DEBUG]===== mapped srcRouters: [r101]
+=====[DEBUG]===== mapped srcRouters: [r101]
+=====[DEBUG]===== mapped srcRouters: [r101]
+=====[DEBUG]===== mapped srcRouters: [r116]
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r116]
+=====[DEBUG]===== mapped srcRouters: [r116]
+WM:CheckWork: Trying to check [f8486f9b-0cb1-49d3-8002-288a4d55467c 989f179b-fed3-48f8-912b-3c76bb7b253a 9de57c8e-d1d0-4788-af69-8e420a6d7713 {container=989f179b-fed3-48f8-912b-3c76bb7b253a, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=564bf389-cde1-49ea-bc29-cda55ba69f78, testrig=9de57c8e-d1d0-4788-af69-8e420a6d7713, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Tue Jan 15 07:46:53 CST 2019 Tue Jan 15 07:46:53 CST 2019 null] [localhost:36405] [InProgress, Tue Jan 15 07:47:48 CST 2019] on localhost:36405
+BFS:getTaskStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"989f179b-fed3-48f8-912b-3c76bb7b253a\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"564bf389-cde1-49ea-bc29-cda55ba69f78\",\n    \"-testrig\",\n    \"9de57c8e-d1d0-4788-af69-8e420a6d7713\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-15T13:46:53.346+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-15T13:46:53.345+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "989f179b-fed3-48f8-912b-3c76bb7b253a",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "564bf389-cde1-49ea-bc29-cda55ba69f78",
+    "-testrig",
+    "9de57c8e-d1d0-4788-af69-8e420a6d7713",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-15T13:46:53.346+0000"
+    }
+  ],
+  "obtained" : "2019-01-15T13:46:53.345+0000",
+  "status" : "InProgress"
+}]
+=====[DEBUG]===== mapped srcRouters: [r101]
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r116]
+=====[DEBUG]===== mapped srcRouters: [r90]
+=====[DEBUG]===== mapped srcRouters: [r101]
+=====[DEBUG]===== mapped srcRouters: [r116]
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+status: ASSIGNED
+.... Tue Jan 15 07:46:53 CST 2019: Begin job
+=====[DEBUG]===== mapped srcRouters: [r76]
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r116]
+=====[DEBUG]===== mapped srcRouters: [r116]
+WM:CheckWork: Trying to check [f8486f9b-0cb1-49d3-8002-288a4d55467c 989f179b-fed3-48f8-912b-3c76bb7b253a 9de57c8e-d1d0-4788-af69-8e420a6d7713 {container=989f179b-fed3-48f8-912b-3c76bb7b253a, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=564bf389-cde1-49ea-bc29-cda55ba69f78, testrig=9de57c8e-d1d0-4788-af69-8e420a6d7713, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Tue Jan 15 07:46:53 CST 2019 Tue Jan 15 07:46:53 CST 2019 null] [localhost:36405] [InProgress, Tue Jan 15 07:47:49 CST 2019] on localhost:36405
+BFS:getTaskStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"989f179b-fed3-48f8-912b-3c76bb7b253a\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"564bf389-cde1-49ea-bc29-cda55ba69f78\",\n    \"-testrig\",\n    \"9de57c8e-d1d0-4788-af69-8e420a6d7713\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-15T13:46:53.346+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-15T13:46:53.345+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "989f179b-fed3-48f8-912b-3c76bb7b253a",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "564bf389-cde1-49ea-bc29-cda55ba69f78",
+    "-testrig",
+    "9de57c8e-d1d0-4788-af69-8e420a6d7713",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-15T13:46:53.346+0000"
+    }
+  ],
+  "obtained" : "2019-01-15T13:46:53.345+0000",
+  "status" : "InProgress"
+}]
+=====[DEBUG]===== mapped srcRouters: [r101]
+=====[DEBUG]===== mapped srcRouters: [r116]
+=====[DEBUG]===== mapped srcRouters: [r101]
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r75]
+=====[DEBUG]===== mapped srcRouters: [r81]
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+status: ASSIGNED
+.... Tue Jan 15 07:46:53 CST 2019: Begin job
+=====[DEBUG]===== mapped srcRouters: [r101]
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r116]
+=====[DEBUG]===== mapped srcRouters: [r116]
+=====[DEBUG]===== mapped srcRouters: [r81]
+=====[DEBUG]===== mapped srcRouters: [r116]
+=====[DEBUG]===== mapped srcRouters: [r116]
+WM:CheckWork: Trying to check [f8486f9b-0cb1-49d3-8002-288a4d55467c 989f179b-fed3-48f8-912b-3c76bb7b253a 9de57c8e-d1d0-4788-af69-8e420a6d7713 {container=989f179b-fed3-48f8-912b-3c76bb7b253a, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=564bf389-cde1-49ea-bc29-cda55ba69f78, testrig=9de57c8e-d1d0-4788-af69-8e420a6d7713, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Tue Jan 15 07:46:53 CST 2019 Tue Jan 15 07:46:53 CST 2019 null] [localhost:36405] [InProgress, Tue Jan 15 07:47:50 CST 2019] on localhost:36405
+BFS:getTaskStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"989f179b-fed3-48f8-912b-3c76bb7b253a\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"564bf389-cde1-49ea-bc29-cda55ba69f78\",\n    \"-testrig\",\n    \"9de57c8e-d1d0-4788-af69-8e420a6d7713\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-15T13:46:53.346+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-15T13:46:53.345+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "989f179b-fed3-48f8-912b-3c76bb7b253a",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "564bf389-cde1-49ea-bc29-cda55ba69f78",
+    "-testrig",
+    "9de57c8e-d1d0-4788-af69-8e420a6d7713",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-15T13:46:53.346+0000"
+    }
+  ],
+  "obtained" : "2019-01-15T13:46:53.345+0000",
+  "status" : "InProgress"
+}]
+=====[DEBUG]===== mapped srcRouters: [r116]
+=====[DEBUG]===== mapped srcRouters: [r101]
+=====[DEBUG]===== mapped srcRouters: [r90]
+=====[DEBUG]===== mapped srcRouters: [r116]
+=====[DEBUG]===== mapped srcRouters: [r101]
+WM:CheckWork: Trying to check [f8486f9b-0cb1-49d3-8002-288a4d55467c 989f179b-fed3-48f8-912b-3c76bb7b253a 9de57c8e-d1d0-4788-af69-8e420a6d7713 {container=989f179b-fed3-48f8-912b-3c76bb7b253a, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=564bf389-cde1-49ea-bc29-cda55ba69f78, testrig=9de57c8e-d1d0-4788-af69-8e420a6d7713, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Tue Jan 15 07:46:53 CST 2019 Tue Jan 15 07:46:53 CST 2019 null] [localhost:36405] [InProgress, Tue Jan 15 07:47:51 CST 2019] on localhost:36405
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+status: CHECKINGSTATUS
+.... Tue Jan 15 07:46:53 CST 2019: Begin job
+BFS:getTaskStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"989f179b-fed3-48f8-912b-3c76bb7b253a\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"564bf389-cde1-49ea-bc29-cda55ba69f78\",\n    \"-testrig\",\n    \"9de57c8e-d1d0-4788-af69-8e420a6d7713\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-15T13:46:53.346+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-15T13:46:53.345+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "989f179b-fed3-48f8-912b-3c76bb7b253a",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "564bf389-cde1-49ea-bc29-cda55ba69f78",
+    "-testrig",
+    "9de57c8e-d1d0-4788-af69-8e420a6d7713",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-15T13:46:53.346+0000"
+    }
+  ],
+  "obtained" : "2019-01-15T13:46:53.345+0000",
+  "status" : "InProgress"
+}]
+=====[DEBUG]===== mapped srcRouters: [r116]
+=====[DEBUG]===== mapped srcRouters: [r116]
+WM:CheckWork: Trying to check [f8486f9b-0cb1-49d3-8002-288a4d55467c 989f179b-fed3-48f8-912b-3c76bb7b253a 9de57c8e-d1d0-4788-af69-8e420a6d7713 {container=989f179b-fed3-48f8-912b-3c76bb7b253a, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=564bf389-cde1-49ea-bc29-cda55ba69f78, testrig=9de57c8e-d1d0-4788-af69-8e420a6d7713, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Tue Jan 15 07:46:53 CST 2019 Tue Jan 15 07:46:53 CST 2019 null] [localhost:36405] [InProgress, Tue Jan 15 07:47:53 CST 2019] on localhost:36405
+BFS:getTaskStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"989f179b-fed3-48f8-912b-3c76bb7b253a\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"564bf389-cde1-49ea-bc29-cda55ba69f78\",\n    \"-testrig\",\n    \"9de57c8e-d1d0-4788-af69-8e420a6d7713\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-15T13:46:53.346+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-15T13:46:53.345+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "989f179b-fed3-48f8-912b-3c76bb7b253a",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "564bf389-cde1-49ea-bc29-cda55ba69f78",
+    "-testrig",
+    "9de57c8e-d1d0-4788-af69-8e420a6d7713",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-15T13:46:53.346+0000"
+    }
+  ],
+  "obtained" : "2019-01-15T13:46:53.345+0000",
+  "status" : "InProgress"
+}]
+=====[DEBUG]===== mapped srcRouters: [r98]
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+status: ASSIGNED
+.... Tue Jan 15 07:46:53 CST 2019: Begin job
+=====[DEBUG]===== mapped srcRouters: [r90]
+=====[DEBUG]===== mapped srcRouters: [r76]
+WM:CheckWork: Trying to check [f8486f9b-0cb1-49d3-8002-288a4d55467c 989f179b-fed3-48f8-912b-3c76bb7b253a 9de57c8e-d1d0-4788-af69-8e420a6d7713 {container=989f179b-fed3-48f8-912b-3c76bb7b253a, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=564bf389-cde1-49ea-bc29-cda55ba69f78, testrig=9de57c8e-d1d0-4788-af69-8e420a6d7713, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Tue Jan 15 07:46:53 CST 2019 Tue Jan 15 07:46:53 CST 2019 null] [localhost:36405] [InProgress, Tue Jan 15 07:47:53 CST 2019] on localhost:36405
+BFS:getTaskStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"989f179b-fed3-48f8-912b-3c76bb7b253a\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"564bf389-cde1-49ea-bc29-cda55ba69f78\",\n    \"-testrig\",\n    \"9de57c8e-d1d0-4788-af69-8e420a6d7713\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-15T13:46:53.346+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-15T13:46:53.345+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "989f179b-fed3-48f8-912b-3c76bb7b253a",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "564bf389-cde1-49ea-bc29-cda55ba69f78",
+    "-testrig",
+    "9de57c8e-d1d0-4788-af69-8e420a6d7713",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-15T13:46:53.346+0000"
+    }
+  ],
+  "obtained" : "2019-01-15T13:46:53.345+0000",
+  "status" : "InProgress"
+}]
+=====[DEBUG]===== mapped srcRouters: [r112]
+=====[DEBUG]===== mapped srcRouters: [r90]
+=====[DEBUG]===== mapped srcRouters: [r76]
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+status: ASSIGNED
+.... Tue Jan 15 07:46:53 CST 2019: Begin job
+WM:CheckWork: Trying to check [f8486f9b-0cb1-49d3-8002-288a4d55467c 989f179b-fed3-48f8-912b-3c76bb7b253a 9de57c8e-d1d0-4788-af69-8e420a6d7713 {container=989f179b-fed3-48f8-912b-3c76bb7b253a, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=564bf389-cde1-49ea-bc29-cda55ba69f78, testrig=9de57c8e-d1d0-4788-af69-8e420a6d7713, snapshotname=fat-tree.10-ary, haltonconverterror=}] [CHECKINGSTATUS] [Tue Jan 15 07:46:53 CST 2019 Tue Jan 15 07:46:53 CST 2019 null] [localhost:36405] [InProgress, Tue Jan 15 07:47:54 CST 2019] on localhost:36405
+BFS:getTaskStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"989f179b-fed3-48f8-912b-3c76bb7b253a\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"564bf389-cde1-49ea-bc29-cda55ba69f78\",\n    \"-testrig\",\n    \"9de57c8e-d1d0-4788-af69-8e420a6d7713\",\n    \"-snapshotname\",\n    \"fat-tree.10-ary\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-15T13:46:53.346+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-15T13:46:53.345+0000\",\n  \"status\" : \"TerminatedNormally\",\n  \"terminated\" : \"2019-01-15T13:47:54.895+0000\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "989f179b-fed3-48f8-912b-3c76bb7b253a",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "564bf389-cde1-49ea-bc29-cda55ba69f78",
+    "-testrig",
+    "9de57c8e-d1d0-4788-af69-8e420a6d7713",
+    "-snapshotname",
+    "fat-tree.10-ary",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-15T13:46:53.346+0000"
+    }
+  ],
+  "obtained" : "2019-01-15T13:46:53.345+0000",
+  "status" : "TerminatedNormally",
+  "terminated" : "2019-01-15T13:47:54.895+0000"
+}]
+WMS:getWorkStatus f8486f9b-0cb1-49d3-8002-288a4d55467c
+status: TERMINATEDNORMALLY
+.... Tue Jan 15 07:46:53 CST 2019: Begin job
+.... Tue Jan 15 07:47:54 CST 2019: TERMINATEDNORMALLY
+WMS:getObject fat-tree.10-ary --> f8486f9b-0cb1-49d3-8002-288a4d55467c.json
+Status: SUCCESS
+Question: smt-reachability actions=[ACCEPTED], dstIps=[10.0.0.2, 10.0.0.18, 10.0.0.25, 10.0.0.30, 10.0.0.33, 10.0.0.37, 10.0.0.41, 10.0.0.45, 10.0.0.57, 10.0.0.61, 10.0.0.66, 10.0.0.69, 10.0.0.77, 10.0.0.82, 10.0.0.89, 10.0.0.94, 10.0.0.97, 10.0.0.109, 10.0.0.113, 10.0.0.117, 10.0.0.125, 10.0.0.129, 10.0.0.138, 10.0.0.145, 10.0.0.154, 10.0.0.161, 10.0.0.178, 10.0.0.185, 10.0.0.193, 10.0.0.197, 10.0.0.202, 10.0.0.206, 10.0.0.209, 10.0.0.214, 10.0.0.217, 10.0.0.221, 10.0.0.230, 10.0.0.233, 10.0.0.242, 10.0.0.254, 10.0.1.5, 10.0.1.10, 10.0.1.18, 10.0.1.22, 10.0.1.30, 10.0.1.34, 10.0.1.49, 10.0.1.53, 10.0.1.65, 10.0.1.78, 10.0.1.86, 10.0.1.89, 10.0.1.94, 10.0.1.98, 10.0.1.102, 10.0.1.105, 10.0.1.109, 10.0.1.114, 10.0.1.118, 10.0.1.130, 10.0.1.157, 10.0.1.161, 10.0.1.174, 10.0.1.178, 10.0.1.181, 10.0.1.189, 10.0.1.194, 10.0.1.197, 10.0.1.202, 10.0.1.221, 10.0.1.245, 10.0.2.2, 10.0.2.14, 10.0.2.17, 10.0.2.25, 10.0.2.29, 10.0.2.58, 10.0.2.78, 10.0.2.81, 10.0.2.98, 10.0.2.101, 10.0.2.105, 10.0.2.109, 10.0.2.114, 10.0.2.125, 10.0.2.141, 10.0.2.149, 10.0.2.153, 10.0.2.158, 10.0.2.170, 10.0.2.173, 10.0.2.178, 10.0.2.182, 10.0.2.185, 10.0.2.190, 10.0.2.193, 10.0.2.205, 10.0.2.209, 10.0.2.230, 10.0.2.233, 10.0.2.245, 10.0.2.254, 10.0.3.6, 10.0.3.10, 10.0.3.14, 10.0.3.18, 10.0.3.38, 10.0.3.54, 10.0.3.57, 10.0.3.61, 10.0.3.66, 10.0.3.69, 10.0.3.74, 10.0.3.78, 10.0.3.86, 10.0.3.98, 10.0.3.101, 10.0.3.110, 10.0.3.114, 10.0.3.122, 10.0.3.154, 10.0.3.181, 10.0.3.205, 10.0.3.209, 10.0.3.222, 10.0.3.230, 10.0.3.233, 10.0.3.238, 10.0.3.242, 10.0.3.245, 10.0.4.1, 10.0.4.9, 10.0.4.21, 10.0.4.38, 10.0.4.41, 10.0.4.46, 10.0.4.50, 10.0.4.54, 10.0.4.70, 10.0.4.74, 10.0.4.77, 10.0.4.82, 10.0.4.94, 10.0.4.97, 10.0.4.101, 10.0.4.106, 10.0.4.113, 10.0.4.118, 10.0.4.122, 10.0.4.130, 10.0.4.134, 10.0.4.141, 10.0.4.146, 10.0.4.154, 10.0.4.158, 10.0.4.170, 10.0.4.194, 10.0.4.202, 10.0.4.206, 10.0.4.209, 10.0.4.214, 10.0.4.221, 10.0.4.233, 10.0.4.238, 10.0.4.241, 10.0.4.250, 10.0.4.253, 10.0.5.5, 10.0.5.10, 10.0.5.17, 10.0.5.26, 10.0.5.37, 10.0.5.41, 10.0.5.54, 10.0.5.74, 10.0.5.85, 10.0.5.90, 10.0.5.98, 10.0.5.110, 10.0.5.129, 10.0.5.134, 10.0.5.154, 10.0.5.162, 10.0.5.166, 10.0.5.169, 10.0.5.174, 10.0.5.178, 10.0.5.190, 10.0.5.210, 10.0.5.214, 10.0.5.221, 10.0.5.234, 10.0.5.249, 10.0.6.1, 10.0.6.25, 10.0.6.42, 10.0.6.49, 10.0.6.58, 10.0.6.65, 10.0.6.70, 10.0.6.74, 10.0.6.93, 10.0.6.97, 10.0.6.101, 10.0.6.106, 10.0.6.114, 10.0.6.117, 10.0.6.121, 10.0.6.130, 10.0.6.141, 10.0.6.158, 10.0.6.161, 10.0.6.165, 10.0.6.169, 10.0.6.173, 10.0.6.181, 10.0.6.197, 10.0.6.201, 10.0.6.205, 10.0.6.213, 10.0.6.218, 10.0.6.230, 10.0.6.234, 10.0.7.6, 10.0.7.17, 10.0.7.21, 10.0.7.26, 10.0.7.29, 10.0.7.42, 10.0.7.45, 10.0.7.50, 10.0.7.53, 10.0.7.57, 10.0.7.65, 10.0.7.70, 10.0.7.74, 10.0.7.81, 10.0.7.97, 10.0.7.110, 10.0.7.113, 10.0.7.117, 10.0.7.129, 10.0.7.134, 10.0.7.142, 10.0.7.145, 10.0.7.149, 10.0.7.154, 10.0.7.166, 10.0.7.190, 10.0.7.194, 10.0.7.206, 10.0.7.214, 10.0.7.221, 10.0.7.229, 10.0.7.249, 10.0.7.254, 10.0.8.13, 10.0.8.18, 10.0.8.22, 10.0.8.26, 10.0.8.30, 10.0.8.46, 10.0.8.49, 10.0.8.74, 10.0.8.78, 10.0.8.86, 10.0.8.90, 10.0.8.94, 10.0.8.105, 10.0.8.109, 10.0.8.114, 10.0.8.126, 10.0.8.141, 10.0.8.146, 10.0.8.149, 10.0.8.154, 10.0.8.158, 10.0.8.162, 10.0.8.166, 10.0.8.174, 10.0.8.178, 10.0.8.185, 10.0.8.198, 10.0.8.205, 10.0.8.229, 10.0.8.238, 10.0.8.253, 10.0.9.2, 10.0.9.6, 10.0.9.13, 10.0.9.18, 10.0.9.21, 10.0.9.33, 10.0.9.37, 10.0.9.53, 10.0.9.57, 10.0.9.61, 10.0.9.65, 10.0.9.69, 10.0.9.85, 10.0.9.109, 10.0.9.117, 10.0.9.122, 10.0.9.125, 10.0.9.134, 10.0.9.165, 10.0.9.170, 10.0.9.174, 10.0.9.178, 10.0.9.185, 10.0.9.189, 10.0.9.193, 10.0.9.202, 10.0.9.205, 10.0.9.210, 10.0.9.213, 10.0.9.218, 10.0.9.226, 10.0.9.234, 10.0.9.242, 10.0.9.246, 10.0.10.2, 10.0.10.9, 10.0.10.33, 10.0.10.49, 10.0.10.53, 10.0.10.65, 10.0.10.70, 10.0.10.82, 10.0.10.86, 10.0.10.98, 10.0.10.102, 10.0.10.109, 10.0.10.141, 10.0.10.153, 10.0.10.169, 10.0.10.178, 10.0.10.182, 10.0.10.186, 10.0.10.194, 10.0.10.201, 10.0.10.217, 10.0.10.225, 10.0.10.229, 10.0.10.242, 10.0.10.245, 10.0.10.253, 10.0.11.1, 10.0.11.10, 10.0.11.14, 10.0.11.17, 10.0.11.21, 10.0.11.26, 10.0.11.38, 10.0.11.42, 10.0.11.74, 10.0.11.78, 10.0.11.82, 10.0.11.86, 10.0.11.98, 10.0.11.106, 10.0.11.114, 10.0.11.117, 10.0.11.122, 10.0.11.125, 10.0.11.129, 10.0.11.133, 10.0.11.137, 10.0.11.141, 10.0.11.146, 10.0.11.157, 10.0.11.162, 10.0.11.165, 10.0.11.170, 10.0.11.173, 10.0.11.181, 10.0.11.202, 10.0.11.205, 10.0.11.213, 10.0.11.242, 10.0.12.2, 10.0.12.10, 10.0.12.46, 10.0.12.49, 10.0.12.53, 10.0.12.58, 10.0.12.61, 10.0.12.66, 10.0.12.70, 10.0.12.74, 10.0.12.82, 10.0.12.90, 10.0.12.94, 10.0.12.98, 10.0.12.101, 10.0.12.106, 10.0.12.110, 10.0.12.117, 10.0.12.121, 10.0.12.137, 10.0.12.146, 10.0.12.157, 10.0.12.174, 10.0.12.181, 10.0.12.189, 10.0.12.193, 10.0.12.197, 10.0.12.210, 10.0.12.230, 10.0.12.237, 10.0.12.241, 10.0.12.245, 10.0.13.2, 10.0.13.10, 10.0.13.29, 10.0.13.33, 10.0.13.41, 10.0.13.53, 10.0.13.70, 10.0.13.81, 10.0.13.85, 10.0.13.93, 10.0.13.101, 10.0.13.109, 10.0.13.117, 10.0.13.125, 10.0.13.129, 10.0.13.134, 10.0.13.138, 10.0.13.141, 10.0.13.149, 10.0.13.169, 10.0.13.174, 10.0.13.178, 10.0.13.181, 10.0.13.202, 10.0.13.210, 10.0.13.218, 10.0.13.229, 10.0.13.237, 10.0.13.241, 10.0.13.249, 10.0.13.253, 10.0.14.5, 10.0.14.18, 10.0.14.30, 10.0.14.37, 10.0.14.45, 10.0.14.53, 10.0.14.58, 10.0.14.61, 10.0.14.66, 10.0.14.82, 10.0.14.86, 10.0.14.89, 10.0.14.113, 10.0.14.118, 10.0.14.122, 10.0.14.126, 10.0.14.129, 10.0.14.134, 10.0.14.137, 10.0.14.145, 10.0.14.170, 10.0.14.173, 10.0.14.177, 10.0.14.185, 10.0.14.194, 10.0.14.202, 10.0.14.206, 10.0.14.234, 10.0.14.237, 10.0.14.242, 10.0.14.246, 10.0.15.1, 10.0.15.10, 10.0.15.17, 10.0.15.25, 10.0.15.29, 10.0.15.33, 10.0.15.41, 10.0.15.69, 10.0.15.86, 10.0.15.94, 10.0.15.98, 10.0.15.105, 10.0.15.113, 10.0.15.125, 10.0.15.138, 10.0.15.149], finalNodeRegex=r(76|77|78|79|80|81|82|83|84|85|86|87|88|89|90|91|92|93|94|95|96|97|98|99|100|101|102|103|104|105|106|107|108|109|110|111|112|113|114|115|116|117|118|119|120|121|122|123|124), ingressNodeRegex=r75
+
+Verified
+
+Summary: 0 (non-assertion) results; 
+909.44user 6.82system 1:14.01elapsed 1237%CPU (0avgtext+0avgdata 10682740maxresident)k
+0inputs+190736outputs (0major+2720149minor)pagefaults 0swaps
