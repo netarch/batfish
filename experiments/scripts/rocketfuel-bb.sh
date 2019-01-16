@@ -50,7 +50,7 @@ add-batfish-option loglevel fatal
 add-batfish-option initinfo false
 set-loglevel info
 init-testrig <EXPERIMENT> <EXPERIMENT>
-get smt-reachability failures=<FAIL>, ingressNodeRegex=\"r<IN>\", finalNodeRegex=\"r<FIN>\", dstIps=[\"<DEST_IP>\"]"
+get smt-reachability failures=<FAIL>, ingressNodeRegex=\"r<IN>\", finalNodeRegex=\"r<FIN>\", dstIps=[<DEST_IP>]"
 if $bonsai; then
 	commands_template+=", useAbstraction=True"
 fi

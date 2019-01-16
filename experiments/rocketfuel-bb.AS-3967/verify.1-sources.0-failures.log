@@ -1,0 +1,1326 @@
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=2048m; support was removed in 8.0
+Changed client loglevel to info
+WARNING: Command init-testrig has been deprecated and may be removed. The term "testrig" has been replaced with "snapshot". Use init-snapshot instead.
+WMS:initNetwork np
+Initialized network:np_0c99a63d-51ff-413c-9a38-80fd6b879fb1 using api-key:00000000000000000000000000000000
+Init'ed and set active network to np_0c99a63d-51ff-413c-9a38-80fd6b879fb1
+
+WMS:uploadSnapshot 00000000000000000000000000000000 np_0c99a63d-51ff-413c-9a38-80fd6b879fb1 rocketfuel-bb.AS-3967
+Environment data for snapshot:rocketfuel-bb.AS-3967; bgpTables:false, routingTables:false, nodeRoles:false referenceBooks:false
+Uploaded snapshot:rocketfuel-bb.AS-3967 for network:np_0c99a63d-51ff-413c-9a38-80fd6b879fb1 using api-key:00000000000000000000000000000000
+Uploaded snapshot.
+Parsing now.
+work-id is d100bee5-62ff-4aa0-ad6b-dd25ffd5cc9c
+WMS:queueWork 00000000000000000000000000000000 {"containerName":"np_0c99a63d-51ff-413c-9a38-80fd6b879fb1","id":"d100bee5-62ff-4aa0-ad6b-dd25ffd5cc9c","requestParams":{"sv":"","haltonparseerror":"","si":"","initinfo":"false","ignoremanagementinterfaces":"","loglevel":"fatal","haltonconverterror":""},"testrigName":"rocketfuel-bb.AS-3967"}
+WM:AssignWork: Trying to assign [d100bee5-62ff-4aa0-ad6b-dd25ffd5cc9c 13980bd1-f16d-44a8-addd-bb077c2dae4b 704d53d9-7adc-4a18-ba2d-b19bee47612a {container=13980bd1-f16d-44a8-addd-bb077c2dae4b, sv=, haltonparseerror=, si=, initinfo=false, ignoremanagementinterfaces=, loglevel=fatal, testrig=704d53d9-7adc-4a18-ba2d-b19bee47612a, snapshotname=rocketfuel-bb.AS-3967, haltonconverterror=}] [TRYINGTOASSIGN] [Wed Jan 16 03:23:21 CST 2019 null null] [null] [null, null] to localhost:41814
+Queuing result: true
+WMS:getWorkStatus d100bee5-62ff-4aa0-ad6b-dd25ffd5cc9c
+status: TRYINGTOASSIGN
+.... no task information
+WMS:getWorkStatus d100bee5-62ff-4aa0-ad6b-dd25ffd5cc9c
+BFS:runTask(d100bee5-62ff-4aa0-ad6b-dd25ffd5cc9c,{"container":"13980bd1-f16d-44a8-addd-bb077c2dae4b","sv":"","haltonparseerror":"","si":"","initinfo":"false","ignoremanagementinterfaces":"","loglevel":"fatal","testrig":"704d53d9-7adc-4a18-ba2d-b19bee47612a","snapshotname":"rocketfuel-bb.AS-3967","haltonconverterror":"","storagebase":"\/home\/plankton\/batfish\/experiments\/containers"})
+Will run with args: [-container, 13980bd1-f16d-44a8-addd-bb077c2dae4b, -sv, -haltonparseerror, -si, -initinfo, false, -ignoremanagementinterfaces, -loglevel, fatal, -testrig, 704d53d9-7adc-4a18-ba2d-b19bee47612a, -snapshotname, rocketfuel-bb.AS-3967, -haltonconverterror, -storagebase, /home/plankton/batfish/experiments/containers]
+status: TRYINGTOASSIGN
+.... no task information
+WMS:getWorkStatus d100bee5-62ff-4aa0-ad6b-dd25ffd5cc9c
+status: TRYINGTOASSIGN
+.... no task information
+WMS:getWorkStatus d100bee5-62ff-4aa0-ad6b-dd25ffd5cc9c
+WM:AssignWork: response: ["success","running now"] [success] [running now]
+status: ASSIGNED
+.... no task information
+WMS:getWorkStatus d100bee5-62ff-4aa0-ad6b-dd25ffd5cc9c
+status: ASSIGNED
+.... no task information
+WMS:getWorkStatus d100bee5-62ff-4aa0-ad6b-dd25ffd5cc9c
+status: ASSIGNED
+.... no task information
+WMS:getWorkStatus d100bee5-62ff-4aa0-ad6b-dd25ffd5cc9c
+status: ASSIGNED
+.... no task information
+WMS:getWorkStatus d100bee5-62ff-4aa0-ad6b-dd25ffd5cc9c
+status: ASSIGNED
+.... no task information
+WMS:getWorkStatus d100bee5-62ff-4aa0-ad6b-dd25ffd5cc9c
+status: ASSIGNED
+.... no task information
+WMS:getWorkStatus d100bee5-62ff-4aa0-ad6b-dd25ffd5cc9c
+WMS:getWorkStatus d100bee5-62ff-4aa0-ad6b-dd25ffd5cc9c
+status: ASSIGNED
+.... no task information
+WMS:getWorkStatus d100bee5-62ff-4aa0-ad6b-dd25ffd5cc9c
+status: ASSIGNED
+.... no task information
+WMS:getWorkStatus d100bee5-62ff-4aa0-ad6b-dd25ffd5cc9c
+status: ASSIGNED
+.... no task information
+WMS:getWorkStatus d100bee5-62ff-4aa0-ad6b-dd25ffd5cc9c
+status: ASSIGNED
+.... no task information
+WM:CheckWork: Trying to check [d100bee5-62ff-4aa0-ad6b-dd25ffd5cc9c 13980bd1-f16d-44a8-addd-bb077c2dae4b 704d53d9-7adc-4a18-ba2d-b19bee47612a {container=13980bd1-f16d-44a8-addd-bb077c2dae4b, sv=, haltonparseerror=, si=, initinfo=false, ignoremanagementinterfaces=, loglevel=fatal, testrig=704d53d9-7adc-4a18-ba2d-b19bee47612a, snapshotname=rocketfuel-bb.AS-3967, haltonconverterror=}] [CHECKINGSTATUS] [Wed Jan 16 03:23:21 CST 2019 Wed Jan 16 03:23:21 CST 2019 null] [localhost:41814] [null, null] on localhost:41814
+BFS:getTaskStatus d100bee5-62ff-4aa0-ad6b-dd25ffd5cc9c
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"13980bd1-f16d-44a8-addd-bb077c2dae4b\",\n    \"-sv\",\n    \"-haltonparseerror\",\n    \"-si\",\n    \"-initinfo\",\n    \"false\",\n    \"-ignoremanagementinterfaces\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-testrig\",\n    \"704d53d9-7adc-4a18-ba2d-b19bee47612a\",\n    \"-snapshotname\",\n    \"rocketfuel-bb.AS-3967\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-16T09:23:21.911+0000\"\n    },\n    {\n      \"completed\" : 79,\n      \"description\" : \"Reading network configuration files\",\n      \"size\" : 79,\n      \"startDate\" : \"2019-01-16T09:23:21.956+0000\"\n    },\n    {\n      \"completed\" : 0,\n      \"description\" : \"Parse configurations\",\n      \"size\" : 79,\n      \"startDate\" : \"2019-01-16T09:23:22.020+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-16T09:23:21.907+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "13980bd1-f16d-44a8-addd-bb077c2dae4b",
+    "-sv",
+    "-haltonparseerror",
+    "-si",
+    "-initinfo",
+    "false",
+    "-ignoremanagementinterfaces",
+    "-loglevel",
+    "fatal",
+    "-testrig",
+    "704d53d9-7adc-4a18-ba2d-b19bee47612a",
+    "-snapshotname",
+    "rocketfuel-bb.AS-3967",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-16T09:23:21.911+0000"
+    },
+    {
+      "completed" : 79,
+      "description" : "Reading network configuration files",
+      "size" : 79,
+      "startDate" : "2019-01-16T09:23:21.956+0000"
+    },
+    {
+      "completed" : 0,
+      "description" : "Parse configurations",
+      "size" : 79,
+      "startDate" : "2019-01-16T09:23:22.020+0000"
+    }
+  ],
+  "obtained" : "2019-01-16T09:23:21.907+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus d100bee5-62ff-4aa0-ad6b-dd25ffd5cc9c
+status: ASSIGNED
+.... Wed Jan 16 03:23:22 CST 2019: Parse configurations: 0/79
+WMS:getWorkStatus d100bee5-62ff-4aa0-ad6b-dd25ffd5cc9c
+status: ASSIGNED
+.... Wed Jan 16 03:23:22 CST 2019: Parse configurations: 0/79
+WMS:getWorkStatus d100bee5-62ff-4aa0-ad6b-dd25ffd5cc9c
+status: ASSIGNED
+.... Wed Jan 16 03:23:22 CST 2019: Parse configurations: 0/79
+WM:CheckWork: Trying to check [d100bee5-62ff-4aa0-ad6b-dd25ffd5cc9c 13980bd1-f16d-44a8-addd-bb077c2dae4b 704d53d9-7adc-4a18-ba2d-b19bee47612a {container=13980bd1-f16d-44a8-addd-bb077c2dae4b, sv=, haltonparseerror=, si=, initinfo=false, ignoremanagementinterfaces=, loglevel=fatal, testrig=704d53d9-7adc-4a18-ba2d-b19bee47612a, snapshotname=rocketfuel-bb.AS-3967, haltonconverterror=}] [CHECKINGSTATUS] [Wed Jan 16 03:23:21 CST 2019 Wed Jan 16 03:23:21 CST 2019 null] [localhost:41814] [InProgress, Wed Jan 16 03:23:22 CST 2019] on localhost:41814
+BFS:getTaskStatus d100bee5-62ff-4aa0-ad6b-dd25ffd5cc9c
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"13980bd1-f16d-44a8-addd-bb077c2dae4b\",\n    \"-sv\",\n    \"-haltonparseerror\",\n    \"-si\",\n    \"-initinfo\",\n    \"false\",\n    \"-ignoremanagementinterfaces\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-testrig\",\n    \"704d53d9-7adc-4a18-ba2d-b19bee47612a\",\n    \"-snapshotname\",\n    \"rocketfuel-bb.AS-3967\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-16T09:23:21.911+0000\"\n    },\n    {\n      \"completed\" : 79,\n      \"description\" : \"Reading network configuration files\",\n      \"size\" : 79,\n      \"startDate\" : \"2019-01-16T09:23:21.956+0000\"\n    },\n    {\n      \"completed\" : 0,\n      \"description\" : \"Parse configurations\",\n      \"size\" : 79,\n      \"startDate\" : \"2019-01-16T09:23:22.020+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-16T09:23:21.907+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "13980bd1-f16d-44a8-addd-bb077c2dae4b",
+    "-sv",
+    "-haltonparseerror",
+    "-si",
+    "-initinfo",
+    "false",
+    "-ignoremanagementinterfaces",
+    "-loglevel",
+    "fatal",
+    "-testrig",
+    "704d53d9-7adc-4a18-ba2d-b19bee47612a",
+    "-snapshotname",
+    "rocketfuel-bb.AS-3967",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-16T09:23:21.911+0000"
+    },
+    {
+      "completed" : 79,
+      "description" : "Reading network configuration files",
+      "size" : 79,
+      "startDate" : "2019-01-16T09:23:21.956+0000"
+    },
+    {
+      "completed" : 0,
+      "description" : "Parse configurations",
+      "size" : 79,
+      "startDate" : "2019-01-16T09:23:22.020+0000"
+    }
+  ],
+  "obtained" : "2019-01-16T09:23:21.907+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus d100bee5-62ff-4aa0-ad6b-dd25ffd5cc9c
+status: ASSIGNED
+.... Wed Jan 16 03:23:22 CST 2019: Parse configurations: 0/79
+WM:CheckWork: Trying to check [d100bee5-62ff-4aa0-ad6b-dd25ffd5cc9c 13980bd1-f16d-44a8-addd-bb077c2dae4b 704d53d9-7adc-4a18-ba2d-b19bee47612a {container=13980bd1-f16d-44a8-addd-bb077c2dae4b, sv=, haltonparseerror=, si=, initinfo=false, ignoremanagementinterfaces=, loglevel=fatal, testrig=704d53d9-7adc-4a18-ba2d-b19bee47612a, snapshotname=rocketfuel-bb.AS-3967, haltonconverterror=}] [CHECKINGSTATUS] [Wed Jan 16 03:23:21 CST 2019 Wed Jan 16 03:23:21 CST 2019 null] [localhost:41814] [InProgress, Wed Jan 16 03:23:23 CST 2019] on localhost:41814
+BFS:getTaskStatus d100bee5-62ff-4aa0-ad6b-dd25ffd5cc9c
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"13980bd1-f16d-44a8-addd-bb077c2dae4b\",\n    \"-sv\",\n    \"-haltonparseerror\",\n    \"-si\",\n    \"-initinfo\",\n    \"false\",\n    \"-ignoremanagementinterfaces\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-testrig\",\n    \"704d53d9-7adc-4a18-ba2d-b19bee47612a\",\n    \"-snapshotname\",\n    \"rocketfuel-bb.AS-3967\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-16T09:23:21.911+0000\"\n    },\n    {\n      \"completed\" : 79,\n      \"description\" : \"Reading network configuration files\",\n      \"size\" : 79,\n      \"startDate\" : \"2019-01-16T09:23:21.956+0000\"\n    },\n    {\n      \"completed\" : 0,\n      \"description\" : \"Parse configurations\",\n      \"size\" : 79,\n      \"startDate\" : \"2019-01-16T09:23:22.020+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-16T09:23:21.907+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "13980bd1-f16d-44a8-addd-bb077c2dae4b",
+    "-sv",
+    "-haltonparseerror",
+    "-si",
+    "-initinfo",
+    "false",
+    "-ignoremanagementinterfaces",
+    "-loglevel",
+    "fatal",
+    "-testrig",
+    "704d53d9-7adc-4a18-ba2d-b19bee47612a",
+    "-snapshotname",
+    "rocketfuel-bb.AS-3967",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-16T09:23:21.911+0000"
+    },
+    {
+      "completed" : 79,
+      "description" : "Reading network configuration files",
+      "size" : 79,
+      "startDate" : "2019-01-16T09:23:21.956+0000"
+    },
+    {
+      "completed" : 0,
+      "description" : "Parse configurations",
+      "size" : 79,
+      "startDate" : "2019-01-16T09:23:22.020+0000"
+    }
+  ],
+  "obtained" : "2019-01-16T09:23:21.907+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus d100bee5-62ff-4aa0-ad6b-dd25ffd5cc9c
+status: ASSIGNED
+.... Wed Jan 16 03:23:22 CST 2019: Parse configurations: 0/79
+WM:CheckWork: Trying to check [d100bee5-62ff-4aa0-ad6b-dd25ffd5cc9c 13980bd1-f16d-44a8-addd-bb077c2dae4b 704d53d9-7adc-4a18-ba2d-b19bee47612a {container=13980bd1-f16d-44a8-addd-bb077c2dae4b, sv=, haltonparseerror=, si=, initinfo=false, ignoremanagementinterfaces=, loglevel=fatal, testrig=704d53d9-7adc-4a18-ba2d-b19bee47612a, snapshotname=rocketfuel-bb.AS-3967, haltonconverterror=}] [CHECKINGSTATUS] [Wed Jan 16 03:23:21 CST 2019 Wed Jan 16 03:23:21 CST 2019 null] [localhost:41814] [InProgress, Wed Jan 16 03:23:24 CST 2019] on localhost:41814
+BFS:getTaskStatus d100bee5-62ff-4aa0-ad6b-dd25ffd5cc9c
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"13980bd1-f16d-44a8-addd-bb077c2dae4b\",\n    \"-sv\",\n    \"-haltonparseerror\",\n    \"-si\",\n    \"-initinfo\",\n    \"false\",\n    \"-ignoremanagementinterfaces\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-testrig\",\n    \"704d53d9-7adc-4a18-ba2d-b19bee47612a\",\n    \"-snapshotname\",\n    \"rocketfuel-bb.AS-3967\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-16T09:23:21.911+0000\"\n    },\n    {\n      \"completed\" : 79,\n      \"description\" : \"Reading network configuration files\",\n      \"size\" : 79,\n      \"startDate\" : \"2019-01-16T09:23:21.956+0000\"\n    },\n    {\n      \"completed\" : 0,\n      \"description\" : \"Parse configurations\",\n      \"size\" : 79,\n      \"startDate\" : \"2019-01-16T09:23:22.020+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-16T09:23:21.907+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "13980bd1-f16d-44a8-addd-bb077c2dae4b",
+    "-sv",
+    "-haltonparseerror",
+    "-si",
+    "-initinfo",
+    "false",
+    "-ignoremanagementinterfaces",
+    "-loglevel",
+    "fatal",
+    "-testrig",
+    "704d53d9-7adc-4a18-ba2d-b19bee47612a",
+    "-snapshotname",
+    "rocketfuel-bb.AS-3967",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-16T09:23:21.911+0000"
+    },
+    {
+      "completed" : 79,
+      "description" : "Reading network configuration files",
+      "size" : 79,
+      "startDate" : "2019-01-16T09:23:21.956+0000"
+    },
+    {
+      "completed" : 0,
+      "description" : "Parse configurations",
+      "size" : 79,
+      "startDate" : "2019-01-16T09:23:22.020+0000"
+    }
+  ],
+  "obtained" : "2019-01-16T09:23:21.907+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus d100bee5-62ff-4aa0-ad6b-dd25ffd5cc9c
+status: ASSIGNED
+.... Wed Jan 16 03:23:22 CST 2019: Parse configurations: 0/79
+WM:CheckWork: Trying to check [d100bee5-62ff-4aa0-ad6b-dd25ffd5cc9c 13980bd1-f16d-44a8-addd-bb077c2dae4b 704d53d9-7adc-4a18-ba2d-b19bee47612a {container=13980bd1-f16d-44a8-addd-bb077c2dae4b, sv=, haltonparseerror=, si=, initinfo=false, ignoremanagementinterfaces=, loglevel=fatal, testrig=704d53d9-7adc-4a18-ba2d-b19bee47612a, snapshotname=rocketfuel-bb.AS-3967, haltonconverterror=}] [CHECKINGSTATUS] [Wed Jan 16 03:23:21 CST 2019 Wed Jan 16 03:23:21 CST 2019 null] [localhost:41814] [InProgress, Wed Jan 16 03:23:25 CST 2019] on localhost:41814
+BFS:getTaskStatus d100bee5-62ff-4aa0-ad6b-dd25ffd5cc9c
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"13980bd1-f16d-44a8-addd-bb077c2dae4b\",\n    \"-sv\",\n    \"-haltonparseerror\",\n    \"-si\",\n    \"-initinfo\",\n    \"false\",\n    \"-ignoremanagementinterfaces\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-testrig\",\n    \"704d53d9-7adc-4a18-ba2d-b19bee47612a\",\n    \"-snapshotname\",\n    \"rocketfuel-bb.AS-3967\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-16T09:23:21.911+0000\"\n    },\n    {\n      \"completed\" : 79,\n      \"description\" : \"Reading network configuration files\",\n      \"size\" : 79,\n      \"startDate\" : \"2019-01-16T09:23:21.956+0000\"\n    },\n    {\n      \"completed\" : 5,\n      \"description\" : \"Parse configurations\",\n      \"size\" : 79,\n      \"startDate\" : \"2019-01-16T09:23:22.020+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-16T09:23:21.907+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "13980bd1-f16d-44a8-addd-bb077c2dae4b",
+    "-sv",
+    "-haltonparseerror",
+    "-si",
+    "-initinfo",
+    "false",
+    "-ignoremanagementinterfaces",
+    "-loglevel",
+    "fatal",
+    "-testrig",
+    "704d53d9-7adc-4a18-ba2d-b19bee47612a",
+    "-snapshotname",
+    "rocketfuel-bb.AS-3967",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-16T09:23:21.911+0000"
+    },
+    {
+      "completed" : 79,
+      "description" : "Reading network configuration files",
+      "size" : 79,
+      "startDate" : "2019-01-16T09:23:21.956+0000"
+    },
+    {
+      "completed" : 5,
+      "description" : "Parse configurations",
+      "size" : 79,
+      "startDate" : "2019-01-16T09:23:22.020+0000"
+    }
+  ],
+  "obtained" : "2019-01-16T09:23:21.907+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus d100bee5-62ff-4aa0-ad6b-dd25ffd5cc9c
+status: ASSIGNED
+.... Wed Jan 16 03:23:22 CST 2019: Parse configurations: 5/79
+WM:CheckWork: Trying to check [d100bee5-62ff-4aa0-ad6b-dd25ffd5cc9c 13980bd1-f16d-44a8-addd-bb077c2dae4b 704d53d9-7adc-4a18-ba2d-b19bee47612a {container=13980bd1-f16d-44a8-addd-bb077c2dae4b, sv=, haltonparseerror=, si=, initinfo=false, ignoremanagementinterfaces=, loglevel=fatal, testrig=704d53d9-7adc-4a18-ba2d-b19bee47612a, snapshotname=rocketfuel-bb.AS-3967, haltonconverterror=}] [CHECKINGSTATUS] [Wed Jan 16 03:23:21 CST 2019 Wed Jan 16 03:23:21 CST 2019 null] [localhost:41814] [InProgress, Wed Jan 16 03:23:26 CST 2019] on localhost:41814
+BFS:getTaskStatus d100bee5-62ff-4aa0-ad6b-dd25ffd5cc9c
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"13980bd1-f16d-44a8-addd-bb077c2dae4b\",\n    \"-sv\",\n    \"-haltonparseerror\",\n    \"-si\",\n    \"-initinfo\",\n    \"false\",\n    \"-ignoremanagementinterfaces\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-testrig\",\n    \"704d53d9-7adc-4a18-ba2d-b19bee47612a\",\n    \"-snapshotname\",\n    \"rocketfuel-bb.AS-3967\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-16T09:23:21.911+0000\"\n    },\n    {\n      \"completed\" : 79,\n      \"description\" : \"Reading network configuration files\",\n      \"size\" : 79,\n      \"startDate\" : \"2019-01-16T09:23:21.956+0000\"\n    },\n    {\n      \"completed\" : 79,\n      \"description\" : \"Parse configurations\",\n      \"size\" : 79,\n      \"startDate\" : \"2019-01-16T09:23:22.020+0000\"\n    },\n    {\n      \"completed\" : 79,\n      \"description\" : \"Serializing 'org.batfish.representation.cisco.CiscoConfiguration' instances to disk\",\n      \"size\" : 79,\n      \"startDate\" : \"2019-01-16T09:23:26.806+0000\"\n    },\n    {\n      \"completed\" : 79,\n      \"description\" : \"Reading, unpacking, and deserializing files containing 'org.batfish.datamodel.GenericConfigObject' instances\",\n      \"size\" : 79,\n      \"startDate\" : \"2019-01-16T09:23:27.063+0000\"\n    },\n    {\n      \"completed\" : 79,\n      \"description\" : \"Convert configurations to vendor-independent format\",\n      \"size\" : 79,\n      \"startDate\" : \"2019-01-16T09:23:27.166+0000\"\n    },\n    {\n      \"completed\" : 79,\n      \"description\" : \"Serializing 79 vendor-independent configuration structures for snapshot 704d53d9-7adc-4a18-ba2d-b19bee47612a\",\n      \"size\" : 79,\n      \"startDate\" : \"2019-01-16T09:23:27.297+0000\"\n    },\n    {\n      \"completed\" : 79,\n      \"description\" : \"Deserializing objects of type 'org.batfish.datamodel.Configuration' from files\",\n      \"size\" : 79,\n      \"startDate\" : \"2019-01-16T09:23:27.467+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-16T09:23:21.907+0000\",\n  \"status\" : \"TerminatedNormally\",\n  \"terminated\" : \"2019-01-16T09:23:27.588+0000\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "13980bd1-f16d-44a8-addd-bb077c2dae4b",
+    "-sv",
+    "-haltonparseerror",
+    "-si",
+    "-initinfo",
+    "false",
+    "-ignoremanagementinterfaces",
+    "-loglevel",
+    "fatal",
+    "-testrig",
+    "704d53d9-7adc-4a18-ba2d-b19bee47612a",
+    "-snapshotname",
+    "rocketfuel-bb.AS-3967",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-16T09:23:21.911+0000"
+    },
+    {
+      "completed" : 79,
+      "description" : "Reading network configuration files",
+      "size" : 79,
+      "startDate" : "2019-01-16T09:23:21.956+0000"
+    },
+    {
+      "completed" : 79,
+      "description" : "Parse configurations",
+      "size" : 79,
+      "startDate" : "2019-01-16T09:23:22.020+0000"
+    },
+    {
+      "completed" : 79,
+      "description" : "Serializing 'org.batfish.representation.cisco.CiscoConfiguration' instances to disk",
+      "size" : 79,
+      "startDate" : "2019-01-16T09:23:26.806+0000"
+    },
+    {
+      "completed" : 79,
+      "description" : "Reading, unpacking, and deserializing files containing 'org.batfish.datamodel.GenericConfigObject' instances",
+      "size" : 79,
+      "startDate" : "2019-01-16T09:23:27.063+0000"
+    },
+    {
+      "completed" : 79,
+      "description" : "Convert configurations to vendor-independent format",
+      "size" : 79,
+      "startDate" : "2019-01-16T09:23:27.166+0000"
+    },
+    {
+      "completed" : 79,
+      "description" : "Serializing 79 vendor-independent configuration structures for snapshot 704d53d9-7adc-4a18-ba2d-b19bee47612a",
+      "size" : 79,
+      "startDate" : "2019-01-16T09:23:27.297+0000"
+    },
+    {
+      "completed" : 79,
+      "description" : "Deserializing objects of type 'org.batfish.datamodel.Configuration' from files",
+      "size" : 79,
+      "startDate" : "2019-01-16T09:23:27.467+0000"
+    }
+  ],
+  "obtained" : "2019-01-16T09:23:21.907+0000",
+  "status" : "TerminatedNormally",
+  "terminated" : "2019-01-16T09:23:27.588+0000"
+}]
+WMS:getWorkStatus d100bee5-62ff-4aa0-ad6b-dd25ffd5cc9c
+status: TERMINATEDNORMALLY
+.... Wed Jan 16 03:23:21 CST 2019: Begin job
+.... Wed Jan 16 03:23:21 CST 2019: Reading network configuration files: 79/79
+.... Wed Jan 16 03:23:22 CST 2019: Parse configurations: 79/79
+.... Wed Jan 16 03:23:26 CST 2019: Serializing 'org.batfish.representation.cisco.CiscoConfiguration' instances to disk: 79/79
+.... Wed Jan 16 03:23:27 CST 2019: Reading, unpacking, and deserializing files containing 'org.batfish.datamodel.GenericConfigObject' instances: 79/79
+.... Wed Jan 16 03:23:27 CST 2019: Convert configurations to vendor-independent format: 79/79
+.... Wed Jan 16 03:23:27 CST 2019: Serializing 79 vendor-independent configuration structures for snapshot 704d53d9-7adc-4a18-ba2d-b19bee47612a: 79/79
+.... Wed Jan 16 03:23:27 CST 2019: Deserializing objects of type 'org.batfish.datamodel.Configuration' from files: 79/79
+.... Wed Jan 16 03:23:27 CST 2019: TERMINATEDNORMALLY
+WMS:getObject rocketfuel-bb.AS-3967 --> d100bee5-62ff-4aa0-ad6b-dd25ffd5cc9c.json
+Status: SUCCESS
+Summary: 0 (non-assertion) results; 
+Current snapshot is now rocketfuel-bb.AS-3967
+WMS:uploadQuestion 00000000000000000000000000000000 np_0c99a63d-51ff-413c-9a38-80fd6b879fb1/q_b7b14d54-7fc5-40d6-b819-cb179ce87b5a
+work-id is 66b35e57-f4e1-4f78-9961-f69091ab4497
+WMS:queueWork 00000000000000000000000000000000 {"containerName":"np_0c99a63d-51ff-413c-9a38-80fd6b879fb1","id":"66b35e57-f4e1-4f78-9961-f69091ab4497","requestParams":{"answer":"","haltonparseerror":"","loglevel":"fatal","initinfo":"false","questionname":"q_b7b14d54-7fc5-40d6-b819-cb179ce87b5a","haltonconverterror":""},"testrigName":"rocketfuel-bb.AS-3967"}
+WM:AssignWork: Trying to assign [66b35e57-f4e1-4f78-9961-f69091ab4497 13980bd1-f16d-44a8-addd-bb077c2dae4b 704d53d9-7adc-4a18-ba2d-b19bee47612a {container=13980bd1-f16d-44a8-addd-bb077c2dae4b, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=4aedf619-12fd-4e25-927e-06ac66fc7819, testrig=704d53d9-7adc-4a18-ba2d-b19bee47612a, snapshotname=rocketfuel-bb.AS-3967, haltonconverterror=}] [TRYINGTOASSIGN] [Wed Jan 16 03:23:28 CST 2019 null null] [null] [null, null] to localhost:41814
+Queuing result: true
+WMS:getWorkStatus 66b35e57-f4e1-4f78-9961-f69091ab4497
+status: TRYINGTOASSIGN
+.... no task information
+WMS:getWorkStatus 66b35e57-f4e1-4f78-9961-f69091ab4497
+status: TRYINGTOASSIGN
+.... no task information
+WMS:getWorkStatus 66b35e57-f4e1-4f78-9961-f69091ab4497
+status: TRYINGTOASSIGN
+.... no task information
+BFS:runTask(66b35e57-f4e1-4f78-9961-f69091ab4497,{"container":"13980bd1-f16d-44a8-addd-bb077c2dae4b","answer":"","haltonparseerror":"","loglevel":"fatal","initinfo":"false","questionname":"4aedf619-12fd-4e25-927e-06ac66fc7819","testrig":"704d53d9-7adc-4a18-ba2d-b19bee47612a","snapshotname":"rocketfuel-bb.AS-3967","haltonconverterror":"","storagebase":"\/home\/plankton\/batfish\/experiments\/containers"})
+WMS:getWorkStatus 66b35e57-f4e1-4f78-9961-f69091ab4497
+Will run with args: [-container, 13980bd1-f16d-44a8-addd-bb077c2dae4b, -answer, -haltonparseerror, -loglevel, fatal, -initinfo, false, -questionname, 4aedf619-12fd-4e25-927e-06ac66fc7819, -testrig, 704d53d9-7adc-4a18-ba2d-b19bee47612a, -snapshotname, rocketfuel-bb.AS-3967, -haltonconverterror, -storagebase, /home/plankton/batfish/experiments/containers]
+status: TRYINGTOASSIGN
+.... no task information
+WM:AssignWork: response: ["success","running now"] [success] [running now]
+WMS:getWorkStatus 66b35e57-f4e1-4f78-9961-f69091ab4497
+status: ASSIGNED
+.... no task information
+WMS:getWorkStatus 66b35e57-f4e1-4f78-9961-f69091ab4497
+status: ASSIGNED
+.... no task information
+WMS:getWorkStatus 66b35e57-f4e1-4f78-9961-f69091ab4497
+status: ASSIGNED
+.... no task information
+WMS:getWorkStatus 66b35e57-f4e1-4f78-9961-f69091ab4497
+status: ASSIGNED
+.... no task information
+WMS:getWorkStatus 66b35e57-f4e1-4f78-9961-f69091ab4497
+status: ASSIGNED
+.... no task information
+=====[DEBUG]===== sourceRouters: [r39]
+=====[DEBUG]===== mapped srcRouters: [r39]
+WMS:getWorkStatus 66b35e57-f4e1-4f78-9961-f69091ab4497
+status: ASSIGNED
+.... no task information
+WMS:getWorkStatus 66b35e57-f4e1-4f78-9961-f69091ab4497
+status: ASSIGNED
+.... no task information
+WMS:getWorkStatus 66b35e57-f4e1-4f78-9961-f69091ab4497
+status: ASSIGNED
+.... no task information
+WMS:getWorkStatus 66b35e57-f4e1-4f78-9961-f69091ab4497
+status: ASSIGNED
+.... no task information
+WMS:getWorkStatus 66b35e57-f4e1-4f78-9961-f69091ab4497
+status: ASSIGNED
+.... no task information
+WM:CheckWork: Trying to check [66b35e57-f4e1-4f78-9961-f69091ab4497 13980bd1-f16d-44a8-addd-bb077c2dae4b 704d53d9-7adc-4a18-ba2d-b19bee47612a {container=13980bd1-f16d-44a8-addd-bb077c2dae4b, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=4aedf619-12fd-4e25-927e-06ac66fc7819, testrig=704d53d9-7adc-4a18-ba2d-b19bee47612a, snapshotname=rocketfuel-bb.AS-3967, haltonconverterror=}] [CHECKINGSTATUS] [Wed Jan 16 03:23:28 CST 2019 Wed Jan 16 03:23:28 CST 2019 null] [localhost:41814] [null, null] on localhost:41814
+BFS:getTaskStatus 66b35e57-f4e1-4f78-9961-f69091ab4497
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"13980bd1-f16d-44a8-addd-bb077c2dae4b\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"4aedf619-12fd-4e25-927e-06ac66fc7819\",\n    \"-testrig\",\n    \"704d53d9-7adc-4a18-ba2d-b19bee47612a\",\n    \"-snapshotname\",\n    \"rocketfuel-bb.AS-3967\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-16T09:23:28.635+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-16T09:23:28.634+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "13980bd1-f16d-44a8-addd-bb077c2dae4b",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "4aedf619-12fd-4e25-927e-06ac66fc7819",
+    "-testrig",
+    "704d53d9-7adc-4a18-ba2d-b19bee47612a",
+    "-snapshotname",
+    "rocketfuel-bb.AS-3967",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-16T09:23:28.635+0000"
+    }
+  ],
+  "obtained" : "2019-01-16T09:23:28.634+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus 66b35e57-f4e1-4f78-9961-f69091ab4497
+status: ASSIGNED
+.... Wed Jan 16 03:23:28 CST 2019: Begin job
+WMS:getWorkStatus 66b35e57-f4e1-4f78-9961-f69091ab4497
+status: ASSIGNED
+.... Wed Jan 16 03:23:28 CST 2019: Begin job
+WM:CheckWork: Trying to check [66b35e57-f4e1-4f78-9961-f69091ab4497 13980bd1-f16d-44a8-addd-bb077c2dae4b 704d53d9-7adc-4a18-ba2d-b19bee47612a {container=13980bd1-f16d-44a8-addd-bb077c2dae4b, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=4aedf619-12fd-4e25-927e-06ac66fc7819, testrig=704d53d9-7adc-4a18-ba2d-b19bee47612a, snapshotname=rocketfuel-bb.AS-3967, haltonconverterror=}] [CHECKINGSTATUS] [Wed Jan 16 03:23:28 CST 2019 Wed Jan 16 03:23:28 CST 2019 null] [localhost:41814] [InProgress, Wed Jan 16 03:23:29 CST 2019] on localhost:41814
+BFS:getTaskStatus 66b35e57-f4e1-4f78-9961-f69091ab4497
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"13980bd1-f16d-44a8-addd-bb077c2dae4b\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"4aedf619-12fd-4e25-927e-06ac66fc7819\",\n    \"-testrig\",\n    \"704d53d9-7adc-4a18-ba2d-b19bee47612a\",\n    \"-snapshotname\",\n    \"rocketfuel-bb.AS-3967\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-16T09:23:28.635+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-16T09:23:28.634+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "13980bd1-f16d-44a8-addd-bb077c2dae4b",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "4aedf619-12fd-4e25-927e-06ac66fc7819",
+    "-testrig",
+    "704d53d9-7adc-4a18-ba2d-b19bee47612a",
+    "-snapshotname",
+    "rocketfuel-bb.AS-3967",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-16T09:23:28.635+0000"
+    }
+  ],
+  "obtained" : "2019-01-16T09:23:28.634+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus 66b35e57-f4e1-4f78-9961-f69091ab4497
+status: ASSIGNED
+.... Wed Jan 16 03:23:28 CST 2019: Begin job
+WM:CheckWork: Trying to check [66b35e57-f4e1-4f78-9961-f69091ab4497 13980bd1-f16d-44a8-addd-bb077c2dae4b 704d53d9-7adc-4a18-ba2d-b19bee47612a {container=13980bd1-f16d-44a8-addd-bb077c2dae4b, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=4aedf619-12fd-4e25-927e-06ac66fc7819, testrig=704d53d9-7adc-4a18-ba2d-b19bee47612a, snapshotname=rocketfuel-bb.AS-3967, haltonconverterror=}] [CHECKINGSTATUS] [Wed Jan 16 03:23:28 CST 2019 Wed Jan 16 03:23:28 CST 2019 null] [localhost:41814] [InProgress, Wed Jan 16 03:23:30 CST 2019] on localhost:41814
+BFS:getTaskStatus 66b35e57-f4e1-4f78-9961-f69091ab4497
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"13980bd1-f16d-44a8-addd-bb077c2dae4b\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"4aedf619-12fd-4e25-927e-06ac66fc7819\",\n    \"-testrig\",\n    \"704d53d9-7adc-4a18-ba2d-b19bee47612a\",\n    \"-snapshotname\",\n    \"rocketfuel-bb.AS-3967\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-16T09:23:28.635+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-16T09:23:28.634+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "13980bd1-f16d-44a8-addd-bb077c2dae4b",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "4aedf619-12fd-4e25-927e-06ac66fc7819",
+    "-testrig",
+    "704d53d9-7adc-4a18-ba2d-b19bee47612a",
+    "-snapshotname",
+    "rocketfuel-bb.AS-3967",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-16T09:23:28.635+0000"
+    }
+  ],
+  "obtained" : "2019-01-16T09:23:28.634+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus 66b35e57-f4e1-4f78-9961-f69091ab4497
+status: ASSIGNED
+.... Wed Jan 16 03:23:28 CST 2019: Begin job
+WM:CheckWork: Trying to check [66b35e57-f4e1-4f78-9961-f69091ab4497 13980bd1-f16d-44a8-addd-bb077c2dae4b 704d53d9-7adc-4a18-ba2d-b19bee47612a {container=13980bd1-f16d-44a8-addd-bb077c2dae4b, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=4aedf619-12fd-4e25-927e-06ac66fc7819, testrig=704d53d9-7adc-4a18-ba2d-b19bee47612a, snapshotname=rocketfuel-bb.AS-3967, haltonconverterror=}] [CHECKINGSTATUS] [Wed Jan 16 03:23:28 CST 2019 Wed Jan 16 03:23:28 CST 2019 null] [localhost:41814] [InProgress, Wed Jan 16 03:23:31 CST 2019] on localhost:41814
+BFS:getTaskStatus 66b35e57-f4e1-4f78-9961-f69091ab4497
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"13980bd1-f16d-44a8-addd-bb077c2dae4b\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"4aedf619-12fd-4e25-927e-06ac66fc7819\",\n    \"-testrig\",\n    \"704d53d9-7adc-4a18-ba2d-b19bee47612a\",\n    \"-snapshotname\",\n    \"rocketfuel-bb.AS-3967\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-16T09:23:28.635+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-16T09:23:28.634+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "13980bd1-f16d-44a8-addd-bb077c2dae4b",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "4aedf619-12fd-4e25-927e-06ac66fc7819",
+    "-testrig",
+    "704d53d9-7adc-4a18-ba2d-b19bee47612a",
+    "-snapshotname",
+    "rocketfuel-bb.AS-3967",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-16T09:23:28.635+0000"
+    }
+  ],
+  "obtained" : "2019-01-16T09:23:28.634+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus 66b35e57-f4e1-4f78-9961-f69091ab4497
+status: ASSIGNED
+.... Wed Jan 16 03:23:28 CST 2019: Begin job
+WM:CheckWork: Trying to check [66b35e57-f4e1-4f78-9961-f69091ab4497 13980bd1-f16d-44a8-addd-bb077c2dae4b 704d53d9-7adc-4a18-ba2d-b19bee47612a {container=13980bd1-f16d-44a8-addd-bb077c2dae4b, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=4aedf619-12fd-4e25-927e-06ac66fc7819, testrig=704d53d9-7adc-4a18-ba2d-b19bee47612a, snapshotname=rocketfuel-bb.AS-3967, haltonconverterror=}] [CHECKINGSTATUS] [Wed Jan 16 03:23:28 CST 2019 Wed Jan 16 03:23:28 CST 2019 null] [localhost:41814] [InProgress, Wed Jan 16 03:23:32 CST 2019] on localhost:41814
+BFS:getTaskStatus 66b35e57-f4e1-4f78-9961-f69091ab4497
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"13980bd1-f16d-44a8-addd-bb077c2dae4b\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"4aedf619-12fd-4e25-927e-06ac66fc7819\",\n    \"-testrig\",\n    \"704d53d9-7adc-4a18-ba2d-b19bee47612a\",\n    \"-snapshotname\",\n    \"rocketfuel-bb.AS-3967\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-16T09:23:28.635+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-16T09:23:28.634+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "13980bd1-f16d-44a8-addd-bb077c2dae4b",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "4aedf619-12fd-4e25-927e-06ac66fc7819",
+    "-testrig",
+    "704d53d9-7adc-4a18-ba2d-b19bee47612a",
+    "-snapshotname",
+    "rocketfuel-bb.AS-3967",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-16T09:23:28.635+0000"
+    }
+  ],
+  "obtained" : "2019-01-16T09:23:28.634+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus 66b35e57-f4e1-4f78-9961-f69091ab4497
+status: ASSIGNED
+.... Wed Jan 16 03:23:28 CST 2019: Begin job
+WM:CheckWork: Trying to check [66b35e57-f4e1-4f78-9961-f69091ab4497 13980bd1-f16d-44a8-addd-bb077c2dae4b 704d53d9-7adc-4a18-ba2d-b19bee47612a {container=13980bd1-f16d-44a8-addd-bb077c2dae4b, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=4aedf619-12fd-4e25-927e-06ac66fc7819, testrig=704d53d9-7adc-4a18-ba2d-b19bee47612a, snapshotname=rocketfuel-bb.AS-3967, haltonconverterror=}] [CHECKINGSTATUS] [Wed Jan 16 03:23:28 CST 2019 Wed Jan 16 03:23:28 CST 2019 null] [localhost:41814] [InProgress, Wed Jan 16 03:23:33 CST 2019] on localhost:41814
+BFS:getTaskStatus 66b35e57-f4e1-4f78-9961-f69091ab4497
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"13980bd1-f16d-44a8-addd-bb077c2dae4b\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"4aedf619-12fd-4e25-927e-06ac66fc7819\",\n    \"-testrig\",\n    \"704d53d9-7adc-4a18-ba2d-b19bee47612a\",\n    \"-snapshotname\",\n    \"rocketfuel-bb.AS-3967\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-16T09:23:28.635+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-16T09:23:28.634+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "13980bd1-f16d-44a8-addd-bb077c2dae4b",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "4aedf619-12fd-4e25-927e-06ac66fc7819",
+    "-testrig",
+    "704d53d9-7adc-4a18-ba2d-b19bee47612a",
+    "-snapshotname",
+    "rocketfuel-bb.AS-3967",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-16T09:23:28.635+0000"
+    }
+  ],
+  "obtained" : "2019-01-16T09:23:28.634+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus 66b35e57-f4e1-4f78-9961-f69091ab4497
+status: ASSIGNED
+.... Wed Jan 16 03:23:28 CST 2019: Begin job
+WM:CheckWork: Trying to check [66b35e57-f4e1-4f78-9961-f69091ab4497 13980bd1-f16d-44a8-addd-bb077c2dae4b 704d53d9-7adc-4a18-ba2d-b19bee47612a {container=13980bd1-f16d-44a8-addd-bb077c2dae4b, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=4aedf619-12fd-4e25-927e-06ac66fc7819, testrig=704d53d9-7adc-4a18-ba2d-b19bee47612a, snapshotname=rocketfuel-bb.AS-3967, haltonconverterror=}] [CHECKINGSTATUS] [Wed Jan 16 03:23:28 CST 2019 Wed Jan 16 03:23:28 CST 2019 null] [localhost:41814] [InProgress, Wed Jan 16 03:23:34 CST 2019] on localhost:41814
+BFS:getTaskStatus 66b35e57-f4e1-4f78-9961-f69091ab4497
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"13980bd1-f16d-44a8-addd-bb077c2dae4b\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"4aedf619-12fd-4e25-927e-06ac66fc7819\",\n    \"-testrig\",\n    \"704d53d9-7adc-4a18-ba2d-b19bee47612a\",\n    \"-snapshotname\",\n    \"rocketfuel-bb.AS-3967\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-16T09:23:28.635+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-16T09:23:28.634+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "13980bd1-f16d-44a8-addd-bb077c2dae4b",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "4aedf619-12fd-4e25-927e-06ac66fc7819",
+    "-testrig",
+    "704d53d9-7adc-4a18-ba2d-b19bee47612a",
+    "-snapshotname",
+    "rocketfuel-bb.AS-3967",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-16T09:23:28.635+0000"
+    }
+  ],
+  "obtained" : "2019-01-16T09:23:28.634+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus 66b35e57-f4e1-4f78-9961-f69091ab4497
+status: ASSIGNED
+.... Wed Jan 16 03:23:28 CST 2019: Begin job
+WM:CheckWork: Trying to check [66b35e57-f4e1-4f78-9961-f69091ab4497 13980bd1-f16d-44a8-addd-bb077c2dae4b 704d53d9-7adc-4a18-ba2d-b19bee47612a {container=13980bd1-f16d-44a8-addd-bb077c2dae4b, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=4aedf619-12fd-4e25-927e-06ac66fc7819, testrig=704d53d9-7adc-4a18-ba2d-b19bee47612a, snapshotname=rocketfuel-bb.AS-3967, haltonconverterror=}] [CHECKINGSTATUS] [Wed Jan 16 03:23:28 CST 2019 Wed Jan 16 03:23:28 CST 2019 null] [localhost:41814] [InProgress, Wed Jan 16 03:23:35 CST 2019] on localhost:41814
+BFS:getTaskStatus 66b35e57-f4e1-4f78-9961-f69091ab4497
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"13980bd1-f16d-44a8-addd-bb077c2dae4b\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"4aedf619-12fd-4e25-927e-06ac66fc7819\",\n    \"-testrig\",\n    \"704d53d9-7adc-4a18-ba2d-b19bee47612a\",\n    \"-snapshotname\",\n    \"rocketfuel-bb.AS-3967\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-16T09:23:28.635+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-16T09:23:28.634+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "13980bd1-f16d-44a8-addd-bb077c2dae4b",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "4aedf619-12fd-4e25-927e-06ac66fc7819",
+    "-testrig",
+    "704d53d9-7adc-4a18-ba2d-b19bee47612a",
+    "-snapshotname",
+    "rocketfuel-bb.AS-3967",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-16T09:23:28.635+0000"
+    }
+  ],
+  "obtained" : "2019-01-16T09:23:28.634+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus 66b35e57-f4e1-4f78-9961-f69091ab4497
+status: ASSIGNED
+.... Wed Jan 16 03:23:28 CST 2019: Begin job
+WM:CheckWork: Trying to check [66b35e57-f4e1-4f78-9961-f69091ab4497 13980bd1-f16d-44a8-addd-bb077c2dae4b 704d53d9-7adc-4a18-ba2d-b19bee47612a {container=13980bd1-f16d-44a8-addd-bb077c2dae4b, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=4aedf619-12fd-4e25-927e-06ac66fc7819, testrig=704d53d9-7adc-4a18-ba2d-b19bee47612a, snapshotname=rocketfuel-bb.AS-3967, haltonconverterror=}] [CHECKINGSTATUS] [Wed Jan 16 03:23:28 CST 2019 Wed Jan 16 03:23:28 CST 2019 null] [localhost:41814] [InProgress, Wed Jan 16 03:23:36 CST 2019] on localhost:41814
+BFS:getTaskStatus 66b35e57-f4e1-4f78-9961-f69091ab4497
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"13980bd1-f16d-44a8-addd-bb077c2dae4b\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"4aedf619-12fd-4e25-927e-06ac66fc7819\",\n    \"-testrig\",\n    \"704d53d9-7adc-4a18-ba2d-b19bee47612a\",\n    \"-snapshotname\",\n    \"rocketfuel-bb.AS-3967\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-16T09:23:28.635+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-16T09:23:28.634+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "13980bd1-f16d-44a8-addd-bb077c2dae4b",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "4aedf619-12fd-4e25-927e-06ac66fc7819",
+    "-testrig",
+    "704d53d9-7adc-4a18-ba2d-b19bee47612a",
+    "-snapshotname",
+    "rocketfuel-bb.AS-3967",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-16T09:23:28.635+0000"
+    }
+  ],
+  "obtained" : "2019-01-16T09:23:28.634+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus 66b35e57-f4e1-4f78-9961-f69091ab4497
+status: ASSIGNED
+.... Wed Jan 16 03:23:28 CST 2019: Begin job
+WM:CheckWork: Trying to check [66b35e57-f4e1-4f78-9961-f69091ab4497 13980bd1-f16d-44a8-addd-bb077c2dae4b 704d53d9-7adc-4a18-ba2d-b19bee47612a {container=13980bd1-f16d-44a8-addd-bb077c2dae4b, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=4aedf619-12fd-4e25-927e-06ac66fc7819, testrig=704d53d9-7adc-4a18-ba2d-b19bee47612a, snapshotname=rocketfuel-bb.AS-3967, haltonconverterror=}] [CHECKINGSTATUS] [Wed Jan 16 03:23:28 CST 2019 Wed Jan 16 03:23:28 CST 2019 null] [localhost:41814] [InProgress, Wed Jan 16 03:23:37 CST 2019] on localhost:41814
+BFS:getTaskStatus 66b35e57-f4e1-4f78-9961-f69091ab4497
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"13980bd1-f16d-44a8-addd-bb077c2dae4b\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"4aedf619-12fd-4e25-927e-06ac66fc7819\",\n    \"-testrig\",\n    \"704d53d9-7adc-4a18-ba2d-b19bee47612a\",\n    \"-snapshotname\",\n    \"rocketfuel-bb.AS-3967\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-16T09:23:28.635+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-16T09:23:28.634+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "13980bd1-f16d-44a8-addd-bb077c2dae4b",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "4aedf619-12fd-4e25-927e-06ac66fc7819",
+    "-testrig",
+    "704d53d9-7adc-4a18-ba2d-b19bee47612a",
+    "-snapshotname",
+    "rocketfuel-bb.AS-3967",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-16T09:23:28.635+0000"
+    }
+  ],
+  "obtained" : "2019-01-16T09:23:28.634+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus 66b35e57-f4e1-4f78-9961-f69091ab4497
+status: ASSIGNED
+.... Wed Jan 16 03:23:28 CST 2019: Begin job
+WM:CheckWork: Trying to check [66b35e57-f4e1-4f78-9961-f69091ab4497 13980bd1-f16d-44a8-addd-bb077c2dae4b 704d53d9-7adc-4a18-ba2d-b19bee47612a {container=13980bd1-f16d-44a8-addd-bb077c2dae4b, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=4aedf619-12fd-4e25-927e-06ac66fc7819, testrig=704d53d9-7adc-4a18-ba2d-b19bee47612a, snapshotname=rocketfuel-bb.AS-3967, haltonconverterror=}] [CHECKINGSTATUS] [Wed Jan 16 03:23:28 CST 2019 Wed Jan 16 03:23:28 CST 2019 null] [localhost:41814] [InProgress, Wed Jan 16 03:23:38 CST 2019] on localhost:41814
+BFS:getTaskStatus 66b35e57-f4e1-4f78-9961-f69091ab4497
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"13980bd1-f16d-44a8-addd-bb077c2dae4b\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"4aedf619-12fd-4e25-927e-06ac66fc7819\",\n    \"-testrig\",\n    \"704d53d9-7adc-4a18-ba2d-b19bee47612a\",\n    \"-snapshotname\",\n    \"rocketfuel-bb.AS-3967\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-16T09:23:28.635+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-16T09:23:28.634+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "13980bd1-f16d-44a8-addd-bb077c2dae4b",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "4aedf619-12fd-4e25-927e-06ac66fc7819",
+    "-testrig",
+    "704d53d9-7adc-4a18-ba2d-b19bee47612a",
+    "-snapshotname",
+    "rocketfuel-bb.AS-3967",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-16T09:23:28.635+0000"
+    }
+  ],
+  "obtained" : "2019-01-16T09:23:28.634+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus 66b35e57-f4e1-4f78-9961-f69091ab4497
+status: ASSIGNED
+.... Wed Jan 16 03:23:28 CST 2019: Begin job
+WM:CheckWork: Trying to check [66b35e57-f4e1-4f78-9961-f69091ab4497 13980bd1-f16d-44a8-addd-bb077c2dae4b 704d53d9-7adc-4a18-ba2d-b19bee47612a {container=13980bd1-f16d-44a8-addd-bb077c2dae4b, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=4aedf619-12fd-4e25-927e-06ac66fc7819, testrig=704d53d9-7adc-4a18-ba2d-b19bee47612a, snapshotname=rocketfuel-bb.AS-3967, haltonconverterror=}] [CHECKINGSTATUS] [Wed Jan 16 03:23:28 CST 2019 Wed Jan 16 03:23:28 CST 2019 null] [localhost:41814] [InProgress, Wed Jan 16 03:23:39 CST 2019] on localhost:41814
+BFS:getTaskStatus 66b35e57-f4e1-4f78-9961-f69091ab4497
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"13980bd1-f16d-44a8-addd-bb077c2dae4b\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"4aedf619-12fd-4e25-927e-06ac66fc7819\",\n    \"-testrig\",\n    \"704d53d9-7adc-4a18-ba2d-b19bee47612a\",\n    \"-snapshotname\",\n    \"rocketfuel-bb.AS-3967\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-16T09:23:28.635+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-16T09:23:28.634+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "13980bd1-f16d-44a8-addd-bb077c2dae4b",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "4aedf619-12fd-4e25-927e-06ac66fc7819",
+    "-testrig",
+    "704d53d9-7adc-4a18-ba2d-b19bee47612a",
+    "-snapshotname",
+    "rocketfuel-bb.AS-3967",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-16T09:23:28.635+0000"
+    }
+  ],
+  "obtained" : "2019-01-16T09:23:28.634+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus 66b35e57-f4e1-4f78-9961-f69091ab4497
+status: ASSIGNED
+.... Wed Jan 16 03:23:28 CST 2019: Begin job
+WM:CheckWork: Trying to check [66b35e57-f4e1-4f78-9961-f69091ab4497 13980bd1-f16d-44a8-addd-bb077c2dae4b 704d53d9-7adc-4a18-ba2d-b19bee47612a {container=13980bd1-f16d-44a8-addd-bb077c2dae4b, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=4aedf619-12fd-4e25-927e-06ac66fc7819, testrig=704d53d9-7adc-4a18-ba2d-b19bee47612a, snapshotname=rocketfuel-bb.AS-3967, haltonconverterror=}] [CHECKINGSTATUS] [Wed Jan 16 03:23:28 CST 2019 Wed Jan 16 03:23:28 CST 2019 null] [localhost:41814] [InProgress, Wed Jan 16 03:23:40 CST 2019] on localhost:41814
+BFS:getTaskStatus 66b35e57-f4e1-4f78-9961-f69091ab4497
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"13980bd1-f16d-44a8-addd-bb077c2dae4b\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"4aedf619-12fd-4e25-927e-06ac66fc7819\",\n    \"-testrig\",\n    \"704d53d9-7adc-4a18-ba2d-b19bee47612a\",\n    \"-snapshotname\",\n    \"rocketfuel-bb.AS-3967\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-16T09:23:28.635+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-16T09:23:28.634+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "13980bd1-f16d-44a8-addd-bb077c2dae4b",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "4aedf619-12fd-4e25-927e-06ac66fc7819",
+    "-testrig",
+    "704d53d9-7adc-4a18-ba2d-b19bee47612a",
+    "-snapshotname",
+    "rocketfuel-bb.AS-3967",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-16T09:23:28.635+0000"
+    }
+  ],
+  "obtained" : "2019-01-16T09:23:28.634+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus 66b35e57-f4e1-4f78-9961-f69091ab4497
+status: ASSIGNED
+.... Wed Jan 16 03:23:28 CST 2019: Begin job
+WM:CheckWork: Trying to check [66b35e57-f4e1-4f78-9961-f69091ab4497 13980bd1-f16d-44a8-addd-bb077c2dae4b 704d53d9-7adc-4a18-ba2d-b19bee47612a {container=13980bd1-f16d-44a8-addd-bb077c2dae4b, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=4aedf619-12fd-4e25-927e-06ac66fc7819, testrig=704d53d9-7adc-4a18-ba2d-b19bee47612a, snapshotname=rocketfuel-bb.AS-3967, haltonconverterror=}] [CHECKINGSTATUS] [Wed Jan 16 03:23:28 CST 2019 Wed Jan 16 03:23:28 CST 2019 null] [localhost:41814] [InProgress, Wed Jan 16 03:23:41 CST 2019] on localhost:41814
+BFS:getTaskStatus 66b35e57-f4e1-4f78-9961-f69091ab4497
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"13980bd1-f16d-44a8-addd-bb077c2dae4b\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"4aedf619-12fd-4e25-927e-06ac66fc7819\",\n    \"-testrig\",\n    \"704d53d9-7adc-4a18-ba2d-b19bee47612a\",\n    \"-snapshotname\",\n    \"rocketfuel-bb.AS-3967\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-16T09:23:28.635+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-16T09:23:28.634+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "13980bd1-f16d-44a8-addd-bb077c2dae4b",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "4aedf619-12fd-4e25-927e-06ac66fc7819",
+    "-testrig",
+    "704d53d9-7adc-4a18-ba2d-b19bee47612a",
+    "-snapshotname",
+    "rocketfuel-bb.AS-3967",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-16T09:23:28.635+0000"
+    }
+  ],
+  "obtained" : "2019-01-16T09:23:28.634+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus 66b35e57-f4e1-4f78-9961-f69091ab4497
+status: ASSIGNED
+.... Wed Jan 16 03:23:28 CST 2019: Begin job
+WM:CheckWork: Trying to check [66b35e57-f4e1-4f78-9961-f69091ab4497 13980bd1-f16d-44a8-addd-bb077c2dae4b 704d53d9-7adc-4a18-ba2d-b19bee47612a {container=13980bd1-f16d-44a8-addd-bb077c2dae4b, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=4aedf619-12fd-4e25-927e-06ac66fc7819, testrig=704d53d9-7adc-4a18-ba2d-b19bee47612a, snapshotname=rocketfuel-bb.AS-3967, haltonconverterror=}] [CHECKINGSTATUS] [Wed Jan 16 03:23:28 CST 2019 Wed Jan 16 03:23:28 CST 2019 null] [localhost:41814] [InProgress, Wed Jan 16 03:23:42 CST 2019] on localhost:41814
+BFS:getTaskStatus 66b35e57-f4e1-4f78-9961-f69091ab4497
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"13980bd1-f16d-44a8-addd-bb077c2dae4b\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"4aedf619-12fd-4e25-927e-06ac66fc7819\",\n    \"-testrig\",\n    \"704d53d9-7adc-4a18-ba2d-b19bee47612a\",\n    \"-snapshotname\",\n    \"rocketfuel-bb.AS-3967\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-16T09:23:28.635+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-16T09:23:28.634+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "13980bd1-f16d-44a8-addd-bb077c2dae4b",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "4aedf619-12fd-4e25-927e-06ac66fc7819",
+    "-testrig",
+    "704d53d9-7adc-4a18-ba2d-b19bee47612a",
+    "-snapshotname",
+    "rocketfuel-bb.AS-3967",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-16T09:23:28.635+0000"
+    }
+  ],
+  "obtained" : "2019-01-16T09:23:28.634+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus 66b35e57-f4e1-4f78-9961-f69091ab4497
+status: ASSIGNED
+.... Wed Jan 16 03:23:28 CST 2019: Begin job
+WM:CheckWork: Trying to check [66b35e57-f4e1-4f78-9961-f69091ab4497 13980bd1-f16d-44a8-addd-bb077c2dae4b 704d53d9-7adc-4a18-ba2d-b19bee47612a {container=13980bd1-f16d-44a8-addd-bb077c2dae4b, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=4aedf619-12fd-4e25-927e-06ac66fc7819, testrig=704d53d9-7adc-4a18-ba2d-b19bee47612a, snapshotname=rocketfuel-bb.AS-3967, haltonconverterror=}] [CHECKINGSTATUS] [Wed Jan 16 03:23:28 CST 2019 Wed Jan 16 03:23:28 CST 2019 null] [localhost:41814] [InProgress, Wed Jan 16 03:23:43 CST 2019] on localhost:41814
+BFS:getTaskStatus 66b35e57-f4e1-4f78-9961-f69091ab4497
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"13980bd1-f16d-44a8-addd-bb077c2dae4b\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"4aedf619-12fd-4e25-927e-06ac66fc7819\",\n    \"-testrig\",\n    \"704d53d9-7adc-4a18-ba2d-b19bee47612a\",\n    \"-snapshotname\",\n    \"rocketfuel-bb.AS-3967\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-16T09:23:28.635+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-16T09:23:28.634+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "13980bd1-f16d-44a8-addd-bb077c2dae4b",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "4aedf619-12fd-4e25-927e-06ac66fc7819",
+    "-testrig",
+    "704d53d9-7adc-4a18-ba2d-b19bee47612a",
+    "-snapshotname",
+    "rocketfuel-bb.AS-3967",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-16T09:23:28.635+0000"
+    }
+  ],
+  "obtained" : "2019-01-16T09:23:28.634+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus 66b35e57-f4e1-4f78-9961-f69091ab4497
+status: ASSIGNED
+.... Wed Jan 16 03:23:28 CST 2019: Begin job
+WM:CheckWork: Trying to check [66b35e57-f4e1-4f78-9961-f69091ab4497 13980bd1-f16d-44a8-addd-bb077c2dae4b 704d53d9-7adc-4a18-ba2d-b19bee47612a {container=13980bd1-f16d-44a8-addd-bb077c2dae4b, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=4aedf619-12fd-4e25-927e-06ac66fc7819, testrig=704d53d9-7adc-4a18-ba2d-b19bee47612a, snapshotname=rocketfuel-bb.AS-3967, haltonconverterror=}] [CHECKINGSTATUS] [Wed Jan 16 03:23:28 CST 2019 Wed Jan 16 03:23:28 CST 2019 null] [localhost:41814] [InProgress, Wed Jan 16 03:23:44 CST 2019] on localhost:41814
+BFS:getTaskStatus 66b35e57-f4e1-4f78-9961-f69091ab4497
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"13980bd1-f16d-44a8-addd-bb077c2dae4b\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"4aedf619-12fd-4e25-927e-06ac66fc7819\",\n    \"-testrig\",\n    \"704d53d9-7adc-4a18-ba2d-b19bee47612a\",\n    \"-snapshotname\",\n    \"rocketfuel-bb.AS-3967\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-16T09:23:28.635+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-16T09:23:28.634+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "13980bd1-f16d-44a8-addd-bb077c2dae4b",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "4aedf619-12fd-4e25-927e-06ac66fc7819",
+    "-testrig",
+    "704d53d9-7adc-4a18-ba2d-b19bee47612a",
+    "-snapshotname",
+    "rocketfuel-bb.AS-3967",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-16T09:23:28.635+0000"
+    }
+  ],
+  "obtained" : "2019-01-16T09:23:28.634+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus 66b35e57-f4e1-4f78-9961-f69091ab4497
+status: ASSIGNED
+.... Wed Jan 16 03:23:28 CST 2019: Begin job
+WM:CheckWork: Trying to check [66b35e57-f4e1-4f78-9961-f69091ab4497 13980bd1-f16d-44a8-addd-bb077c2dae4b 704d53d9-7adc-4a18-ba2d-b19bee47612a {container=13980bd1-f16d-44a8-addd-bb077c2dae4b, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=4aedf619-12fd-4e25-927e-06ac66fc7819, testrig=704d53d9-7adc-4a18-ba2d-b19bee47612a, snapshotname=rocketfuel-bb.AS-3967, haltonconverterror=}] [CHECKINGSTATUS] [Wed Jan 16 03:23:28 CST 2019 Wed Jan 16 03:23:28 CST 2019 null] [localhost:41814] [InProgress, Wed Jan 16 03:23:45 CST 2019] on localhost:41814
+BFS:getTaskStatus 66b35e57-f4e1-4f78-9961-f69091ab4497
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"13980bd1-f16d-44a8-addd-bb077c2dae4b\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"4aedf619-12fd-4e25-927e-06ac66fc7819\",\n    \"-testrig\",\n    \"704d53d9-7adc-4a18-ba2d-b19bee47612a\",\n    \"-snapshotname\",\n    \"rocketfuel-bb.AS-3967\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-16T09:23:28.635+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-16T09:23:28.634+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "13980bd1-f16d-44a8-addd-bb077c2dae4b",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "4aedf619-12fd-4e25-927e-06ac66fc7819",
+    "-testrig",
+    "704d53d9-7adc-4a18-ba2d-b19bee47612a",
+    "-snapshotname",
+    "rocketfuel-bb.AS-3967",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-16T09:23:28.635+0000"
+    }
+  ],
+  "obtained" : "2019-01-16T09:23:28.634+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus 66b35e57-f4e1-4f78-9961-f69091ab4497
+status: ASSIGNED
+.... Wed Jan 16 03:23:28 CST 2019: Begin job
+WM:CheckWork: Trying to check [66b35e57-f4e1-4f78-9961-f69091ab4497 13980bd1-f16d-44a8-addd-bb077c2dae4b 704d53d9-7adc-4a18-ba2d-b19bee47612a {container=13980bd1-f16d-44a8-addd-bb077c2dae4b, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=4aedf619-12fd-4e25-927e-06ac66fc7819, testrig=704d53d9-7adc-4a18-ba2d-b19bee47612a, snapshotname=rocketfuel-bb.AS-3967, haltonconverterror=}] [CHECKINGSTATUS] [Wed Jan 16 03:23:28 CST 2019 Wed Jan 16 03:23:28 CST 2019 null] [localhost:41814] [InProgress, Wed Jan 16 03:23:46 CST 2019] on localhost:41814
+BFS:getTaskStatus 66b35e57-f4e1-4f78-9961-f69091ab4497
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"13980bd1-f16d-44a8-addd-bb077c2dae4b\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"4aedf619-12fd-4e25-927e-06ac66fc7819\",\n    \"-testrig\",\n    \"704d53d9-7adc-4a18-ba2d-b19bee47612a\",\n    \"-snapshotname\",\n    \"rocketfuel-bb.AS-3967\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-16T09:23:28.635+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-16T09:23:28.634+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "13980bd1-f16d-44a8-addd-bb077c2dae4b",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "4aedf619-12fd-4e25-927e-06ac66fc7819",
+    "-testrig",
+    "704d53d9-7adc-4a18-ba2d-b19bee47612a",
+    "-snapshotname",
+    "rocketfuel-bb.AS-3967",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-16T09:23:28.635+0000"
+    }
+  ],
+  "obtained" : "2019-01-16T09:23:28.634+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus 66b35e57-f4e1-4f78-9961-f69091ab4497
+status: ASSIGNED
+.... Wed Jan 16 03:23:28 CST 2019: Begin job
+WM:CheckWork: Trying to check [66b35e57-f4e1-4f78-9961-f69091ab4497 13980bd1-f16d-44a8-addd-bb077c2dae4b 704d53d9-7adc-4a18-ba2d-b19bee47612a {container=13980bd1-f16d-44a8-addd-bb077c2dae4b, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=4aedf619-12fd-4e25-927e-06ac66fc7819, testrig=704d53d9-7adc-4a18-ba2d-b19bee47612a, snapshotname=rocketfuel-bb.AS-3967, haltonconverterror=}] [CHECKINGSTATUS] [Wed Jan 16 03:23:28 CST 2019 Wed Jan 16 03:23:28 CST 2019 null] [localhost:41814] [InProgress, Wed Jan 16 03:23:47 CST 2019] on localhost:41814
+BFS:getTaskStatus 66b35e57-f4e1-4f78-9961-f69091ab4497
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"13980bd1-f16d-44a8-addd-bb077c2dae4b\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"4aedf619-12fd-4e25-927e-06ac66fc7819\",\n    \"-testrig\",\n    \"704d53d9-7adc-4a18-ba2d-b19bee47612a\",\n    \"-snapshotname\",\n    \"rocketfuel-bb.AS-3967\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-16T09:23:28.635+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-16T09:23:28.634+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "13980bd1-f16d-44a8-addd-bb077c2dae4b",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "4aedf619-12fd-4e25-927e-06ac66fc7819",
+    "-testrig",
+    "704d53d9-7adc-4a18-ba2d-b19bee47612a",
+    "-snapshotname",
+    "rocketfuel-bb.AS-3967",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-16T09:23:28.635+0000"
+    }
+  ],
+  "obtained" : "2019-01-16T09:23:28.634+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus 66b35e57-f4e1-4f78-9961-f69091ab4497
+status: ASSIGNED
+.... Wed Jan 16 03:23:28 CST 2019: Begin job
+WM:CheckWork: Trying to check [66b35e57-f4e1-4f78-9961-f69091ab4497 13980bd1-f16d-44a8-addd-bb077c2dae4b 704d53d9-7adc-4a18-ba2d-b19bee47612a {container=13980bd1-f16d-44a8-addd-bb077c2dae4b, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=4aedf619-12fd-4e25-927e-06ac66fc7819, testrig=704d53d9-7adc-4a18-ba2d-b19bee47612a, snapshotname=rocketfuel-bb.AS-3967, haltonconverterror=}] [CHECKINGSTATUS] [Wed Jan 16 03:23:28 CST 2019 Wed Jan 16 03:23:28 CST 2019 null] [localhost:41814] [InProgress, Wed Jan 16 03:23:48 CST 2019] on localhost:41814
+BFS:getTaskStatus 66b35e57-f4e1-4f78-9961-f69091ab4497
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"13980bd1-f16d-44a8-addd-bb077c2dae4b\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"4aedf619-12fd-4e25-927e-06ac66fc7819\",\n    \"-testrig\",\n    \"704d53d9-7adc-4a18-ba2d-b19bee47612a\",\n    \"-snapshotname\",\n    \"rocketfuel-bb.AS-3967\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-16T09:23:28.635+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-16T09:23:28.634+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "13980bd1-f16d-44a8-addd-bb077c2dae4b",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "4aedf619-12fd-4e25-927e-06ac66fc7819",
+    "-testrig",
+    "704d53d9-7adc-4a18-ba2d-b19bee47612a",
+    "-snapshotname",
+    "rocketfuel-bb.AS-3967",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-16T09:23:28.635+0000"
+    }
+  ],
+  "obtained" : "2019-01-16T09:23:28.634+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus 66b35e57-f4e1-4f78-9961-f69091ab4497
+status: ASSIGNED
+.... Wed Jan 16 03:23:28 CST 2019: Begin job
+WM:CheckWork: Trying to check [66b35e57-f4e1-4f78-9961-f69091ab4497 13980bd1-f16d-44a8-addd-bb077c2dae4b 704d53d9-7adc-4a18-ba2d-b19bee47612a {container=13980bd1-f16d-44a8-addd-bb077c2dae4b, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=4aedf619-12fd-4e25-927e-06ac66fc7819, testrig=704d53d9-7adc-4a18-ba2d-b19bee47612a, snapshotname=rocketfuel-bb.AS-3967, haltonconverterror=}] [CHECKINGSTATUS] [Wed Jan 16 03:23:28 CST 2019 Wed Jan 16 03:23:28 CST 2019 null] [localhost:41814] [InProgress, Wed Jan 16 03:23:49 CST 2019] on localhost:41814
+BFS:getTaskStatus 66b35e57-f4e1-4f78-9961-f69091ab4497
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"13980bd1-f16d-44a8-addd-bb077c2dae4b\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"4aedf619-12fd-4e25-927e-06ac66fc7819\",\n    \"-testrig\",\n    \"704d53d9-7adc-4a18-ba2d-b19bee47612a\",\n    \"-snapshotname\",\n    \"rocketfuel-bb.AS-3967\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-16T09:23:28.635+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-16T09:23:28.634+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "13980bd1-f16d-44a8-addd-bb077c2dae4b",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "4aedf619-12fd-4e25-927e-06ac66fc7819",
+    "-testrig",
+    "704d53d9-7adc-4a18-ba2d-b19bee47612a",
+    "-snapshotname",
+    "rocketfuel-bb.AS-3967",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-16T09:23:28.635+0000"
+    }
+  ],
+  "obtained" : "2019-01-16T09:23:28.634+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus 66b35e57-f4e1-4f78-9961-f69091ab4497
+status: ASSIGNED
+.... Wed Jan 16 03:23:28 CST 2019: Begin job
+WM:CheckWork: Trying to check [66b35e57-f4e1-4f78-9961-f69091ab4497 13980bd1-f16d-44a8-addd-bb077c2dae4b 704d53d9-7adc-4a18-ba2d-b19bee47612a {container=13980bd1-f16d-44a8-addd-bb077c2dae4b, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=4aedf619-12fd-4e25-927e-06ac66fc7819, testrig=704d53d9-7adc-4a18-ba2d-b19bee47612a, snapshotname=rocketfuel-bb.AS-3967, haltonconverterror=}] [CHECKINGSTATUS] [Wed Jan 16 03:23:28 CST 2019 Wed Jan 16 03:23:28 CST 2019 null] [localhost:41814] [InProgress, Wed Jan 16 03:23:50 CST 2019] on localhost:41814
+BFS:getTaskStatus 66b35e57-f4e1-4f78-9961-f69091ab4497
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"13980bd1-f16d-44a8-addd-bb077c2dae4b\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"4aedf619-12fd-4e25-927e-06ac66fc7819\",\n    \"-testrig\",\n    \"704d53d9-7adc-4a18-ba2d-b19bee47612a\",\n    \"-snapshotname\",\n    \"rocketfuel-bb.AS-3967\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-16T09:23:28.635+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-16T09:23:28.634+0000\",\n  \"status\" : \"InProgress\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "13980bd1-f16d-44a8-addd-bb077c2dae4b",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "4aedf619-12fd-4e25-927e-06ac66fc7819",
+    "-testrig",
+    "704d53d9-7adc-4a18-ba2d-b19bee47612a",
+    "-snapshotname",
+    "rocketfuel-bb.AS-3967",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-16T09:23:28.635+0000"
+    }
+  ],
+  "obtained" : "2019-01-16T09:23:28.634+0000",
+  "status" : "InProgress"
+}]
+WMS:getWorkStatus 66b35e57-f4e1-4f78-9961-f69091ab4497
+status: ASSIGNED
+.... Wed Jan 16 03:23:28 CST 2019: Begin job
+WM:CheckWork: Trying to check [66b35e57-f4e1-4f78-9961-f69091ab4497 13980bd1-f16d-44a8-addd-bb077c2dae4b 704d53d9-7adc-4a18-ba2d-b19bee47612a {container=13980bd1-f16d-44a8-addd-bb077c2dae4b, answer=, haltonparseerror=, loglevel=fatal, initinfo=false, questionname=4aedf619-12fd-4e25-927e-06ac66fc7819, testrig=704d53d9-7adc-4a18-ba2d-b19bee47612a, snapshotname=rocketfuel-bb.AS-3967, haltonconverterror=}] [CHECKINGSTATUS] [Wed Jan 16 03:23:28 CST 2019 Wed Jan 16 03:23:28 CST 2019 null] [localhost:41814] [InProgress, Wed Jan 16 03:23:51 CST 2019] on localhost:41814
+BFS:getTaskStatus 66b35e57-f4e1-4f78-9961-f69091ab4497
+response: ["success","{\n  \"args\" : [\n    \"-container\",\n    \"13980bd1-f16d-44a8-addd-bb077c2dae4b\",\n    \"-answer\",\n    \"-haltonparseerror\",\n    \"-loglevel\",\n    \"fatal\",\n    \"-initinfo\",\n    \"false\",\n    \"-questionname\",\n    \"4aedf619-12fd-4e25-927e-06ac66fc7819\",\n    \"-testrig\",\n    \"704d53d9-7adc-4a18-ba2d-b19bee47612a\",\n    \"-snapshotname\",\n    \"rocketfuel-bb.AS-3967\",\n    \"-haltonconverterror\",\n    \"-storagebase\",\n    \"\/home\/plankton\/batfish\/experiments\/containers\"\n  ],\n  \"batches\" : [\n    {\n      \"completed\" : 0,\n      \"description\" : \"Begin job\",\n      \"size\" : 0,\n      \"startDate\" : \"2019-01-16T09:23:28.635+0000\"\n    }\n  ],\n  \"obtained\" : \"2019-01-16T09:23:28.634+0000\",\n  \"status\" : \"TerminatedNormally\",\n  \"terminated\" : \"2019-01-16T09:23:52.487+0000\"\n}"] [success] [{
+  "args" : [
+    "-container",
+    "13980bd1-f16d-44a8-addd-bb077c2dae4b",
+    "-answer",
+    "-haltonparseerror",
+    "-loglevel",
+    "fatal",
+    "-initinfo",
+    "false",
+    "-questionname",
+    "4aedf619-12fd-4e25-927e-06ac66fc7819",
+    "-testrig",
+    "704d53d9-7adc-4a18-ba2d-b19bee47612a",
+    "-snapshotname",
+    "rocketfuel-bb.AS-3967",
+    "-haltonconverterror",
+    "-storagebase",
+    "/home/plankton/batfish/experiments/containers"
+  ],
+  "batches" : [
+    {
+      "completed" : 0,
+      "description" : "Begin job",
+      "size" : 0,
+      "startDate" : "2019-01-16T09:23:28.635+0000"
+    }
+  ],
+  "obtained" : "2019-01-16T09:23:28.634+0000",
+  "status" : "TerminatedNormally",
+  "terminated" : "2019-01-16T09:23:52.487+0000"
+}]
+WMS:getWorkStatus 66b35e57-f4e1-4f78-9961-f69091ab4497
+status: TERMINATEDNORMALLY
+.... Wed Jan 16 03:23:28 CST 2019: Begin job
+.... Wed Jan 16 03:23:52 CST 2019: TERMINATEDNORMALLY
+WMS:getObject rocketfuel-bb.AS-3967 --> 66b35e57-f4e1-4f78-9961-f69091ab4497.json
+Status: SUCCESS
+Question: smt-reachability actions=[ACCEPTED], dstIps=[10.0.0.1, 10.0.0.2, 10.0.0.5, 10.0.0.6, 10.0.0.9, 10.0.0.10, 10.0.0.13, 10.0.0.14, 10.0.0.17, 10.0.0.18, 10.0.0.21, 10.0.0.22, 10.0.0.25, 10.0.0.26, 10.0.0.29, 10.0.0.30, 10.0.0.33, 10.0.0.34, 10.0.0.37, 10.0.0.38, 10.0.0.41, 10.0.0.42, 10.0.0.45, 10.0.0.46, 10.0.0.49, 10.0.0.50, 10.0.0.53, 10.0.0.54, 10.0.0.57, 10.0.0.58, 10.0.0.61, 10.0.0.62, 10.0.0.65, 10.0.0.66, 10.0.0.69, 10.0.0.70, 10.0.0.73, 10.0.0.74, 10.0.0.77, 10.0.0.78, 10.0.0.81, 10.0.0.82, 10.0.0.85, 10.0.0.86, 10.0.0.89, 10.0.0.90, 10.0.0.93, 10.0.0.94, 10.0.0.97, 10.0.0.98, 10.0.0.101, 10.0.0.102, 10.0.0.105, 10.0.0.106, 10.0.0.109, 10.0.0.110, 10.0.0.113, 10.0.0.114, 10.0.0.117, 10.0.0.118, 10.0.0.121, 10.0.0.122, 10.0.0.125, 10.0.0.126, 10.0.0.129, 10.0.0.130, 10.0.0.133, 10.0.0.134, 10.0.0.137, 10.0.0.138, 10.0.0.141, 10.0.0.142, 10.0.0.145, 10.0.0.146, 10.0.0.149, 10.0.0.150, 10.0.0.153, 10.0.0.154, 10.0.0.157, 10.0.0.158, 10.0.0.161, 10.0.0.162, 10.0.0.165, 10.0.0.166, 10.0.0.169, 10.0.0.170, 10.0.0.173, 10.0.0.174, 10.0.0.177, 10.0.0.178, 10.0.0.181, 10.0.0.182, 10.0.0.185, 10.0.0.186, 10.0.0.189, 10.0.0.190, 10.0.0.193, 10.0.0.194, 10.0.0.197, 10.0.0.198, 10.0.0.201, 10.0.0.202, 10.0.0.205, 10.0.0.206, 10.0.0.209, 10.0.0.210, 10.0.0.213, 10.0.0.214, 10.0.0.217, 10.0.0.218, 10.0.0.221, 10.0.0.222, 10.0.0.225, 10.0.0.226, 10.0.0.229, 10.0.0.230, 10.0.0.233, 10.0.0.234, 10.0.0.237, 10.0.0.238, 10.0.0.241, 10.0.0.242, 10.0.0.245, 10.0.0.246, 10.0.0.249, 10.0.0.250, 10.0.0.253, 10.0.0.254, 10.0.1.1, 10.0.1.2, 10.0.1.5, 10.0.1.6, 10.0.1.9, 10.0.1.10, 10.0.1.13, 10.0.1.14, 10.0.1.17, 10.0.1.18, 10.0.1.21, 10.0.1.22, 10.0.1.25, 10.0.1.26, 10.0.1.29, 10.0.1.30, 10.0.1.33, 10.0.1.34, 10.0.1.37, 10.0.1.38, 10.0.1.41, 10.0.1.42, 10.0.1.45, 10.0.1.46, 10.0.1.49, 10.0.1.50, 10.0.1.53, 10.0.1.54, 10.0.1.57, 10.0.1.58, 10.0.1.61, 10.0.1.62, 10.0.1.65, 10.0.1.66, 10.0.1.69, 10.0.1.70, 10.0.1.73, 10.0.1.74, 10.0.1.77, 10.0.1.78, 10.0.1.81, 10.0.1.82, 10.0.1.85, 10.0.1.86, 10.0.1.89, 10.0.1.90, 10.0.1.93, 10.0.1.94, 10.0.1.97, 10.0.1.98, 10.0.1.101, 10.0.1.102, 10.0.1.105, 10.0.1.106, 10.0.1.109, 10.0.1.110, 10.0.1.113, 10.0.1.114, 10.0.1.117, 10.0.1.118, 10.0.1.121, 10.0.1.122, 10.0.1.125, 10.0.1.126, 10.0.1.129, 10.0.1.130, 10.0.1.133, 10.0.1.134, 10.0.1.137, 10.0.1.138, 10.0.1.141, 10.0.1.142, 10.0.1.145, 10.0.1.146, 10.0.1.149, 10.0.1.150, 10.0.1.153, 10.0.1.154, 10.0.1.157, 10.0.1.158, 10.0.1.161, 10.0.1.162, 10.0.1.165, 10.0.1.166, 10.0.1.169, 10.0.1.170, 10.0.1.173, 10.0.1.174, 10.0.1.177, 10.0.1.178, 10.0.1.181, 10.0.1.182, 10.0.1.185, 10.0.1.186, 10.0.1.189, 10.0.1.190, 10.0.1.193, 10.0.1.194, 10.0.1.197, 10.0.1.198, 10.0.1.201, 10.0.1.202, 10.0.1.205, 10.0.1.206, 10.0.1.209, 10.0.1.210, 10.0.1.213, 10.0.1.214, 10.0.1.217, 10.0.1.218, 10.0.1.221, 10.0.1.222, 10.0.1.225, 10.0.1.226, 10.0.1.229, 10.0.1.230, 10.0.1.233, 10.0.1.234, 10.0.1.237, 10.0.1.238, 10.0.1.241, 10.0.1.242, 10.0.1.245, 10.0.1.246, 10.0.1.249, 10.0.1.250, 10.0.1.253, 10.0.1.254, 10.0.2.1, 10.0.2.2, 10.0.2.5, 10.0.2.6, 10.0.2.9, 10.0.2.10, 10.0.2.13, 10.0.2.14, 10.0.2.17, 10.0.2.18, 10.0.2.21, 10.0.2.22, 10.0.2.25, 10.0.2.26, 10.0.2.29, 10.0.2.30, 10.0.2.33, 10.0.2.34, 10.0.2.37, 10.0.2.38, 10.0.2.41, 10.0.2.42, 10.0.2.45, 10.0.2.46, 10.0.2.49, 10.0.2.50, 10.0.2.53, 10.0.2.54, 10.0.2.57, 10.0.2.58, 10.0.2.61, 10.0.2.62, 10.0.2.65, 10.0.2.66, 10.0.2.69, 10.0.2.70, 10.0.2.73, 10.0.2.74, 10.0.2.77, 10.0.2.78, 10.0.2.81, 10.0.2.82, 10.0.2.85, 10.0.2.86, 10.0.2.89, 10.0.2.90, 10.0.2.93, 10.0.2.94, 10.0.2.97, 10.0.2.98, 10.0.2.101, 10.0.2.102, 10.0.2.105, 10.0.2.106, 10.0.2.109, 10.0.2.110, 10.0.2.113, 10.0.2.114, 10.0.2.117, 10.0.2.118, 10.0.2.121, 10.0.2.122, 10.0.2.125, 10.0.2.126, 10.0.2.129, 10.0.2.130, 10.0.2.133, 10.0.2.134, 10.0.2.137, 10.0.2.138, 10.0.2.141, 10.0.2.142, 10.0.2.145, 10.0.2.146, 10.0.2.149, 10.0.2.150, 10.0.2.153, 10.0.2.154, 10.0.2.157, 10.0.2.158, 10.0.2.161, 10.0.2.162, 10.0.2.165, 10.0.2.166, 10.0.2.169, 10.0.2.170, 10.0.2.173, 10.0.2.174, 10.0.2.177, 10.0.2.178, 10.0.2.181, 10.0.2.182, 10.0.2.185, 10.0.2.186, 10.0.2.189, 10.0.2.190, 10.0.2.193, 10.0.2.194, 10.0.2.197, 10.0.2.198, 10.0.2.201, 10.0.2.202, 10.0.2.205, 10.0.2.206, 10.0.2.209, 10.0.2.210, 10.0.2.213, 10.0.2.214, 10.0.2.217, 10.0.2.218, 10.0.2.221, 10.0.2.222, 10.0.2.225, 10.0.2.226, 10.0.2.229, 10.0.2.230, 10.0.2.233, 10.0.2.234, 10.0.2.237, 10.0.2.238, 10.0.2.241, 10.0.2.242, 10.0.2.245, 10.0.2.246, 10.0.2.249, 10.0.2.250, 10.0.2.253, 10.0.2.254, 10.0.3.1, 10.0.3.2, 10.0.3.5, 10.0.3.6, 10.0.3.9, 10.0.3.10, 10.0.3.13, 10.0.3.14, 10.0.3.17, 10.0.3.18, 10.0.3.21, 10.0.3.22, 10.0.3.25, 10.0.3.26, 10.0.3.29, 10.0.3.30, 10.0.3.33, 10.0.3.34, 10.0.3.37, 10.0.3.38, 10.0.3.41, 10.0.3.42, 10.0.3.45, 10.0.3.46, 10.0.3.49, 10.0.3.50, 10.0.3.53, 10.0.3.54, 10.0.3.57, 10.0.3.58, 10.0.3.61, 10.0.3.62, 10.0.3.65, 10.0.3.66, 10.0.3.69, 10.0.3.70, 10.0.3.73, 10.0.3.74, 10.0.3.77, 10.0.3.78, 10.0.3.81, 10.0.3.82, 10.0.3.85, 10.0.3.86, 10.0.3.89, 10.0.3.90, 10.0.3.93, 10.0.3.94, 10.0.3.97, 10.0.3.98, 10.0.3.101, 10.0.3.102, 10.0.3.105, 10.0.3.106, 10.0.3.109, 10.0.3.110, 10.0.3.113, 10.0.3.114, 10.0.3.117, 10.0.3.118, 10.0.3.121, 10.0.3.122, 10.0.3.125, 10.0.3.126, 10.0.3.129, 10.0.3.130, 10.0.3.133, 10.0.3.134, 10.0.3.137, 10.0.3.138, 10.0.3.141, 10.0.3.142, 10.0.3.145, 10.0.3.146, 10.0.3.149, 10.0.3.150, 10.0.3.153, 10.0.3.154, 10.0.3.157, 10.0.3.158, 10.0.3.161, 10.0.3.162, 10.0.3.165, 10.0.3.166, 10.0.3.169, 10.0.3.170, 10.0.3.173, 10.0.3.174, 10.0.3.177, 10.0.3.178, 10.0.3.181, 10.0.3.182, 10.0.3.185, 10.0.3.186, 10.0.3.189, 10.0.3.190, 10.0.3.193, 10.0.3.194, 10.0.3.197, 10.0.3.198, 10.0.3.201, 10.0.3.202, 10.0.3.205, 10.0.3.206, 10.0.3.209, 10.0.3.210, 10.0.3.213, 10.0.3.214, 10.0.3.217, 10.0.3.218, 10.0.3.221, 10.0.3.222, 10.0.3.225, 10.0.3.226, 10.0.3.229, 10.0.3.230, 10.0.3.233, 10.0.3.234, 10.0.3.237, 10.0.3.238, 10.0.3.241, 10.0.3.242, 10.0.3.245, 10.0.3.246, 10.0.3.249, 10.0.3.250, 10.0.3.253, 10.0.3.254, 10.0.4.1, 10.0.4.2, 10.0.4.5, 10.0.4.6, 10.0.4.9, 10.0.4.10, 10.0.4.13, 10.0.4.14, 10.0.4.17, 10.0.4.18, 10.0.4.21, 10.0.4.22, 10.0.4.25, 10.0.4.26, 10.0.4.29, 10.0.4.30, 10.0.4.33, 10.0.4.34, 10.0.4.37, 10.0.4.38, 10.0.4.41, 10.0.4.42, 10.0.4.45, 10.0.4.46, 10.0.4.49, 10.0.4.50, 10.0.4.53, 10.0.4.54, 10.0.4.57, 10.0.4.58, 10.0.4.61, 10.0.4.62, 10.0.4.65, 10.0.4.66, 10.0.4.69, 10.0.4.70, 10.0.4.73, 10.0.4.74, 10.0.4.77, 10.0.4.78, 10.0.4.81, 10.0.4.82, 10.0.4.85, 10.0.4.86, 10.0.4.89, 10.0.4.90, 10.0.4.93, 10.0.4.94, 10.0.4.97, 10.0.4.98, 10.0.4.101, 10.0.4.102, 10.0.4.105, 10.0.4.106, 10.0.4.109, 10.0.4.110, 10.0.4.113, 10.0.4.114, 10.0.4.117, 10.0.4.118, 10.0.4.121, 10.0.4.122, 10.0.4.125, 10.0.4.126, 10.0.4.129, 10.0.4.130, 10.0.4.133, 10.0.4.134, 10.0.4.137, 10.0.4.138, 10.0.4.141, 10.0.4.142, 10.0.4.145, 10.0.4.146, 10.0.4.149, 10.0.4.150], finalNodeRegex=r.*, ingressNodeRegex=r(39)
+
+Verified
+
+Summary: 0 (non-assertion) results; 
+104.57user 2.80system 0:34.57elapsed 310%CPU (0avgtext+0avgdata 2207596maxresident)k
+0inputs+98888outputs (0major+569623minor)pagefaults 0swaps
