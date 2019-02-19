@@ -9,8 +9,8 @@ usage() {
 	echo "    Options:" >&2
 	echo "        -h         display this message and exit" >&2
 	echo "        -f N       maximum number of failures (default: 1)" >&2
-	echo "        -t         tested policy (\"loop\" or \"reachability\", default: \"loop\")" >&2
-	echo "        -s         single destination (only for \"reachability\" test, default: off)" >&2
+	echo "        -t         tested policy (\"loop\" or \"reachability\" or \"path-length\", default: \"loop\")" >&2
+	echo "        -s         single destination (only for \"reachability\" or \"path-length\" tests, default: off)" >&2
 	echo "        -b         enable bonsai (default: off)" >&2
 }
 
@@ -28,7 +28,8 @@ while getopts hf:t:sb op; do
 		t)
 			question="$OPTARG"
 			[ "$question" != "loop" -a \
-				"$question" != "reachability" ] && {
+				"$question" != "reachability" -a \
+                                        "$question" != "path_length" ] && {
 				usage
 				exit 1
 			}
@@ -60,6 +61,8 @@ init-testrig <EXPERIMENT> <EXPERIMENT>
 "
 if [ "$question" = "loop" ]; then
 	commands_template+="get smt-routing-loop failures=<FAIL>, fullModel=True"
+elif [ "$question" = "path_length" ]; then
+	commands_template+="get smt-bounded-length failures=<FAIL>, bound=4, fullModel=True"
 else
 	commands_template+="get smt-reachability failures=<FAIL>, ingressNodeRegex=\"r<IN>\", finalNodeRegex=\"r<FIN>\", dstIps=[<DEST_IP>]"
 fi
@@ -71,7 +74,7 @@ fi
 for k in ${Ks[@]}; do
 	e="fat-tree.${k}-ary"
 
-	if [ "$question" = "reachability" ]; then
+	if [ "$question" = "reachability" ] || [ "$question" = "path_length" ]; then
 		first_edge_node=$((3 * $k ** 2 / 4))
 		second_edge_node=$(($first_edge_node + 1))
 		last_edge_node=$((5 * $k ** 2 / 4 - 1))
@@ -138,6 +141,9 @@ for k in ${Ks[@]}; do
 	echo -n "[+] Verifying $e... "
 	if [ "$question" = "loop" ]; then
 		log_file="$e/verify.loop"
+	elif [ "$question" = "path_length" ]; then
+		log_file="$e/verify.path_length"
+		if $single_dest; then log_file+=".single_destination"; fi
 	else
 		log_file="$e/verify.reachability"
 		if $single_dest; then log_file+=".single_destination"; fi
