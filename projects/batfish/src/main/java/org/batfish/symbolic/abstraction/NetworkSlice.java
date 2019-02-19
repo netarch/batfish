@@ -103,6 +103,8 @@ public class NetworkSlice {
           });
       classes.add(sup);
     }
+    // Uncomment this to only generate the bonsai topologies and configurations
+    //System.exit(0)
     return classes;
   }
 
