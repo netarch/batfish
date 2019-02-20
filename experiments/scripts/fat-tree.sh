@@ -62,7 +62,7 @@ init-testrig <EXPERIMENT> <EXPERIMENT>
 if [ "$question" = "loop" ]; then
 	commands_template+="get smt-routing-loop failures=<FAIL>, fullModel=True"
 elif [ "$question" = "path-length" ]; then
-	commands_template+="get smt-bounded-length failures=<FAIL>, bound=4, fullModel=True"
+	commands_template+="get smt-bounded-length failures=<FAIL>, bound=4, fullModel=True, ingressNodeRegex=\"r<IN>\", finalNodeRegex=\"r<FIN>\", dstIps=[<DEST_IP>]"
 else
 	commands_template+="get smt-reachability failures=<FAIL>, ingressNodeRegex=\"r<IN>\", finalNodeRegex=\"r<FIN>\", dstIps=[<DEST_IP>]"
 fi
