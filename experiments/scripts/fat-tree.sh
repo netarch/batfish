@@ -29,7 +29,7 @@ while getopts hf:t:sb op; do
 			question="$OPTARG"
 			[ "$question" != "loop" -a \
 				"$question" != "reachability" -a \
-                                        "$question" != "path_length" ] && {
+                                        "$question" != "path-length" ] && {
 				usage
 				exit 1
 			}
@@ -61,7 +61,7 @@ init-testrig <EXPERIMENT> <EXPERIMENT>
 "
 if [ "$question" = "loop" ]; then
 	commands_template+="get smt-routing-loop failures=<FAIL>, fullModel=True"
-elif [ "$question" = "path_length" ]; then
+elif [ "$question" = "path-length" ]; then
 	commands_template+="get smt-bounded-length failures=<FAIL>, bound=4, fullModel=True"
 else
 	commands_template+="get smt-reachability failures=<FAIL>, ingressNodeRegex=\"r<IN>\", finalNodeRegex=\"r<FIN>\", dstIps=[<DEST_IP>]"
@@ -74,7 +74,7 @@ fi
 for k in ${Ks[@]}; do
 	e="fat-tree.${k}-ary"
 
-	if [ "$question" = "reachability" ] || [ "$question" = "path_length" ]; then
+	if [ "$question" = "reachability" ] || [ "$question" = "path-length" ]; then
 		first_edge_node=$((3 * $k ** 2 / 4))
 		second_edge_node=$(($first_edge_node + 1))
 		last_edge_node=$((5 * $k ** 2 / 4 - 1))
@@ -141,8 +141,8 @@ for k in ${Ks[@]}; do
 	echo -n "[+] Verifying $e... "
 	if [ "$question" = "loop" ]; then
 		log_file="$e/verify.loop"
-	elif [ "$question" = "path_length" ]; then
-		log_file="$e/verify.path_length"
+	elif [ "$question" = "path-length" ]; then
+		log_file="$e/verify.path-length"
 		if $single_dest; then log_file+=".single_destination"; fi
 	else
 		log_file="$e/verify.reachability"
