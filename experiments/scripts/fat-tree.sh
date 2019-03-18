@@ -14,7 +14,7 @@ usage() {
 	echo "        -b         enable bonsai (default: off)" >&2
 }
 
-Ks=(4 6 8 10 12 14)
+Ks=(4 6 8 10 12 14 20)
 
 max_fail=1
 question="loop"
