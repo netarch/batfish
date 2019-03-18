@@ -13,7 +13,7 @@ usage() {
 	echo "        -b         enable bonsai (default: off)" >&2
 }
 
-Ks=(4 6 8 10 12 14)
+Ks=(4 6 8 10 12 14 20)
 
 max_fail=1
 question="loop"
@@ -110,7 +110,7 @@ for k in ${Ks[@]}; do
 	## Build commands
 	echo "$commands_template" | sed \
 		-e "s/<EXPERIMENT>/$e/g" \
-		-e "s/<FAIL>/$max_fail" \
+		-e "s/<FAIL>/$max_fail/" \
 		-e "s/<IN>/$first_edge_node/" \
 		-e "s/<FIN>/$dest_nodes/" \
 		-e "s/<DEST_IP>/$DEST_IPS/" > "$e/commands"

@@ -1,0 +1,8 @@
+
+add-batfish-option haltonconverterror
+add-batfish-option haltonparseerror
+add-batfish-option loglevel fatal
+add-batfish-option initinfo false
+set-loglevel info
+init-testrig fat-tree.fixed-static-route.20-ary fat-tree.fixed-static-route.20-ary
+get smt-routing-loop failures=0, fullModel=True
