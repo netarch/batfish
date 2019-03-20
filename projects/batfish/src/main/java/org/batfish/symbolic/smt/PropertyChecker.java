@@ -560,6 +560,7 @@ public class PropertyChecker {
             });
 
     totalTime = (System.currentTimeMillis() - totalTime);
+    System.out.println("Plankton time measurement: " + totalTime);
     VerificationResult res;
     AnswerElement ae;
     if (hasCounterExample) {
